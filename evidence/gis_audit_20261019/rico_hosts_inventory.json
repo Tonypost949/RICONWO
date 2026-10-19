@@ -1,0 +1,4755 @@
+{
+ "Dallas": {
+  "root": "https://gis.dallascityhall.com/arcgis/rest/services",
+  "folders": [
+   "Basemap",
+   "Bond",
+   "Crm_public",
+   "Pbw_public",
+   "sdc_public",
+   "ToolServices",
+   "Utilities"
+  ],
+  "error": null,
+  "services_total": 25,
+  "service_names": [
+   {
+    "n": "Basemap/CityLimits",
+    "t": "MapServer",
+    "f": "Basemap"
+   },
+   {
+    "n": "Basemap/CouncilAreas",
+    "t": "MapServer",
+    "f": "Basemap"
+   },
+   {
+    "n": "Basemap/DallasAreaRoads",
+    "t": "MapServer",
+    "f": "Basemap"
+   },
+   {
+    "n": "Basemap/DallasTaxParcels",
+    "t": "FeatureServer",
+    "f": "Basemap"
+   },
+   {
+    "n": "Basemap/DallasTaxParcels",
+    "t": "MapServer",
+    "f": "Basemap"
+   },
+   {
+    "n": "Bond/Bond2017",
+    "t": "MapServer",
+    "f": "Bond"
+   },
+   {
+    "n": "Bond/Bond2024",
+    "t": "MapServer",
+    "f": "Bond"
+   },
+   {
+    "n": "Crm_public/AccountPointsLocator",
+    "t": "GeocodeServer",
+    "f": "Crm_public"
+   },
+   {
+    "n": "Crm_public/CrmAccountpointsDallasstreets",
+    "t": "GeocodeServer",
+    "f": "Crm_public"
+   },
+   {
+    "n": "Crm_public/CrmDallasStreetsLocator",
+    "t": "GeocodeServer",
+    "f": "Crm_public"
+   },
+   {
+    "n": "Crm_public/CrmLayers",
+    "t": "MapServer",
+    "f": "Crm_public"
+   },
+   {
+    "n": "Pbw_public/ROWMSDallasStreetsLocator",
+    "t": "GeocodeServer",
+    "f": "Pbw_public"
+   },
+   {
+    "n": "Pbw_public/ROWMSPermits",
+    "t": "MapServer",
+    "f": "Pbw_public"
+   },
+   {
+    "n": "Pbw_public/ROWMSReferenceLayers",
+    "t": "MapServer",
+    "f": "Pbw_public"
+   },
+   {
+    "n": "sdc_public/CityProperty",
+    "t": "FeatureServer",
+    "f": "sdc_public"
+   },
+   {
+    "n": "sdc_public/CityProperty",
+    "t": "MapServer",
+    "f": "sdc_public"
+   },
+   {
+    "n": "sdc_public/PD_SUP_Search",
+    "t": "MapServer",
+    "f": "sdc_public"
+   },
+   {
+    "n": "sdc_public/Zoning",
+    "t": "MapServer",
+    "f": "sdc_public"
+   },
+   {
+    "n": "ToolServices/Dallas_Address_Points_Locator",
+    "t": "GeocodeServer",
+    "f": "ToolServices"
+   },
+   {
+    "n": "ToolServices/Dallas_Composite_address_street_locator",
+    "t": "GeocodeServer",
+    "f": "ToolServices"
+   },
+   {
+    "n": "ToolServices/DallasStreetsLocator",
+    "t": "GeocodeServer",
+    "f": "ToolServices"
+   },
+   {
+    "n": "ToolServices/ParcelLocator",
+    "t": "GeocodeServer",
+    "f": "ToolServices"
+   },
+   {
+    "n": "Utilities/Geometry",
+    "t": "GeometryServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/PrintingTools",
+    "t": "GPServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/RasterUtilities",
+    "t": "GPServer",
+    "f": "Utilities"
+   }
+  ],
+  "probes": [
+   {
+    "service": "Basemap/DallasTaxParcels",
+    "folder": "Basemap",
+    "type": "FeatureServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": null,
+    "editingInfo": null
+   },
+   {
+    "service": "Basemap/DallasTaxParcels",
+    "folder": "Basemap",
+    "type": "MapServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": null,
+    "editingInfo": null
+   },
+   {
+    "service": "ToolServices/Dallas_Address_Points_Locator",
+    "folder": "ToolServices",
+    "type": "GeocodeServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": null,
+    "editingInfo": null
+   },
+   {
+    "service": "ToolServices/Dallas_Composite_address_street_locator",
+    "folder": "ToolServices",
+    "type": "GeocodeServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": null,
+    "editingInfo": null
+   }
+  ],
+  "done": true
+ },
+ "Columbus": {
+  "root": "https://gis.columbus.gov/arcgis/rest/services",
+  "folders": [
+   "Applications",
+   "FeatureServices",
+   "Schemas",
+   "Utilities"
+  ],
+  "error": null,
+  "services_total": 11,
+  "service_names": [
+   {
+    "n": "Schemas/BaseLayers",
+    "t": "MapServer",
+    "f": "Schemas"
+   },
+   {
+    "n": "Schemas/BuildingZoning",
+    "t": "MapServer",
+    "f": "Schemas"
+   },
+   {
+    "n": "Schemas/Development",
+    "t": "MapServer",
+    "f": "Schemas"
+   },
+   {
+    "n": "Schemas/Health",
+    "t": "MapServer",
+    "f": "Schemas"
+   },
+   {
+    "n": "Schemas/PointsOfInterest",
+    "t": "MapServer",
+    "f": "Schemas"
+   },
+   {
+    "n": "Schemas/PublicSafety",
+    "t": "MapServer",
+    "f": "Schemas"
+   },
+   {
+    "n": "Schemas/PublicService",
+    "t": "MapServer",
+    "f": "Schemas"
+   },
+   {
+    "n": "Schemas/RecreationParks",
+    "t": "MapServer",
+    "f": "Schemas"
+   },
+   {
+    "n": "Schemas/RegionalLayers",
+    "t": "MapServer",
+    "f": "Schemas"
+   },
+   {
+    "n": "Utilities/RasterUtilities",
+    "t": "GPServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/Symbols",
+    "t": "SymbolServer",
+    "f": "Utilities"
+   }
+  ],
+  "probes": [],
+  "done": true
+ },
+ "Miami": {
+  "root": "https://gis.miami.gov/server/rest/services",
+  "folders": [
+   "Hosted",
+   "Utilities"
+  ],
+  "error": null,
+  "services_total": 3,
+  "service_names": [
+   {
+    "n": "Utilities/GeocodingTools",
+    "t": "GPServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/Geometry",
+    "t": "GeometryServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/PrintingTools",
+    "t": "GPServer",
+    "f": "Utilities"
+   }
+  ],
+  "probes": [],
+  "done": true
+ },
+ "Scottsdale": {
+  "root": "https://maps.scottsdaleaz.gov/arcgis/rest/services",
+  "folders": [
+   "Aerials",
+   "AGOL",
+   "Drainage",
+   "GeoCode",
+   "LIS",
+   "StreetOps",
+   "Utilities",
+   "WaterWO"
+  ],
+  "error": null,
+  "services_total": 75,
+  "service_names": [
+   {
+    "n": "Accela",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Active_CDS_Cases",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Address_Search_Test",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "AGOL_Layers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Airport_Base_Layers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Airport_Permit_Boundary",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "AZ511",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Barrett_Jackson_Test",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Base_Map",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Biking_Hiking_Equestrian_Trails",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Bond_CIP_Projects",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Case_History",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Economic_Development",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Home_Owner_Associations",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Map_Labels",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Miscellaneous",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "My_Neighborhood",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "My_Services",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Old_Town_Tabular",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "OpenData_Events",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "OpenData_Tabular",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "OpenData",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Parcel_Information",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Preserve_Access_Areas",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Preserve_Facilities_2017_DEV",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Preserve_Facilities_2017_DEV",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Public_Amenities",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Search_Service",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "SFD_WMPO_Course_Layout",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Short_Term_Rental_External",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Short_Term_Rental_Registration_Info",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Solid_Waste_Proposed_Routes",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Stormwater_Storage_Inspections",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Stormwater_Storage_Inspections",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "TableTest",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Trail_Inspections",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Trail_Inspections",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Trails_Outside_Preserve",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Aerials/Aerials_1969",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_1979",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_1990",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_1993",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_1997",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_1999",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2000",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2002",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2003",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2005",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2007",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2010",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2012",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2013",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2014",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2015",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2016",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2017",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2018",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2020",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2021",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2022",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2023",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2024",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2025",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "Aerials/Aerials_2026",
+    "t": "MapServer",
+    "f": "Aerials"
+   },
+   {
+    "n": "AGOL/Fiber_Optic_GPS_Collection",
+    "t": "FeatureServer",
+    "f": "AGOL"
+   },
+   {
+    "n": "AGOL/Fiber_Optic_GPS_Collection",
+    "t": "MapServer",
+    "f": "AGOL"
+   },
+   {
+    "n": "GeoCode/COS_Address_Locator_Points",
+    "t": "GeocodeServer",
+    "f": "GeoCode"
+   },
+   {
+    "n": "GeoCode/COSAddressLocator",
+    "t": "GeocodeServer",
+    "f": "GeoCode"
+   },
+   {
+    "n": "GeoCode/County_Address_Locator_CITY",
+    "t": "GeocodeServer",
+    "f": "GeoCode"
+   },
+   {
+    "n": "GeoCode/Fabric_TPC_Tournament_Layout",
+    "t": "GeocodeServer",
+    "f": "GeoCode"
+   },
+   {
+    "n": "Utilities/GeocodingTools",
+    "t": "GPServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/Geometry",
+    "t": "GeometryServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/PrintingTools",
+    "t": "GPServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/RasterUtilities",
+    "t": "GPServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/Search_indexer",
+    "t": "GPServer",
+    "f": "Utilities"
+   }
+  ],
+  "probes": [
+   {
+    "service": "Parcel_Information",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "GLO",
+      "capabilities": "Map,Query,Data",
+      "editor_fields": [],
+      "count": 7347
+     },
+     {
+      "layer_id": 1,
+      "name": "GLO Text",
+      "capabilities": "Map,Query,Data",
+      "editor_fields": [],
+      "count": 0
+     },
+     {
+      "layer_id": 2,
+      "name": "GLO",
+      "capabilities": "Map,Query",
+      "editor_fields": [],
+      "count": null
+     },
+     {
+      "layer_id": 3,
+      "name": "Recording Num",
+      "capabilities": "Map,Query",
+      "editor_fields": [],
+      "count": null
+     },
+     {
+      "layer_id": 4,
+      "name": "NAOS",
+      "capabilities": "Map,Query,Data",
+      "editor_fields": [],
+      "count": 287892
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Map,Query,Data",
+    "editingInfo": null
+   },
+   {
+    "service": "Address_Search_Test",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Address Points",
+      "capabilities": "Map,Query,Data",
+      "editor_fields": [],
+      "count": 190458
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Map,Query,Data",
+    "editingInfo": null
+   },
+   {
+    "service": "GeoCode/COS_Address_Locator_Points",
+    "folder": "GeoCode",
+    "type": "GeocodeServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": null,
+    "editingInfo": null
+   }
+  ],
+  "done": true
+ },
+ "Santa Monica": {
+  "root": "https://gis.santamonica.gov/server/rest/services",
+  "folders": [
+   "Hosted",
+   "Utilities"
+  ],
+  "error": null,
+  "services_total": 173,
+  "service_names": [
+   {
+    "n": "Address_Points",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Address_Points",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Address_Range_Labels",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Address_Range_Labels",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "aed_locations",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "aed_locations",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Airport_Runway",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "AVR_Average_Vehicle_Ridership_Targets",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "AVR_Average_Vehicle_Ridership_Targets",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Backing_Out_Prohibited_Streets",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Backing_Out_Prohibited_Streets",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Bergamot_Area_Plan",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Bergamot_Area_Plan",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Big_Blue_Bus_Stops_and_Routes",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Big_Blue_Bus_Stops_and_Routes",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Bike_Action_Plan",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Bike_Action_Plan",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Bike_Network_Intersection_Treatments",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Bike_Network_Intersection_Treatments",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Bike_Network_Signalized_Intersections",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Bike_Network_Signalized_Intersections",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Bike_Network",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Bike_Network",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Bike_Network",
+    "t": "VersionManagementServer",
+    "f": ""
+   },
+   {
+    "n": "Block_Party_Eligible_Streets",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Block_Party_Eligible_Streets",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Building_Inspection_Districts",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Building_Inspection_Districts",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Business_Improvement_Districts",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Business_Improvement_Districts",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Census_Boundaries",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Census_Boundaries",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Centerline_Ties_and_Benchmarks_Survey_Points",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Centerline_Ties_and_Benchmarks_Survey_Points",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "City_Boundary",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "City_Boundary",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Clay_Pit_Areas",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Clay_Pit_Areas",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Coastal_Zone",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Coastal_Zone",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Community_Noise_Equivalent_Levels_CNEL",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Community_Noise_Equivalent_Levels_CNEL",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Dam_Inundation_Evacuation_Zone",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Dam_Inundation_Evacuation_Zone",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Dam_Inundation_Zone",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Dam_Inundation_Zone",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Development_Agreements",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Development_Agreements",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Elevation_Contours",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Evacuation_Routes",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Fault_Traces",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Fault_Traces",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Fault_Zones",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Fault_Zones",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "FEMA_National_Flood_Hazard_Area",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Fire_Engine_Run_Districts",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Fire_Engine_Run_Districts",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Fire_Stations",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Fire_Stations",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Geologic_Deposits",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Geologic_Deposits",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Historic_Preservation_Layers",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Historic_Preservation_Layers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "LA_Metro_Bus_Stops_and_Routes_in_Santa_Monica",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "LA_Metro_Bus_Stops_and_Routes_in_Santa_Monica",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Land_Use",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Land_Use",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Landslide_Susceptability_Area",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Landslide_Susceptability_Area",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Landslide_Zones_and_High_Risk_Area",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Landslide_Zones_and_High_Risk_Area",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Liquefaction_Risk_Areas",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Liquefaction_Risk_Areas",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Metro_E_Line",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Metro_E_Line",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Neighborhood_Organizations",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Neighborhood_Organizations",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Oil_Pipeline",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Oil_Pipeline",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Parcels_Public",
+    "t": "FeatureServer",
+    "f": ""
+   }
+  ],
+  "probes": [
+   {
+    "service": "Parcels_Public",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 23596
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Parcels_Public",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Parcels",
+      "capabilities": "Map,Query,Data",
+      "editor_fields": [],
+      "count": 23596
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Map,Query,Data",
+    "editingInfo": null
+   },
+   {
+    "service": "Address_Points",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Address Points",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 57063
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Address_Points",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Address Points",
+      "capabilities": "Map,Query,Data",
+      "editor_fields": [],
+      "count": 57063
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Map,Query,Data",
+    "editingInfo": null
+   }
+  ],
+  "done": true
+ },
+ "Torrance": {
+  "root": "https://gis.torranceca.gov/server/rest/services",
+  "folders": [
+   "Addressing",
+   "AssetWorks",
+   "BaseData",
+   "CodeEnforcement",
+   "Hosted",
+   "LandRecords",
+   "Utilities",
+   "WasteManagement",
+   "WetUtilities"
+  ],
+  "error": null,
+  "services_total": 2,
+  "service_names": [
+   {
+    "n": "BaseData/CityCouncilDistricts",
+    "t": "FeatureServer",
+    "f": "BaseData"
+   },
+   {
+    "n": "BaseData/CityCouncilDistricts",
+    "t": "MapServer",
+    "f": "BaseData"
+   }
+  ],
+  "probes": [],
+  "done": true
+ },
+ "Oxnard": {
+  "root": "https://maps.oxnard.org/arcgis/rest/services",
+  "folders": [
+   "Internal",
+   "Utilities"
+  ],
+  "error": null,
+  "services_total": 63,
+  "service_names": [
+   {
+    "n": "1998_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "2003_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "2005_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "2007_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "2010_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "2013_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "2015_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "2017_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "2020_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "2022_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "2024_Aerial",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "AssessmentDistricts",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "BasemapLayers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CDBG_Grant_Area",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CensusLayers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CenterlineWidth",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CIP_Projects",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CityCouncilDistricts",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CityOwnedParcels",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CompositeLocator",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "CountyLayers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Dallas_2022",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Dallas_Georeferenced2",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Dallas_Georeferenced",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Dallas_PostBuild_2021",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "EconomicDevelopment",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "ESHA",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Fifth_Street_Canal",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "FireLayers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "GCTD_BusStops_2019",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "GeneralPurpose",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "GeneralPurposeTest",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Grids",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Hazards",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "HistoricData",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "ImageryReferenceOverlay",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "IrrigableLand",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "MedianWorkAreasPublic",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "OCCTIPData",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Parks_and_City_Maintained",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "ParksLayers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "PCI",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "PD_Halaco_Grid",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "PD_Halaco_New",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "PD_Riverbottom_2021_Area_1",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "PlanningLayers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "PropertyManagementPlan",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "QuimbyParks",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Redevelopment",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "RiverbedSurvey2020",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Schools",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Sea_Level_Rise",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "SolidWaste",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "StandaloneLayers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "StormwaterTMDLInspectionZones",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "StormwaterTMDLPriorityAreas",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "StreetsLayers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "SurveyLayers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "TrafficLayers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Utilities/Geometry",
+    "t": "GeometryServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/PrintingTools",
+    "t": "GPServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/RasterUtilities",
+    "t": "GPServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/Symbols",
+    "t": "SymbolServer",
+    "f": "Utilities"
+   }
+  ],
+  "probes": [
+   {
+    "service": "CityOwnedParcels",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "City Owned Parcels",
+      "capabilities": "Map,Query,Data",
+      "editor_fields": [],
+      "count": 751
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Map,Query,Data",
+    "editingInfo": null
+   }
+  ],
+  "done": true
+ },
+ "Ventura": {
+  "root": "https://maps.cityofventura.ca.gov/server/rest/services",
+  "folders": [
+   "Business",
+   "Hosted",
+   "TEST_FOLDER",
+   "Utilities"
+  ],
+  "error": null,
+  "services_total": 12,
+  "service_names": [
+   {
+    "n": "Base_AddressXP_Locator",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "EGOV_CSS",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "EGOV_CSS",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "GISDATA_IT_ProjectStatusTracker_tbl",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "GISDATA_IT_ProjectStatusTracker_tbl",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Locator_CoV_EnerGovAddressesParcelsComposite",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "Locator_CoV_OpenDataAddresses",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "OpenData_IT_Tickets",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "OpenData_IT_Tickets",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Hosted/basemap_topo_vector",
+    "t": "VectorTileServer",
+    "f": "Hosted"
+   },
+   {
+    "n": "Hosted/IT_ProjectStatusTracker",
+    "t": "FeatureServer",
+    "f": "Hosted"
+   },
+   {
+    "n": "Utilities/Geometry",
+    "t": "GeometryServer",
+    "f": "Utilities"
+   }
+  ],
+  "probes": [
+   {
+    "service": "Locator_CoV_EnerGovAddressesParcelsComposite",
+    "folder": "",
+    "type": "GeocodeServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": "Geocode,ReverseGeocode,Suggest",
+    "editingInfo": null
+   },
+   {
+    "service": "Base_AddressXP_Locator",
+    "folder": "",
+    "type": "GeocodeServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": "Geocode,ReverseGeocode,Suggest",
+    "editingInfo": null
+   },
+   {
+    "service": "Locator_CoV_OpenDataAddresses",
+    "folder": "",
+    "type": "GeocodeServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": "Geocode,ReverseGeocode,Suggest",
+    "editingInfo": null
+   }
+  ],
+  "done": true
+ },
+ "Temecula": {
+  "root": "https://gis.temeculaca.gov/arcgis/rest/services",
+  "folders": [
+   "CSD",
+   "Lucity",
+   "Ortho",
+   "PublicWorks",
+   "Utilities"
+  ],
+  "error": null,
+  "services_total": 100,
+  "service_names": [
+   {
+    "n": "address_points_EDIT",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "address_points_EDIT",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "address_points",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "all_layers",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "BasemapService",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "City_Sections_for_VESTA",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CityBoundarySimple",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CivicRec",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CSSLocator",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "EnerGov",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "EnerGovGeoRules",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "EnerGovGeoRules",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "EnerGov",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Genetec",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Geocortex_Internet",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Geocortex_Intranet",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Geocortex_SCE_Outage_service",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "GeoDocs",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "intersection_geocode",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "Lucity_map_service",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "Lucity_map_service",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "OpenData",
+    "t": "FeatureServer",
+    "f": ""
+   },
+   {
+    "n": "OpenData",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "RodRun",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "SampleWorldCities",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "TrailsBikelanes",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "TylerSearchLocator",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "Zoning_map_service",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CSD/Ownership_Service",
+    "t": "MapServer",
+    "f": "CSD"
+   },
+   {
+    "n": "Lucity/Lucity_Artworks",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Cabinets",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Curbs",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Facilities",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Inlets",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Intersections",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Irrigation",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Medians",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Municipal_BMPs",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Network_Infrastructure",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Old_Town_Street_Lights",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Outfalls",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Parcels",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Park_Features",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Park_Lights",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Parks_Courts",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Parks_Fields",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Parks_Lakes",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Parks_ParkingLots",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Parks_Playgrounds",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Parks_Structures",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Parks",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_PDP_Parcels",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_redline_line",
+    "t": "FeatureServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_redline_line",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_redline_point",
+    "t": "FeatureServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_redline_point",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_redline_polygon",
+    "t": "FeatureServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_redline_polygon",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_redline_service",
+    "t": "FeatureServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_redline_service",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_RMAs",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Sidewalks",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Signals",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Signs",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Slopes",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Stormwater_Lines",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Street_Lights",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Streets",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Supports",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Undersidewalk_Drains",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Lucity/Lucity_Water_Features",
+    "t": "MapServer",
+    "f": "Lucity"
+   },
+   {
+    "n": "Ortho/Temecula1996aerial",
+    "t": "ImageServer",
+    "f": "Ortho"
+   },
+   {
+    "n": "Ortho/Temecula1998aerial",
+    "t": "ImageServer",
+    "f": "Ortho"
+   },
+   {
+    "n": "Ortho/Temecula2001aerial",
+    "t": "ImageServer",
+    "f": "Ortho"
+   },
+   {
+    "n": "Ortho/Temecula2002aerial",
+    "t": "ImageServer",
+    "f": "Ortho"
+   },
+   {
+    "n": "Ortho/Temecula2004aerial",
+    "t": "ImageServer",
+    "f": "Ortho"
+   },
+   {
+    "n": "Ortho/Temecula2005aerial",
+    "t": "ImageServer",
+    "f": "Ortho"
+   },
+   {
+    "n": "Ortho/Temecula2007aerial",
+    "t": "ImageServer",
+    "f": "Ortho"
+   },
+   {
+    "n": "Ortho/Temecula2008aerial",
+    "t": "ImageServer",
+    "f": "Ortho"
+   },
+   {
+    "n": "Ortho/Temecula2009aerial",
+    "t": "ImageServer",
+    "f": "Ortho"
+   }
+  ],
+  "probes": [
+   {
+    "service": "Lucity/Lucity_Parcels",
+    "folder": "Lucity",
+    "type": "MapServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": null,
+    "editingInfo": null
+   },
+   {
+    "service": "Lucity/Lucity_PDP_Parcels",
+    "folder": "Lucity",
+    "type": "MapServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": null,
+    "editingInfo": null
+   },
+   {
+    "service": "address_points_EDIT",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 2,
+      "name": "address_points",
+      "capabilities": "Query,Create,Update,Delete,Uploads,Editing",
+      "editor_fields": [],
+      "count": 38234
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,Create,Update,Delete,Uploads,Editing",
+    "editingInfo": null
+   },
+   {
+    "service": "address_points_EDIT",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [
+     {
+      "layer_id": 2,
+      "name": "address_points",
+      "capabilities": "Query,Map,Data",
+      "editor_fields": [],
+      "count": 38234
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,Map,Data",
+    "editingInfo": null
+   }
+  ],
+  "done": true
+ },
+ "Palm Springs": {
+  "root": "https://gis.palmspringsca.gov/server/rest/services",
+  "folders": [
+   "Business_Licensing",
+   "community",
+   "engineering",
+   "Fire",
+   "Hosted",
+   "parcels",
+   "Planning",
+   "Printing",
+   "tribe",
+   "Utilities"
+  ],
+  "error": null,
+  "services_total": 2,
+  "service_names": [
+   {
+    "n": "Hosted/Cannabis_Permit_Application_Status_(View)",
+    "t": "FeatureServer",
+    "f": "Hosted"
+   },
+   {
+    "n": "Hosted/Cannabis_Permits",
+    "t": "FeatureServer",
+    "f": "Hosted"
+   }
+  ],
+  "probes": [],
+  "done": true
+ },
+ "Laguna Beach": {
+  "root": "https://gis.lagunabeachcity.net/arcgis/rest/services",
+  "folders": [
+   "Utilities"
+  ],
+  "error": null,
+  "services_total": 31,
+  "service_names": [
+   {
+    "n": "Aerials1998",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Aerials2003",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Aerials2008",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Aerials2014",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Aerials2021",
+    "t": "ImageServer",
+    "f": ""
+   },
+   {
+    "n": "Aerials2021",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Aerials2023",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "BaseMaps",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "CoastalArea",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Contours2008",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "EnerGovAddress190403",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "EnerGovCompositeLocator",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "EnerGovOwnership190403",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Environmental",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Fire",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "LagunaBeachCompositeLocator",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "LagunaBeachCompositeLocatorTest",
+    "t": "GeocodeServer",
+    "f": ""
+   },
+   {
+    "n": "LandUse",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "OceanLabel",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "OpenSpacePreserve",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Overview",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Planning",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Police",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "PoliticalBoundary",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "PublicWorks",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "SpecificPlan",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "WaterNetworks",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Zoning",
+    "t": "MapServer",
+    "f": ""
+   },
+   {
+    "n": "Utilities/Geometry",
+    "t": "GeometryServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/RasterUtilities",
+    "t": "GPServer",
+    "f": "Utilities"
+   },
+   {
+    "n": "Utilities/Symbols",
+    "t": "SymbolServer",
+    "f": "Utilities"
+   }
+  ],
+  "probes": [
+   {
+    "service": "EnerGovAddress190403",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Parcels",
+      "capabilities": "Map,Query,Data",
+      "editor_fields": [],
+      "count": 13390
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Map,Query,Data",
+    "editingInfo": null
+   }
+  ],
+  "done": true
+ },
+ "Garden Grove": {
+  "agol_roots_all": [
+   "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services",
+   "https://services.arcgis.com/hVnyNvwbpFFPDV5j/arcgis/rest/services",
+   "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services",
+   "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services",
+   "https://services3.arcgis.com/cEsSI6IR59h5UGE4/arcgis/rest/services",
+   "https://services5.arcgis.com/xI2JERI5PvawmoWH/arcgis/rest/services",
+   "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services",
+   "https://services3.arcgis.com/9nfxWATFamVUTTGb/arcgis/rest/services",
+   "https://services2.arcgis.com/bB9Y1bGKerz1PTl5/arcgis/rest/services",
+   "https://services.arcgis.com/QPnoxtBFXm6yYtyc/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services",
+   "https://services.arcgis.com/hVnyNvwbpFFPDV5j/arcgis/rest/services",
+   "https://services.arcgis.com/QPnoxtBFXm6yYtyc/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "addresses_geocoded",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "addresses_geocoded",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 7569
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "All_Residential_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "All_Residential_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 15944
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Buffer_of_CA_State_Parcels___Filtered",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Buffer_of_CA_State_Parcels___Filtered",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 1
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Address_Zipcodes",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "CommunityCount_3",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 196
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Chino_Hills_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Chino Hills Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 24774
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "DigitizingParcels_Whittier_DanielTrevino_WFL1",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 20,
+      "name": "Fire Hydrant",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 3
+     },
+     {
+      "layer_id": 40,
+      "name": "Parcel Layer",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 45
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Fountain Valley": {
+  "agol_roots_all": [
+   "https://services1.arcgis.com/4usxdjWKL0Lq9x6D/arcgis/rest/services",
+   "https://services.arcgis.com/hVnyNvwbpFFPDV5j/arcgis/rest/services",
+   "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services",
+   "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services",
+   "https://services3.arcgis.com/QCH1Le0vwRIyplqB/arcgis/rest/services",
+   "https://services1.arcgis.com/4oMMDQGZOv7y40Xb/arcgis/rest/services",
+   "https://services9.arcgis.com/ETP7IuCigkUz7iI9/arcgis/rest/services",
+   "https://services.arcgis.com/12ZpLdNBJek66bmF/arcgis/rest/services",
+   "https://services3.arcgis.com/VrHhujNgW2jZ00V9/arcgis/rest/services",
+   "https://services2.arcgis.com/iq8zYa0SRsvIFFKz/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [],
+  "agol_probes": [],
+  "agol_done": true
+ },
+ "San Bernardino": {
+  "agol_roots_all": [
+   "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services",
+   "https://services.arcgis.com/FLM8UAw9y5MmuVTV/arcgis/rest/services",
+   "https://services5.arcgis.com/vYSHcRQuTn4O8o35/arcgis/rest/services",
+   "https://services2.arcgis.com/safmkHh6IfIYbpgO/arcgis/rest/services",
+   "https://services5.arcgis.com/YzWImMY4GtDcMxOx/arcgis/rest/services",
+   "https://services3.arcgis.com/fdvHcZVgB2QSRNkL/arcgis/rest/services",
+   "https://services6.arcgis.com/Gs01XZPFhKUG8tKU/arcgis/rest/services",
+   "https://services7.arcgis.com/2hYXmwteFLemN5bW/arcgis/rest/services",
+   "https://services.arcgis.com/jIL9msH9OI208GCb/arcgis/rest/services",
+   "https://services8.arcgis.com/dRbkL75uGyx40MXP/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services",
+   "https://services.arcgis.com/FLM8UAw9y5MmuVTV/arcgis/rest/services",
+   "https://services5.arcgis.com/vYSHcRQuTn4O8o35/arcgis/rest/services",
+   "https://services5.arcgis.com/YzWImMY4GtDcMxOx/arcgis/rest/services",
+   "https://services3.arcgis.com/fdvHcZVgB2QSRNkL/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "AddressHotSpots",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "ROV_OptimizedHotSpotAnalysis",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 832806
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "County_RM_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Parcels Meeting All Criteria   ",
+      "capabilities": "Query",
+      "editor_fields": [
+       "Editor"
+      ],
+      "count": null,
+      "group_Editor": []
+     },
+     {
+      "layer_id": 1,
+      "name": "RM Land Use Districts",
+      "capabilities": "Query",
+      "editor_fields": [
+       "CREATED_USER",
+       "LAST_EDITED_USER",
+       "LAST_EDITED_DATE"
+      ],
+      "count": 126,
+      "group_CREATED_USER": [
+       {
+        "v": "Brent_Rolf",
+        "n": 126
+       }
+      ],
+      "group_LAST_EDITED_USER": [
+       {
+        "v": "Brent_Rolf",
+        "n": 126
+       }
+      ]
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "County_RM_Parcels_030719",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Parcels Meeting All Criteria",
+      "capabilities": "Query",
+      "editor_fields": [
+       "Editor"
+      ],
+      "count": 91,
+      "group_Editor": [
+       {
+        "v": "Brent_Rolf",
+        "n": 91
+       }
+      ]
+     },
+     {
+      "layer_id": 1,
+      "name": "RM Land Use Districts",
+      "capabilities": "Query",
+      "editor_fields": [
+       "CREATED_USER",
+       "LAST_EDITED_USER",
+       "LAST_EDITED_DATE"
+      ],
+      "count": 126,
+      "group_CREATED_USER": [
+       {
+        "v": "Brent_Rolf",
+        "n": 126
+       }
+      ],
+      "group_LAST_EDITED_USER": [
+       {
+        "v": "Brent_Rolf",
+        "n": 126
+       }
+      ]
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Address_Points",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Address Points",
+      "capabilities": "Query,Extract,Sync",
+      "editor_fields": [],
+      "count": 37010
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,Extract,Sync",
+    "editingInfo": null
+   },
+   {
+    "service": "addressesexccsv_unitsSL",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "addressesexccsv_units",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 34500
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "addressesexccsv_unitsSL2",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "addressesexccsv_units",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 34500
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "LP_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "LP_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 7707
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Riverside": {
+  "agol_roots_all": [
+   "https://services2.arcgis.com/i4mrGZu1Isvl0rWt/arcgis/rest/services",
+   "https://services5.arcgis.com/vYSHcRQuTn4O8o35/arcgis/rest/services",
+   "https://services3.arcgis.com/4pohxs3ZXJsQTQod/arcgis/rest/services",
+   "https://services1.arcgis.com/kZsOWCED80XbRyJ0/arcgis/rest/services",
+   "https://services1.arcgis.com/pWmBUdSlVpXStHU6/arcgis/rest/services",
+   "https://services1.arcgis.com/VVapzOPgBae5joyC/arcgis/rest/services",
+   "https://services7.arcgis.com/z04laB9joMn9C8en/arcgis/rest/services",
+   "https://services6.arcgis.com/Do88DoK2xjTUCXd1/arcgis/rest/services",
+   "https://services7.arcgis.com/uFAr0LUPy14bDaLg/arcgis/rest/services",
+   "https://services.arcgis.com/Fu2oOWg1Aw7azh41/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services5.arcgis.com/vYSHcRQuTn4O8o35/arcgis/rest/services",
+   "https://services1.arcgis.com/pWmBUdSlVpXStHU6/arcgis/rest/services",
+   "https://services7.arcgis.com/z04laB9joMn9C8en/arcgis/rest/services",
+   "https://services6.arcgis.com/Do88DoK2xjTUCXd1/arcgis/rest/services",
+   "https://services.arcgis.com/Fu2oOWg1Aw7azh41/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "LP_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "LP_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 7707
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "AB1466ParcelsFromExcel",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "AB1466ParcelsFromExcel",
+      "capabilities": "Query,Extract",
+      "editor_fields": [],
+      "count": 7
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,Extract",
+    "editingInfo": null
+   },
+   {
+    "service": "AB1466RivCoProperties_Parcel",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 18,
+      "name": "AB1466RivCoProperties",
+      "capabilities": "Query,Extract",
+      "editor_fields": [],
+      "count": 634
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,Extract",
+    "editingInfo": null
+   },
+   {
+    "service": "Anza_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Anza_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 7871
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Los_Angeles_City_AP_CPA_Viable_Parcels_1_7_22",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Retail (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 0
+     },
+     {
+      "layer_id": 1,
+      "name": "Delivery (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 0
+     },
+     {
+      "layer_id": 2,
+      "name": "Testing (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 160
+     },
+     {
+      "layer_id": 3,
+      "name": "Microbusiness (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 151
+     },
+     {
+      "layer_id": 4,
+      "name": "Cultivation / Distribution / Manufacturing Lvl 1 (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 151
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Los_Angeles_City_BH_CPA_Viable_Parcels_3_12_21",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Retail (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 1148
+     },
+     {
+      "layer_id": 1,
+      "name": "Delivery (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 1148
+     },
+     {
+      "layer_id": 2,
+      "name": "Testing (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 1167
+     },
+     {
+      "layer_id": 3,
+      "name": "Microbusiness (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 1167
+     },
+     {
+      "layer_id": 4,
+      "name": "Cultivation / Distribution /Manufacturing Lvl1 (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 1167
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Los_Angeles_City_BPP_Viable_Parcels_10_12_21",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Retail (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 2
+     },
+     {
+      "layer_id": 1,
+      "name": "Delivery (Viable Parcels)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 2
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Atlanta": {
+  "agol_roots_all": [
+   "https://services1.arcgis.com/4yjifSiIG17X0gW4/arcgis/rest/services",
+   "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services",
+   "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services",
+   "https://services5.arcgis.com/5RxyIIJ9boPdptdo/arcgis/rest/services",
+   "https://services2.arcgis.com/I9cUOJUZvdGAJncI/arcgis/rest/services",
+   "https://services3.arcgis.com/U1iJ2UbRVRwVZH60/arcgis/rest/services",
+   "https://services6.arcgis.com/QmEXbya2dRd48yU4/arcgis/rest/services",
+   "https://services.arcgis.com/EDxZDh4HqQ1a9KvA/arcgis/rest/services",
+   "https://services7.arcgis.com/yiuFazTjHE8F5gzQ/arcgis/rest/services",
+   "https://services5.arcgis.com/Z57Q9sh3tzj0aJtm/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services1.arcgis.com/4yjifSiIG17X0gW4/arcgis/rest/services",
+   "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services",
+   "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services",
+   "https://services2.arcgis.com/I9cUOJUZvdGAJncI/arcgis/rest/services",
+   "https://services3.arcgis.com/U1iJ2UbRVRwVZH60/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "DallasParcelFrequency",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Transit Trips per Hour (7 - 9 AM)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 667589
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "KansasCityEnrichedParcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "KansasCityEnrichedParcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 68993
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "TransitFrequencyATLParcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Transit Trips per Hour (7 - 9 AM)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 167289
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Addresses",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Addresses",
+      "capabilities": "Create,Delete,Query,Update,Editing",
+      "editor_fields": [],
+      "count": 13447
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Create,Delete,Query,Update,Editing",
+    "editingInfo": null
+   },
+   {
+    "service": "Addresses_8_2017",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Addresses_8_2017",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 7454
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Addresses_8_2017_Clip",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Addresses_8_2017_Clip",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 4062
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "AC_Parcels_WFL",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Proctor Creek Watershed",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 1
+     },
+     {
+      "layer_id": 1,
+      "name": "TaxParcels_2013_Residential_wHeat",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 16378
+     },
+     {
+      "layer_id": 2,
+      "name": "Other Atlanta Tax Parcels (2013)",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 20368
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Business_address_vacancy_rate_for_2014",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Nat2017_Newdata_byTRACT10",
+      "capabilities": "Query,ChangeTracking",
+      "editor_fields": [],
+      "count": 74102
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,ChangeTracking",
+    "editingInfo": null
+   },
+   {
+    "service": "CarsonRiverEstatesParcels_CRMS_2015_NDEP",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 48,
+      "name": "CarsonRiverEstatesParcels_CRMS_2015_NDEP",
+      "capabilities": "Query,Extract",
+      "editor_fields": [],
+      "count": 89
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,Extract",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "St. Paul": {
+  "agol_roots_all": [
+   "https://services.arcgis.com/8df8p0NlLFEShl0r/arcgis/rest/services",
+   "https://services1.arcgis.com/9meaaHE3uiba0zr8/arcgis/rest/services",
+   "https://services8.arcgis.com/CjVb8BH1EIcrgkMg/arcgis/rest/services",
+   "https://services.arcgis.com/aDVuwZJfhoSYo0Ie/arcgis/rest/services",
+   "https://services.arcgis.com/BMYXNRlO25bzjZOb/arcgis/rest/services",
+   "https://services2.arcgis.com/tJVbdHdHy8Vhg5kh/arcgis/rest/services",
+   "https://services2.arcgis.com/WsCmJmL1F5wsSOiu/arcgis/rest/services",
+   "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services",
+   "https://services.arcgis.com/uQhXqM69XQFaA6XB/arcgis/rest/services",
+   "https://services2.arcgis.com/utBig56dGaw25bwu/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services1.arcgis.com/9meaaHE3uiba0zr8/arcgis/rest/services",
+   "https://services8.arcgis.com/CjVb8BH1EIcrgkMg/arcgis/rest/services",
+   "https://services.arcgis.com/aDVuwZJfhoSYo0Ie/arcgis/rest/services",
+   "https://services.arcgis.com/BMYXNRlO25bzjZOb/arcgis/rest/services",
+   "https://services2.arcgis.com/tJVbdHdHy8Vhg5kh/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "Address_Line",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Address Line",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 2
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Address_to_Alley_ID_Matching",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Address2AlleyIDMatching",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 41026
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Address2AlleyIDMatching",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "AddressToAlleyID_Matching_Test1",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 49675
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "AddressPts_WestStPaul",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Address Points",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 4733
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Parcel_Public_20181001",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Parcel_Public_20181001",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 4128
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "ParcelsPublic_Election_StAndrews",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 7106
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "BackgroundParcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "BackgroundParcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 172368
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Colorado_Xcel_Parcels_View",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Colorado Railroads",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 2981
+     },
+     {
+      "layer_id": 1,
+      "name": "Colorado Highways",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 174809
+     },
+     {
+      "layer_id": 2,
+      "name": "Xcel Energy Potential Properties",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 222
+     },
+     {
+      "layer_id": 3,
+      "name": "Colorado County Boundaries",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 64
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "CR118_ParcelsEasements",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Proposed Easement",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 5
+     },
+     {
+      "layer_id": 1,
+      "name": "Parcel Boundaries",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 294
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Wichita": {
+  "agol_roots_all": [
+   "https://services3.arcgis.com/PRyeAMTgQS8gkd0F/arcgis/rest/services",
+   "https://services7.arcgis.com/McLat6HlPl45bNBv/arcgis/rest/services",
+   "https://services.arcgis.com/3xOwF6p0r7IHIjfn/arcgis/rest/services",
+   "https://services8.arcgis.com/BFIOL6OOmMVZVXop/arcgis/rest/services",
+   "https://services5.arcgis.com/dyHW1hcbq5PZqr6w/arcgis/rest/services",
+   "https://services3.arcgis.com/q3hKOUuTwd49gI43/arcgis/rest/services",
+   "https://services5.arcgis.com/P4xL2mHKYJn1aLHf/arcgis/rest/services",
+   "https://services7.arcgis.com/2wGLLBLnXLC33g6f/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services5.arcgis.com/dyHW1hcbq5PZqr6w/arcgis/rest/services",
+   "https://services5.arcgis.com/P4xL2mHKYJn1aLHf/arcgis/rest/services",
+   "https://services7.arcgis.com/2wGLLBLnXLC33g6f/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "11.5 mile - Buffer of El Dorado Y Address",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [],
+    "status": "error",
+    "error": "URL can't contain control characters. '/P4xL2mHKYJn1aLHf/arcgis/rest/services/11.5 mile - Buffer of El Dorado Y Address/MapServer?f=pjson' (found at least ' ')"
+   },
+   {
+    "service": "5.5 mi - Buffer of East Y Address",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [],
+    "status": "error",
+    "error": "URL can't contain control characters. '/P4xL2mHKYJn1aLHf/arcgis/rest/services/5.5 mi - Buffer of East Y Address/MapServer?f=pjson' (found at least ' ')"
+   },
+   {
+    "service": "5.7 mile - Buffer of WestYAddress",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [],
+    "status": "error",
+    "error": "URL can't contain control characters. '/P4xL2mHKYJn1aLHf/arcgis/rest/services/5.7 mile - Buffer of WestYAddress/MapServer?f=pjson' (found at least ' ')"
+   }
+  ],
+  "agol_done": true
+ },
+ "Las Vegas": {
+  "agol_roots_all": [
+   "https://services1.arcgis.com/F1v0ufATbBQScMtY/arcgis/rest/services",
+   "https://services.arcgis.com/jjSk6t82vIntwDbs/arcgis/rest/services",
+   "https://services7.arcgis.com/L9YKUNJNbUSr033r/arcgis/rest/services",
+   "https://services1.arcgis.com/pWmBUdSlVpXStHU6/arcgis/rest/services",
+   "https://services1.arcgis.com/4d5ISatXriclHrtM/arcgis/rest/services",
+   "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services",
+   "https://services1.arcgis.com/GWbDzXVIBphv2Dgx/arcgis/rest/services",
+   "https://services1.arcgis.com/Ezk9fcjSUkeadg6u/arcgis/rest/services",
+   "https://services2.arcgis.com/qXZbWTdPDbTjl7Dy/arcgis/rest/services",
+   "https://services.arcgis.com/8df8p0NlLFEShl0r/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services1.arcgis.com/F1v0ufATbBQScMtY/arcgis/rest/services",
+   "https://services1.arcgis.com/pWmBUdSlVpXStHU6/arcgis/rest/services",
+   "https://services1.arcgis.com/4d5ISatXriclHrtM/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "ACCED_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 23,
+      "name": "ACCED_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 345
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "ACCED_Parcels_new",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 62,
+      "name": "ACCED_Parcels_new",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 10
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Addresses",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Addresses",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 779127
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "AB1466ParcelsFromExcel",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "AB1466ParcelsFromExcel",
+      "capabilities": "Query,Extract",
+      "editor_fields": [],
+      "count": 7
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,Extract",
+    "editingInfo": null
+   },
+   {
+    "service": "AB1466RivCoProperties_Parcel",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 18,
+      "name": "AB1466RivCoProperties",
+      "capabilities": "Query,Extract",
+      "editor_fields": [],
+      "count": 634
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,Extract",
+    "editingInfo": null
+   },
+   {
+    "service": "Anza_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Anza_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 7871
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Acworth": {
+  "agol_roots_all": [
+   "https://services.arcgis.com/0tQ9yX5b2VG5RHei/arcgis/rest/services",
+   "https://services2.arcgis.com/AkJuRTalqccxOHLu/arcgis/rest/services",
+   "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/arcgis/rest/services",
+   "https://services6.arcgis.com/QmEXbya2dRd48yU4/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services.arcgis.com/0tQ9yX5b2VG5RHei/arcgis/rest/services",
+   "https://services2.arcgis.com/AkJuRTalqccxOHLu/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "AcworthParcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 1,
+      "name": "AcworthParcels",
+      "capabilities": "Query",
+      "editor_fields": [
+       "created_user",
+       "last_edited_user",
+       "last_edited_date"
+      ],
+      "count": 436,
+      "group_created_user": [
+       {
+        "v": null,
+        "n": 428
+       },
+       {
+        "v": "CHATMAND",
+        "n": 6
+       },
+       {
+        "v": "ROBERTSJ",
+        "n": 2
+       }
+      ],
+      "group_last_edited_user": [
+       {
+        "v": "ROBERTSJ",
+        "n": 434
+       },
+       {
+        "v": "AUTRYM",
+        "n": 1
+       },
+       {
+        "v": "CHATMAND",
+        "n": 1
+       }
+      ]
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "ParcelInfo",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 11,
+      "name": "ParcelInfo",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 57516
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 12,
+      "name": "Tax Parcels",
+      "capabilities": "Query",
+      "editor_fields": [
+       "created_user",
+       "last_edited_user",
+       "last_edited_date"
+      ],
+      "count": 47223,
+      "group_created_user": [
+       {
+        "v": null,
+        "n": 42424
+       },
+       {
+        "v": "CHATMAND",
+        "n": 3806
+       },
+       {
+        "v": "ROBERTSJ",
+        "n": 884
+       },
+       {
+        "v": "AUTRYM",
+        "n": 106
+       },
+       {
+        "v": "CARLAND",
+        "n": 3
+       }
+      ],
+      "group_last_edited_user": [
+       {
+        "v": "ROBERTSJ",
+        "n": 44507
+       },
+       {
+        "v": "CHATMAND",
+        "n": 978
+       },
+       {
+        "v": "KINGB1",
+        "n": 795
+       },
+       {
+        "v": "AUTRYM",
+        "n": 508
+       },
+       {
+        "v": "MCNEILF",
+        "n": 421
+       },
+       {
+        "v": "FAILC",
+        "n": 14
+       }
+      ]
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "AcworthCIDParcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 1,
+      "name": "AcworthCIDParcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 100
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Parcels_OwnedBy_CobbCounty",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 1,
+      "name": "Parcels_OwnedBy_CobbCounty",
+      "capabilities": "Query",
+      "editor_fields": [
+       "EDITOR"
+      ],
+      "count": 17,
+      "group_EDITOR": [
+       {
+        "v": "AGYEPS021143",
+        "n": 13
+       },
+       {
+        "v": "dbo",
+        "n": 2
+       },
+       {
+        "v": "COLLIP033329",
+        "n": 1
+       },
+       {
+        "v": "SS\\AgyepS",
+        "n": 1
+       }
+      ]
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "ParcelTaxData19",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "ParcelTaxData21",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 8702
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Pima County": {
+  "agol_roots_all": [
+   "https://services3.arcgis.com/9coHY2fvuFjG9HQX/arcgis/rest/services",
+   "https://services2.arcgis.com/UTBp78iglGpbqp1B/arcgis/rest/services",
+   "https://services1.arcgis.com/Ezk9fcjSUkeadg6u/arcgis/rest/services",
+   "https://services6.arcgis.com/vjPn00a7JvF1nhkZ/arcgis/rest/services",
+   "https://services6.arcgis.com/clPWQMwZfdWn4MQZ/arcgis/rest/services",
+   "https://services3.arcgis.com/L3e0HzN6aEfyAwVT/arcgis/rest/services",
+   "https://services.arcgis.com/rr5PkYU3R3HXxyDH/arcgis/rest/services",
+   "https://services.arcgis.com/0hWR1h1PHFoPztOo/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [],
+  "agol_probes": [],
+  "agol_done": true
+ },
+ "Pasadena": {
+  "agol_roots_all": [
+   "https://services5.arcgis.com/JiWg9dL7kxr4GK6d/arcgis/rest/services",
+   "https://services2.arcgis.com/zNjnZafDYCAJAbN0/arcgis/rest/services",
+   "https://services5.arcgis.com/KnL71oLS7UXcSXc4/arcgis/rest/services",
+   "https://services6.arcgis.com/FyuuHO4sqcgu4Cm1/arcgis/rest/services",
+   "https://services7.arcgis.com/Ah2brHjl6hrJODma/arcgis/rest/services",
+   "https://services1.arcgis.com/4usxdjWKL0Lq9x6D/arcgis/rest/services",
+   "https://services5.arcgis.com/YlnVqzyRhPINmp5a/arcgis/rest/services",
+   "https://services.arcgis.com/QPnoxtBFXm6yYtyc/arcgis/rest/services",
+   "https://services6.arcgis.com/7xji3LyqWBR1PC5j/arcgis/rest/services",
+   "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services5.arcgis.com/JiWg9dL7kxr4GK6d/arcgis/rest/services",
+   "https://services2.arcgis.com/zNjnZafDYCAJAbN0/arcgis/rest/services",
+   "https://services5.arcgis.com/KnL71oLS7UXcSXc4/arcgis/rest/services",
+   "https://services6.arcgis.com/FyuuHO4sqcgu4Cm1/arcgis/rest/services",
+   "https://services.arcgis.com/QPnoxtBFXm6yYtyc/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "Parcels_2023GeneralPlan",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Parcels_2023GeneralPlan",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 6604
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Historic_Addresses_spas",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Historic_Addresses_spas",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 2533
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "SouthPasadena_SiteAddresses_MAT",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 5,
+      "name": "Site Addresses",
+      "capabilities": "Query",
+      "editor_fields": [
+       "created_user",
+       "last_edited_user",
+       "last_edited_date"
+      ],
+      "count": 6961,
+      "group_created_user": [
+       {
+        "v": "zfield_SPPW",
+        "n": 6961
+       }
+      ],
+      "group_last_edited_user": [
+       {
+        "v": "zfield_SPPW",
+        "n": 6961
+       }
+      ]
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Addresses_for_CivicRec",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Addresses",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 84523
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Addresses_for_Public_Health_Vaccine_Form_Lookup",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Addresses",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 84523
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "CA_LA_Public_ROE_Status_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 1,
+      "name": "CA LA Public ROE Status Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 1641
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Addiction_Treatment_Center_Parcels_Broomfield",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": null,
+    "editingInfo": null
+   },
+   {
+    "service": "Buffer_of_Addiction_Treatment_Center_Parcels_Broomfield",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": null,
+    "editingInfo": null
+   },
+   {
+    "service": "Buffer_of_Costa_Mesa_Day_Care_parcels",
+    "folder": "",
+    "type": "MapServer",
+    "layers": [],
+    "status": "ok",
+    "capabilities": null,
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Burbank": {
+  "agol_roots_all": [
+   "https://services1.arcgis.com/CijXhfQhHrc77J4u/arcgis/rest/services",
+   "https://services7.arcgis.com/2hYXmwteFLemN5bW/arcgis/rest/services",
+   "https://services3.arcgis.com/UAsvVbK8QjNQizHD/arcgis/rest/services",
+   "https://services2.arcgis.com/tcv2cMrq63AgvbHF/arcgis/rest/services",
+   "https://services.arcgis.com/RmCCgQtiZLDCtblq/arcgis/rest/services",
+   "https://services3.arcgis.com/rGGp0aiv6Rf11t2H/arcgis/rest/services",
+   "https://services2.arcgis.com/VofPZYDe2pLxSP5G/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services7.arcgis.com/2hYXmwteFLemN5bW/arcgis/rest/services",
+   "https://services.arcgis.com/RmCCgQtiZLDCtblq/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "Aggregation_of_Liquor_stores_to_zipcodes_parcels_lacity",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Aggregation_of_Liquor_stores_to_zipcodes_parcels_lacity",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 116
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Aggregation_of_School_free_lunches_to_zipcodes_parcels_lacity",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Aggregation_of_School_free_lunches_to_zipcodes_parcels_lacity",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 155
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "ah_outside_aec_addresses_tract_geocoded",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "ah_outside_aec_addresses_tract_geocoded",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 53
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "111Find_Locations_in_LA_County_Parcel_Map_Service_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "111Find_Locations_in_LA_County_Parcel_Map_Service_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 24
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "11Find_Locations_in_LA_County_Parcel_Map_Service_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "11Find_Locations_in_LA_County_Parcel_Map_Service_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 47
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "2025_Parcels_with_DINS_data",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 5,
+      "name": "ASSR_Parcels_with_DINS_data_As_FirePerimeter",
+      "capabilities": "Query,Extract,Sync,ChangeTracking",
+      "editor_fields": [],
+      "count": 24462
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,Extract,Sync",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Santa Barbara": {
+  "agol_roots_all": [
+   "https://services3.arcgis.com/hMpg7vsYb74pEKjX/arcgis/rest/services",
+   "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services",
+   "https://services9.arcgis.com/ztLwtMXzJMy86yJE/arcgis/rest/services",
+   "https://services5.arcgis.com/gWy3ppy8CxiDTKPQ/arcgis/rest/services",
+   "https://services.arcgis.com/KkJhFbLnXVqahKz2/arcgis/rest/services",
+   "https://services6.arcgis.com/8XPxIxgZWHgZRwpR/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services3.arcgis.com/hMpg7vsYb74pEKjX/arcgis/rest/services",
+   "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services",
+   "https://services6.arcgis.com/8XPxIxgZWHgZRwpR/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "2025_Thrift_Store_Addresses3",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": " 2025_Thrift_Store_Addresses3",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 6
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "2025_Waste_Disposal_Addresses",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "2025_Waste_Disposal_Addresses",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 5
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "2025_Yard_Sale_Addresses",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": " 2025_Yard_Sale_Addresses",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 109
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "BoulderParcels_Addresses_Buildings_JOIN",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "BoulderParcels_Addresses_Buildings_JOIN",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 17340
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "CDSS_Addresses_Geocoded",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "CDSS Addresses Geocoded",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 47
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Guam_Residential_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 32,
+      "name": "GuamResidentialParcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 25288
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Carlsbad": {
+  "agol_roots_all": [
+   "https://services1.arcgis.com/rvD4Y1nm1VbVDxJv/arcgis/rest/services",
+   "https://services9.arcgis.com/wwVnNW92ZHUIr0V0/arcgis/rest/services",
+   "https://services1.arcgis.com/4ii5mmz1d3LIlzwY/arcgis/rest/services",
+   "https://services1.arcgis.com/SIYkiqjmENweC50g/arcgis/rest/services",
+   "https://services6.arcgis.com/StPsG80YRtvnlCJ8/arcgis/rest/services",
+   "https://services1.arcgis.com/qDIoVrQGSaQYXp0A/arcgis/rest/services",
+   "https://services.arcgis.com/w0K9MAswvUFWyjPZ/arcgis/rest/services",
+   "https://services9.arcgis.com/iqcnnBr89xcsz2B6/arcgis/rest/services",
+   "https://services1.arcgis.com/HG80xaIVT1z1OdO5/arcgis/rest/services",
+   "https://services8.arcgis.com/UmBPy9qz6oUahNDU/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services1.arcgis.com/rvD4Y1nm1VbVDxJv/arcgis/rest/services",
+   "https://services1.arcgis.com/4ii5mmz1d3LIlzwY/arcgis/rest/services",
+   "https://services5.arcgis.com/UuGNL8jmkrbAGh6f/arcgis/rest/services",
+   "https://services.arcgis.com/ay9ePoQ2UfAX3U38/arcgis/rest/services",
+   "https://services8.arcgis.com/WunV6yKxvEXfsV4W/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "AddressPointsRiverside_Clip",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "AddressPointsRiverside_Clip",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 367
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "AddressPointsSanDiego_Clip",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "AddressPointsSanDiego_Clip",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 9212
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "BGF_Garden_Grants_Recipients_addresses3",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Sheet1",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 23
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Parcel",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Parcel",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 53282
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Oceanside": {
+  "agol_roots_all": [
+   "https://services.arcgis.com/uEH09Hfm70zI2ZxR/arcgis/rest/services",
+   "https://services9.arcgis.com/J0tsnoNKqR02vNPh/arcgis/rest/services",
+   "https://services9.arcgis.com/wwVnNW92ZHUIr0V0/arcgis/rest/services",
+   "https://services1.arcgis.com/SIYkiqjmENweC50g/arcgis/rest/services",
+   "https://services9.arcgis.com/iqcnnBr89xcsz2B6/arcgis/rest/services",
+   "https://services6.arcgis.com/StPsG80YRtvnlCJ8/arcgis/rest/services",
+   "https://services.arcgis.com/w0K9MAswvUFWyjPZ/arcgis/rest/services",
+   "https://services6.arcgis.com/k8HRe75Sas7Dsxja/arcgis/rest/services",
+   "https://services1.arcgis.com/HG80xaIVT1z1OdO5/arcgis/rest/services",
+   "https://services8.arcgis.com/UmBPy9qz6oUahNDU/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services.arcgis.com/uEH09Hfm70zI2ZxR/arcgis/rest/services",
+   "https://services9.arcgis.com/J0tsnoNKqR02vNPh/arcgis/rest/services",
+   "https://services9.arcgis.com/nAOUMgOmDl7RAsHI/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "address_to_Fall_2023_Foodshed_Database12",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Routes",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 20
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Addresses_Test",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Sheet1",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 11
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Fall_2023_Foodshed_Database_to_address",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Routes",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 17
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Absecon_Atlantic_NJ_CDParcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Absecon_Atlantic_NJ_CDParcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 196
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Absecon_Atlantic_NJ_Setback_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Absecon_Atlantic_NJ_SetbackParcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 15
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Akron_Summit_OH_CDParcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Akron_Summit_OH_CDParcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 14321
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Murrieta": {
+  "agol_roots_all": [
+   "https://services8.arcgis.com/EezLLt1gRjomqb1n/arcgis/rest/services",
+   "https://services1.arcgis.com/ejbgqcCL0yNBugWr/arcgis/rest/services",
+   "https://services2.arcgis.com/ndpTYjzc1BLTkZOY/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services8.arcgis.com/EezLLt1gRjomqb1n/arcgis/rest/services",
+   "https://services1.arcgis.com/ejbgqcCL0yNBugWr/arcgis/rest/services",
+   "https://services2.arcgis.com/ndpTYjzc1BLTkZOY/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "Affected_Residents_Parcels_5K_03192026",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 111,
+      "name": "Affected_Residents_Parcels_5K",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 393
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "City_of_Murrieta_Parcel_Finder_WFL1",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 1,
+      "name": "City_Parcels_May2025",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 32042
+     },
+     {
+      "layer_id": 2,
+      "name": "City_Condos_April2025",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 4268
+     },
+     {
+      "layer_id": 3,
+      "name": "CityBoundary_SDE",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 1
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "City_Parcels_Aug2025",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "City_Parcels_Aug2025",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 32042
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Boston_Police_Canvas_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Police Canvas Parcels",
+      "capabilities": "Query,Update,Editing,Sync",
+      "editor_fields": [],
+      "count": 99269
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query,Update,Editing,Sync",
+    "editingInfo": null
+   },
+   {
+    "service": "ENF_Parcel_Evac_Status",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "ENF Evac Status",
+      "capabilities": "Create,Query,Update,Editing,Sync",
+      "editor_fields": [],
+      "count": 21054
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Create,Query,Update,Editing,Sync",
+    "editingInfo": null
+   },
+   {
+    "service": "EWSQualis_GeocodeAddresses",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "EWSQualis_GeocodeAddresses",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 15
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Dana Point": {
+  "agol_roots_all": [
+   "https://services6.arcgis.com/XRoySoipG6qKgDLj/arcgis/rest/services",
+   "https://services7.arcgis.com/mRLEu9cKL0xMY05m/arcgis/rest/services",
+   "https://services1.arcgis.com/7iJyYTjCtKsZS1LR/arcgis/rest/services",
+   "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services",
+   "https://services5.arcgis.com/5hc5BUkgzpKWJERM/arcgis/rest/services",
+   "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services",
+   "https://services1.arcgis.com/v89oO2oQLZxxJSry/arcgis/rest/services",
+   "https://services6.arcgis.com/fnaxGwQmbOa0ydmY/arcgis/rest/services",
+   "https://services7.arcgis.com/UPAWZiYD5Lvp2HU6/arcgis/rest/services",
+   "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [],
+  "agol_probes": [],
+  "agol_done": true
+ },
+ "Lake Forest": {
+  "agol_roots_all": [
+   "https://services1.arcgis.com/OSvSLSpuEnbSu0lj/arcgis/rest/services",
+   "https://services1.arcgis.com/kZsOWCED80XbRyJ0/arcgis/rest/services",
+   "https://services7.arcgis.com/cm0SaLTiMKD4Qj4p/arcgis/rest/services",
+   "https://services1.arcgis.com/VVapzOPgBae5joyC/arcgis/rest/services",
+   "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services",
+   "https://services7.arcgis.com/LD3i16TenysvoOyS/arcgis/rest/services",
+   "https://services.arcgis.com/edGXqVKidagzAIPB/arcgis/rest/services",
+   "https://services9.arcgis.com/04Mfke8TEc0Pvqvt/arcgis/rest/services",
+   "https://services1.arcgis.com/mGbDfjleLhk48K7A/arcgis/rest/services",
+   "https://services3.arcgis.com/hSKL9bYjhP4rHxSD/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [],
+  "agol_probes": [],
+  "agol_done": true
+ },
+ "Mission Viejo": {
+  "agol_roots_all": [
+   "https://services3.arcgis.com/Va9fGkj5u0OKlcjp/arcgis/rest/services",
+   "https://services.arcgis.com/hVnyNvwbpFFPDV5j/arcgis/rest/services",
+   "https://services5.arcgis.com/x8oTHjN3zPQrGIOK/arcgis/rest/services",
+   "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services",
+   "https://services1.arcgis.com/jrlD8VS1h8uKjsE9/arcgis/rest/services",
+   "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services",
+   "https://services2.arcgis.com/wPFs9BA3E8QX9rUq/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services3.arcgis.com/Va9fGkj5u0OKlcjp/arcgis/rest/services",
+   "https://services.arcgis.com/hVnyNvwbpFFPDV5j/arcgis/rest/services",
+   "https://services5.arcgis.com/x8oTHjN3zPQrGIOK/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "addresses_geocoded",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "addresses_geocoded",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 7569
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "All_Residential_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "All_Residential_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 15944
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Buffer_of_CA_State_Parcels___Filtered",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "Buffer_of_CA_State_Parcels___Filtered",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 1
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Aliso Viejo": {
+  "agol_roots_all": [
+   "https://services8.arcgis.com/3DyTcAm7GjHPm0D0/arcgis/rest/services",
+   "https://services9.arcgis.com/BMNzM85wEtX7LHzh/arcgis/rest/services",
+   "https://services5.arcgis.com/vYSHcRQuTn4O8o35/arcgis/rest/services",
+   "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services",
+   "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services8.arcgis.com/3DyTcAm7GjHPm0D0/arcgis/rest/services",
+   "https://services9.arcgis.com/BMNzM85wEtX7LHzh/arcgis/rest/services",
+   "https://services5.arcgis.com/vYSHcRQuTn4O8o35/arcgis/rest/services"
+  ],
+  "agol_probes": [
+   {
+    "service": "AlisoViejoParcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "AlisoViejoParcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 52
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "AllISHBParcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "AllISHBParcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 574
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 6,
+      "name": "Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 926517
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "AV_Parcel_External_Pts",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "AV_Parcel_External_Pts",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 14944
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "AV_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "AV_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 6865
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "AV_Parcels_2019_Address_PTS",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "AV_Parcels_2019_Address_PTS",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 7252
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   },
+   {
+    "service": "LP_Parcels",
+    "folder": "",
+    "type": "FeatureServer",
+    "layers": [
+     {
+      "layer_id": 0,
+      "name": "LP_Parcels",
+      "capabilities": "Query",
+      "editor_fields": [],
+      "count": 7707
+     }
+    ],
+    "status": "ok",
+    "capabilities": "Query",
+    "editingInfo": null
+   }
+  ],
+  "agol_done": true
+ },
+ "Rancho Santa Margarita": {
+  "agol_roots_all": [
+   "https://services3.arcgis.com/tNo51C8FdS7k3M1O/arcgis/rest/services",
+   "https://services6.arcgis.com/r8sri7egU6P44VfN/arcgis/rest/services",
+   "https://services8.arcgis.com/gq8nZwahddLY06b7/arcgis/rest/services",
+   "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services"
+  ],
+  "agol_roots_filtered": [
+   "https://services8.arcgis.com/gq8nZwahddLY06b7/arcgis/rest/services"
+  ],
+  "agol_probes": [],
+  "agol_done": true
+ }
+}

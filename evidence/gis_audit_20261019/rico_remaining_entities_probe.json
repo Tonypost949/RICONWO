@@ -1,0 +1,526 @@
+{
+ "Atlanta": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Dallas": {
+  "direct_hosts": [
+   {
+    "city": "Dallas",
+    "url": "https://gis.dallascityhall.com/arcgis/rest/services",
+    "ok": true,
+    "services": [],
+    "folders": [
+     "Basemap",
+     "Bond",
+     "Crm_public",
+     "Pbw_public",
+     "sdc_public",
+     "ToolServices",
+     "Utilities"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Columbus": {
+  "direct_hosts": [
+   {
+    "city": "Columbus",
+    "url": "https://gis.columbus.gov/arcgis/rest/services",
+    "ok": true,
+    "services": [],
+    "folders": [
+     "Applications",
+     "FeatureServices",
+     "Schemas",
+     "Utilities"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "St. Paul": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Wichita": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Las Vegas": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Miami": {
+  "direct_hosts": [
+   {
+    "city": "Miami",
+    "url": "https://gis.miami.gov/server/rest/services",
+    "ok": true,
+    "services": [],
+    "folders": [
+     "Hosted",
+     "Utilities"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Scottsdale": {
+  "direct_hosts": [
+   {
+    "city": "Scottsdale",
+    "url": "https://maps.scottsdaleaz.gov/arcgis/rest/services",
+    "ok": true,
+    "services": [
+     "Accela",
+     "Active_CDS_Cases",
+     "Address_Search_Test",
+     "AGOL_Layers",
+     "Airport_Base_Layers",
+     "Airport_Permit_Boundary",
+     "AZ511",
+     "Barrett_Jackson_Test",
+     "Base_Map",
+     "Biking_Hiking_Equestrian_Trails",
+     "Bond_CIP_Projects",
+     "Case_History",
+     "Economic_Development",
+     "Home_Owner_Associations",
+     "Map_Labels",
+     "Miscellaneous",
+     "My_Neighborhood",
+     "My_Services",
+     "Old_Town_Tabular",
+     "OpenData_Events",
+     "OpenData_Tabular",
+     "OpenData",
+     "Parcel_Information",
+     "Preserve_Access_Areas",
+     "Preserve_Facilities_2017_DEV",
+     "Preserve_Facilities_2017_DEV",
+     "Public_Amenities",
+     "Search_Service",
+     "SFD_WMPO_Course_Layout",
+     "Short_Term_Rental_External"
+    ],
+    "folders": [
+     "Aerials",
+     "AGOL",
+     "Drainage",
+     "GeoCode",
+     "LIS",
+     "StreetOps",
+     "Utilities",
+     "WaterWO"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Acworth": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Ardmore": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Pima County": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Santa Monica": {
+  "direct_hosts": [
+   {
+    "city": "Santa Monica",
+    "url": "https://gis.santamonica.gov/server/rest/services",
+    "ok": true,
+    "services": [
+     "Address_Points",
+     "Address_Points",
+     "Address_Range_Labels",
+     "Address_Range_Labels",
+     "aed_locations",
+     "aed_locations",
+     "Airport_Runway",
+     "AVR_Average_Vehicle_Ridership_Targets",
+     "AVR_Average_Vehicle_Ridership_Targets",
+     "Backing_Out_Prohibited_Streets",
+     "Backing_Out_Prohibited_Streets",
+     "Bergamot_Area_Plan",
+     "Bergamot_Area_Plan",
+     "Big_Blue_Bus_Stops_and_Routes",
+     "Big_Blue_Bus_Stops_and_Routes",
+     "Bike_Action_Plan",
+     "Bike_Action_Plan",
+     "Bike_Network_Intersection_Treatments",
+     "Bike_Network_Intersection_Treatments",
+     "Bike_Network_Signalized_Intersections",
+     "Bike_Network_Signalized_Intersections",
+     "Bike_Network",
+     "Bike_Network",
+     "Bike_Network",
+     "Block_Party_Eligible_Streets",
+     "Block_Party_Eligible_Streets",
+     "Building_Inspection_Districts",
+     "Building_Inspection_Districts",
+     "Business_Improvement_Districts",
+     "Business_Improvement_Districts"
+    ],
+    "folders": [
+     "Hosted",
+     "Utilities"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Riverside": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "San Bernardino": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Glendale": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Pasadena": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Burbank": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Torrance": {
+  "direct_hosts": [
+   {
+    "city": "Torrance",
+    "url": "https://gis.torranceca.gov/server/rest/services",
+    "ok": true,
+    "services": [],
+    "folders": [
+     "Addressing",
+     "AssetWorks",
+     "BaseData",
+     "CodeEnforcement",
+     "Hosted",
+     "LandRecords",
+     "Utilities",
+     "WasteManagement",
+     "WetUtilities"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Oxnard": {
+  "direct_hosts": [
+   {
+    "city": "Oxnard",
+    "url": "https://maps.oxnard.org/arcgis/rest/services",
+    "ok": true,
+    "services": [
+     "1998_Aerial",
+     "2003_Aerial",
+     "2005_Aerial",
+     "2007_Aerial",
+     "2010_Aerial",
+     "2013_Aerial",
+     "2015_Aerial",
+     "2017_Aerial",
+     "2020_Aerial",
+     "2022_Aerial",
+     "2024_Aerial",
+     "AssessmentDistricts",
+     "BasemapLayers",
+     "CDBG_Grant_Area",
+     "CensusLayers",
+     "CenterlineWidth",
+     "CIP_Projects",
+     "CityCouncilDistricts",
+     "CityOwnedParcels",
+     "CompositeLocator",
+     "CountyLayers",
+     "Dallas_2022",
+     "Dallas_Georeferenced2",
+     "Dallas_Georeferenced",
+     "Dallas_PostBuild_2021",
+     "EconomicDevelopment",
+     "ESHA",
+     "Fifth_Street_Canal",
+     "FireLayers",
+     "GCTD_BusStops_2019"
+    ],
+    "folders": [
+     "Internal",
+     "Utilities"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Ventura": {
+  "direct_hosts": [
+   {
+    "city": "Ventura",
+    "url": "https://maps.cityofventura.ca.gov/server/rest/services",
+    "ok": true,
+    "services": [
+     "Base_AddressXP_Locator",
+     "EGOV_CSS",
+     "EGOV_CSS",
+     "GISDATA_IT_ProjectStatusTracker_tbl",
+     "GISDATA_IT_ProjectStatusTracker_tbl",
+     "Locator_CoV_EnerGovAddressesParcelsComposite",
+     "Locator_CoV_OpenDataAddresses",
+     "OpenData_IT_Tickets",
+     "OpenData_IT_Tickets"
+    ],
+    "folders": [
+     "Business",
+     "Hosted",
+     "TEST_FOLDER",
+     "Utilities"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Santa Barbara": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Carlsbad": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Oceanside": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Temecula": {
+  "direct_hosts": [
+   {
+    "city": "Temecula",
+    "url": "https://gis.temeculaca.gov/arcgis/rest/services",
+    "ok": true,
+    "services": [
+     "address_points_EDIT",
+     "address_points_EDIT",
+     "address_points",
+     "all_layers",
+     "BasemapService",
+     "City_Sections_for_VESTA",
+     "CityBoundarySimple",
+     "CivicRec",
+     "CSSLocator",
+     "EnerGov",
+     "EnerGovGeoRules",
+     "EnerGovGeoRules",
+     "EnerGov",
+     "Genetec",
+     "Geocortex_Internet",
+     "Geocortex_Intranet",
+     "Geocortex_SCE_Outage_service",
+     "GeoDocs",
+     "intersection_geocode",
+     "Lucity_map_service",
+     "Lucity_map_service",
+     "OpenData",
+     "OpenData",
+     "RodRun",
+     "SampleWorldCities",
+     "TrailsBikelanes",
+     "TylerSearchLocator",
+     "Zoning_map_service"
+    ],
+    "folders": [
+     "CSD",
+     "Lucity",
+     "Ortho",
+     "PublicWorks",
+     "Utilities"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Murrieta": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Palm Springs": {
+  "direct_hosts": [
+   {
+    "city": "Palm Springs",
+    "url": "https://gis.palmspringsca.gov/server/rest/services",
+    "ok": true,
+    "services": [],
+    "folders": [
+     "Business_Licensing",
+     "community",
+     "engineering",
+     "Fire",
+     "Hosted",
+     "parcels",
+     "Planning",
+     "Printing",
+     "tribe",
+     "Utilities"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Laguna Beach": {
+  "direct_hosts": [
+   {
+    "city": "Laguna Beach",
+    "url": "https://gis.lagunabeachcity.net/arcgis/rest/services",
+    "ok": true,
+    "services": [
+     "Aerials1998",
+     "Aerials2003",
+     "Aerials2008",
+     "Aerials2014",
+     "Aerials2021",
+     "Aerials2021",
+     "Aerials2023",
+     "BaseMaps",
+     "CoastalArea",
+     "Contours2008",
+     "EnerGovAddress190403",
+     "EnerGovCompositeLocator",
+     "EnerGovOwnership190403",
+     "Environmental",
+     "Fire",
+     "LagunaBeachCompositeLocator",
+     "LagunaBeachCompositeLocatorTest",
+     "LandUse",
+     "OceanLabel",
+     "OpenSpacePreserve",
+     "Overview",
+     "Planning",
+     "Police",
+     "PoliticalBoundary",
+     "PublicWorks",
+     "SpecificPlan",
+     "WaterNetworks",
+     "Zoning"
+    ],
+    "folders": [
+     "Utilities"
+    ]
+   }
+  ],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "San Clemente": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Dana Point": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Lake Forest": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Mission Viejo": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Aliso Viejo": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Rancho Santa Margarita": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Garden Grove": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ },
+ "Fountain Valley": {
+  "direct_hosts": [],
+  "agol_roots": [],
+  "layers": [],
+  "agol_done": true
+ }
+}

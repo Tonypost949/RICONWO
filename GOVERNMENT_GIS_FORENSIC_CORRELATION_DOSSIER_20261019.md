@@ -80,6 +80,9 @@ A finding of T2/T4/T5 failure is an **accountability** finding. It becomes a **f
 | Records sharing 2026-01-29 22:14:02 UTC | **83,641** |
 | Records sharing 2025-03-25 15:14:37 UTC | **9,704** |
 | Distinct SPRADLIA timestamps | 406 (through 2026-10-13) |
+| Records with null `AddressSource` | **89,365 (89.5%)** |
+
+**Source-field erasure [VERIFIED]:** the `AddressSource` field is null on 89,365 of 99,804 records. The surviving ~10,439 carry application references (`Appl YYYY-NNN`, `ADR-YYYY-NNN`, `Fire`, `USPS`, …). The HBNC shelter's own address point retains `Appl 2020-0268` (one of only 5 records with that value), which is how its 2020-12-14 creation is traceable at all.
 
 **Address edit waves (full pull of all 99,804 `last_edited_date` values, grouped into contiguous batches):**
 
@@ -121,6 +124,8 @@ A finding of T2/T4/T5 failure is an **accountability** finding. It becomes a **f
 |---|---|---|---|---|
 | 167-472-08 | 17631 CAMERON LN | HUNTINGTON BEACH HOUSING AUTHORITY | NUWEYT | 2026-04-09 21:11 |
 | 167-472-09 | 17642 BEACH BLVD | HUNTINGTON BEACH HOUSING AUTHORITY | NUWEYT | 2026-04-09 21:11 |
+
+**The contradiction is internal to the city's own GIS [VERIFIED]:** the parcel layer's own `SITEADDRESS` field states that `167-472-08` is 17631 CAMERON LN and `167-472-09` is 17642 BEACH BLVD, and both are owned by the Huntington Beach Housing Authority (`OWNERSHIPSTATUSDESC = GOVERNMENT`). The address point labeled `17642 Beach Blvd` nevertheless carries `APN = 167-472-08` — the Cameron Lane lot — while no address point exists for 17631 Cameron Ln. No assessor third-party input is needed to prove the mismatch; the city's two layers contradict each other.
 
 **[VERIFIED]** Orange County Assessor legal-lot service (`LegalLotsAttributeOpenData`):
 
@@ -346,7 +351,7 @@ The well is plugged and a dry hole; the `inHPZ` flag should be interpreted only 
 
 ## 4. RICO-WIDE GOVERNMENT GIS MATRIX
 
-The RICO infrastructure matrix lists 50 government entities. This pass live-verified the GIS roots and key asset layers of **17 jurisdictions/agencies** (Huntington Beach, Orange County, Newport Beach, Costa Mesa, Irvine, Anaheim, Santa Ana, Tustin, Westminster, Fullerton, Orange, Seal Beach, Long Beach, Los Angeles City, Los Angeles County, OCTA, and Caltrans D12); the remainder are platform-documented from the IRC dataset. The audit logic in §1 applies identically to every row. Rows below record only what the live endpoint returned; a secured or missing layer is recorded as such, not inferred.
+The RICO infrastructure matrix lists 50 government entities. Two live passes verified the GIS roots and key asset layers of **28 jurisdictions/agencies** — 17 in the first pass (Huntington Beach, Orange County, Newport Beach, Costa Mesa, Irvine, Anaheim, Santa Ana, Tustin, Westminster, Fullerton, Orange, Seal Beach, Long Beach, Los Angeles City, Los Angeles County, OCTA, Caltrans D12) and 11 additional direct-host roots in the second (Dallas, Columbus, Miami, Scottsdale, Santa Monica, Torrance, Oxnard, Ventura, Temecula, Palm Springs, Laguna Beach) — plus ArcGIS Online spot checks on the remaining listed cities. The audit logic in §1 applies identically to every row. Rows below record only what the live endpoint returned; a secured or missing layer is recorded as such, not inferred.
 
 | Entity | GIS / Records platform (per IRC matrix) | This pass |
 |---|---|---|
@@ -361,27 +366,27 @@ The RICO infrastructure matrix lists 50 government entities. This pass live-veri
 | City of Westminster | Legacy ArcIMS/ArcGIS + Laserfiche | **CONSULTANT-HOSTED** `https://services.arcgis.com/hVnyNvwbpFFPDV5j/arcgis/rest/services/4_OC_Mapping_Westminster/FeatureServer` — Westminster_Parcels 20,574, **no editor fields**; no city-authored endpoint located |
 | City of Fullerton | ArcGIS Enterprise + Laserfiche | **VERIFIED ROOT** `https://gis.cityoffullerton.com/arcgis/rest/services` — Parcels 53,678, `last_edited_user=CITY` 53,362; AddressPoints 58,877, `CARANDA.DRHEE` 57,354, with **25,953 records at one 2025-12-10 timestamp** |
 | City of Orange | Laserfiche Cloud + Esri SaaS | **VERIFIED HOSTED** `https://services5.arcgis.com/HsWup310bJE1lcGa/arcgis/rest/services` — AddressPoints 57,702, Parcels 41,853, RoadCenterline 6,775, `LASTEDITOR` null on all |
-| City of Garden Grove | ArcGIS Enterprise + Laserfiche hybrid | **NOT LOCATED** — no public ArcGIS REST root found; queued |
-| City of Fountain Valley | Self-hosted GIS + Laserfiche | **NOT LOCATED** — no public ArcGIS REST root found; queued |
+| City of Garden Grove | ArcGIS Enterprise + Laserfiche hybrid | **NOT LOCATED** — no public ArcGIS REST root found; AGOL search surfaced only consultant draft items (e.g., `DRAFT2_GardenGrove_BL` on the Westminster consultant org); queued |
+| City of Fountain Valley | Self-hosted GIS + Laserfiche | **NOT LOCATED** — no public ArcGIS REST root or city-authored AGOL layer found; queued |
 | City of Seal Beach | Shared County GIS + in-house EDMS | **VERIFIED HOSTED** `https://services5.arcgis.com/DgI3mEyvGBsZnibj/arcgis/rest/services` — Parcels 6,416 and Addresses 15,407, **no editor fields** |
 | City of Long Beach | ArcGIS Server + Laserfiche WebLink | **ROOT VERIFIED, LAYERS SECURED** `https://gis.longbeach.gov/server/rest/services` — PublicWorks, Utilities, VertiGIS_Utilities folders return no public services |
 | City of Los Angeles (LAPD/City) | ArcGIS Enterprise + enterprise EDMS | **ROOT VERIFIED, CORE LAYERS SECURED** `https://maps.lacity.org/arcgis/rest/services` — `Core/Core/Master_sewer_external` and `Master_stormwater` listed but expose no public layers |
-| City of Santa Monica | ArcGIS Server + Tyler Munis | Platform documented; endpoint not verified |
+| City of Santa Monica | ArcGIS Server + Tyler Munis | **VERIFIED ROOT** `https://gis.santamonica.gov/server/rest/services` — Parcels 23,596 and Address Points 57,063, **no editor fields**; 173 services |
 | City of Burbank | ArcGIS Enterprise + Tyler | Platform documented; endpoint not verified |
 | City of Glendale | ArcGIS Enterprise + Tyler Munis | Platform documented; endpoint not verified |
 | City of Pasadena | ArcGIS Enterprise + Tyler ERP | Platform documented; endpoint not verified |
-| City of Torrance | ArcGIS Enterprise + Accela | Platform documented; endpoint not verified |
-| City of Riverside | ArcGIS Enterprise + OpenGov | Platform documented; endpoint not verified |
-| City of San Bernardino | ArcGIS Server + Infor Hansen | Platform documented; endpoint not verified |
-| City of Oxnard | ArcGIS Server + Tyler Eden | Platform documented; endpoint not verified |
-| City of Ventura | ArcGIS Online + Tyler | Platform documented; endpoint not verified |
+| City of Torrance | ArcGIS Enterprise + Accela | **ROOT VERIFIED, NOTHING EXPOSED** `https://gis.torranceca.gov/server/rest/services` — only 2 public services; no parcel/address layer |
+| City of Riverside | ArcGIS Enterprise + OpenGov | **NOT LOCATED** (city-authored root); AGOL search returned third-party items only |
+| City of San Bernardino | ArcGIS Server + Infor Hansen | **NOT LOCATED** (city-authored root); AGOL search returned county/title-company items only (the one attributed layer, `County_RM_Parcels`, is San Bernardino County staff work — `Brent_Rolf`) |
+| City of Oxnard | ArcGIS Server + Tyler Eden | **VERIFIED ROOT** `https://maps.oxnard.org/arcgis/rest/services` — 63 services; `CityOwnedParcels` 751, **no editor fields** |
+| City of Ventura | ArcGIS Online + Tyler | **VERIFIED ROOT** `https://maps.cityofventura.ca.gov/server/rest/services` — 12 services; address/parcel fabric served only through locator services, **no editor attribution** |
 | City of Santa Barbara | ArcGIS Enterprise + Accela Cloud | Platform documented; endpoint not verified |
 | City of Carlsbad | ArcGIS Online + OpenGov | Platform documented; endpoint not verified |
 | City of Oceanside | ArcGIS Enterprise + Tyler Munis | Platform documented; endpoint not verified |
-| City of Temecula | ArcGIS Online + Laserfiche Cloud | Platform documented; endpoint not verified |
+| City of Temecula | ArcGIS Online + Laserfiche Cloud | **VERIFIED ROOT** `https://gis.temeculaca.gov/arcgis/rest/services` — 100 services; **public write-enabled `address_points_EDIT`** (38,234 points; `Query,Create,Update,Delete,Uploads,Editing`; **no editor tracking fields at all**) |
 | City of Murrieta | ArcGIS Online + Tyler | Platform documented; endpoint not verified |
-| City of Palm Springs | ArcGIS Online + Laserfiche Cloud | Platform documented; endpoint not verified |
-| City of Laguna Beach | ArcGIS Online + OpenGov | Platform documented; endpoint not verified |
+| City of Palm Springs | ArcGIS Online + Laserfiche Cloud | **VERIFIED ROOT** `https://gis.palmspringsca.gov/server/rest/services` — only 2 public services |
+| City of Laguna Beach | ArcGIS Online + OpenGov | **VERIFIED ROOT** `https://gis.lagunabeachcity.net/arcgis/rest/services` — 31 services; EnerGov address/parcel layer 13,390, **no editor fields** |
 | City of San Clemente | ArcGIS Online + Tyler | Platform documented; endpoint not verified |
 | City of Dana Point | ArcGIS Online + Laserfiche Cloud | Platform documented; endpoint not verified |
 | City of Lake Forest | ArcGIS Online + Accela | Platform documented; endpoint not verified |
@@ -393,11 +398,11 @@ The RICO infrastructure matrix lists 50 government entities. This pass live-veri
 | City of Ardmore | ArcGIS Server + Laserfiche | Platform documented; endpoint not verified |
 | City of Wichita | ArcGIS Server + Accela Cloud | Platform documented; endpoint not verified |
 | City of St. Paul | ArcGIS Enterprise + Infor | Platform documented; endpoint not verified |
-| City of Atlanta | ArcGIS Enterprise Cloud + Accela SaaS | Platform documented; endpoint not verified |
-| City of Dallas | ArcGIS Enterprise + OpenGov | Platform documented; endpoint not verified |
-| City of Columbus | ArcGIS Cloud + Accela Cloud | Platform documented; endpoint not verified |
-| City of Miami | ArcGIS Online + Tyler | Platform documented; endpoint not verified |
-| City of Scottsdale | ArcGIS Enterprise Cloud + Accela | Platform documented; endpoint not verified |
+| City of Atlanta | ArcGIS Enterprise Cloud + Accela SaaS | **PARTIAL (AGOL)** — `Addresses` FeatureServer (13,447 records) exposes **public `Create,Delete,Query,Update,Editing`** with **no editor fields**; service ownership verification queued |
+| City of Dallas | ArcGIS Enterprise + OpenGov | **VERIFIED ROOT** `https://gis.dallascityhall.com/arcgis/rest/services` — 25 services; parcels/addresses served via locator and basemap services only; no public editor attribution |
+| City of Columbus | ArcGIS Cloud + Accela Cloud | **VERIFIED ROOT** `https://gis.columbus.gov/arcgis/rest/services` — 11 services; no parcel/address service publicly exposed |
+| City of Miami | ArcGIS Online + Tyler | **VERIFIED ROOT** `https://gis.miami.gov/server/rest/services` — 3 public services; nothing relevant exposed |
+| City of Scottsdale | ArcGIS Enterprise Cloud + Accela | **VERIFIED ROOT** `https://maps.scottsdaleaz.gov/arcgis/rest/services` — 75 services; Parcel_Information and Address_Search_Test (190,458 address points), **no editor fields** |
 | City of Las Vegas | ArcGIS Enterprise Cloud + Infor | Platform documented; endpoint not verified |
 | Pima County Sheriff | Spillman CAD + public-safety EDMS | No GIS layer identified |
 | **County of Los Angeles** | Enterprise GIS + DPW hydrology | **VERIFIED ROOT** `https://public.gis.lacounty.gov/arcgis/rest/services` — Government-owned Parcels 51,319 and County-owned 7,258, **no editor fields**; Hydrology exposes maintenance holes/catch basins split by LACFCD, City, and **Unknown** |
@@ -406,7 +411,7 @@ The RICO infrastructure matrix lists 50 government entities. This pass live-veri
 
 **Why the verification gap matters:** the same failure signatures (system-account edits, null provenance, public write endpoints) are products of platform configuration, not of any one city. A single standardized probe can be run against every ArcGIS root endpoint in this table. The blocker in this pass was DNS/path variance, not authorization. The probe recipe is in the appendix.
 
-**Live-probe finding.** Across the reachable jurisdictions, human editor attribution is the exception, not the rule. Service or bulk accounts dominate the address/asset fabric: Huntington Beach `SPRADLIA`/`NUWEYT`, Anaheim `agsuser`, Fullerton `CITY`, Orange County `ARCGISADMIN`. Tustin, Seal Beach, Orange, Costa Mesa, and Newport Beach expose address/parcel layers with **no editor fields at all**. Newport Beach and Irvine do attribute some utility work to named crew (valves, hydrants), but not their address fabric. Huntington Beach remains the outlier in three respects: (1) a public **write-enabled** address service, (2) a single account re-saving ~100% of addresses, parcels, and sewer laterals, and (3) an address-to-parcel crosswalk that returns the wrong lot for the shelter.
+**Live-probe finding.** Across the reachable jurisdictions, human editor attribution is the exception, not the rule. Service or bulk accounts dominate the address/asset fabric: Huntington Beach `SPRADLIA`/`NUWEYT`, Anaheim `agsuser`, Fullerton `CITY`, Orange County `ARCGISADMIN`. Tustin, Seal Beach, Orange, Costa Mesa, Santa Monica, Scottsdale, Oxnard, Laguna Beach and Newport Beach expose address/parcel layers with **no editor fields at all**. Public write-enabled address services are not unique to Huntington Beach: **Temecula** exposes `address_points_EDIT` (38,234 points, full `Create/Update/Delete`), and an Atlanta `Addresses` service found via ArcGIS Online search exposes the same class of capabilities — **both with no editor tracking whatsoever**, so edits there are unattributable even in principle. Huntington Beach remains the outlier in that it is the only probed entity that pairs (1) public write capability with (2) published, per-record editor identity on ~100% of addresses, parcels, and sewer laterals, and (3) a demonstrable mass-rewrite history (88,709 addresses in one 23-minute window) — the combination that makes the ghost-maintenance forensics possible there and impossible at its peers.
 
 ---
 ## 5. WHAT THE PIRATED ARCGIS / ESRI SOFTWARE WAS ACTUALLY USED TO BUILD
