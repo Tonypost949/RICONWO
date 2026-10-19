@@ -127,6 +127,8 @@ A finding of T2/T4/T5 failure is an **accountability** finding. It becomes a **f
 
 **The contradiction is internal to the city's own GIS [VERIFIED]:** the parcel layer's own `SITEADDRESS` field states that `167-472-08` is 17631 CAMERON LN and `167-472-09` is 17642 BEACH BLVD, and both are owned by the Huntington Beach Housing Authority (`OWNERSHIPSTATUSDESC = GOVERNMENT`). The address point labeled `17642 Beach Blvd` nevertheless carries `APN = 167-472-08` — the Cameron Lane lot — while no address point exists for 17631 Cameron Ln. No assessor third-party input is needed to prove the mismatch; the city's two layers contradict each other.
 
+**County join confidence [VERIFIED]:** the joined county attributes carry `ADDRSCORE = 4.0` on `167-472-09` (17642 BEACH BLVD) versus `5.0` on both `167-472-08` (17631 CAMERON LN) and the fallback parcel `159-102-29` (18592 MAIN ST). The shelter's Beach Blvd parcel therefore carries the lower of the two adjacent lots' address-match scores; the scale's exact semantics are unpublished by the county.
+
 **[VERIFIED]** Orange County Assessor legal-lot service (`LegalLotsAttributeOpenData`):
 
 | APN | Lot | Tract | Site address | Mail address | Land value | Improved value | Doc ref |
@@ -521,6 +523,7 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 ### Records to demand (California Public Records Act / discovery)
 
 - ArcGIS Server logs for `AddressEdits` `applyEdits` operations, 2020-01-01 to present.
+- The address-point→APN assignment rule/schema documentation for `AddressEdits` and the `FindAddressParcel` GP service configuration (its no-match behavior returns a fallback record — `18592 Main St` — instead of failing).
 - Identity mapping and employment/contract status for accounts `NUWEYT`, `SPRADLIA`, `SA@SQL17.HUNTINGTON`, `SA@SQL57.HUNTINGTON`.
 - ETL/integration job definitions and run logs for the March–July 2026 parcel load and the August 2026 sewer load.
 - Geodatabase version history / backups for `Parcels`, `AddressEdits`, `SewerLayers`, `StormBroadcast`, `StormwaterBMPs` as of 2025-12-31 and 2026-08-12.

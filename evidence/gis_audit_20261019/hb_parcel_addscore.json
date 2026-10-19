@@ -1,0 +1,24 @@
+{
+ "queried_utc": "2026-10-19",
+ "layer": "https://gis.huntingtonbeachca.gov/arcgis/rest/services/Parcels/MapServer/0",
+ "records": [
+  {
+   "DATA.Parcels.APN": "159-102-29",
+   "DATA.W2_HB.SITEADDRESS": "18592 MAIN ST",
+   "DATA.W2_HB.ADDRSCORE": 5.0,
+   "DATA.W2_HB.OWNERNAME1": "EAST BAY NZ REAL ESTATE LLC"
+  },
+  {
+   "DATA.Parcels.APN": "167-472-09",
+   "DATA.W2_HB.SITEADDRESS": "17642 BEACH BLVD",
+   "DATA.W2_HB.ADDRSCORE": 4.0,
+   "DATA.W2_HB.OWNERNAME1": "HUNTINGTON BEACH HOUSING AUTHORITY"
+  },
+  {
+   "DATA.Parcels.APN": "167-472-08",
+   "DATA.W2_HB.SITEADDRESS": "17631 CAMERON LN",
+   "DATA.W2_HB.ADDRSCORE": 5.0,
+   "DATA.W2_HB.OWNERNAME1": "HUNTINGTON BEACH HOUSING AUTHORITY"
+  }
+ ]
+}
