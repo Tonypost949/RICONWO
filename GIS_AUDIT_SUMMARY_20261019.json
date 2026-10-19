@@ -54,6 +54,13 @@
       "mismatch_edited_by_SPRADLIA": 11172,
       "evidence": "evidence/gis_audit_20261019/hb_crosswalk_mismatches.csv; hb_crosswalk_refined.json"
     },
+    "find_address_parcel_lookup": {
+      "service": "https://gis.huntingtonbeachca.gov/arcgis/rest/services/FindAddressParcel/GPServer/FindAddressParcel",
+      "query_17642_beach_blvd": {"SelectedAddress": "17642 Beach Blvd", "APN": "167-472-08", "source": "Appl 2020-0268"},
+      "query_17631_cameron_ln": "NO MATCH - fallback 18592 Main St / APN 159-102-29",
+      "control_nonsense_query": "fallback confirmed",
+      "defects": ["lookup resolves shelter mailing address to wrong lot (assessor assigns 17642 Beach Blvd to 167-472-09)", "17631 Cameron Ln absent from fabric; lookup silently returns unrelated parcel"]
+    },
     "sewer": {
       "manholes_total": 8349,
       "manholes_nuweyt": 8333,

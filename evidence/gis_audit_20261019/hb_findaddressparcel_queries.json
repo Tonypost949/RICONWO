@@ -1,0 +1,35 @@
+{
+ "service": "https://gis.huntingtonbeachca.gov/arcgis/rest/services/FindAddressParcel/GPServer/FindAddressParcel",
+ "note": "Asynchronous GP task submitJob/results; queried 2026-10-19. Fallback default is 18592 Main St / APN 159-102-29 (returned for any non-matching input, verified with nonsense query).",
+ "queries": {
+  "17642 Beach Blvd": {
+   "SelectedAddress": {
+    "Label": "17642 Beach Blvd",
+    "APN": "167-472-08",
+    "AddressSource": "Appl 2020-0268",
+    "last_edited_user": "SPRADLIA",
+    "last_edited_date_ms": 1769644800000
+   },
+   "SelectedParcel": {
+    "APN": "167-472-08",
+    "last_edited_user": "NUWEYT",
+    "last_edited_date_ms": 1775692800000
+   }
+  },
+  "17631 Cameron Ln": {
+   "result": "NO MATCH - fallback returned 18592 Main St / APN 159-102-29"
+  },
+  "17631 Cameron Ln, Huntington Beach": {
+   "result": "NO MATCH - fallback"
+  },
+  "Cameron Ln": {
+   "result": "NO MATCH - fallback"
+  },
+  "99999 Zzzzz Rd": {
+   "result": "NO MATCH - fallback (control test)"
+  },
+  "18592 Main St": {
+   "result": "default/fallback record"
+  }
+ }
+}

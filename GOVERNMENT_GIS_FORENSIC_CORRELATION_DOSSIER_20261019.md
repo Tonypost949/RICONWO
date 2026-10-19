@@ -26,7 +26,7 @@
 3. **[VERIFIED] 100% of the parcel layer was re-saved under one account between March and July 2026.** `NUWEYT` is `last_edited_user` on **52,081 of 52,081** parcels (51,830 distinct APNs), in machine-timed batches (2026-03-03, 2026-04-09/10, 2026-07-23/24).
 4. **[VERIFIED] 100% of the sanitary sewer pipe and lateral fabric was re-saved under the same account.** Sewer pipes: **8,542/8,542** NUWEYT; laterals: **49,482/49,482** NUWEYT; manholes: 8,333/8,349; sewer features: 12,049/12,219. Pipe timestamps cluster 2026-08-13 05:06–05:17 UTC, i.e. a single overnight bulk load.
 5. **[VERIFIED] The 2024 OCTA trash-capture grant inventory is 100% NUWEYT-stamped.** All **66/66** assets in `StormwaterBMPs/MapServer/14` carry `last_edited_user = NUWEYT` (2026-05-15). This is the grant-credit layer: if an asset cannot be physically located, the grant claim is unsupported.
-6. **[VERIFIED] The HBNC address-to-parcel crosswalk is internally inconsistent — and it is one instance of a citywide defect.** The address point `17642 Beach Blvd` is attached to **APN 167-472-08**, but the parcel layer and the Orange County Assessor both assign 17642 Beach Blvd to **APN 167-472-09** (Lot 7, Tract 405); APN 167-472-08 is 17631 Cameron Ln (Lot 6). A citywide join audit found **11,180 of 81,267 comparable address points (13.8%)** do not match their parcel's assessor situs, and **606 APNs have no matching address point at all**; `SPRADLIA` is the editor on 11,172 of the 11,180 non-matches. Any address-to-parcel join for the shelter returns the wrong lot.
+6. **[VERIFIED] The HBNC address-to-parcel crosswalk is internally inconsistent — and it is one instance of a citywide defect.** The address point `17642 Beach Blvd` is attached to **APN 167-472-08**, but the parcel layer and the Orange County Assessor both assign 17642 Beach Blvd to **APN 167-472-09** (Lot 7, Tract 405); APN 167-472-08 is 17631 Cameron Ln (Lot 6). A citywide join audit found **11,180 of 81,267 comparable address points (13.8%)** do not match their parcel's assessor situs, and **606 APNs have no matching address point at all**; `SPRADLIA` is the editor on 11,172 of the 11,180 non-matches. The city's own `FindAddressParcel` lookup propagates the error (returns `167-472-08` for `17642 Beach Blvd`) and cannot find `17631 Cameron Ln` at all, silently returning an unrelated Main Street parcel.
 7. **[VERIFIED] The HBNC parcels are owned by the Huntington Beach Housing Authority**, mailed to 2000 Main St (City Hall). The two lots are Lots 6 and 7 of Tract 405, with 2020/2021 documentary references. Both parcels were last edited by NUWEYT on 2026-04-09 21:11 UTC.
 8. **[VERIFIED] The site is zoned SP14 (Specific Plan) with General Plan `M-sp` (Mixed Use–Specific Plan)** — not a residential zone. The shelter address is nevertheless classified `Residential` in the address layer.
 9. **[VERIFIED] The County of Orange's independent stormwater fabric carries no human editor attribution.** In the HBNC corridor, **124/124 inlets** and **174/174 gravity mains** are stamped `ARCGISADMIN` (2018-09-28 and 2020-05-15 respectively); all 174 main invert fields are null. The county cannot demonstrate per-asset human review from this service.
@@ -144,6 +144,19 @@ The single HBNC mismatch is not an isolated record. A full pull of the address l
 **The HBNC case is in the different-street class:** `17642 Beach Blvd` → APN `167-472-08` (17631 Cameron Ln), and `17631 Cameron Ln` has zero address points.
 
 **Caveat:** a number mismatch is not automatically an error for apartment/condo/mobile-home parcels that carry one assessor situs and many building addresses. The conservative metric is the **606 APNs with no matching point**; the 11,180 figure is the raw join-failure count. Either way, an address→APN join in this fabric is probabilistic, not authoritative.
+
+### 2.4b The city's own address lookup propagates the error [VERIFIED]
+
+The production `FindAddressParcel` geoprocessing service (`https://gis.huntingtonbeachca.gov/arcgis/rest/services/FindAddressParcel/GPServer/FindAddressParcel`) was queried directly via `submitJob`/`results`:
+
+| Query | SelectedAddress returned | SelectedParcel (APN) |
+|---|---|---|
+| `17642 Beach Blvd` | 17642 Beach Blvd, APN `167-472-08`, source `Appl 2020-0268`, editor `SPRADLIA` | **`167-472-08`** |
+| `17631 Cameron Ln` | **no match** — returns the built-in fallback `18592 Main St` | `159-102-29` |
+| `Cameron Ln` | no match — fallback | `159-102-29` |
+| `99999 Zzzzz Rd` (control) | no match — fallback | `159-102-29` |
+
+Two verified defects in the city's own lookup path: (1) the shelter's mailing address `17642 Beach Blvd` resolves to APN `167-472-08`, which the Orange County Assessor assigns to `17631 Cameron Ln` — the **wrong lot**; and (2) the actual navigation-center address `17631 Cameron Ln` has **no address point**, so the lookup silently returns the unrelated Main Street fallback parcel instead of failing. The fallback was confirmed with a nonsense-address control query. Staff, permit reviewers, and the public using this tool are therefore given incorrect parcel attribution for the shelter.
 
 ### 2.5 Zoning and land-use layers
 
