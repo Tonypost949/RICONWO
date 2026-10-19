@@ -32,7 +32,7 @@
 9. **[VERIFIED] The County of Orange's independent stormwater fabric carries no human editor attribution.** In the HBNC corridor, **124/124 inlets** and **174/174 gravity mains** are stamped `ARCGISADMIN` (2018-09-28 and 2020-05-15 respectively); all 174 main invert fields are null. The county cannot demonstrate per-asset human review from this service.
 10. **[VERIFIED] Both custodians' storm/sewer fabrics therefore lack usable per-asset audit provenance** — HB because of the 2026 NUWEYT bulk load, OC because of 2018/2020 system migration stamps. This is an accountability vacuum, not by itself proof of intent.
 11. **[VERIFIED] Possession of cracked Esri installers is documented; execution/use is not.** The audit manifest lists ArcGIS 10.2 License Manager + Crack, ArcGIS Desktop 10.8.2, Esri ArcGIS 10.7.1, and ArcGIS Pro 3.1.5 in a Downloads archive. No `.mxd`, `.aprx`, `.shp`, `.gdb`, license-manager log, Prefetch, Amcache, or registry artifact is present in this workspace. Claims that pirated ArcGIS "built" a specific municipal product remain **[UNVERIFIED]** pending those artifacts.
-12. **[OSINT ARTIFACT] The "2,247 cu ft StormTech" figure is not a municipal record.** It appears only in the locally authored `hbnc_rico_gis.html`. The permit-derived plan figures are 10 × MC-3500 chambers = **1,099 ft³ nominal / 1,789 ft³ minimum installed** (109.9 / 178.9 ft³ each). The HTML also plots the chamber field along a ~1 km line west of the site. It cannot be used as evidence of what the city built.
+12. **[OSINT ARTIFACT / VERIFIED ABSENCE] The “2,247 cu ft StormTech” figure is not a municipal record, and the system is missing from the city's asset inventory.** The figure appears only in the locally authored `hbnc_rico_gis.html`. The permit-derived plan figures are 10 × MC-3500 chambers = **1,099 ft³ nominal / 1,789 ft³ minimum installed** (109.9 / 178.9 ft³ each). The HTML also plots the chamber field along a ~1 km line west of the site. A search of all 19 BMP layers and the storm storage inventory found **no HBNC chamber asset at all**.
 
 ---
 
@@ -152,6 +152,14 @@ The zoning and general plan polygons carry null editor fields, so no attribution
 Example 2024 grant asset (Jefferson St): `Fabco-Stormtrough` inlet basket, `BMPNotes = Certified Full Trash Capture Device (Inlet Basket Insert)`, `DrawInfo = TR4009.008`, `STRMINDEX = 273CBN009`, `Source = Eng Plans`.
 
 **Interpretation [INFERRED]:** the 2024 grant layer is the only BMP layer with modern editor stamps — and every one of its 66 assets is attributed to the same bulk account. The older grant layers have no editor attribution at all. A grant-credit audit should physically verify a sample of the 66 assets against `STRMINDEX` and the cited engineering drawings.
+
+### 2.6a The on-site StormTech system is absent from the public asset inventory
+
+**[VERIFIED]** A full-text search of all 19 `StormwaterBMPs` layers for `BMP`/`BMPNotes` containing `chamber`, `StormTech`, or `detention` returned **zero records**. The `StormLayers` storage inventory within the corridor contains only **Good Shepherd Cemetery** (3.28 acre-ft); there is no HBNC storage polygon. The storm pipe/feature layers model the Beach Boulevard trunk lines (36–48 inch RC, City/State owned) and contain no chamber or subsurface-detention fields.
+
+**Consequence:** the shelter's subsurface detention system exists only in the permit plan set (10 × StormTech MC-3500 chambers). It is **not** an asset in the city's stormwater GIS, the BMP inventory, or the hydraulic storage layer. Any statement that the city's GIS “tracks” or “accounts for” the system is unsupported.
+
+**Counterpoint:** the 2024 OCTA grant assets *are* model-linked — for example `STRMINDEX 273CBN009/010` appear both in the grant layer and in `StormLayers/Existing_Nodes` with `Invert_elevation`, `Rim_elevation`, `Q10`, and `Q100`. The city can link newer grant BMPs to its hydraulic model; it has not done so for the HBNC system.
 
 ### 2.7 Sewer and storm fabric
 
