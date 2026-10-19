@@ -17,6 +17,11 @@
       "last_edited_NUWEYT": 1,
       "created_user_null": 89691,
       "dominant_edit_timestamp_ms": 1769724842000,
+      "dominant_timestamp_records": 83641,
+      "dominant_timestamp_utc": "2026-01-29 22:14:02",
+      "second_mass_timestamp_records": 9704,
+      "second_mass_timestamp_utc": "2025-03-25 15:14:37",
+      "distinct_SPRADLIA_timestamps": 406,
       "capabilities": "Query,Create,Update,Uploads,Editing"
     },
     "parcels": {

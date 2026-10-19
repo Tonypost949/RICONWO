@@ -22,7 +22,7 @@
 ## 0. EXECUTIVE FINDINGS
 
 1. **[VERIFIED] The City of Huntington Beach exposes an authoritative address layer with public write capability.** `AddressEdits/FeatureServer/0` advertises `Query,Create,Update,Uploads,Editing`. No credentials are required to query it; write authentication was **not** tested because altering a government record is prohibited. This is the single most serious GIS integrity exposure found.
-2. **[VERIFIED] 99.99% of the address layer was rewritten by one account in one event.** Of 99,804 address records, **99,791** carry `last_edited_user = SPRADLIA`, nearly all stamped `1769724842000` (2026-01-29/30 UTC). Creation metadata is blank on **89,691** records. Per-record provenance for the city's address fabric has been erased.
+2. **[VERIFIED] 99.99% of the address layer was rewritten by one account in mass events.** Of 99,804 address records, **99,791** carry `last_edited_user = SPRADLIA`. **83,641** share a single timestamp (2026-01-29 22:14:02 UTC) and another **9,704** share 2025-03-25 15:14:37 UTC. Creation metadata is blank on **89,691** records. Per-record provenance for the city's address fabric has been erased.
 3. **[VERIFIED] 100% of the parcel layer was re-saved under one account between March and July 2026.** `NUWEYT` is `last_edited_user` on **52,081 of 52,081** parcels (51,830 distinct APNs), in machine-timed batches (2026-03-03, 2026-04-09/10, 2026-07-23/24).
 4. **[VERIFIED] 100% of the sanitary sewer pipe and lateral fabric was re-saved under the same account.** Sewer pipes: **8,542/8,542** NUWEYT; laterals: **49,482/49,482** NUWEYT; manholes: 8,333/8,349; sewer features: 12,049/12,219. Pipe timestamps cluster 2026-08-13 05:06–05:17 UTC, i.e. a single overnight bulk load.
 5. **[VERIFIED] The 2024 OCTA trash-capture grant inventory is 100% NUWEYT-stamped.** All **66/66** assets in `StormwaterBMPs/MapServer/14` carry `last_edited_user = NUWEYT` (2026-05-15). This is the grant-credit layer: if an asset cannot be physically located, the grant claim is unsupported.
@@ -76,9 +76,11 @@ A finding of T2/T4/T5 failure is an **accountability** finding. It becomes a **f
 | `last_edited_user = SA@SQL57.HUNTINGTON` | 12 |
 | `last_edited_user = NUWEYT` | 1 (6463 Overlook Dr — unrelated to HBNC) |
 | Records with `created_user = null` | 89,691 |
-| Dominant edit timestamp | `1769724842000` = 2026-01-29/30 UTC |
+| Records sharing 2026-01-29 22:14:02 UTC | **83,641** |
+| Records sharing 2025-03-25 15:14:37 UTC | **9,704** |
+| Distinct SPRADLIA timestamps | 406 (through 2026-10-13) |
 
-**Interpretation [INFERRED]:** the January 2026 event was a layer-wide re-save (schema change, migration, or bulk update), not 99,791 individual edits. It destroyed the distinction between records that were genuinely changed and records that were merely rewritten. Because the layer is publicly writable, an anonymous actor could also alter an address and inherit the same undifferentiated timestamp pattern.
+**Interpretation [INFERRED]:** the 2025 and 2026 events were layer-wide re-saves (schema change, migration, or bulk update), not individual edits. They destroyed the distinction between records that were genuinely changed and records that were merely rewritten. The layer was still being edited as of 2026-10-13, so it is a live operational layer, not a frozen archive. Because it is publicly writable, an anonymous actor could also alter an address and inherit the same undifferentiated timestamp pattern.
 
 ### 2.3 Parcel fabric — 100% NUWEYT
 
@@ -86,11 +88,12 @@ A finding of T2/T4/T5 failure is an **accountability** finding. It becomes a **f
 
 | Edit window (UTC) | Records |
 |---|---|
-| 2026-03-03 15:30–15:35 | ~1,131 |
-| 2026-04-09 21:11–21:12 | ~4,538 |
-| 2026-04-09 23:09–23:50 | ~21,769 |
-| 2026-04-10 15:20–15:38 | ~23,021 |
+| 2026-03-03 15:30–15:35 | 1,131 |
+| 2026-04-09 21:11–21:12 | 4,538 |
+| 2026-04-09 23:09–23:50 | 22,625 |
+| 2026-04-10 15:20–15:38 | 23,531 |
 | 2026-07-23/24 | 256 |
+| **Total** | **52,081** |
 
 **Interpretation [INFERRED]:** this is an assessor-roll load / parcel-fabric refresh executed under a single login. It is consistent with a scheduled data integration. It is **not** evidence that the HBNC parcels were singled out. However, it means the current parcel attributes for the HBNC cannot be compared to their pre-March-2026 state from the public service; version history or database backups are required.
 
@@ -343,7 +346,7 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 |---|---|---|---|---|---|
 | HB Parcels (`DATA.Parcels`) | HB | Ownership, site control | 52,081 parcels; 100% NUWEYT; HBNC lots owned by HBHA | T2/T4/T5 fail; T7 mismatch with address | **Verified** |
 | HB `W2_HB` assessor attributes | HB/OC Assessor | Owner, mailing, value, sale | HBNC values and doc refs confirmed against OC | Creation fields null citywide | **Verified** |
-| HB AddressEdits | HB | Address assignment, permit joins | Public Create/Update; 99,791 SPRADLIA; HBNC address on wrong APN | T3/T4/T5 fail; T7 fail | **Verified** |
+| HB AddressEdits | HB | Address assignment, permit joins | Public Create/Update; 99,791 SPRADLIA; 83,641 one timestamp; HBNC address on wrong APN | T3/T4/T5 fail; T7 fail | **Verified** |
 | HB Planning — Zoning | HB | Shelter land-use authority | SP14; M-sp; null editors | T2 fail | **Verified** |
 | HB Planning — Code Enforcement | HB | Nuisance/case tracking | 2,157-acre district polygon; not site-specific | Cannot evidence site enforcement | **Verified** |
 | HB SewerLayers/SewerBroadcast | HB | Sewer capacity, laterals | 100% NUWEYT pipes/laterals; Aug 13 2026 bulk load | T2/T4/T5 fail | **Verified** |
