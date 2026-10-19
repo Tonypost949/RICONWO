@@ -38,6 +38,22 @@
         "2026-07-23/24"
       ]
     },
+    "address_parcel_crosswalk": {
+      "addresses_pulled": 99804,
+      "parcels_pulled": 52081,
+      "addresses_with_usable_parcel_situs": 81267,
+      "number_street_match": 70087,
+      "match_pct": 86.243,
+      "mismatch": 11180,
+      "mismatch_pct": 13.757,
+      "mismatch_same_street_diff_number": 8415,
+      "mismatch_different_street": 2765,
+      "apns_with_address_points": 65178,
+      "apns_with_at_least_one_mismatch": 2095,
+      "apns_with_no_matching_address_point": 606,
+      "mismatch_edited_by_SPRADLIA": 11172,
+      "evidence": "evidence/gis_audit_20261019/hb_crosswalk_mismatches.csv; hb_crosswalk_refined.json"
+    },
     "sewer": {
       "manholes_total": 8349,
       "manholes_nuweyt": 8333,

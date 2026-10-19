@@ -1,0 +1,4252 @@
+{
+ "apns_with_address_points": 65178,
+ "apns_with_mismatch": 2095,
+ "apns_with_no_matching_address": 606,
+ "mismatch_same_street": 8415,
+ "mismatch_diff_street": 2765,
+ "mismatch_with_unit": 0,
+ "unaligned": [
+  {
+   "APN": "167-324-10",
+   "situs": "17111 A LN",
+   "n_points": 1,
+   "sample": "17101 A Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "155-051-14",
+   "situs": "10085 ADAMS AVE",
+   "n_points": 23,
+   "sample": "10035 Adams Ave Unit 101",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "155-094-11",
+   "situs": "10521 ADAMS AVE",
+   "n_points": 1,
+   "sample": "10449 Adams Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-191-18",
+   "situs": "19921 MAGNOLIA ST",
+   "n_points": 1,
+   "sample": "9022 Adams Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-181-05",
+   "situs": "16700 ALGONQUIN ST",
+   "n_points": 5,
+   "sample": "16702 Algonquin St Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-271-03",
+   "situs": "16857 ALGONQUIN ST",
+   "n_points": 62,
+   "sample": "16811 Algonquin St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-055-15",
+   "situs": "1235 ALABAMA ST",
+   "n_points": 1,
+   "sample": "1237 Alabama St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-046-17",
+   "situs": "1411 ALABAMA ST",
+   "n_points": 5,
+   "sample": "1415 Alabama St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-045-17",
+   "situs": "1509 ALABAMA ST",
+   "n_points": 4,
+   "sample": "1507 Alabama St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-045-16",
+   "situs": "1507 ALABAMA ST",
+   "n_points": 4,
+   "sample": "1509 Alabama St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "145-015-06",
+   "situs": "5102 ARGOSY AVE",
+   "n_points": 1,
+   "sample": "5082 Argosy Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-141-28",
+   "situs": "9055 ATLANTA AVE",
+   "n_points": 1,
+   "sample": "9151 Atlanta Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-321-08",
+   "situs": "17085 B LN",
+   "n_points": 1,
+   "sample": "17081 B Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-781-05",
+   "situs": "16072 BEACH BLVD",
+   "n_points": 4,
+   "sample": "16080 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-311-03",
+   "situs": "17288 BEACH BLVD",
+   "n_points": 8,
+   "sample": "17296 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-472-14",
+   "situs": "17702 BEACH BLVD",
+   "n_points": 1,
+   "sample": "17712 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "157-341-02",
+   "situs": "18344 BEACH BLVD",
+   "n_points": 5,
+   "sample": "18358 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "157-451-09",
+   "situs": "18732 BEACH BLVD",
+   "n_points": 5,
+   "sample": "18742 Beach Blvd Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-161-29",
+   "situs": "19171 BEACH BLVD",
+   "n_points": 1,
+   "sample": "19131 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-182-33",
+   "situs": "19331 BEACH BLVD",
+   "n_points": 1,
+   "sample": "19351 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-282-25",
+   "situs": "20422 BEACH BLVD",
+   "n_points": 1,
+   "sample": "20291 Cape Coral Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-183-08",
+   "situs": "16700 BLANTON LN",
+   "n_points": 5,
+   "sample": "16721 Blanton Ln Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-651-12",
+   "situs": "17044 BLUEWATER LN",
+   "n_points": 4,
+   "sample": "16991 Bluewater Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-382-14",
+   "situs": "16700 BOLERO LN",
+   "n_points": 1,
+   "sample": "16722 Bolero Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "195-111-70",
+   "situs": "5301 BOLSA AVE",
+   "n_points": 17,
+   "sample": "14441 Astronautics Ln Bldg 21",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "195-111-04",
+   "situs": "5301 BOLSA AVE",
+   "n_points": 1,
+   "sample": "14441 Astronautics Ln Bldg 22",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "145-231-21",
+   "situs": "15069 GOLDENWEST ST",
+   "n_points": 29,
+   "sample": "6952 Bolsa Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "146-431-10",
+   "situs": "16377 SPRINGDALE ST",
+   "n_points": 8,
+   "sample": "16378 Springdale St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-234-09",
+   "situs": "21951 BROOKHURST ST",
+   "n_points": 7,
+   "sample": "20951 Brookhurst St Unit 100",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-223-02",
+   "situs": "515 CALIFORNIA ST",
+   "n_points": 9,
+   "sample": "511 California St Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-215-21",
+   "situs": "715 CALIFORNIA ST",
+   "n_points": 3,
+   "sample": "713 California St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-215-20",
+   "situs": "713 CALIFORNIA ST",
+   "n_points": 2,
+   "sample": "715 California St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-472-08",
+   "situs": "17631 CAMERON LN",
+   "n_points": 2,
+   "sample": "17642 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-053-73",
+   "situs": "16751 CAROUSEL LN",
+   "n_points": 1,
+   "sample": "16752 Wanderer Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "153-291-11",
+   "situs": "19900 CHESAPEAKE LN",
+   "n_points": 1,
+   "sample": "19961 Chesapeake Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-111-05",
+   "situs": "602 1/2 CLAY AVE",
+   "n_points": 3,
+   "sample": "602 Clay Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-111-02",
+   "situs": "610 CLAY AVE",
+   "n_points": 4,
+   "sample": "614 Clay Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-111-03",
+   "situs": "610 CLAY AVE",
+   "n_points": 4,
+   "sample": "618 Clay Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-140-16",
+   "situs": "18851 STEWART LN",
+   "n_points": 1,
+   "sample": "19200 Stewart Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "157-402-39",
+   "situs": "8218 CONSTANTINE DR",
+   "n_points": 63,
+   "sample": "8210 Constantine Dr Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-363-10",
+   "situs": "7899 CYPRESS DR",
+   "n_points": 5,
+   "sample": "7901 Cypress Dr Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-121-43",
+   "situs": "2406 DELAWARE ST",
+   "n_points": 9,
+   "sample": "2402 Delaware St Unit 101",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-242-22",
+   "situs": "610 DELAWARE ST",
+   "n_points": 1,
+   "sample": "608 Delaware St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-181-16",
+   "situs": "16441 DOLORES LN",
+   "n_points": 5,
+   "sample": "16641 Dolores Ln Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "146-441-04",
+   "situs": "6472 EDINGER AVE",
+   "n_points": 6,
+   "sample": "6482 Edinger Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "145-202-54",
+   "situs": "15011 EDWARDS ST",
+   "n_points": 6,
+   "sample": "15021 Edwards St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "145-165-56",
+   "situs": "15435 EDWARDS ST",
+   "n_points": 2,
+   "sample": "15431 Edwards St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-123-05",
+   "situs": "119 1/2 8TH ST",
+   "n_points": 1,
+   "sample": "119 1/2 8th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-123-21",
+   "situs": "803 WALNUT AVE",
+   "n_points": 1,
+   "sample": "125 8th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-071-25",
+   "situs": "7041 ELLIS AVE",
+   "n_points": 1,
+   "sample": "7051 Ellis Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-102-45",
+   "situs": "18732 FLORIDA ST",
+   "n_points": 82,
+   "sample": "18700 Florida St Unit 100",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-121-03",
+   "situs": "18811 FLORIDA ST",
+   "n_points": 1,
+   "sample": "18851 Florida St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-191-22",
+   "situs": "2304 FLORIDA ST",
+   "n_points": 5,
+   "sample": "2302 Florida St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-191-23",
+   "situs": "2308 FLORIDA ST",
+   "n_points": 5,
+   "sample": "2310 Florida St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-111-57",
+   "situs": "19471 FLORIDA ST",
+   "n_points": 8,
+   "sample": "2511 Florida St Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-111-56",
+   "situs": "19451 FLORIDA ST",
+   "n_points": 8,
+   "sample": "2517 Florida St Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-182-35",
+   "situs": "2706 FLORIDA ST",
+   "n_points": 5,
+   "sample": "2702 Florida St Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-022-09",
+   "situs": "1310 ORANGE AVE",
+   "n_points": 4,
+   "sample": "402 14th St Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-021-09",
+   "situs": "400 14TH ST",
+   "n_points": 5,
+   "sample": "421 14th St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-442-01",
+   "situs": "17281 NEWLAND ST",
+   "n_points": 1,
+   "sample": "8472 Friesland Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-140-06",
+   "situs": "7111 GARFIELD AVE",
+   "n_points": 1,
+   "sample": "7162 Garfield Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-321-03",
+   "situs": "19031 HUNTINGTON ST",
+   "n_points": 1,
+   "sample": "7512 Garfield Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-071-32",
+   "situs": "18100 GOLDENWEST ST # A",
+   "n_points": 1,
+   "sample": "18260 Goldenwest St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-024-23",
+   "situs": "17132 GOTHARD ST",
+   "n_points": 1,
+   "sample": "17122 Gothard St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-411-16",
+   "situs": "17422 GOTHARD ST",
+   "n_points": 1,
+   "sample": "17428 Gothard St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-392-40",
+   "situs": "17682 GOTHARD ST",
+   "n_points": 3,
+   "sample": "17616 Gothard St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-010-79",
+   "situs": "7271 TALBERT AVE",
+   "n_points": 1,
+   "sample": "17881 Gothard St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-401-03",
+   "situs": "17902 GOTHARD ST",
+   "n_points": 16,
+   "sample": "17922 Gothard St Bldg A Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-071-31",
+   "situs": "7221 ELLIS AVE",
+   "n_points": 2,
+   "sample": "18391 Gothard St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-110-22",
+   "situs": "18941 GOTHARD ST",
+   "n_points": 1,
+   "sample": "18931 Gothard St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-140-26",
+   "situs": "9937 CURRANT AVE",
+   "n_points": 1,
+   "sample": "19041 Gothard St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-140-24",
+   "situs": "18851 STEWART LN",
+   "n_points": 2,
+   "sample": "19091 Gothard St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-140-23",
+   "situs": "6741 PIMLICO CIR",
+   "n_points": 1,
+   "sample": "19121 Gothard St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-140-20",
+   "situs": "19061 GOTHARD ST",
+   "n_points": 1,
+   "sample": "19131 Gothard St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-201-55",
+   "situs": "9062 HAMILTON AVE",
+   "n_points": 6,
+   "sample": "9606 Hamilton Ave Unit 101",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-171-07",
+   "situs": "4881 HEIL AVE # 1",
+   "n_points": 157,
+   "sample": "4901 Heil Ave Bldg A Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-171-06",
+   "situs": "4881 HEIL AVE # 2",
+   "n_points": 52,
+   "sample": "4901 Heil Ave Bldg B Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "146-483-29",
+   "situs": "6662 HEIL AVE",
+   "n_points": 2,
+   "sample": "6652 Heil Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-150-46",
+   "situs": "19071 HOLLY LN",
+   "n_points": 20,
+   "sample": "19051 Holly Ln Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-150-45",
+   "situs": "19051 HOLLY LN",
+   "n_points": 18,
+   "sample": "19071 Holly Ln Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-232-07",
+   "situs": "16816 HOSKINS LN",
+   "n_points": 2,
+   "sample": "16812 Hoskins Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-262-01",
+   "situs": "16800 HOSKINS LN",
+   "n_points": 8,
+   "sample": "16862 Hoskins Ln Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-483-36",
+   "situs": "9811 HOT SPRINGS DR",
+   "n_points": 1,
+   "sample": "9821 Hot Springs Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "145-281-05",
+   "situs": "6425 HUGHES DR",
+   "n_points": 1,
+   "sample": "6421 Hughes Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-321-01",
+   "situs": "7512 GARFIELD AVE",
+   "n_points": 3,
+   "sample": "19001 Huntington St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-061-36",
+   "situs": "2820 HUNTINGTON ST",
+   "n_points": 14,
+   "sample": "2810 Huntington St Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-061-35",
+   "situs": "2810 HUNTINGTON ST",
+   "n_points": 13,
+   "sample": "2820 Huntington St Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-053-19",
+   "situs": "221 1/2 JOLIET AVE",
+   "n_points": 2,
+   "sample": "221 Joliet Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-167-10",
+   "situs": "1002 DELAWARE ST",
+   "n_points": 1,
+   "sample": "503 Joliet Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-441-03",
+   "situs": "18142 JOLLY LN",
+   "n_points": 118,
+   "sample": "18142 Parkview Ln Unit 101",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-162-03",
+   "situs": "1101 FLORIDA ST",
+   "n_points": 3,
+   "sample": "611 Knoxville Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-103-13",
+   "situs": "17371 KRISTOPHER LN",
+   "n_points": 1,
+   "sample": "17351 Kristopher Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-103-12",
+   "situs": "17351 KRISTOPHER LN",
+   "n_points": 1,
+   "sample": "17371 Kristopher Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-160-03",
+   "situs": "400 3RD ST",
+   "n_points": 2,
+   "sample": "402 Lake St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-175-02",
+   "situs": "102 FRANKFORT AVE",
+   "n_points": 1,
+   "sample": "530 Lake St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "142-511-11",
+   "situs": "7424 LORGE CIR",
+   "n_points": 1,
+   "sample": "7436 Lorge Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-191-24",
+   "situs": "20110 MAGNOLIA ST",
+   "n_points": 4,
+   "sample": "20100 Magnolia St Unit 101",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-031-14",
+   "situs": "1900 MAIN ST",
+   "n_points": 3,
+   "sample": "2000 Main St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-095-03",
+   "situs": "625 MAIN ST",
+   "n_points": 2,
+   "sample": "627 Main St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-081-16",
+   "situs": "806 1/2 MAIN ST",
+   "n_points": 2,
+   "sample": "806 Main St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-291-14",
+   "situs": "7981 OCEANGROVE CIR",
+   "n_points": 9,
+   "sample": "7836 Mainmast Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-091-12",
+   "situs": "400 MEMPHIS AVE",
+   "n_points": 30,
+   "sample": "311 Memphis Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-392-25",
+   "situs": "17651 METZLER LN",
+   "n_points": 16,
+   "sample": "17671 Metzler Ln Bldg A Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-085-08",
+   "situs": "21321 MONACO CIR",
+   "n_points": 1,
+   "sample": "21322 Monaco Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "157-402-31",
+   "situs": "8177 GARFIELD AVE",
+   "n_points": 5,
+   "sample": "18891 Mora Kai Ln Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "157-402-30",
+   "situs": "8177 GARFIELD AVE",
+   "n_points": 4,
+   "sample": "18891 Mora Kai Ln Unit E",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-043-09",
+   "situs": "219 NASHVILLE AVE",
+   "n_points": 8,
+   "sample": "217 Nashville Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-32",
+   "situs": "20001 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20001 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-33",
+   "situs": "20021 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20021 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-34",
+   "situs": "20031 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20031 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-35",
+   "situs": "20051 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20051 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-36",
+   "situs": "20061 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20061 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-37",
+   "situs": "20071 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20071 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-38",
+   "situs": "20081 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20081 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-56",
+   "situs": "20091 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20091 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-54",
+   "situs": "20121 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20121 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-53",
+   "situs": "20131 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20131 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-52",
+   "situs": "20141 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20141 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "142-211-51",
+   "situs": "16878 NICHOLS LN",
+   "n_points": 81,
+   "sample": "16851 Nichols Ln Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-360-17",
+   "situs": "17211 NICHOLS LN",
+   "n_points": 6,
+   "sample": "17121 Nichols Ln Bldg A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-114-13",
+   "situs": "617 19TH ST",
+   "n_points": 4,
+   "sample": "619 19th St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-141-02",
+   "situs": "624 19TH ST",
+   "n_points": 1,
+   "sample": "622 19th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-113-04",
+   "situs": "320 1/2 9TH ST # 102",
+   "n_points": 3,
+   "sample": "320 9th St Unit 102",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-241-38",
+   "situs": "17241 OAK LN",
+   "n_points": 1,
+   "sample": "17251 Oak Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-571-01",
+   "situs": "8566 VAN NESS CT",
+   "n_points": 2,
+   "sample": "20880 Oakridge Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-281-14",
+   "situs": "315 PACIFIC COAST HWY",
+   "n_points": 5,
+   "sample": "103 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-281-16",
+   "situs": "21291 PACIFIC COAST HWY",
+   "n_points": 13,
+   "sample": "21077 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-281-15",
+   "situs": "201 PACIFIC COAST HWY",
+   "n_points": 3,
+   "sample": "285 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-150-16",
+   "situs": "455 PACIFIC COAST HWY",
+   "n_points": 4,
+   "sample": "405 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-153-11",
+   "situs": "400 PACIFIC COAST HWY",
+   "n_points": 11,
+   "sample": "414 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-124-18",
+   "situs": "714 PACIFIC COAST HWY",
+   "n_points": 1,
+   "sample": "712 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-091-07",
+   "situs": "627 10TH ST",
+   "n_points": 3,
+   "sample": "1005 Palm Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-100-09",
+   "situs": "770 17TH ST",
+   "n_points": 1,
+   "sample": "1502 Palm Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-144-17",
+   "situs": "626 16TH ST",
+   "n_points": 4,
+   "sample": "1515 Palm Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-100-07",
+   "situs": "770 17TH ST",
+   "n_points": 1,
+   "sample": "1600 Palm Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-082-12",
+   "situs": "606 PALM AVE",
+   "n_points": 1,
+   "sample": "601 Palm Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-022-10",
+   "situs": "17042 PALMDALE LN",
+   "n_points": 1,
+   "sample": "17052 Palmdale Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-148-12",
+   "situs": "1502 PECAN AVE",
+   "n_points": 2,
+   "sample": "503 15th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-010-20",
+   "situs": "2130 MAIN ST",
+   "n_points": 1,
+   "sample": "19601 Ranch Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "145-404-01",
+   "situs": "5532 RESEARCH DR",
+   "n_points": 1,
+   "sample": "5522 Research Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-751-01",
+   "situs": "16400 SAYBROOK LN",
+   "n_points": 1,
+   "sample": "4232 Waimea Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-010-21",
+   "situs": "2120 MAIN ST",
+   "n_points": 2,
+   "sample": "7432 Seabluff Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-162-17",
+   "situs": "220 2ND ST",
+   "n_points": 1,
+   "sample": "208 2nd St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-151-26",
+   "situs": "114 7TH ST",
+   "n_points": 5,
+   "sample": "112 7th St Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "146-413-01",
+   "situs": "6200 SHIELDS DR",
+   "n_points": 1,
+   "sample": "6252 Shields Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-411-21",
+   "situs": "7391 SLATER AVE",
+   "n_points": 1,
+   "sample": "7355 Slater Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-643-28",
+   "situs": "16127 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16127 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-643-32",
+   "situs": "16129 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16129 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-643-31",
+   "situs": "16131 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16131 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-643-30",
+   "situs": "16133 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16133 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-643-29",
+   "situs": "16135 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16135 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-76",
+   "situs": "16137 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16137 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-75",
+   "situs": "16139 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16139 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-74",
+   "situs": "16141 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16141 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-73",
+   "situs": "16143 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16143 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-72",
+   "situs": "16145 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16145 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-71",
+   "situs": "16147 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16147 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-70",
+   "situs": "16149 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16149 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-69",
+   "situs": "16151 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16151 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-68",
+   "situs": "16153 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16153 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-67",
+   "situs": "16155 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16155 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-212-11",
+   "situs": "21502 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21502 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-211-07",
+   "situs": "21581 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21581 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-21",
+   "situs": "6352 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6352 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-02",
+   "situs": "6361 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6361 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-20",
+   "situs": "6362 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6362 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-03",
+   "situs": "6381 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6381 St Paul Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-19",
+   "situs": "6382 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6382 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-04",
+   "situs": "6391 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6391 St Paul Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-18",
+   "situs": "6392 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6392 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-05",
+   "situs": "6401 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6401 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-17",
+   "situs": "6402 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6402 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-06",
+   "situs": "6411 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6411 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-16",
+   "situs": "6412 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6412 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-311-37",
+   "situs": "7912 SPEER DR",
+   "n_points": 1,
+   "sample": "7922 Speer Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "195-111-16",
+   "situs": "14621 SPRINGDALE ST",
+   "n_points": 1,
+   "sample": "14561 Springdale St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-031-04",
+   "situs": "17032 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17032 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-09",
+   "situs": "17041 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17041 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-031-03",
+   "situs": "17042 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17042 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-10",
+   "situs": "17051 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17051 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-031-02",
+   "situs": "17052 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17052 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-11",
+   "situs": "17071 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17071 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-031-01",
+   "situs": "17072 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17072 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-12",
+   "situs": "17081 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17081 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-13",
+   "situs": "17091 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17091 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-01",
+   "situs": "17092 SAINT ANDREWS LN",
+   "n_points": 2,
+   "sample": "17092 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-14",
+   "situs": "17101 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17101 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-02",
+   "situs": "17102 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17102 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-15",
+   "situs": "17111 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17111 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-03",
+   "situs": "17112 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17112 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-16",
+   "situs": "17121 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17121 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-04",
+   "situs": "17122 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17122 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-17",
+   "situs": "17131 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17131 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-05",
+   "situs": "17132 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17132 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-18",
+   "situs": "17141 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17141 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-06",
+   "situs": "17142 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17142 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-032-19",
+   "situs": "17151 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17151 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-07",
+   "situs": "17152 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17152 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-08",
+   "situs": "17172 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17172 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-09",
+   "situs": "17182 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17182 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-10",
+   "situs": "17192 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17192 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-033-11",
+   "situs": "17202 SAINT ANDREWS LN",
+   "n_points": 1,
+   "sample": "17202 St Andrews Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-083-01",
+   "situs": "8501 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8501 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-083-03",
+   "situs": "8521 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8521 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-084-08",
+   "situs": "8531 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8531 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-084-07",
+   "situs": "8541 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8541 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-084-01",
+   "situs": "8601 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8601 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-692-17",
+   "situs": "16761 SAINT CLOUD CIR",
+   "n_points": 1,
+   "sample": "16761 St Cloud Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-692-18",
+   "situs": "16771 SAINT CLOUD CIR",
+   "n_points": 1,
+   "sample": "16771 St Cloud Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-692-16",
+   "situs": "16772 SAINT CLOUD CIR",
+   "n_points": 1,
+   "sample": "16772 St Cloud Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-692-19",
+   "situs": "16781 SAINT CLOUD CIR",
+   "n_points": 1,
+   "sample": "16781 St Cloud Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-692-15",
+   "situs": "16782 SAINT CLOUD CIR",
+   "n_points": 1,
+   "sample": "16782 St Cloud Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-692-20",
+   "situs": "16791 SAINT CLOUD CIR",
+   "n_points": 1,
+   "sample": "16791 St Cloud Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-692-14",
+   "situs": "16792 SAINT CLOUD CIR",
+   "n_points": 1,
+   "sample": "16792 St Cloud Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-692-21",
+   "situs": "16801 SAINT CLOUD CIR",
+   "n_points": 1,
+   "sample": "16801 St Cloud Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-20",
+   "situs": "16081 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16081 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-19",
+   "situs": "16083 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16083 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-18",
+   "situs": "16085 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16085 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-17",
+   "situs": "16087 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16087 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-16",
+   "situs": "16089 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16089 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-15",
+   "situs": "16091 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16091 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-14",
+   "situs": "16093 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16093 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-13",
+   "situs": "16095 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16095 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-12",
+   "situs": "16097 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16097 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-11",
+   "situs": "16099 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16099 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-10",
+   "situs": "16101 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16101 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-09",
+   "situs": "16103 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16103 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-08",
+   "situs": "16105 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16105 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-07",
+   "situs": "16107 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16107 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-06",
+   "situs": "16109 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16109 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-05",
+   "situs": "16111 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16111 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-04",
+   "situs": "16113 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16113 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-03",
+   "situs": "16115 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16115 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-02",
+   "situs": "16117 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16117 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-644-01",
+   "situs": "16119 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16119 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-643-25",
+   "situs": "16121 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16121 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-643-26",
+   "situs": "16123 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16123 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-643-27",
+   "situs": "16125 SAINT CROIX CIR",
+   "n_points": 1,
+   "sample": "16125 St Croix Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-07",
+   "situs": "6431 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6431 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-15",
+   "situs": "6432 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6432 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-08",
+   "situs": "6441 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6441 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-14",
+   "situs": "6442 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6442 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-09",
+   "situs": "6451 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6451 St Paul Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-13",
+   "situs": "6452 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6452 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-10",
+   "situs": "6471 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6471 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-121-12",
+   "situs": "6472 SAINT PAUL CIR",
+   "n_points": 2,
+   "sample": "6472 St Paul Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-331-37",
+   "situs": "8202 WARNER AVE",
+   "n_points": 58,
+   "sample": "17001 Stanley Ln Unit 1A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-140-15",
+   "situs": "19192 STEWART LN",
+   "n_points": 1,
+   "sample": "19182 Stewart Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-601-21",
+   "situs": "17952 BEACH BLVD",
+   "n_points": 10,
+   "sample": "8301 Talbert Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-026-05",
+   "situs": "300 13TH ST",
+   "n_points": 2,
+   "sample": "318 13th St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "145-016-28",
+   "situs": "15201 ARGOSY AVE",
+   "n_points": 2,
+   "sample": "15182 Triton Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-113-13",
+   "situs": "623 20TH ST",
+   "n_points": 4,
+   "sample": "625 20th St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-033-07",
+   "situs": "202 13TH ST",
+   "n_points": 1,
+   "sample": "202 13th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-165-16",
+   "situs": "202 3RD ST",
+   "n_points": 2,
+   "sample": "218 Walnut Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-151-05",
+   "situs": "123 6TH ST",
+   "n_points": 16,
+   "sample": "605 Walnut Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-291-26",
+   "situs": "4211 WARNER AVE",
+   "n_points": 1,
+   "sample": "4281 Warner Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-262-10",
+   "situs": "16900 GREEN LN",
+   "n_points": 2,
+   "sample": "4851 Warner Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-121-51",
+   "situs": "5072 WARNER AVE",
+   "n_points": 1,
+   "sample": "5062 Warner Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-302-23",
+   "situs": "9502 PANACEA DR",
+   "n_points": 1,
+   "sample": "21215 Strathmoor Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-302-22",
+   "situs": "9512 PANACEA DR",
+   "n_points": 1,
+   "sample": "21215 Strathmoor Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-051-02",
+   "situs": "6732 WARNER AVE",
+   "n_points": 312,
+   "sample": "6700 Warner Ave Bldg 10 Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-324-14",
+   "situs": "8022 WARNER AVE",
+   "n_points": 1,
+   "sample": "8032 Warner Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "146-601-40",
+   "situs": "16822 BOLSA CHICA ST",
+   "n_points": 4,
+   "sample": "5021 Waverider Cir Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-180-18",
+   "situs": "710 WILLIAMS DR",
+   "n_points": 4,
+   "sample": "708 Williams Dr Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-252-12",
+   "situs": "17792 JAMESTOWN LN",
+   "n_points": 1,
+   "sample": "7662 Woodwind Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-401-02",
+   "situs": "333 YORKTOWN AVE",
+   "n_points": 1,
+   "sample": "7342 Yellowtail Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "195-021-59",
+   "situs": "14162 YUCCA CIR",
+   "n_points": 1,
+   "sample": "14612 Yucca Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "145-471-03",
+   "situs": "15591 GRAHAM ST",
+   "n_points": 6,
+   "sample": "15631 Graham St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-541-37",
+   "situs": "18706 ROXBURY LN",
+   "n_points": 1,
+   "sample": "18806 Roxbury Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "195-111-47",
+   "situs": "5212 RANCHO RD",
+   "n_points": 1,
+   "sample": "14442 Astronautics Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "195-111-50",
+   "situs": "14500 ASTRONAUTICS LN",
+   "n_points": 2,
+   "sample": "14505 Astronautics Ln Unit 101",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-39",
+   "situs": "20151 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20151 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-40",
+   "situs": "20161 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20161 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-41",
+   "situs": "20171 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20171 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-14",
+   "situs": "20172 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20172 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-42",
+   "situs": "20181 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20181 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-13",
+   "situs": "20182 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20182 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-43",
+   "situs": "20191 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20191 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-12",
+   "situs": "20192 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20192 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-45",
+   "situs": "20221 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20221 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-10",
+   "situs": "20222 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20222 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-46",
+   "situs": "20231 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20231 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-09",
+   "situs": "20232 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20232 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-512-01",
+   "situs": "20242 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20242 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-511-02",
+   "situs": "20251 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20251 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-512-02",
+   "situs": "20252 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20252 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-771-03",
+   "situs": "16069 SHERLOCK LN",
+   "n_points": 2,
+   "sample": "16080 Warmington Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-501-15",
+   "situs": "8402 EL ARROYO DR",
+   "n_points": 4,
+   "sample": "8401 El Arroyo Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-011-08",
+   "situs": "17131 ERWIN LN",
+   "n_points": 1,
+   "sample": "17851 Goldenwest St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-181-76",
+   "situs": "6501 PALM AVE",
+   "n_points": 1,
+   "sample": "6495 Palm Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-442-25",
+   "situs": "3301 MORITZ DR",
+   "n_points": 2,
+   "sample": "16440 Martin Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "157-481-02",
+   "situs": "18012 BEACH BLVD",
+   "n_points": 1,
+   "sample": "8052 Talbert Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-261-21",
+   "situs": "116 1/2 HUNTINGTON ST APT A",
+   "n_points": 2,
+   "sample": "118 Huntington St Unit 201",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-621-04",
+   "situs": "19300 GOLDENWEST ST",
+   "n_points": 2,
+   "sample": "19330 Goldenwest St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "153-243-11",
+   "situs": "8931 ADAMS AVE",
+   "n_points": 3,
+   "sample": "8909 Adams Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-061-40",
+   "situs": "318 SPRINGFIELD AVE",
+   "n_points": 1,
+   "sample": "1802 Park St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-200-62",
+   "situs": "19751 BEACH BLVD",
+   "n_points": 1,
+   "sample": "19741 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-312-01",
+   "situs": "16831 BARUNA LN",
+   "n_points": 1,
+   "sample": "16861 Baruna Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-363-62",
+   "situs": "4001 DAVENPORT DR",
+   "n_points": 1,
+   "sample": "4031 Davenport Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-713-11",
+   "situs": "3472 VENTURE DR",
+   "n_points": 1,
+   "sample": "3482 Venture Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "146-201-02",
+   "situs": "16600 GRAHAM ST",
+   "n_points": 1,
+   "sample": "16641 Graham St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "146-481-21",
+   "situs": "16700 DALE VISTA LN",
+   "n_points": 1,
+   "sample": "6770 Ruth Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "153-023-01",
+   "situs": "8000 DEAUVILLE DR",
+   "n_points": 1,
+   "sample": "8152 Deauville Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-421-04",
+   "situs": "9222 INDIANAPOLIS AVE",
+   "n_points": 1,
+   "sample": "9272 Indianapolis Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "146-254-01",
+   "situs": "6700 MARILYN DR",
+   "n_points": 1,
+   "sample": "6746 Marilyn Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-121-54",
+   "situs": "17032 BOLSA CHICA ST",
+   "n_points": 1,
+   "sample": "5002 Warner Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-100-27",
+   "situs": "16862 A LN",
+   "n_points": 1,
+   "sample": "16868 A Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-401-07",
+   "situs": "16600 MELVILLE CIR",
+   "n_points": 1,
+   "sample": "16601 Wellington Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-451-02",
+   "situs": "16300 COAST HWY",
+   "n_points": 1,
+   "sample": "16300 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-451-04",
+   "situs": "16292 COAST HWY",
+   "n_points": 2,
+   "sample": "16340 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-301-01",
+   "situs": "4121 WARNER AVE",
+   "n_points": 1,
+   "sample": "3901 Warner Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-302-05",
+   "situs": "1700 SIMS LN",
+   "n_points": 1,
+   "sample": "17000 Sims Ln ",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-302-13",
+   "situs": "17000 SIMS LN",
+   "n_points": 4,
+   "sample": "17072 Sims Ln Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "110-160-03",
+   "situs": "6681 ELLIS AVE",
+   "n_points": 1,
+   "sample": "6711 Ellis Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-081-20",
+   "situs": "6946 WARNER AVE",
+   "n_points": 2,
+   "sample": "6952 Warner Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-325-20",
+   "situs": "17222 BEACH BLVD",
+   "n_points": 1,
+   "sample": "17242 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "167-325-19",
+   "situs": "17234 BEACH BLVD",
+   "n_points": 1,
+   "sample": "17242 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-121-30",
+   "situs": "18792 DELAWARE ST",
+   "n_points": 1,
+   "sample": "18810 Delaware St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-120-31",
+   "situs": "18782 GOLDEN WEST ST",
+   "n_points": 1,
+   "sample": "18792 Goldenwest St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-120-01",
+   "situs": "18742 GOLDENWEST ST",
+   "n_points": 1,
+   "sample": "18742 Goldenwest St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-223-06",
+   "situs": "6792 MORNING TIDE DR",
+   "n_points": 1,
+   "sample": "6782 Morning Tide Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-223-05",
+   "situs": "6772 MORNING TIDE DR",
+   "n_points": 1,
+   "sample": "6782 Morning Tide Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-130-09",
+   "situs": "19026 GOLDENWEST ST",
+   "n_points": 1,
+   "sample": "19032 Goldenwest St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-130-07",
+   "situs": "19026 GOLDENWEST ST",
+   "n_points": 1,
+   "sample": "19020 Goldenwest St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-051-10",
+   "situs": "1821 17TH ST",
+   "n_points": 1,
+   "sample": "1831 17th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-071-07",
+   "situs": "2307 DELAWARE ST",
+   "n_points": 1,
+   "sample": "2309 Delaware St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-071-40",
+   "situs": "2318 HUNTINGTON ST",
+   "n_points": 1,
+   "sample": "2309 Delaware St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "153-051-09",
+   "situs": "19362 BEACH BLVD",
+   "n_points": 1,
+   "sample": "19360 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-471-06",
+   "situs": "20331 EVERGLADES LN",
+   "n_points": 1,
+   "sample": "9731 Verdant Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-51",
+   "situs": "20142 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20142 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-16",
+   "situs": "20152 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20152 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-15",
+   "situs": "20162 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20162 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-48",
+   "situs": "20102 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20102 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-47",
+   "situs": "20092 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20092 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-50",
+   "situs": "20132 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20132 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-49",
+   "situs": "20122 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20122 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-55",
+   "situs": "20101 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20101 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-11",
+   "situs": "20202 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20202 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-44",
+   "situs": "20201 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20201 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-601-01",
+   "situs": "8052 ATLANTA AVE",
+   "n_points": 1,
+   "sample": "20022 Seabridge Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-511-01",
+   "situs": "20241 S NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20241 S New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-175-82",
+   "situs": "1156 PACIFIC COVE LN",
+   "n_points": 2,
+   "sample": "1145 Seabreeze Landing Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-27",
+   "situs": "20042 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20042 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-28",
+   "situs": "20062 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20062 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-29",
+   "situs": "20072 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20072 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-502-30",
+   "situs": "20082 N NEW BRITAIN LN",
+   "n_points": 1,
+   "sample": "20082 N New Britain Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-171-26",
+   "situs": "16379 BOLSA CHICA ST",
+   "n_points": 2,
+   "sample": "16401 Bolsa Chica St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-093-10",
+   "situs": "800 13TH ST",
+   "n_points": 2,
+   "sample": "821 13th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-161-08",
+   "situs": "213 18TH ST",
+   "n_points": 5,
+   "sample": "215 18th St Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-143-10",
+   "situs": "600 16TH ST",
+   "n_points": 1,
+   "sample": "613 16th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-124-28",
+   "situs": "420 20TH ST",
+   "n_points": 1,
+   "sample": "418 20th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-141-26",
+   "situs": "622 19TH ST",
+   "n_points": 1,
+   "sample": "624 19th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-136-16",
+   "situs": "121 20TH ST",
+   "n_points": 3,
+   "sample": "2114 Pacific Coast Hwy Unit 101",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-172-11",
+   "situs": "522 MAIN ST",
+   "n_points": 1,
+   "sample": "520 Main St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-134-06",
+   "situs": "400 MAIN ST",
+   "n_points": 1,
+   "sample": "410 Main St Unit 104",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-144-10",
+   "situs": "300 3RD ST",
+   "n_points": 1,
+   "sample": "321 3rd St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-111-25",
+   "situs": "309 10TH ST",
+   "n_points": 2,
+   "sample": "321 10th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-072-12",
+   "situs": "8661 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8661 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-072-11",
+   "situs": "8651 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8651 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-072-10",
+   "situs": "8641 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8641 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-072-09",
+   "situs": "8631 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8631 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-072-08",
+   "situs": "8621 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8621 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-072-07",
+   "situs": "8611 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8611 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-084-05",
+   "situs": "8561 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8561 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-084-04",
+   "situs": "8571 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8571 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-084-06",
+   "situs": "8551 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8551 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-084-02",
+   "situs": "8591 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8591 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-084-03",
+   "situs": "8581 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8581 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-083-02",
+   "situs": "8511 SAINT AUGUSTINE DR",
+   "n_points": 1,
+   "sample": "8511 St Augustine Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-201-49",
+   "situs": "9552 HAMILTON AVE",
+   "n_points": 5,
+   "sample": "9556 Hamilton Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-212-03",
+   "situs": "21612 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21612 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-212-04",
+   "situs": "21592 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21592 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-212-06",
+   "situs": "21562 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21562 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-212-07",
+   "situs": "21552 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21552 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-211-06",
+   "situs": "21561 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21561 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-211-04",
+   "situs": "21541 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21541 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-212-05",
+   "situs": "21582 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21582 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-211-02",
+   "situs": "21521 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21521 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-211-03",
+   "situs": "21531 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21531 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-211-05",
+   "situs": "21551 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21551 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-211-01",
+   "situs": "21501 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21501 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-212-10",
+   "situs": "21522 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21522 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-212-09",
+   "situs": "21532 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21532 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-212-08",
+   "situs": "21542 SAINT JOHN LN",
+   "n_points": 1,
+   "sample": "21542 St John Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "142-461-01",
+   "situs": "7841 ARBOR CIR",
+   "n_points": 2,
+   "sample": "7819 Arbor Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-591-01",
+   "situs": "17192 PACIFIC COAST HWY",
+   "n_points": 3,
+   "sample": "17026 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "163-302-33",
+   "situs": "4731 LOS PATOS AVE",
+   "n_points": 2,
+   "sample": "17241 Lynn Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-291-15",
+   "situs": "18272 PARKVIEW LN",
+   "n_points": 2,
+   "sample": "18228 Parkview Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "153-041-32",
+   "situs": "19096 QUEENSPORT LN APT E",
+   "n_points": 2,
+   "sample": "8110 Islandview Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "025-191-52",
+   "situs": "719 UTICA AVE",
+   "n_points": 1,
+   "sample": "721 Utica Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-283-12",
+   "situs": "20331 PORTVIEW CIR UNIT 102",
+   "n_points": 6,
+   "sample": "20341 Tidepool Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "148-031-57",
+   "situs": "8314 ATLANTA AVE APT 104",
+   "n_points": 2,
+   "sample": "8316 Atlanta Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-234-17",
+   "situs": "7911 SLATER AVE",
+   "n_points": 12,
+   "sample": "17462 Keelson Ln Unit 201",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "107-704-04",
+   "situs": "8281 WARNER AVE",
+   "n_points": 2,
+   "sample": "8283 Warner Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "151-421-03",
+   "situs": "9300 INDIANAPOLIS AVE",
+   "n_points": 1,
+   "sample": "9310 Indianapolis Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-08",
+   "situs": "16325 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16325 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-11",
+   "situs": "16341 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16341 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-12",
+   "situs": "16345 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16345 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-13",
+   "situs": "16351 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16351 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-512-07",
+   "situs": "16361 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16361 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-512-09",
+   "situs": "16371 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16371 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-512-08",
+   "situs": "16369 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16369 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-512-10",
+   "situs": "16381 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16381 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-512-11",
+   "situs": "16385 S PACIFIC AVE",
+   "n_points": 3,
+   "sample": "16387 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-512-12",
+   "situs": "16391 S PACIFIC AVE UNIT 1",
+   "n_points": 5,
+   "sample": "16391 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-513-20",
+   "situs": "16401 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16401 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-513-09",
+   "situs": "16421 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16421 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-513-10",
+   "situs": "16425 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16425 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-513-11",
+   "situs": "16431 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16431 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-514-05",
+   "situs": "16441 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16441 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-514-19",
+   "situs": "16451 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16451 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-514-24",
+   "situs": "16461 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16461 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-514-23",
+   "situs": "16467 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16467 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-514-22",
+   "situs": "16475 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16475 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-515-08",
+   "situs": "16515 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16515 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-515-09",
+   "situs": "16521 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16521 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-515-10",
+   "situs": "16525 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16525 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-515-11",
+   "situs": "16531 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16531 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-516-11",
+   "situs": "16541 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16541 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-516-09",
+   "situs": "16551 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16551 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-516-07",
+   "situs": "16562 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16562 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-516-06",
+   "situs": "16566 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16566 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-516-10",
+   "situs": "16545 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16545 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-521-11",
+   "situs": "16571 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16571 S Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-521-07",
+   "situs": "16591 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16591 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-521-06",
+   "situs": "16595 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16595 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-521-10",
+   "situs": "16575 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16575 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-521-09",
+   "situs": "16577 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16577 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-521-08",
+   "situs": "16581 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16581 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-522-09",
+   "situs": "16601 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16601 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-522-08",
+   "situs": "16605 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16605 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-522-06",
+   "situs": "16615 S PACIFIC AVE UNIT A",
+   "n_points": 4,
+   "sample": "16615 S Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-522-05",
+   "situs": "16617 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16617 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-522-07",
+   "situs": "16611 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16611 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-523-08",
+   "situs": "16631 S PACIFIC AVE UNIT A",
+   "n_points": 4,
+   "sample": "16631 S Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-523-07",
+   "situs": "16635 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16635 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-523-11",
+   "situs": "16637 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16637 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-523-05",
+   "situs": "16651 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16651 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-523-04",
+   "situs": "16655 S PACIFIC AVE UNIT 1",
+   "n_points": 3,
+   "sample": "16655 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-524-11",
+   "situs": "16661 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16661 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-524-10",
+   "situs": "16665 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16665 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-524-09",
+   "situs": "16671 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16671 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-524-08",
+   "situs": "16679 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16679 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-524-07",
+   "situs": "16681 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16681 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-525-13",
+   "situs": "16695 S PACIFIC AVE",
+   "n_points": 4,
+   "sample": "16690 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-525-12",
+   "situs": "16697 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16697 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-525-11",
+   "situs": "16701 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16701 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-525-10",
+   "situs": "16707 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16707 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-525-09",
+   "situs": "16715 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16715 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-525-08",
+   "situs": "16723 S PACIFIC AVE UNIT A",
+   "n_points": 3,
+   "sample": "16723 S Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-526-05",
+   "situs": "16733 S PACIFIC AVE",
+   "n_points": 5,
+   "sample": "16727 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-526-06",
+   "situs": "16735 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16735 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-526-07",
+   "situs": "16741 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16741 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-526-08",
+   "situs": "16746 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16745 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-526-09",
+   "situs": "16751 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16751 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-526-10",
+   "situs": "16755 S PACIFIC AVE # A",
+   "n_points": 2,
+   "sample": "16755 S Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-533-05",
+   "situs": "16761 S PACIFIC AVE # A",
+   "n_points": 2,
+   "sample": "16761 S Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-533-07",
+   "situs": "16771 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16771 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-533-06",
+   "situs": "16765 S PACIFIC AVE # 1",
+   "n_points": 3,
+   "sample": "16765 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-533-08",
+   "situs": "16775 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16775 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-533-09",
+   "situs": "16779 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16779 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-533-10",
+   "situs": "16781 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16781 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-534-20",
+   "situs": "16791 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16791 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-534-19",
+   "situs": "16795 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16795 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-534-08",
+   "situs": "16801 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16801 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-534-10",
+   "situs": "16812 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16811 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-534-11",
+   "situs": "16815 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16815 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-535-05",
+   "situs": "16821 S PACIFIC AVE # 1",
+   "n_points": 4,
+   "sample": "16821 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-535-06",
+   "situs": "16825 S PACIFIC AVE UNIT A",
+   "n_points": 3,
+   "sample": "16825 S Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-535-07",
+   "situs": "16831 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16831 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-535-08",
+   "situs": "16835 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16835 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-535-09",
+   "situs": "16841 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16841 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-535-10",
+   "situs": "16845 S PACIFIC AVE UNIT 1",
+   "n_points": 3,
+   "sample": "16845 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-536-06",
+   "situs": "16851 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16851 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-536-07",
+   "situs": "16855 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16855 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-536-08",
+   "situs": "16861 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16861 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-536-09",
+   "situs": "16865 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16865 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-536-10",
+   "situs": "16871 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16871 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-536-11",
+   "situs": "16875 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16875 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-537-06",
+   "situs": "16881 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16881 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-537-07",
+   "situs": "16885 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16885 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-537-08",
+   "situs": "16891 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16891 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-537-09",
+   "situs": "16895 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16895 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-537-10",
+   "situs": "16901 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16901 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-537-11",
+   "situs": "16905 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16905 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-538-06",
+   "situs": "16911 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16911 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-538-07",
+   "situs": "16915 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16915 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-538-08",
+   "situs": "16921 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16921 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-538-09",
+   "situs": "16925 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16925 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-538-10",
+   "situs": "16931 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16931 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-538-11",
+   "situs": "16935 S PACIFIC AVE UNIT A",
+   "n_points": 4,
+   "sample": "16935 S Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-541-06",
+   "situs": "16941 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16941 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-541-07",
+   "situs": "16945 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16945 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-541-08",
+   "situs": "16951 S PACIFIC AVE # 1",
+   "n_points": 1,
+   "sample": "16951 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-541-09",
+   "situs": "16955 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16955 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-541-10",
+   "situs": "16961 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16961 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-541-11",
+   "situs": "16971 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16971 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-542-05",
+   "situs": "16981 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16981 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-542-07",
+   "situs": "16991 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16991 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-542-08",
+   "situs": "16995 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16995 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-542-09",
+   "situs": "17001 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17001 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-542-10",
+   "situs": "17005 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17005 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-543-08",
+   "situs": "17011 S PACIFIC AVE # A",
+   "n_points": 2,
+   "sample": "17011 S Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-543-09",
+   "situs": "17015 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17015 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-543-10",
+   "situs": "17025 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17021 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-543-12",
+   "situs": "17029 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17029 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-543-11",
+   "situs": "17027 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17027 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-543-13",
+   "situs": "17033 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "17031 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-544-07",
+   "situs": "17041 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17041 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-544-08",
+   "situs": "17045 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17045 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-544-09",
+   "situs": "17049 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17049 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-544-10",
+   "situs": "17055 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17055 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-544-11",
+   "situs": "17061 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17061 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-544-12",
+   "situs": "17065 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17065 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-545-06",
+   "situs": "17071 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17071 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-545-07",
+   "situs": "17075 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "17075 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-545-08",
+   "situs": "17079 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17079 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-545-09",
+   "situs": "17085 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17085 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-545-11",
+   "situs": "17091 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17091 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-552-01",
+   "situs": "17101 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "17101 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-552-02",
+   "situs": "17105 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17105 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-552-03",
+   "situs": "17111 S PACIFIC AVE # 1",
+   "n_points": 1,
+   "sample": "17111 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-552-04",
+   "situs": "17121 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17121 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-552-05",
+   "situs": "17125 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "17125 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-552-06",
+   "situs": "17131 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17131 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-553-01",
+   "situs": "17135 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17135 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-553-02",
+   "situs": "17145 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17145 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-553-03",
+   "situs": "17151 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17151 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-553-04",
+   "situs": "17155 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17155 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-553-05",
+   "situs": "17165 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17165 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-553-06",
+   "situs": "17169 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17169 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-554-01",
+   "situs": "17175 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17175 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-554-02",
+   "situs": "17182 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17182 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-554-03",
+   "situs": "17181 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17181 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-554-06",
+   "situs": "17200 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17200 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-524-06",
+   "situs": "16685 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16685 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-522-04",
+   "situs": "16625 S PACIFIC AVE UNIT A",
+   "n_points": 4,
+   "sample": "16625 S Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-523-12",
+   "situs": "16641 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16641 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-516-08",
+   "situs": "16555 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16555 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-515-07",
+   "situs": "16511 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16511 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-515-06",
+   "situs": "16501 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16501 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-513-08",
+   "situs": "16415 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16413 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-531-10",
+   "situs": "16771 BROADWAY",
+   "n_points": 1,
+   "sample": "16812 Bayview Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-551-12",
+   "situs": "17167 PACIFIC COAST HWY",
+   "n_points": 1,
+   "sample": "17171 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-543-14",
+   "situs": "17030 N PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17030 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-543-07",
+   "situs": "17022 N PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17022 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-543-06",
+   "situs": "17012 N PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17012 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-542-04",
+   "situs": "200 8TH ST",
+   "n_points": 1,
+   "sample": "16996 8th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-538-04",
+   "situs": "16910 N PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16910 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-538-05",
+   "situs": "16912 N PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16912 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-536-12",
+   "situs": "16872 N PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16872 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-536-05",
+   "situs": "16875 N PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16875 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-533-02",
+   "situs": "230 15TH ST",
+   "n_points": 1,
+   "sample": "16772 15th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-525-06",
+   "situs": "16702 N PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16702 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-525-05",
+   "situs": "16692 N PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16692 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-516-13",
+   "situs": "16561 PACIFIC COAST HWY",
+   "n_points": 1,
+   "sample": "16555 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-516-12",
+   "situs": "16543 PACIFIC COAST HWY",
+   "n_points": 2,
+   "sample": "16545 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-515-05",
+   "situs": "16514 N PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16514 N Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-512-13",
+   "situs": "16392 N PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16392 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-512-21",
+   "situs": "16372 N PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16372 N Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-14",
+   "situs": "16352 N PACIFIC AVE # 1",
+   "n_points": 4,
+   "sample": "16352 N Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-15",
+   "situs": "16346 N PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16348 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-16",
+   "situs": "16342 N PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16344 N Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-05",
+   "situs": "16332 N PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16332 N Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-07",
+   "situs": "16328 N PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16328 N Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-06",
+   "situs": "16330 N PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16330 N Pacific Ave Unit A",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-10",
+   "situs": "16335 S PACIFIC AVE # 1",
+   "n_points": 2,
+   "sample": "16335 S Pacific Ave Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-511-09",
+   "situs": "16335 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16335 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-515-14",
+   "situs": "16543 PACIFIC COAST HWY",
+   "n_points": 3,
+   "sample": "16543 22nd St Unit 1",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "110-511-12",
+   "situs": "6474 MARIGAYLE CIR",
+   "n_points": 2,
+   "sample": "18515 Edwards St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-113-29",
+   "situs": "930 10TH ST",
+   "n_points": 1,
+   "sample": "315 8th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-534-09",
+   "situs": "16806 PACIFIC COAST HWY",
+   "n_points": 1,
+   "sample": "16805 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-545-10",
+   "situs": "17090 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17089 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-156-14",
+   "situs": "311 17TH ST",
+   "n_points": 1,
+   "sample": "309 17th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-124-30",
+   "situs": "424 20TH ST",
+   "n_points": 1,
+   "sample": "422 20th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-124-31",
+   "situs": "422 20TH ST",
+   "n_points": 1,
+   "sample": "424 20th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-491-03",
+   "situs": "18801 SEAGATE DR",
+   "n_points": 1,
+   "sample": "18751 Seagate Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "142-075-01",
+   "situs": "7601 EDINGER AVE",
+   "n_points": 494,
+   "sample": "7555 Edinger Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-517-01",
+   "situs": "16412 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16412 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-527-01",
+   "situs": "16622 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "16624 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-530-01",
+   "situs": "16812 S PACIFIC AVE",
+   "n_points": 2,
+   "sample": "16804 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-546-01",
+   "situs": "17002 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17002 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-551-26",
+   "situs": "17166 S PACIFIC AVE",
+   "n_points": 1,
+   "sample": "17166 S Pacific Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "142-074-12",
+   "situs": "7400 CENTER AVE",
+   "n_points": 54,
+   "sample": "7402 Center Ave Unit 214",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-123-08",
+   "situs": "110 9TH ST",
+   "n_points": 1,
+   "sample": "818 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "111-071-19",
+   "situs": "18100 GOLDENWEST ST",
+   "n_points": 2,
+   "sample": "18272 Goldenwest St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-111-24",
+   "situs": "324 11TH ST",
+   "n_points": 2,
+   "sample": "326 11th St ",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "153-091-19",
+   "situs": "19820 BEACH BLVD",
+   "n_points": 3,
+   "sample": "19620 Beach Blvd",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-161-38",
+   "situs": "4642 VISTA BAHIA DR",
+   "n_points": 3,
+   "sample": "4649 Vista Bahia Dr",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-741-46",
+   "situs": "4174 DELPHI CIR",
+   "n_points": 3,
+   "sample": "4172 Delphi Cir",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "145-282-36",
+   "situs": "15948 CARRIE LN",
+   "n_points": 1,
+   "sample": "15952 Carrie Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "165-331-31",
+   "situs": "17531 GRIFFIN LN",
+   "n_points": 3,
+   "sample": "17511 Griffin Ln Unit MF",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-162-41",
+   "situs": "230 2ND ST",
+   "n_points": 1,
+   "sample": "228 2nd St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-123-20",
+   "situs": "125 8TH ST",
+   "n_points": 1,
+   "sample": "127 8th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-104-27",
+   "situs": "523 7TH ST",
+   "n_points": 1,
+   "sample": "521 7th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-033-01",
+   "situs": "1215 OLIVE AVE",
+   "n_points": 2,
+   "sample": "226 13th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-164-32",
+   "situs": "326 3RD ST",
+   "n_points": 1,
+   "sample": "328 3rd St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "195-111-01",
+   "situs": "5301 BOLSA AVE",
+   "n_points": 1,
+   "sample": "5241 Bolsa Ave",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "178-131-01",
+   "situs": "16513 HARBOUR LN",
+   "n_points": 3,
+   "sample": "16419 Harbour Ln Unit MF",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "159-282-13",
+   "situs": "19075 OCEANPORT LN",
+   "n_points": 5,
+   "sample": "19051 Oceanport Ln Unit MF",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "149-302-30",
+   "situs": "21184 DAYLIGHT LN",
+   "n_points": 1,
+   "sample": "21181 Daylight Ln",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "024-213-21",
+   "situs": "413 FRANKFORT AVE",
+   "n_points": 1,
+   "sample": "601 Delaware St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "146-211-22",
+   "situs": "16521 GRAHAM ST",
+   "n_points": 1,
+   "sample": "16525 Graham St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "110-170-10",
+   "situs": "6700 TAYLOR AVE",
+   "n_points": 1,
+   "sample": "18381 Goldenwest St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-020-18",
+   "situs": "1821 17TH ST",
+   "n_points": 1,
+   "sample": "1831 17th St",
+   "editor": "SPRADLIA"
+  },
+  {
+   "APN": "023-165-12",
+   "situs": "113 18TH ST",
+   "n_points": 4,
+   "sample": "1802 Pacific Coast Hwy",
+   "editor": "SPRADLIA"
+  }
+ ]
+}
