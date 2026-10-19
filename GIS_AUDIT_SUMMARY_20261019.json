@@ -5,7 +5,8 @@
   "hb_gis": {
     "host": "gis.huntingtonbeachca.gov",
     "ip": "192.5.222.153",
-    "services": 43,
+    "service_endpoints": 43,
+    "unique_services": 42,
     "layers": 584,
     "versioned_services": 27,
     "layers_with_editor_tracking": 159,

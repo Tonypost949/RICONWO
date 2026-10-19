@@ -61,7 +61,7 @@ A finding of T2/T4/T5 failure is an **accountability** finding. It becomes a **f
 
 - **Host:** `gis.huntingtonbeachca.gov` → `192.5.222.153` (City-owned AS393281, no WAF per RICO matrix).
 - **Software:** self-hosted Esri ArcGIS Server (MapServer/FeatureServer/GeocodeServer/GPServer/SymbolServer).
-- **Live enumeration:** **43 services, 584 layers.** 27 services are versioned. **159 layers carry editor-tracking fields.** Only **one** service is write-enabled: `AddressEdits`.
+- **Live enumeration:** **43 service endpoints (42 unique services), 584 layers.** 27 services are versioned. **159 layers carry editor-tracking fields.** Only **one** service is write-enabled: `AddressEdits`.
 - **Full metadata capture:** `/home/osintneoai/evidence/gis_audit_20261019/hb_arcgis_services_full.json` (1.09 MB).
 - **Key services:** `Parcels`, `AddressEdits`, `Planning`, `PublicWorks`, `SewerLayers`, `SewerBroadcast`, `StormLayers`, `StormBroadcast`, `StormwaterBMPs`, `SurfaceFlow`, `Property`, `WebFire`, `WebPolice`, `BusinessAnalysis`, `Transportation`, `WaterBroadcast`, `UtilitiesBaseMap`, plus historical orthophoto services.
 
@@ -242,7 +242,7 @@ The RICO infrastructure matrix lists 50 government entities. Only Huntington Bea
 
 | Entity | GIS / Records platform (per IRC matrix) | This pass |
 |---|---|---|
-| **City of Huntington Beach** | Self-hosted ArcGIS (192.5.222.153) + Laserfiche (192.5.222.218) | **VERIFIED** — 43 services, public-write address layer, mass edits |
+| **City of Huntington Beach** | Self-hosted ArcGIS (192.5.222.153) + Laserfiche (192.5.222.218) | **VERIFIED** — 43 endpoints, public-write address layer, mass edits |
 | **County of Orange (Central)** | County GIS + enterprise EDMS; gateway 159.111.146.166 | **VERIFIED** — stormwater, legal lots, flood, outfall |
 | City of Newport Beach | ArcGIS Online (SaaS) + Laserfiche Cloud/CityView | Platform documented; endpoint not verified |
 | City of Costa Mesa | ArcGIS Enterprise Cloud + Tyler | Platform documented; endpoint not verified |
@@ -417,7 +417,7 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 
 | Artifact | Path | Content |
 |---|---|---|
-| HB full service metadata | `/home/osintneoai/evidence/gis_audit_20261019/hb_arcgis_services_full.json` | 43 services, 584 layers, capabilities, fields |
+| HB full service metadata | `/home/osintneoai/evidence/gis_audit_20261019/hb_arcgis_services_full.json` | 43 endpoints (42 unique), 584 layers, capabilities, fields |
 | HB key service metadata | `/home/osintneoai/evidence/gis_audit_20261019/hb_key_services_meta.json` | Parcels, AddressEdits, Planning, etc. |
 | HB near-site infrastructure | `/home/osintneoai/evidence/gis_audit_20261019/hb_infra_near_site.json` | Storm/sewer/BMP features in corridor |
 | HB target parcels | `/home/osintneoai/evidence/gis_audit_20261019/hb_target_parcels.json` | APN attribute captures |
