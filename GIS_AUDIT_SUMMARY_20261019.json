@@ -48,6 +48,15 @@
       "recent_edits": ["2026-05-19", "2026-05-20", "2026-08-25", "2026-10-16"]
     },
     "bmp_2024_octa_grant": {"total": 66, "nuweyt": 66, "edit_date_utc": "2026-05-15"},
+    "grant_cycle_reconciliation": {
+      "2024 OCTA": {"assets": 66, "with_strmindex": 66, "model_node_matches": 66},
+      "2014 OCTA": {"assets": 110, "with_strmindex": 110, "model_node_matches": 110},
+      "2013 OCTA": {"assets": 125, "with_strmindex": 125, "model_node_matches": 124},
+      "2011 OCTA": {"assets": 28, "with_strmindex": 28, "model_node_matches": 28},
+      "Huntington Harbor": {"assets": 44, "with_strmindex": 44, "model_node_matches": 44},
+      "Used Oil": {"assets": 135, "with_strmindex": 134, "model_node_matches": 134},
+      "single_mismatch": "147CBN010 (Commerce St, BioClean Basket, 2013 cycle)"
+    },
     "hbnc": {
       "apn_cameron": "167-472-08",
       "apn_beach": "167-472-09",
@@ -68,7 +77,50 @@
       "drainage_area": {"name": "Wintersburg Channel", "area_no": 5, "fee_usd": 5500.0},
       "fema_zone": "X - Area with Reduced Risk Due to Levee"
     },
-    "legacy_well": {"api": "0405900882", "lease": "Hoff", "well": "1", "status": "Plugged", "operator": "Cadillac Oil Co."}
+    "legacy_well": {
+      "api": "0405900882", "lease": "Hoff", "well": "1", "status": "Plugged",
+      "type": "Dry Hole", "operator": "Cadillac Oil Co.",
+      "latitude": 33.70973206, "longitude": -117.99338531,
+      "inHPZ": "Verified HPZ", "spud_date": null
+    },
+    "geotracker": {
+      "source": "SWRCB GeoTracker sites download FeatureServer/371 (snapshot 2023-01-26)",
+      "corridor_cases": 18,
+      "primary_case": {
+        "global_id": "T10000018579",
+        "business_name": "Beach Boulevard Project",
+        "address": "17642 Beach Boulevard",
+        "local_case": "20IC002",
+        "case_type": "Cleanup Program Site",
+        "status": "Completed - Case Closed",
+        "begin_date": "2020-04-28",
+        "status_date": "2020-08-21",
+        "site_history": "CASE CLOSED AS PAVED LOT FOR TEMPORARY HOUSING TENTS. SITE MUST BE REEVLUATED FOR ANY LAND USE CHANGES.",
+        "potential_contaminants": null,
+        "potential_media": null,
+        "quantity_released": null
+      },
+      "duplicate_case": {
+        "global_id": "T10000020555",
+        "business_name": "17631 CAMERON LANE AND 17642 BEACH BLVD",
+        "address": "0 CAMERON AND BEACH LN",
+        "local_case": "20IC002",
+        "begin_date": "2020-08-21",
+        "status_date": "2020-08-21",
+        "note": "same-day open/close; generic site history"
+      },
+      "nearby_open_cases": [
+        {"global_id": "T0605901705", "name": "G & M Oil #35", "address": "17501 Beach Blvd", "distance_m": 272, "status": "Open - Verification Monitoring", "contaminants": "Gasoline", "media": "Aquifer used for drinking water supply"},
+        {"global_id": "T10000005577", "name": "Golden West Laundry", "address": "17862 Jamestown Ln", "distance_m": 664, "status": "Open - Inactive", "contaminants": "PCE/TCE", "media": "Groundwater, soil, soil vapor"}
+      ]
+    },
+    "dtsc_envirostor": {
+      "source": "DTSC EnviroStor Public Data Export FeatureServer/0",
+      "corridor_sites": 1,
+      "site": "Huntington Beach Diagnostic Imaging Ctr., 17822 Beach Blvd #101",
+      "status": "No Further Action",
+      "hbnc_listed": false
+    }
   },
   "oc_gis": {
     "stormwater_corridor": {
@@ -90,8 +142,8 @@
     "attribution_status": "possession documented; use unverified"
   },
   "verification_status": {
-    "verified": ["HB service inventory", "AddressEdits write capability", "HB parcel/address/sewer/storm/BMP editor counts", "HBNC parcel and address records", "SP14/M-sp zoning", "OC stormwater corridor", "OC legal lots", "FEMA zone", "HB oil well", "2024 OCTA grant layer"],
-    "unverified": ["GeoTracker case re-query", "DTSC re-query", "StormTech as-built", "OCTA reimbursement claims", "ArcGIS execution on any specific machine", "pre-2026 GIS baseline"],
-    "open_hypotheses": 12
+    "verified": ["HB service inventory", "AddressEdits write capability", "HB parcel/address/sewer/storm/BMP editor counts", "HBNC parcel and address records", "SP14/M-sp zoning", "OC stormwater corridor", "OC legal lots", "FEMA zone", "HB oil well", "2024 OCTA grant layer", "grant-cycle hydraulic-model reconciliation", "GeoTracker case 20IC002 conditional closure", "GeoTracker duplicate records", "GeoTracker 18-case corridor", "DTSC EnviroStor corridor", "CalGEM Hoff 1 well record"],
+    "unverified": ["StormTech as-built", "OCTA reimbursement claims", "Cr(VI) laboratory results tied to case file", "ArcGIS execution on any specific machine", "pre-2026 GIS baseline", "G & M Oil plume direction/vapor intrusion"],
+    "open_hypotheses": 14
   }
 }

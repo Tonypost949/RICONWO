@@ -1,0 +1,38 @@
+{
+ "2024 OCTA": {
+  "assets": 66,
+  "with_strmindex": 66,
+  "unique": 66,
+  "model_matches": 66
+ },
+ "2014 OCTA": {
+  "assets": 110,
+  "with_strmindex": 110,
+  "unique": 110,
+  "model_matches": 110
+ },
+ "2013 OCTA": {
+  "assets": 125,
+  "with_strmindex": 125,
+  "unique": 125,
+  "model_matches": 124
+ },
+ "2011 OCTA": {
+  "assets": 28,
+  "with_strmindex": 28,
+  "unique": 28,
+  "model_matches": 28
+ },
+ "Huntington Harbor": {
+  "assets": 44,
+  "with_strmindex": 44,
+  "unique": 44,
+  "model_matches": 44
+ },
+ "Used Oil": {
+  "assets": 135,
+  "with_strmindex": 134,
+  "unique": 134,
+  "model_matches": 134
+ }
+}

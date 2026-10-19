@@ -1,0 +1,67 @@
+STRMINDEX,Street,BMP,DrawInfo,NodeExists,NodeEntitySym,Invert,Rim,Q10,Q100,FeatureExists
+425CBN004,Velardo,Fabco-Stormtrough,TR4304.011,True,CatchBasin,6.116,10.59,12.24,30.72,True
+425CBN006,Velardo,Fabco-Stormtrough,TR4304.011,True,CatchBasin,5.795,11.105,16.27,41.17,True
+273CBN002,Warner,Fabco-Stormtrough,IM7838.038,True,CatchBasin,15.037,25.957,10.55,25.31,True
+263CBN009,Robidoux,Fabco-Stormtrough,IM7838.038; IM3595.002,True,CatchBasin,11.202,24.773,7.1,18.18,True
+273CBN007,Friesland,Fabco-Stormtrough,,True,CatchBasin,18.073,22.023,33.08,64.17,True
+273CBN008,Friesland,Fabco-Stormtrough,TR4009.005,True,CatchBasin,18.283,22.65,13.55,36.76,True
+273CBN009,Jefferson,Fabco-Stormtrough,TR4009.008,True,CatchBasin,17.096,23.545,26.25,65.69,True
+273CBN010,Jefferson,Fabco-Stormtrough,TR4009.008,True,CatchBasin,16.892,24.013,26.97,54.95,True
+273CBN006,Valencia,Fabco-Stormtrough,TR3862.006; IM3634.002,True,CatchBasin,16.185,22.459,15.22,15.4,True
+273CBN005,Valencia,Fabco-Stormtrough,TR3862.006; IM3634.002,True,CatchBasin,16.202,22.934,15.58,16.41,True
+263CBN011,Minoru,Fabco-Stormtrough,TR5030.002,True,CatchBasin,15.292,25.215,12.58,32.81,True
+264CBN014,Warner,Fabco-Stormtrough,TR6626.002; IM3620.002,True,CatchBasin,17.771,28.117,1.81,4.43,True
+264CBN008,Viceroy,Fabco-Stormtrough,TR3430.004,True,CatchBasin,17.038,26.106,9.78,24.85,True
+264CBN013,Ross,Fabco-Stormtrough,GIS Field Check 4/2009,True,CatchBasin,17.464,28.426,0.75,1.84,True
+264CBN011,Anthony,Fabco-Stormtrough,TR6626.006,True,CatchBasin,19.69,25.843,2.6,6.78,True
+264CBN012,Anthony,Fabco-Stormtrough,TR6626.006,True,CatchBasin,19.4,26.278,14.96,38.4,True
+264CBN006,Merle,Fabco-Stormtrough,TR3431.002,True,CatchBasin,16.991,27.284,5.62,15.41,True
+264CBN004,Merle,Fabco-Stormtrough,TR3431.002,True,CatchBasin,16.795,27.189,6.28,17.32,True
+253CBN002,Newland,Fabco-Stormtrough,IM3546.003; GIS Field Check 4/2009,True,CatchBasin,28.26,29.26,1.98,5.43,True
+264CBN007,16931 Magnolia Lot,Fabco-Stormtrough,PW1981091.004,True,CatchBasin,18.998,29.051,3.01,6.76,True
+252CBN002,Amazon,Fabco-Stormtrough,TR5894.002,True,CatchBasin,17.051,19.556,12.34,15.4,True
+252CBN003,Amazon,Fabco-Stormtrough,TR5894.002,True,CatchBasin,16.423,19.892,21.63,32.31,True
+264CBN009,Riverbend,Fabco-Stormtrough,PW1981091.004,True,CatchBasin,18.693,30.146,0.73,2.02,True
+179CBN013,Mayor,Fabco-Stormtrough,TR6738.011,True,CatchBasin,-3.665,1.918,7.81,15.69,True
+179CBN008,Drey,Fabco-Stormtrough,TR6528.007,True,CatchBasin,0.121,3.65,23.15,30.23,True
+179CBN009,Drey,Fabco-Stormtrough,TR6528.007,True,CatchBasin,0.289,3.593,12.58,15.4,True
+175CBN006,Lynn,Fabco-Stormtrough,IM6273.005,True,CatchBasin,34.131,36.591,3.01,4.64,True
+166CBN028,Warner,Fabco-Stormtrough,PW1992067.018,True,CatchBasin,-3.283,6.554,5.11,7.97,True
+166CBN029,Warner,Fabco-Stormtrough,PW1992067.018,True,CatchBasin,-4.163,4.117,11.53,15.4,True
+164CBN016,Davenport,Fabco-Stormtrough,TR4880.017,True,CatchBasin,5.69,8.38,2.51,5.52,True
+164CBN018,Davenport,Fabco-Stormtrough,TR4880.017,True,CatchBasin,5.55,8.17,8.51,10.69,True
+164CBN015,Davenport,Fabco-Stormtrough,TR4880.017,True,CatchBasin,5.289,7.451,1.42,5.49,True
+164CBN017,Davenport,Fabco-Stormtrough,TR4880.017,True,CatchBasin,5.156,8.126,14.64,23.23,True
+164CBN005,Morning Star,Fabco-Stormtrough,TR5360.015,True,CatchBasin,3.627,7.332,7.26,17.36,True
+164CBN006,Morning Star,Fabco-Stormtrough,TR5360.015,True,CatchBasin,3.754,8.257,3.81,8.71,True
+164CBN013,Phelps,Fabco-Stormtrough,TR5360.010,True,CatchBasin,5.013,9.307,9.6,22.78,True
+154CBN027,Heil,Fabco-Stormtrough,IM296.002,True,CatchBasin,0.225,8.144,1.62,3.71,True
+157CBN003,Mangrum,Fabco-Stormtrough,TR3642.009,True,CatchBasin,7.359,10.937,26.69,30.82,True
+166CBN030,Warner,Fabco-Stormtrough,IM1119.001,True,CatchBasin,-5.374,2.616,3.63,11.95,True
+166CBN027,Graham,Fabco-Stormtrough,IM1119.001,True,CatchBasin,-5.876,2.621,19.3,44.73,True
+167CBN010,Graham,Fabco-Stormtrough,IM1119.001,True,CatchBasin,-6.645,2.74,20.04,44.94,True
+177CBN008,Springdale,Fabco-Stormtrough,TR5789.004,True,CatchBasin,-7.968,2.248,7.36,15.38,True
+177CBN004,Berlin,Fabco-Stormtrough,TR5791.014,True,CatchBasin,-9.158,-0.964,2.13,14.13,True
+177CBN005,Kern,Fabco-Stormtrough,TR5791.014,True,CatchBasin,-8.949,-1.652,13.42,15.4,True
+177CBN006,Kern,Fabco-Stormtrough,TR5791.014,True,CatchBasin,-9.352,-1.397,9.47,15.88,True
+175CBN005,Bolsa Chica,Fabco-Stormtrough,IM5262.002,True,CatchBasin,24.142,35.15,15.91,39.72,True
+175CBN003,Warner,Fabco-Stormtrough,IM5262.002,True,CatchBasin,16.606,35.194,17.5,43.82,True
+157CBN002,Eagle,Fabco-Stormtrough,TR3642.009,True,CatchBasin,7.299,11.148,42.11,46.34,True
+157CBN001,Graham,Fabco-Stormtrough,TR3642.009,True,CatchBasin,7.229,11.873,47.03,60.35,True
+156CBN002,Davis,Fabco-Stormtrough,TR3657.009,True,CatchBasin,7.081,11.479,22.65,54.39,True
+156CBN006,Warren,Fabco-Stormtrough,TR3616.013,True,CatchBasin,6.145,10.784,4.62,9.81,True
+156CBN009,Sisson,Fabco-Stormtrough,TR3616.014,True,CatchBasin,5.062,10.294,27.24,46.12,True
+166CBN009,Graham,Fabco-Stormtrough,PW2015031.010,True,CatchBasin,8.639,15.294,3.52,8.98,True
+167CBN002,Graham,Fabco-Stormtrough,IM7559.002,True,CatchBasin,8.588,15.81,4.03,10.87,True
+166CBN005,Heil,Fabco-Stormtrough,IM7559.002,True,CatchBasin,8.207,15.982,6.63,16.75,True
+167CBN001,Heil,Fabco-Stormtrough,IM7559.002,True,CatchBasin,8.227,16.351,4.21,15.77,True
+158CBN006,Woodstock,Fabco-Stormtrough,IM5315.005,True,CatchBasin,0.207,9.316,6.96,28.78,True
+158CBN004,Ballantine,Fabco-Stormtrough,IM5315.006,True,CatchBasin,1.934,10.391,8.15,15.4,True
+165CBN001,Heil,Fabco-Stormtrough,TR9468.001,True,CatchBasin,4.667,8.738,18.93,47.13,True
+165CBN006,Bolsa Chica,Fabco-Stormtrough,IM5549.003,True,CatchBasin,5.365,13.366,9.89,26.19,True
+165CBN024,Bolsa Chica,Fabco-Stormtrough,IM5262.003,True,CatchBasin,15.135,29.316,4.85,11.9,True
+156CBN019,Bolsa Chica,Fabco-Stormtrough,GIS Field Check 7/2009,True,CatchBasin,5.192,12.368,4.87,12.35,True
+154CBN021,Monterey,Fabco-Stormtrough,IM254.004,True,CatchBasin,4.434,7.434,23.46,32.52,True
+154CBN020,Monterey,Fabco-Stormtrough,IM254.004,True,CatchBasin,4.556,7.162,11.14,13.22,True
+138CBN008,McFadden,Fabco-Stormtrough,TR3847.003,True,CatchBasin,8.957,17.128,103.58,184.04,True
+138CBN006,McFadden,Fabco-Stormtrough,TR3847.005,True,CatchBasin,8.565,17.168,118.31,205.46,True

@@ -1,0 +1,44 @@
+{
+ "source": "DTSC EnviroStor Public Data Export",
+ "query_envelope": {
+  "xmin": -117.998,
+  "ymin": 33.7,
+  "xmax": -117.98,
+  "ymax": 33.712,
+  "spatialReference": {
+   "wkid": 4326
+  }
+ },
+ "sites": [
+  {
+   "OBJECTID": 13060,
+   "project_name": "Huntington Beach Diagnostic Imaging Ctr.",
+   "address": "17822 Beach Boulevard #101",
+   "city": "Huntington Beach",
+   "state": "CA",
+   "zip": "92647",
+   "county": "ORANGE",
+   "site_type": "Tiered Permit",
+   "lead_agency": "NONE SPECIFIED",
+   "supervisor": "* Robert Senga",
+   "division_branch": "Cleanup Cypress",
+   "envirostor_id": "71003165",
+   "site_code": "",
+   "assembly": "70",
+   "senate": "36",
+   "congressional_district": "47",
+   "special_program": "",
+   "status": "No Further Action",
+   "status_date": "6/4/2015 12:00:00 AM",
+   "past_uses": "NONE SPECIFIED",
+   "potential_media_affected": "NONE SPECIFIED",
+   "restricted_use": "NO",
+   "site_mgmt_req": "NONE SPECIFIED",
+   "funding": "",
+   "latitude": 33.7033238,
+   "longitude": -117.9878944,
+   "potential_coc": "",
+   "confirmed_coc": ""
+  }
+ ]
+}

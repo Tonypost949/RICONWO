@@ -33,6 +33,7 @@
 10. **[VERIFIED] Both custodians' storm/sewer fabrics therefore lack usable per-asset audit provenance** — HB because of the 2026 NUWEYT bulk load, OC because of 2018/2020 system migration stamps. This is an accountability vacuum, not by itself proof of intent.
 11. **[VERIFIED] Possession of cracked Esri installers is documented; execution/use is not.** The audit manifest lists ArcGIS 10.2 License Manager + Crack, ArcGIS Desktop 10.8.2, Esri ArcGIS 10.7.1, and ArcGIS Pro 3.1.5 in a Downloads archive. No `.mxd`, `.aprx`, `.shp`, `.gdb`, license-manager log, Prefetch, Amcache, or registry artifact is present in this workspace. Claims that pirated ArcGIS "built" a specific municipal product remain **[UNVERIFIED]** pending those artifacts.
 12. **[OSINT ARTIFACT / VERIFIED ABSENCE] The “2,247 cu ft StormTech” figure is not a municipal record, and the system is missing from the city's asset inventory.** The figure appears only in the locally authored `hbnc_rico_gis.html`. The permit-derived plan figures are 10 × MC-3500 chambers = **1,099 ft³ nominal / 1,789 ft³ minimum installed** (109.9 / 178.9 ft³ each). The HTML also plots the chamber field along a ~1 km line west of the site. A search of all 19 BMP layers and the storm storage inventory found **no HBNC chamber asset at all**.
+13. **[VERIFIED] The environmental closure was expressly conditioned on temporary tent use.** GeoTracker case `20IC002` (global ID `T10000018579`) closed on 2020-08-21 with the site history: *“CASE CLOSED AS PAVED LOT FOR TEMPORARY HOUSING TENTS. SITE MUST BE REEVLUATED FOR ANY LAND USE CHANGES.”* The site became a permanent navigation center, which triggers the stated condition. A second record (`T10000020555`) carries the same local case number with a same-day open-and-close date.
 
 ---
 
@@ -161,6 +162,19 @@ Example 2024 grant asset (Jefferson St): `Fabco-Stormtrough` inlet basket, `BMPN
 
 **Counterpoint:** the 2024 OCTA grant assets *are* model-linked — for example `STRMINDEX 273CBN009/010` appear both in the grant layer and in `StormLayers/Existing_Nodes` with `Invert_elevation`, `Rim_elevation`, `Q10`, and `Q100`. The city can link newer grant BMPs to its hydraulic model; it has not done so for the HBNC system.
 
+**Grant-cycle reconciliation [VERIFIED]:** every grant asset was checked against `StormLayers/MapServer/8` (`Existing_Nodes`) by `STRMINDEX`:
+
+| Grant cycle | Assets | With STRMINDEX | Model-node match |
+|---|---|---|---|
+| 2024 OCTA | 66 | 66 | **66/66** |
+| 2014 OCTA | 110 | 110 | **110/110** |
+| 2013 OCTA | 125 | 125 | 124/125 |
+| 2011 OCTA | 28 | 28 | **28/28** |
+| Huntington Harbor | 44 | 44 | **44/44** |
+| Used Oil | 135 | 134 | **134/134** |
+
+The single mismatch is `147CBN010` (Commerce St, BioClean Basket, `DrawInfo TR7090.013`, 2013 cycle). The BMP inventory is therefore internally consistent and tied to the hydraulic model; the “paper asset” hypothesis is **not supported at the data level**. Physical installation remains a field-verification question, not a data-integrity one.
+
 ### 2.7 Sewer and storm fabric
 
 **[VERIFIED]** Citywide editor counts:
@@ -230,9 +244,43 @@ Gravity main attributes: 165 RC, 3 Earth, 2 Corrugated Metal, 2 Concrete, 2 UNK.
 
 **[VERIFIED]** One plugged well (Hoff 1) in the corridor. CalGEM's own well record should be pulled for abandonment date, plugging method, and proximity to the shelter foundation.
 
-### 3.5 State Water Board GeoTracker / DTSC EnviroStor
+### 3.5 State Water Board GeoTracker — case 20IC002 (VERIFIED)
 
-**[UNVERIFIED in this pass]** Prior work product cites GeoTracker case `T10000018579`, chromium VI at 490 ppb (or 980 µg/kg in soil per another artifact), and case `20IC002` closure. These are not re-queried here. They remain the primary official-record targets because they are the only environmental datasets with statutory reporting duties.
+**Source:** SWRCB GeoTracker sites download feature service `https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/geotracker_sites_download/FeatureServer/371` (snapshot 2023-01-26; the live GeoTracker web UI is behind Cloudflare). Corridor envelope `(-117.998, 33.700, -117.980, 33.712)` returns **18 cases**.
+
+**Two global IDs map to local case `20IC002`:**
+
+| Global ID | Business name | Address | Status | Begin | Closed | Site history |
+|---|---|---|---|---|---|---|
+| `T10000018579` | Beach Boulevard Project | 17642 Beach Boulevard | Completed – Case Closed | 2020-04-28 | 2020-08-21 | **“CASE CLOSED AS PAVED LOT FOR TEMPORARY HOUSING TENTS. SITE MUST BE REEVLUATED FOR ANY LAND USE CHANGES.”** |
+| `T10000020555` | 17631 CAMERON LANE AND 17642 BEACH BLVD | 0 CAMERON AND BEACH LN | Completed – Case Closed | 2020-08-21 | 2020-08-21 | Generic boilerplate |
+
+**Findings:**
+
+1. **[VERIFIED] The closure is expressly premised on a paved lot for temporary housing tents and conditioned on reevaluation for any land use change.** The site became a permanent navigation center. The condition is triggered on the face of the record.
+2. **[VERIFIED] The record lists no potential contaminants of concern, no media of concern, and no quantity released** — despite the Cr(VI) results in prior work product (490 ppb / 980 µg/kg, still to be tied to the actual case file). The absence of a COC entry is itself a records gap.
+3. **[VERIFIED] Duplicate case records:** the same local case number `20IC002` appears under two global IDs, one of which was created and closed on the same day (2020-08-21) at “0 CAMERON AND BEACH LN.” This can split or obscure the case file.
+4. **[VERIFIED] The site sits inside a cluster of 18 environmental cases**, including two open cases:
+   - **G & M Oil #35** (`T0605901705`), 17501 Beach Blvd, **272 m** from the shelter — LUST, **Open – Verification Monitoring**, gasoline, *aquifer used for drinking water supply*.
+   - **Golden West Laundry** (`T10000005577`), 17862 Jamestown Ln, **664 m** — **Open – Inactive**, PCE/TCE in groundwater, soil, and soil vapor.
+   - Mobil #18-EBX / #11-EBX (`T0605909824` and related), 17472 Beach Blvd, **289 m** — closed LUST cases, gasoline in soil.
+5. **DTSC EnviroStor [VERIFIED]:** only one site in the corridor — *Huntington Beach Diagnostic Imaging Ctr.*, 17822 Beach Blvd #101, status **No Further Action**. The HBNC site is **not** a DTSC site; oversight is county/water-board.
+
+### 3.5a CalGEM well record (VERIFIED)
+
+`gis.conservation.ca.gov` WellSTAR/Wells, API `0405900882`:
+
+| Field | Value |
+|---|---|
+| Well | Hoff 1 |
+| Status | **Plugged** |
+| Type | Dry Hole (DH) |
+| Operator | Cadillac Oil Co. |
+| Location | 33.709732, -117.993385 (~600 m west-northwest of the shelter) |
+| `inHPZ` | **Verified HPZ** |
+| Spud date | null in service |
+
+The well is plugged and a dry hole; the `inHPZ` flag should be interpreted only after obtaining CalGEM's definition and the WellSTAR status history. The spatial fact — a legacy well ~600 m from the shelter — is verified.
 
 ### 3.6 HUD / CDBG
 
@@ -368,9 +416,10 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 | OC Flood Hazard | OC/FEMA | Flood risk | Zone X levee-reduced | Static federal layer | **Verified** |
 | OC Outfall_Inspections | OC | MS4 outfall inspections | 0 records in corridor | No inspection coverage at site | **Verified** |
 | OCTA 2011/2013/2014/2024 grant layers | HB/OCTA | Grant reimbursement | 2024 = 66/66 NUWEYT; older = null | T1/T2 exposure | **Verified** |
-| GeoTracker `T10000018579` | SWRCB | Cr(VI) plume | Not re-queried | T1/T8 target | **Unverified** |
-| DTSC EnviroStor | DTSC | Hazardous site | Not re-queried | T1/T8 target | **Unverified** |
-| CalGEM well record | CalGEM | Well abandonment | Only HB mirror queried | T8 target | **Partial** |
+| GeoTracker `T10000018579` / `20IC002` | SWRCB | Cr(VI) plume, closure conditions | **Verified:** closed 2020-08-21 as “paved lot for temporary housing tents,” must be reevaluated for land-use changes; duplicate record `T10000020555` | T7/T8 target | **Verified** |
+| GeoTracker corridor cases | SWRCB | Nearby plumes | **Verified:** 18 cases; G & M Oil #35 open 272 m away; Golden West Laundry open 664 m away | T1/T8 target | **Verified** |
+| DTSC EnviroStor | DTSC | Hazardous site | **Verified:** one unrelated site (diagnostic imaging, NFA); HBNC absent | T1/T8 target | **Verified** |
+| CalGEM well record | CalGEM | Well abandonment | **Verified:** Hoff 1 plugged dry hole; `inHPZ = Verified HPZ`; abandonment date not in service | T8 target | **Verified** |
 | HUD/CDBG block group 992.12 | HUD/HB | Grant eligibility | Polygon confirmed | T7 target | **Verified** |
 | HB Laserfiche / Accela | HB | Permits, as-builts | Not accessible in this workspace | T1/T7 target | **Unverified** |
 
@@ -382,16 +431,18 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 |---|---|---|---|
 | H-01 | The HBNC parcels were deliberately reclassified or re-addressed to obscure ownership/use. | **Not supported** — parcels are openly owned by HBHA; NUWEYT touched all 52,081 parcels. | Compare pre-2026 parcel snapshots; pull 2020 permit record. |
 | H-02 | The address-to-parcel mismatch diverted permit/notice jurisdiction for the shelter. | **Supported as a data error; intent unproven.** | Pull every permit and notice joined to APN 167-472-08/09 in 2020–2026. |
-| H-03 | The 2024 OCTA trash-capture assets are “paper assets” not installed. | **Open.** 66/66 NUWEYT; no field inspection data. | Field-verify a random sample of `STRMINDEX` against `DrawInfo`; obtain grant reimbursement claims. |
+| H-03 | The 2024 OCTA trash-capture assets are “paper assets” not installed. | **Not supported at the data level.** 66/66 2024 assets and 500/502 across all cycles match hydraulic model nodes. | Field-verify a sample of `STRMINDEX` against `DrawInfo`; obtain grant reimbursement claims. |
 | H-04 | The StormTech system is smaller than represented. | **Supported** (10 × MC-3500 = 1,099 ft³ nominal; 1,789 ft³ min installed vs. 2,247 ft³ claim). | Obtain stamped as-built and inspector's volume calculation. |
 | H-05 | The sewer/storm network was edited to remove or downgrade assets near the shelter. | **Open.** Wholesale NUWEYT load destroyed baseline. | Obtain pre-2026 version/backup; diff asset counts and capacities in the corridor. |
 | H-06 | Pirated ArcGIS was used to produce a filed municipal exhibit. | **Unverified.** | Recover `.mxd`/`.aprx` metadata and execution artifacts (§5.4). |
 | H-07 | The city's public address layer was anonymously altered. | **Capability verified; no alteration event proven.** | Obtain web-server access logs for `applyEdits` on AddressEdits. |
 | H-08 | The site's levee-reduced Zone X was represented as locally flood-safe. | **Open.** Zone X verified; representations not yet collected. | Collect staff reports, CEQA findings, and grant applications describing flood risk. |
 | H-09 | The County's stormwater layer masks missing invert/as-built data. | **Supported as a data gap** (174/174 null inverts, ARCGISADMIN only). | Request OC Public Works as-built index for the corridor. |
-| H-10 | HBNC environmental closure (`20IC002`) is inconsistent with the Cr(VI) soil results. | **Unverified in this pass.** | Re-pull GeoTracker case documents and compare to the 490/980 ppb results. |
+| H-10 | HBNC environmental closure (`20IC002`) is inconsistent with permanent shelter use. | **Supported.** The official closure text conditions on temporary housing tents and requires reevaluation for any land use change; the site is now permanent. Cr(VI) values remain prior-work. | Obtain the complete 20IC002 case file, all soil/groundwater data, and any county land-use-change reevaluation. |
 | H-11 | CDBG/HUD funds were used on an ineligible site or use. | **Open.** Block group 992.12 confirmed. | Reconcile HUD drawdowns to the HBHA acquisition and shelter operations. |
-| H-12 | Legacy well Hoff 1 presents a methane/vapor pathway to the shelter. | **Unverified.** Plugged status only. | Pull CalGEM abandonment record and any methane survey. |
+| H-12 | Legacy well Hoff 1 presents a methane/vapor pathway to the shelter. | **Unverified.** Plugged dry hole; `inHPZ = Verified HPZ`; no abandonment date in service. | Pull the CalGEM WellSTAR status/abandonment history and any methane survey. |
+| H-13 | Duplicate GeoTracker records split or obscure case `20IC002`. | **Verified as duplicate records** (two global IDs, same local case number, one same-day open/close). | Obtain the county's case index and both document repositories; determine which record received the closure approval. |
+| H-14 | Nearby open gasoline and dry-cleaning plumes affect the shelter site. | **Open.** G & M Oil #35 (272 m, open verification monitoring, gasoline/drinking-water aquifer) and Golden West Laundry (664 m, open-inactive, PCE/TCE in soil vapor). | Obtain groundwater flow direction, monitoring well data, and any vapor intrusion assessment for the shelter. |
 
 ---
 
@@ -433,6 +484,11 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 | OC DCAT catalog | `/home/osintneoai/evidence/gis_audit_20261019/ocpw_dcat.json` | 930 datasets |
 | OC key service metadata | `/home/osintneoai/evidence/gis_audit_20261019/oc_key_services_meta.json` | Stormwater, LegalLots, flood, outfall |
 | OC stormwater corridor | `/home/osintneoai/evidence/gis_audit_20261019/oc_stormwater_near_hbnc.json` | 124 inlets + 174 mains with attributes |
+| OCTA 2024 reconciliation | `/home/osintneoai/evidence/gis_audit_20261019/octa_2024_reconciliation.csv` | 66 assets vs. hydraulic model nodes |
+| OCTA all-cycle reconciliation | `/home/osintneoai/evidence/gis_audit_20261019/octa_all_cycles_reconciliation.json` | 508 assets across six grant cycles |
+| GeoTracker corridor cases | `/home/osintneoai/evidence/gis_audit_20261019/geotracker_corridor_cases.json` | 18 cases + five key-case details |
+| DTSC corridor sites | `/home/osintneoai/evidence/gis_audit_20261019/dtsc_corridor_sites.json` | One unrelated NFA site |
+| CalGEM Hoff 1 | `/home/osintneoai/evidence/gis_audit_20261019/calgem_hoff1.json` | API 0405900882 well record |
 | Cracked software manifest | `/home/osintneoai/public_repo/OsintNeoAi-Public/GIS_SOFTWARE_AND_MUNICIPAL_INFRASTRUCTURE_AUDIT_MANIFEST.md` | Installer inventory |
 | Prior StormTech report | `/home/osintneoai/repos/OsintNeoAi/STORMTECH_HBNC_PERMIT_FORENSIC_REPORT.md` | Plan-derived chamber specs |
 | Prior address analysis | `/home/osintneoai/repos/OsintNeoAi/NUWEYT_HBNC_ADDRESS_MANIPULATION_ANALYSIS.md` | Earlier fact/unproven table |

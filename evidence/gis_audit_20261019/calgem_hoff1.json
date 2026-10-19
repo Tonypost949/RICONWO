@@ -1,0 +1,35 @@
+{
+ "source": "CalGEM WellSTAR/Wells",
+ "api": "0405900882",
+ "wells": [
+  {
+   "Place": "Huntington Beach",
+   "OBJECTID": 4775,
+   "API": "0405900882",
+   "LeaseName": "Hoff",
+   "WellNumber": "1",
+   "WellDesignation": "Hoff 1",
+   "WellStatus": "Plugged",
+   "WellType": "DH",
+   "WellTypeLabel": "Dry Hole",
+   "OperatorCode": "01182",
+   "OperatorName": "Cadillac Oil Co.",
+   "FieldName": "Any Field",
+   "AreaName": "Any Area",
+   "District": "Southern",
+   "CountyName": "Orange",
+   "Section": "26",
+   "Township": "05S",
+   "Range": "11W",
+   "BaseMeridian": "SB",
+   "Latitude": 33.70973206,
+   "Longitude": -117.99338531,
+   "GISSource": "hud",
+   "isConfidential": "N",
+   "isDirectionallyDrilled": "N",
+   "SpudDate": null,
+   "inHPZ": "Verified HPZ",
+   "WellSymbol": "PluggedDH"
+  }
+ ]
+}
