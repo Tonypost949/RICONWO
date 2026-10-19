@@ -553,6 +553,16 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 | GeoTracker corridor cases | `/home/osintneoai/evidence/gis_audit_20261019/geotracker_corridor_cases.json` | 18 cases + five key-case details |
 | DTSC corridor sites | `/home/osintneoai/evidence/gis_audit_20261019/dtsc_corridor_sites.json` | One unrelated NFA site |
 | CalGEM Hoff 1 | `/home/osintneoai/evidence/gis_audit_20261019/calgem_hoff1.json` | API 0405900882 well record |
+| HB crosswalk mismatches | `evidence/gis_audit_20261019/hb_crosswalk_mismatches.csv` | 11,180 non-matching address↔parcel rows |
+| HB crosswalk refined stats | `evidence/gis_audit_20261019/hb_crosswalk_refined.json` | 606 unaligned APNs, match statistics |
+| HB edit-wave timeline | `evidence/gis_audit_20261019/hb_edit_wave_timeline.json` | Full batch reconstruction of address and parcel waves |
+| HB FindAddressParcel queries | `evidence/gis_audit_20261019/hb_findaddressparcel_queries.json` | GP-service query results and fallback control |
+| HB parcel ADDRSCORE | `evidence/gis_audit_20261019/hb_parcel_addscore.json` | County join confidence scores for HBNC parcels |
+| Cross-city editor provenance | `evidence/gis_audit_20261019/neighbor_editor_provenance.json`, `neighbor_editor_provenance2.json` | Editor group-bys by city and layer |
+| Newport Beach / Orange probes | `evidence/gis_audit_20261019/newportbeach_editor_probe.json`, `orange_editor_probe.json` | Layer-level attribution detail |
+| RICO pass-2 hosts inventory | `evidence/gis_audit_20261019/rico_hosts_inventory.json` | 11 direct hosts + AGOL probe results |
+| RICO pass-1 host discovery | `evidence/gis_audit_20261019/rico_remaining_entities_probe.json` | Host-search results for 35 entities |
+| Task ledger snapshot/patch | `evidence/gis_audit_20261019/osintneoai_tasks_snapshot_20261019.json`, `osintneoai_tasks_commit_af0e82f.patch` | Ledger backup (OsintNeoAi branch push pending unshallow) |
 | Cracked software manifest | `/home/osintneoai/public_repo/OsintNeoAi-Public/GIS_SOFTWARE_AND_MUNICIPAL_INFRASTRUCTURE_AUDIT_MANIFEST.md` | Installer inventory |
 | Prior StormTech report | `/home/osintneoai/repos/OsintNeoAi/STORMTECH_HBNC_PERMIT_FORENSIC_REPORT.md` | Plan-derived chamber specs |
 | Prior address analysis | `/home/osintneoai/repos/OsintNeoAi/NUWEYT_HBNC_ADDRESS_MANIPULATION_ANALYSIS.md` | Earlier fact/unproven table |
