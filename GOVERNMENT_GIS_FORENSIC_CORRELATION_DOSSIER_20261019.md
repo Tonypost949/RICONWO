@@ -81,7 +81,17 @@ A finding of T2/T4/T5 failure is an **accountability** finding. It becomes a **f
 | Records sharing 2025-03-25 15:14:37 UTC | **9,704** |
 | Distinct SPRADLIA timestamps | 406 (through 2026-10-13) |
 
-**Interpretation [INFERRED]:** the 2025 and 2026 events were layer-wide re-saves (schema change, migration, or bulk update), not individual edits. They destroyed the distinction between records that were genuinely changed and records that were merely rewritten. The layer was still being edited as of 2026-10-13, so it is a live operational layer, not a frozen archive. Because it is publicly writable, an anonymous actor could also alter an address and inherit the same undifferentiated timestamp pattern.
+**Address edit waves (full pull of all 99,804 `last_edited_date` values, grouped into contiguous batches):**
+
+| Wave (UTC) | Records |
+|---|---|
+| 2025-03-25 15:14:37 (single second) | **9,704** |
+| 2026-01-29 22:10:51 → 22:14:02 | **84,264** |
+| 2026-01-29 22:22:47 → 22:33:31 | **4,445** |
+| Remainder (scattered individual edits) | 1,391 |
+| **Total** | **99,804** |
+
+**Interpretation [INFERRED]:** the 2025 and 2026 events were layer-wide re-saves (schema change, migration, or bulk update), not individual edits. **88,709 of 99,804 records (88.9%) were rewritten in a 23-minute window on the night of 2026-01-29.** They destroyed the distinction between records that were genuinely changed and records that were merely rewritten. The layer was still being edited as of 2026-10-13, so it is a live operational layer, not a frozen archive. Because it is publicly writable, an anonymous actor could also alter an address and inherit the same undifferentiated timestamp pattern.
 
 ### 2.3 Parcel fabric — 100% NUWEYT
 
@@ -89,12 +99,17 @@ A finding of T2/T4/T5 failure is an **accountability** finding. It becomes a **f
 
 | Edit window (UTC) | Records |
 |---|---|
-| 2026-03-03 15:30–15:35 | 1,131 |
-| 2026-04-09 21:11–21:12 | 4,538 |
-| 2026-04-09 23:09–23:50 | 22,625 |
-| 2026-04-10 15:20–15:38 | 23,531 |
-| 2026-07-23/24 | 256 |
+| 2026-03-03 15:30:30 → 15:35:50 | 1,131 |
+| 2026-04-09 21:11:24 → 21:12:03 | 4,538 |
+| 2026-04-09 23:09:54 → 23:10:25 | 680 |
+| 2026-04-09 23:20:39 → 23:28:48 | **15,867** ← contains both HBNC parcels (23:28:32) |
+| 2026-04-09 23:43:37 → 23:50:08 | 6,079 |
+| 2026-04-10 15:20:07 → 15:24:05 | 14,114 |
+| 2026-04-10 15:29:21 → 15:38:20 | 9,416 |
+| 2026-07-23/24 (scattered) | 256 |
 | **Total** | **52,081** |
+
+**Batch structure [VERIFIED]:** the refresh was executed as seven discrete transaction bursts totaling 51,825 records over 38 days (2026-03-03 → 2026-04-10), with each burst writing in sub-second/adjacent-second groups of ~200 records — the signature of scripted `applyEdits` batches against the versioned geodatabase, not of hand-editing. The two HBNC parcels (`167-472-08`, `167-472-09`) fall inside the **third-largest burst (15,867 records, 2026-04-09 23:20:39 → 23:28:48)**.
 
 **Interpretation [INFERRED]:** this is an assessor-roll load / parcel-fabric refresh executed under a single login. It is consistent with a scheduled data integration. It is **not** evidence that the HBNC parcels were singled out. However, it means the current parcel attributes for the HBNC cannot be compared to their pre-March-2026 state from the public service; version history or database backups are required.
 
@@ -472,7 +487,7 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 |---|---|---|---|
 | H-01 | The HBNC parcels were deliberately reclassified or re-addressed to obscure ownership/use. | **Not supported** — parcels are openly owned by HBHA; NUWEYT touched all 52,081 parcels. | Compare pre-2026 parcel snapshots; pull 2020 permit record. |
 | H-02 | The address-to-parcel mismatch diverted permit/notice jurisdiction for the shelter. | **Supported as a data error; intent unproven.** | Pull every permit and notice joined to APN 167-472-08/09 in 2020–2026. |
-| H-03 | The 2024 OCTA trash-capture assets are “paper assets” not installed. | **Not supported at the data level.** 66/66 2024 assets and 500/502 across all cycles match hydraulic model nodes. | Field-verify a sample of `STRMINDEX` against `DrawInfo`; obtain grant reimbursement claims. |
+| H-03 | The 2024 OCTA trash-capture assets are “paper assets” not installed. | **Not supported at the data level.** 66/66 2024 assets and 506/508 across all cycles match hydraulic model nodes (sole mismatch: `147CBN010`, a 2013 BioClean basket on Commerce St). | Field-verify a sample of `STRMINDEX` against `DrawInfo`; obtain grant reimbursement claims. |
 | H-04 | The StormTech system is smaller than represented. | **Supported** (10 × MC-3500 = 1,099 ft³ nominal; 1,789 ft³ min installed vs. 2,247 ft³ claim). | Obtain stamped as-built and inspector's volume calculation. |
 | H-05 | The sewer/storm network was edited to remove or downgrade assets near the shelter. | **Open.** Wholesale NUWEYT load destroyed baseline. | Obtain pre-2026 version/backup; diff asset counts and capacities in the corridor. |
 | H-06 | Pirated ArcGIS was used to produce a filed municipal exhibit. | **Unverified.** | Recover `.mxd`/`.aprx` metadata and execution artifacts (§5.4). |

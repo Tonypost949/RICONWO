@@ -38,6 +38,26 @@
         "2026-07-23/24"
       ]
     },
+    "edit_waves_refined": {
+      "evidence": "evidence/gis_audit_20261019/hb_edit_wave_timeline.json",
+      "address_waves": [
+        {"records": 9704, "start_utc": "2025-03-25 15:14:37", "end_utc": "2025-03-25 15:14:37"},
+        {"records": 84264, "start_utc": "2026-01-29 22:10:51", "end_utc": "2026-01-29 22:14:02"},
+        {"records": 4445, "start_utc": "2026-01-29 22:22:47", "end_utc": "2026-01-29 22:33:31"},
+        {"records": 1391, "label": "scattered individual edits"}
+      ],
+      "parcel_waves": [
+        {"records": 1131, "start_utc": "2026-03-03 15:30:30", "end_utc": "2026-03-03 15:35:50"},
+        {"records": 4538, "start_utc": "2026-04-09 21:11:24", "end_utc": "2026-04-09 21:12:03"},
+        {"records": 680, "start_utc": "2026-04-09 23:09:54", "end_utc": "2026-04-09 23:10:25"},
+        {"records": 15867, "start_utc": "2026-04-09 23:20:39", "end_utc": "2026-04-09 23:28:48", "contains_hbnc_parcels": true},
+        {"records": 6079, "start_utc": "2026-04-09 23:43:37", "end_utc": "2026-04-09 23:50:08"},
+        {"records": 14114, "start_utc": "2026-04-10 15:20:07", "end_utc": "2026-04-10 15:24:05"},
+        {"records": 9416, "start_utc": "2026-04-10 15:29:21", "end_utc": "2026-04-10 15:38:20"},
+        {"records": 256, "label": "2026-07-23/24 scattered"}
+      ],
+      "note": "88,709 of 99,804 addresses (88.9%) rewritten in a 23-minute window on 2026-01-29; parcels refreshed in seven scripted transaction bursts Mar 3 - Apr 10 2026; each burst writes sub-second groups of ~200 records (applyEdits signature). HBNC parcels fall in the 15,867-record burst on 2026-04-09."
+    },
     "address_parcel_crosswalk": {
       "addresses_pulled": 99804,
       "parcels_pulled": 52081,
