@@ -294,26 +294,26 @@ The well is plugged and a dry hole; the `inHPZ` flag should be interpreted only 
 
 ## 4. RICO-WIDE GOVERNMENT GIS MATRIX
 
-The RICO infrastructure matrix lists 50 government entities. Only Huntington Beach and Orange County were live-verified in this pass; the remainder are platform-documented from the IRC dataset. The audit logic in §1 applies identically to every row.
+The RICO infrastructure matrix lists 50 government entities. This pass live-verified the GIS roots and key asset layers of **17 jurisdictions/agencies** (Huntington Beach, Orange County, Newport Beach, Costa Mesa, Irvine, Anaheim, Santa Ana, Tustin, Westminster, Fullerton, Orange, Seal Beach, Long Beach, Los Angeles City, Los Angeles County, OCTA, and Caltrans D12); the remainder are platform-documented from the IRC dataset. The audit logic in §1 applies identically to every row. Rows below record only what the live endpoint returned; a secured or missing layer is recorded as such, not inferred.
 
 | Entity | GIS / Records platform (per IRC matrix) | This pass |
 |---|---|---|
 | **City of Huntington Beach** | Self-hosted ArcGIS (192.5.222.153) + Laserfiche (192.5.222.218) | **VERIFIED** — 43 endpoints, public-write address layer, mass edits |
-| **County of Orange (Central)** | County GIS + enterprise EDMS; gateway 159.111.146.166 | **VERIFIED** — stormwater, legal lots, flood, outfall |
-| City of Newport Beach | ArcGIS Online (SaaS) + Laserfiche Cloud/CityView | Platform documented; endpoint not verified |
-| City of Costa Mesa | ArcGIS Enterprise Cloud + Tyler | Platform documented; endpoint not verified |
-| City of Irvine | ArcGIS Enterprise multi-cloud + OnBase | Platform documented; endpoint not verified |
-| City of Anaheim | ArcGIS Enterprise Cloud + Accela/OpenGov | Platform documented; endpoint not verified |
-| City of Santa Ana | OpenGov + ArcGIS Cloud Portal | Platform documented; endpoint not verified |
-| City of Tustin | ArcGIS Online + Laserfiche on-prem | Platform documented; endpoint not verified |
-| City of Westminster | Legacy ArcIMS/ArcGIS + Laserfiche | Platform documented; endpoint not verified |
-| City of Fullerton | ArcGIS Enterprise + Laserfiche | Platform documented; endpoint not verified |
-| City of Orange | Laserfiche Cloud + Esri SaaS | Platform documented; endpoint not verified |
-| City of Garden Grove | ArcGIS Enterprise + Laserfiche hybrid | Platform documented; endpoint not verified |
-| City of Fountain Valley | Self-hosted GIS + Laserfiche | Platform documented; endpoint not verified |
-| City of Seal Beach | Shared County GIS + in-house EDMS | Platform documented; endpoint not verified |
-| City of Long Beach | ArcGIS Server + Laserfiche WebLink | Platform documented; endpoint not verified |
-| City of Los Angeles (LAPD/City) | ArcGIS Enterprise + enterprise EDMS | Platform documented; endpoint not verified |
+| **County of Orange (Central)** | County GIS + enterprise EDMS; gateway 159.111.146.166 | **VERIFIED** — stormwater 124 inlets/174 mains `ARCGISADMIN`, 174/174 inverts null, outfall inspections 0; legal lots match HBNC |
+| City of Newport Beach | Self-hosted ArcGIS + Laserfiche CityView | **VERIFIED ROOT** `https://nbgis.newportbeachca.gov/arcgis/rest/services` — address text 40,809 and address information 55,320 with **no editor fields**; water valves 8,993 carry `CREW_UPDATE_BY` (mmeadow 4,722; mosullivan 2,657; 935 null); water mains 10,989 all null |
+| City of Costa Mesa | ArcGIS Enterprise Cloud + Tyler | **PARTIAL** `https://apps.costamesaca.gov/arcgis/rest/services/CostaMesa/MapServer` — Addresses 21,420, **no editor fields**; parcel viewer secured behind `https://apps.costamesaca.gov/gis1/` |
+| City of Irvine | ArcGIS Enterprise multi-cloud + OnBase | **VERIFIED ROOT** `https://gis.cityofirvine.org/arcgis/rest/services` — Building 71,695, `EDITOR` 10,382 named / 61,313 null; storm structures 21,436, `EditedBy` 21,433 null; hydrants 165, 159 named |
+| City of Anaheim | ArcGIS Enterprise Cloud + Accela/OpenGov | **VERIFIED ROOT** `https://gis.anaheim.net/server/rest/services` — Address_Points 180,124; `last_edited_user=agsuser` 156,534, named humans ~24k; 120,411 `created_user` null; dominant edit timestamp 2026-02-27 (18,162 records) |
+| City of Santa Ana | OpenGov + ArcGIS Cloud Portal | **VERIFIED ROOT** `https://gis.santa-ana.org/server/rest/services` — Assessor Parcels 57,926, **no editor fields**; Cityworks stormwater layer not publicly reachable |
+| City of Tustin | ArcGIS Online + Laserfiche on-prem | **VERIFIED HOSTED** `https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services` (portal `https://tustinca.maps.arcgis.com`) — Address Points 39,271, `LASTEDITOR` blank on 100%; Parcels 19,620, **no editor fields** |
+| City of Westminster | Legacy ArcIMS/ArcGIS + Laserfiche | **CONSULTANT-HOSTED** `https://services.arcgis.com/hVnyNvwbpFFPDV5j/arcgis/rest/services/4_OC_Mapping_Westminster/FeatureServer` — Westminster_Parcels 20,574, **no editor fields**; no city-authored endpoint located |
+| City of Fullerton | ArcGIS Enterprise + Laserfiche | **VERIFIED ROOT** `https://gis.cityoffullerton.com/arcgis/rest/services` — Parcels 53,678, `last_edited_user=CITY` 53,362; AddressPoints 58,877, `CARANDA.DRHEE` 57,354, with **25,953 records at one 2025-12-10 timestamp** |
+| City of Orange | Laserfiche Cloud + Esri SaaS | **VERIFIED HOSTED** `https://services5.arcgis.com/HsWup310bJE1lcGa/arcgis/rest/services` — AddressPoints 57,702, Parcels 41,853, RoadCenterline 6,775, `LASTEDITOR` null on all |
+| City of Garden Grove | ArcGIS Enterprise + Laserfiche hybrid | **NOT LOCATED** — no public ArcGIS REST root found; queued |
+| City of Fountain Valley | Self-hosted GIS + Laserfiche | **NOT LOCATED** — no public ArcGIS REST root found; queued |
+| City of Seal Beach | Shared County GIS + in-house EDMS | **VERIFIED HOSTED** `https://services5.arcgis.com/DgI3mEyvGBsZnibj/arcgis/rest/services` — Parcels 6,416 and Addresses 15,407, **no editor fields** |
+| City of Long Beach | ArcGIS Server + Laserfiche WebLink | **ROOT VERIFIED, LAYERS SECURED** `https://gis.longbeach.gov/server/rest/services` — PublicWorks, Utilities, VertiGIS_Utilities folders return no public services |
+| City of Los Angeles (LAPD/City) | ArcGIS Enterprise + enterprise EDMS | **ROOT VERIFIED, CORE LAYERS SECURED** `https://maps.lacity.org/arcgis/rest/services` — `Core/Core/Master_sewer_external` and `Master_stormwater` listed but expose no public layers |
 | City of Santa Monica | ArcGIS Server + Tyler Munis | Platform documented; endpoint not verified |
 | City of Burbank | ArcGIS Enterprise + Tyler | Platform documented; endpoint not verified |
 | City of Glendale | ArcGIS Enterprise + Tyler Munis | Platform documented; endpoint not verified |
@@ -348,11 +348,15 @@ The RICO infrastructure matrix lists 50 government entities. Only Huntington Bea
 | City of Scottsdale | ArcGIS Enterprise Cloud + Accela | Platform documented; endpoint not verified |
 | City of Las Vegas | ArcGIS Enterprise Cloud + Infor | Platform documented; endpoint not verified |
 | Pima County Sheriff | Spillman CAD + public-safety EDMS | No GIS layer identified |
+| **County of Los Angeles** | Enterprise GIS + DPW hydrology | **VERIFIED ROOT** `https://public.gis.lacounty.gov/arcgis/rest/services` — Government-owned Parcels 51,319 and County-owned 7,258, **no editor fields**; Hydrology exposes maintenance holes/catch basins split by LACFCD, City, and **Unknown** |
+| **Orange County Transportation Authority (OCTA)** | ArcGIS Enterprise | **ROOT VERIFIED, ENVIRONMENT FOLDER SECURED** `https://gis.octa.net/arcgis/rest/services` — transit/planning public; `Enivronment` folder empty; 2024 grant BMPs live in the City of Huntington Beach layer |
+| **Caltrans District 12** | ArcGIS Enterprise | **VERIFIED ROOT** `https://gisdata.dot.ca.gov/arcgis/rest/services` — planning, environment, and highway layers; no municipal parcel/sewer fabric |
 
 **Why the verification gap matters:** the same failure signatures (system-account edits, null provenance, public write endpoints) are products of platform configuration, not of any one city. A single standardized probe can be run against every ArcGIS root endpoint in this table. The blocker in this pass was DNS/path variance, not authorization. The probe recipe is in the appendix.
 
----
+**Live-probe finding.** Across the reachable jurisdictions, human editor attribution is the exception, not the rule. Service or bulk accounts dominate the address/asset fabric: Huntington Beach `SPRADLIA`/`NUWEYT`, Anaheim `agsuser`, Fullerton `CITY`, Orange County `ARCGISADMIN`. Tustin, Seal Beach, Orange, Costa Mesa, and Newport Beach expose address/parcel layers with **no editor fields at all**. Newport Beach and Irvine do attribute some utility work to named crew (valves, hydrants), but not their address fabric. Huntington Beach remains the outlier in three respects: (1) a public **write-enabled** address service, (2) a single account re-saving ~100% of addresses, parcels, and sewer laterals, and (3) an address-to-parcel crosswalk that returns the wrong lot for the shelter.
 
+---
 ## 5. WHAT THE PIRATED ARCGIS / ESRI SOFTWARE WAS ACTUALLY USED TO BUILD
 
 ### 5.1 What the record proves

@@ -10,7 +10,9 @@
     "layers": 584,
     "versioned_services": 27,
     "layers_with_editor_tracking": 159,
-    "write_enabled_services": ["AddressEdits"],
+    "write_enabled_services": [
+      "AddressEdits"
+    ],
     "address_layer": {
       "total": 99804,
       "last_edited_SPRADLIA": 99791,
@@ -29,32 +31,79 @@
       "total": 52081,
       "last_edited_NUWEYT": 52081,
       "distinct_apns": 51830,
-      "edit_windows_utc": ["2026-03-03 15:30-15:35", "2026-04-09 21:11-23:50", "2026-04-10 15:20-15:38", "2026-07-23/24"]
+      "edit_windows_utc": [
+        "2026-03-03 15:30-15:35",
+        "2026-04-09 21:11-23:50",
+        "2026-04-10 15:20-15:38",
+        "2026-07-23/24"
+      ]
     },
     "sewer": {
-      "manholes_total": 8349, "manholes_nuweyt": 8333,
-      "pipes_total": 8542, "pipes_nuweyt": 8542,
-      "features_total": 12219, "features_nuweyt": 12049,
-      "lines_total": 12478, "lines_nuweyt": 12478,
-      "laterals_total": 49482, "laterals_nuweyt": 49482,
-      "lift_stations_total": 69, "lift_stations_nuweyt": 1,
+      "manholes_total": 8349,
+      "manholes_nuweyt": 8333,
+      "pipes_total": 8542,
+      "pipes_nuweyt": 8542,
+      "features_total": 12219,
+      "features_nuweyt": 12049,
+      "lines_total": 12478,
+      "lines_nuweyt": 12478,
+      "laterals_total": 49482,
+      "laterals_nuweyt": 49482,
+      "lift_stations_total": 69,
+      "lift_stations_nuweyt": 1,
       "pipe_bulk_timestamp_utc": "2026-08-13 05:06-05:17",
       "secondary_timestamp_utc": "2026-10-10 04:36"
     },
     "storm": {
-      "features_total": 12631, "features_nuweyt": 477,
-      "pipes_total": 12896, "pipes_nuweyt": 286,
-      "channels_total": 54, "channels_nuweyt": 0,
-      "recent_edits": ["2026-05-19", "2026-05-20", "2026-08-25", "2026-10-16"]
+      "features_total": 12631,
+      "features_nuweyt": 477,
+      "pipes_total": 12896,
+      "pipes_nuweyt": 286,
+      "channels_total": 54,
+      "channels_nuweyt": 0,
+      "recent_edits": [
+        "2026-05-19",
+        "2026-05-20",
+        "2026-08-25",
+        "2026-10-16"
+      ]
     },
-    "bmp_2024_octa_grant": {"total": 66, "nuweyt": 66, "edit_date_utc": "2026-05-15"},
+    "bmp_2024_octa_grant": {
+      "total": 66,
+      "nuweyt": 66,
+      "edit_date_utc": "2026-05-15"
+    },
     "grant_cycle_reconciliation": {
-      "2024 OCTA": {"assets": 66, "with_strmindex": 66, "model_node_matches": 66},
-      "2014 OCTA": {"assets": 110, "with_strmindex": 110, "model_node_matches": 110},
-      "2013 OCTA": {"assets": 125, "with_strmindex": 125, "model_node_matches": 124},
-      "2011 OCTA": {"assets": 28, "with_strmindex": 28, "model_node_matches": 28},
-      "Huntington Harbor": {"assets": 44, "with_strmindex": 44, "model_node_matches": 44},
-      "Used Oil": {"assets": 135, "with_strmindex": 134, "model_node_matches": 134},
+      "2024 OCTA": {
+        "assets": 66,
+        "with_strmindex": 66,
+        "model_node_matches": 66
+      },
+      "2014 OCTA": {
+        "assets": 110,
+        "with_strmindex": 110,
+        "model_node_matches": 110
+      },
+      "2013 OCTA": {
+        "assets": 125,
+        "with_strmindex": 125,
+        "model_node_matches": 124
+      },
+      "2011 OCTA": {
+        "assets": 28,
+        "with_strmindex": 28,
+        "model_node_matches": 28
+      },
+      "Huntington Harbor": {
+        "assets": 44,
+        "with_strmindex": 44,
+        "model_node_matches": 44
+      },
+      "Used Oil": {
+        "assets": 135,
+        "with_strmindex": 134,
+        "model_node_matches": 134
+      },
       "single_mismatch": "147CBN010 (Commerce St, BioClean Basket, 2013 cycle)"
     },
     "hbnc": {
@@ -62,7 +111,10 @@
       "apn_beach": "167-472-09",
       "owner": "HUNTINGTON BEACH HOUSING AUTHORITY",
       "mail": "2000 MAIN ST, HUNTINGTON BEACH 92648",
-      "lots": {"167-472-08": "Lot 6 Tract 405", "167-472-09": "Lot 7 Tract 405"},
+      "lots": {
+        "167-472-08": "Lot 6 Tract 405",
+        "167-472-09": "Lot 7 Tract 405"
+      },
       "zoning": "SP14",
       "specific_plan_name": "Beach Edinger Corridors",
       "general_plan": "M-sp",
@@ -74,14 +126,24 @@
       "address_start_date": "12-14-2020",
       "address_source": "Appl 2020-0268",
       "crosswalk_mismatch": true,
-      "drainage_area": {"name": "Wintersburg Channel", "area_no": 5, "fee_usd": 5500.0},
+      "drainage_area": {
+        "name": "Wintersburg Channel",
+        "area_no": 5,
+        "fee_usd": 5500.0
+      },
       "fema_zone": "X - Area with Reduced Risk Due to Levee"
     },
     "legacy_well": {
-      "api": "0405900882", "lease": "Hoff", "well": "1", "status": "Plugged",
-      "type": "Dry Hole", "operator": "Cadillac Oil Co.",
-      "latitude": 33.70973206, "longitude": -117.99338531,
-      "inHPZ": "Verified HPZ", "spud_date": null
+      "api": "0405900882",
+      "lease": "Hoff",
+      "well": "1",
+      "status": "Plugged",
+      "type": "Dry Hole",
+      "operator": "Cadillac Oil Co.",
+      "latitude": 33.70973206,
+      "longitude": -117.99338531,
+      "inHPZ": "Verified HPZ",
+      "spud_date": null
     },
     "geotracker": {
       "source": "SWRCB GeoTracker sites download FeatureServer/371 (snapshot 2023-01-26)",
@@ -110,8 +172,24 @@
         "note": "same-day open/close; generic site history"
       },
       "nearby_open_cases": [
-        {"global_id": "T0605901705", "name": "G & M Oil #35", "address": "17501 Beach Blvd", "distance_m": 272, "status": "Open - Verification Monitoring", "contaminants": "Gasoline", "media": "Aquifer used for drinking water supply"},
-        {"global_id": "T10000005577", "name": "Golden West Laundry", "address": "17862 Jamestown Ln", "distance_m": 664, "status": "Open - Inactive", "contaminants": "PCE/TCE", "media": "Groundwater, soil, soil vapor"}
+        {
+          "global_id": "T0605901705",
+          "name": "G & M Oil #35",
+          "address": "17501 Beach Blvd",
+          "distance_m": 272,
+          "status": "Open - Verification Monitoring",
+          "contaminants": "Gasoline",
+          "media": "Aquifer used for drinking water supply"
+        },
+        {
+          "global_id": "T10000005577",
+          "name": "Golden West Laundry",
+          "address": "17862 Jamestown Ln",
+          "distance_m": 664,
+          "status": "Open - Inactive",
+          "contaminants": "PCE/TCE",
+          "media": "Groundwater, soil, soil vapor"
+        }
       ]
     },
     "dtsc_envirostor": {
@@ -124,26 +202,199 @@
   },
   "oc_gis": {
     "stormwater_corridor": {
-      "inlets": 124, "inlets_editor": "ARCGISADMIN", "inlets_timestamp": "2018-09-28",
-      "gravity_mains": 174, "mains_editor": "ARCGISADMIN", "mains_timestamp": "2020-05-15",
+      "inlets": 124,
+      "inlets_editor": "ARCGISADMIN",
+      "inlets_timestamp": "2018-09-28",
+      "gravity_mains": 174,
+      "mains_editor": "ARCGISADMIN",
+      "mains_timestamp": "2020-05-15",
       "null_inverts": 174,
-      "material_mix": {"RC": 165, "Earth": 3, "Corrugated Metal": 2, "Concrete": 2, "UNK": 2}
+      "material_mix": {
+        "RC": 165,
+        "Earth": 3,
+        "Corrugated Metal": 2,
+        "Concrete": 2,
+        "UNK": 2
+      }
     },
     "legal_lots": {
-      "167-472-08": {"site": "17631 CAMERON LN", "lot": 6, "tract": 405, "land_val": 3216999, "improved_val": 2785224, "doc": "202000420412"},
-      "167-472-09": {"site": "17642 BEACH BLVD", "lot": 7, "tract": 405, "land_val": 3235659, "improved_val": null, "doc": "202100002954"}
+      "167-472-08": {
+        "site": "17631 CAMERON LN",
+        "lot": 6,
+        "tract": 405,
+        "land_val": 3216999,
+        "improved_val": 2785224,
+        "doc": "202000420412"
+      },
+      "167-472-09": {
+        "site": "17642 BEACH BLVD",
+        "lot": 7,
+        "tract": 405,
+        "land_val": 3235659,
+        "improved_val": null,
+        "doc": "202100002954"
+      }
     },
     "outfall_inspections_corridor": 0
   },
+  "rico_wide_probe": {
+    "roots_verified": 17,
+    "entities": {
+      "Newport Beach": {
+        "root": "https://nbgis.newportbeachca.gov/arcgis/rest/services",
+        "address_records": 55320,
+        "address_editor_fields": [],
+        "water_valves": 8993,
+        "water_valve_editors": {
+          "mmeadow": 4722,
+          "mosullivan": 2657,
+          "null": 935
+        },
+        "water_mains": 10989,
+        "water_main_editor": null
+      },
+      "Costa Mesa": {
+        "root": "https://apps.costamesaca.gov/arcgis/rest/services/CostaMesa/MapServer",
+        "address_records": 21420,
+        "address_editor_fields": [],
+        "parcel_viewer": "secured at https://apps.costamesaca.gov/gis1/"
+      },
+      "Irvine": {
+        "root": "https://gis.cityofirvine.org/arcgis/rest/services",
+        "building_records": 71695,
+        "building_editor_named": 10382,
+        "building_editor_null": 61313,
+        "storm_structures": 21436,
+        "storm_editedby_null": 21433,
+        "hydrants": 165,
+        "hydrant_editors_named": 159
+      },
+      "Anaheim": {
+        "root": "https://gis.anaheim.net/server/rest/services",
+        "address_records": 180124,
+        "last_edited_agsuser": 156534,
+        "created_user_null": 120411,
+        "dominant_edit_timestamp": "2026-02-27",
+        "dominant_edit_count": 18162
+      },
+      "Santa Ana": {
+        "root": "https://gis.santa-ana.org/server/rest/services",
+        "assessor_parcels": 57926,
+        "parcel_editor_fields": [],
+        "cityworks_stormwater": "not publicly reachable"
+      },
+      "Tustin": {
+        "root": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services",
+        "portal": "https://tustinca.maps.arcgis.com",
+        "address_points": 39271,
+        "lasteditor_blank": 39271,
+        "parcels": 19620,
+        "parcel_editor_fields": []
+      },
+      "Westminster": {
+        "root": "https://services.arcgis.com/hVnyNvwbpFFPDV5j/arcgis/rest/services/4_OC_Mapping_Westminster/FeatureServer",
+        "host_note": "consultant-hosted (OC Mapping); no city-authored endpoint located",
+        "parcels": 20574,
+        "parcel_editor_fields": []
+      },
+      "Fullerton": {
+        "root": "https://gis.cityoffullerton.com/arcgis/rest/services",
+        "parcels": 53678,
+        "parcel_last_edited_CITY": 53362,
+        "address_points": 58877,
+        "address_last_edited_user": "CARANDA.DRHEE",
+        "address_last_edited_count": 57354,
+        "single_timestamp": "2025-12-10",
+        "single_timestamp_count": 25953
+      },
+      "Orange": {
+        "root": "https://services5.arcgis.com/HsWup310bJE1lcGa/arcgis/rest/services",
+        "address_points": 57702,
+        "parcels": 41853,
+        "road_centerline": 6775,
+        "lasteditor_null_all": true
+      },
+      "Seal Beach": {
+        "root": "https://services5.arcgis.com/DgI3mEyvGBsZnibj/arcgis/rest/services",
+        "parcels": 6416,
+        "addresses": 15407,
+        "editor_fields": []
+      },
+      "Long Beach": {
+        "root": "https://gis.longbeach.gov/server/rest/services",
+        "status": "root verified; PublicWorks/Utilities/VertiGIS folders expose no public services"
+      },
+      "Los Angeles City": {
+        "root": "https://maps.lacity.org/arcgis/rest/services",
+        "status": "root verified; Master_sewer_external and Master_stormwater expose no public layers"
+      },
+      "Los Angeles County": {
+        "root": "https://public.gis.lacounty.gov/arcgis/rest/services",
+        "government_owned_parcels": 51319,
+        "county_owned_parcels": 7258,
+        "parcel_editor_fields": [],
+        "hydrology": "maintenance holes/catch basins split by LACFCD, City, and Unknown"
+      },
+      "OCTA": {
+        "root": "https://gis.octa.net/arcgis/rest/services",
+        "environment_folder": "empty/secured",
+        "public": "transit/planning"
+      },
+      "Caltrans D12": {
+        "root": "https://gisdata.dot.ca.gov/arcgis/rest/services",
+        "public": "planning/environment/highway; no municipal parcel/sewer fabric"
+      },
+      "Garden Grove": {
+        "status": "no public ArcGIS REST root located"
+      },
+      "Fountain Valley": {
+        "status": "no public ArcGIS REST root located"
+      }
+    }
+  },
   "software": {
-    "cracked_installers_documented": ["ArcGIS 10.2 License Manager + Crack", "ArcGIS Desktop 10.8.2", "Esri ArcGIS 10.7.1", "ArcGIS Pro 3.1.5"],
+    "cracked_installers_documented": [
+      "ArcGIS 10.2 License Manager + Crack",
+      "ArcGIS Desktop 10.8.2",
+      "Esri ArcGIS 10.7.1",
+      "ArcGIS Pro 3.1.5"
+    ],
     "execution_artifacts_found": false,
     "mxd_aprx_shp_gdb_found": false,
     "attribution_status": "possession documented; use unverified"
   },
   "verification_status": {
-    "verified": ["HB service inventory", "AddressEdits write capability", "HB parcel/address/sewer/storm/BMP editor counts", "HBNC parcel and address records", "SP14/M-sp zoning", "OC stormwater corridor", "OC legal lots", "FEMA zone", "HB oil well", "2024 OCTA grant layer", "grant-cycle hydraulic-model reconciliation", "GeoTracker case 20IC002 conditional closure", "GeoTracker duplicate records", "GeoTracker 18-case corridor", "DTSC EnviroStor corridor", "CalGEM Hoff 1 well record"],
-    "unverified": ["StormTech as-built", "OCTA reimbursement claims", "Cr(VI) laboratory results tied to case file", "ArcGIS execution on any specific machine", "pre-2026 GIS baseline", "G & M Oil plume direction/vapor intrusion"],
+    "verified": [
+      "HB service inventory",
+      "AddressEdits write capability",
+      "HB parcel/address/sewer/storm/BMP editor counts",
+      "HBNC parcel and address records",
+      "SP14/M-sp zoning",
+      "OC stormwater corridor",
+      "OC legal lots",
+      "FEMA zone",
+      "HB oil well",
+      "2024 OCTA grant layer",
+      "grant-cycle hydraulic-model reconciliation",
+      "GeoTracker case 20IC002 conditional closure",
+      "GeoTracker duplicate records",
+      "GeoTracker 18-case corridor",
+      "DTSC EnviroStor corridor",
+      "CalGEM Hoff 1 well record",
+      "17-entity RICO GIS root probe",
+      "cross-city editor-provenance comparison"
+    ],
+    "unverified": [
+      "StormTech as-built",
+      "OCTA reimbursement claims",
+      "Cr(VI) laboratory results tied to case file",
+      "ArcGIS execution on any specific machine",
+      "pre-2026 GIS baseline",
+      "G & M Oil plume direction/vapor intrusion",
+      "Garden Grove and Fountain Valley public GIS roots",
+      "LA City secured core sewer/stormwater layers",
+      "OCTA environment folder"
+    ],
     "open_hypotheses": 14
   }
 }

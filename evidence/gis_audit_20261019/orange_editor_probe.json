@@ -1,0 +1,34 @@
+[
+ {
+  "service": "Address Points",
+  "layer": "AddressPoints",
+  "count": 57702,
+  "editor_fields": []
+ },
+ {
+  "service": "Assessed Parcels",
+  "layer": "Parcels",
+  "count": 41853,
+  "editor_fields": []
+ },
+ {
+  "service": "Zoning",
+  "layer": "Zoning Polygon",
+  "count": 1945,
+  "editor_fields": []
+ },
+ {
+  "service": "RoadCenterline",
+  "layer": "RoadCenterline_Orange",
+  "count": 6775,
+  "editor_fields": [
+   "LASTEDITOR"
+  ],
+  "group_LASTEDITOR": [
+   {
+    "v": null,
+    "n": 6775
+   }
+  ]
+ }
+]

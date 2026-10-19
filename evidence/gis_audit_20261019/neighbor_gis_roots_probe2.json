@@ -1,0 +1,273 @@
+[
+ {
+  "city": "Newport Beach",
+  "url": "https://gis.newportbeachca.gov/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Newport Beach",
+  "url": "https://nbgis.newportbeachca.gov/arcgis/rest/services",
+  "ok": true,
+  "v": 11.5,
+  "folders": [
+   "CountyImagery",
+   "DroneImagery",
+   "Plans",
+   "Utilities"
+  ],
+  "services": [
+   "2001Aerials",
+   "2006Aerials",
+   "2012Aerials",
+   "2014Aerials",
+   "2016Aerials",
+   "2018Aerials",
+   "2020Aerials",
+   "2020AerialsSCAG",
+   "2022AerialsOCDAP",
+   "2024AerialsVexcel",
+   "2025AerialsVexcel",
+   "2026AerialsVexcel",
+   "AddressTextCache",
+   "ArcGISOnlineDataGISViewer",
+   "ArcGISOnlineDataGISViewer",
+   "BrightlyGIS",
+   "CCTV_Layers",
+   "CIP",
+   "CIP",
+   "CNB_Zoning",
+   "Community_Associations",
+   "Community_Associations",
+   "CSSLocator",
+   "DashBuildingPermits",
+   "DashBuildingPermits",
+   "EditsGeometry",
+   "EditsGeometry",
+   "EmployeeMasterMap",
+   "EnerGovBase",
+   "EnerGovSDE"
+  ]
+ },
+ {
+  "city": "Newport Beach",
+  "url": "https://newportbeach.maps.arcgis.com/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Newport Beach",
+  "url": "https://services.arcgis.com/5qj0XclE1oW9dSFB/arcgis/rest/services",
+  "ok": false,
+  "head": "\r\n{\r\n  \"error\" : \r\n  {\r\n    \"code\" : 400, \r\n    \"message\" : \"Invalid URL\", \r\n    \"details\" : [\r\n    "
+ },
+ {
+  "city": "Costa Mesa",
+  "url": "https://gis.costamesaca.gov/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Costa Mesa",
+  "url": "https://maps.costamesaca.gov/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Costa Mesa",
+  "url": "https://costamesa.maps.arcgis.com/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Costa Mesa",
+  "url": "https://services.arcgis.com/8Y3zHn6cWqjHn5Ff/arcgis/rest/services",
+  "ok": false,
+  "head": "\r\n{\r\n  \"error\" : \r\n  {\r\n    \"code\" : 400, \r\n    \"message\" : \"Invalid URL\", \r\n    \"details\" : [\r\n    "
+ },
+ {
+  "city": "Orange",
+  "url": "https://gis.cityoforange.org/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Orange",
+  "url": "https://maps.cityoforange.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Orange",
+  "url": "https://cityoforange.maps.arcgis.com/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Orange",
+  "url": "https://services.arcgis.com/9pW1v8pWqjq7vQ1a/arcgis/rest/services",
+  "ok": false,
+  "head": "\r\n{\r\n  \"error\" : \r\n  {\r\n    \"code\" : 400, \r\n    \"message\" : \"Invalid URL\", \r\n    \"details\" : [\r\n    "
+ },
+ {
+  "city": "Westminster",
+  "url": "https://gis.westminster-ca.gov/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Westminster",
+  "url": "https://maps.westminster-ca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Westminster",
+  "url": "https://westminsterca.maps.arcgis.com/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Garden Grove",
+  "url": "https://gis.ggcity.org/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Garden Grove",
+  "url": "https://maps.ggcity.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Garden Grove",
+  "url": "https://ggcity.maps.arcgis.com/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Garden Grove",
+  "url": "https://services.arcgis.com/3K9Q7v8pWqjq7vQ1/arcgis/rest/services",
+  "ok": false,
+  "head": "\r\n{\r\n  \"error\" : \r\n  {\r\n    \"code\" : 400, \r\n    \"message\" : \"Invalid URL\", \r\n    \"details\" : [\r\n    "
+ },
+ {
+  "city": "Fountain Valley",
+  "url": "https://gis.fountainvalley.org/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Fountain Valley",
+  "url": "https://maps.fountainvalley.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Fountain Valley",
+  "url": "https://fountainvalley.maps.arcgis.com/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Seal Beach",
+  "url": "https://sealbeach.maps.arcgis.com/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Tustin",
+  "url": "https://tustinca.maps.arcgis.com/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Tustin",
+  "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services",
+  "ok": true,
+  "v": 12,
+  "folders": [],
+  "services": [
+   "AB_2097__February_2023",
+   "ActiveProjects",
+   "CensusBlockGroups",
+   "City_Council_Districts",
+   "complexes",
+   "Cultural_and_Historic_Resources",
+   "Draw_Your_Community_Map_WFL1",
+   "Hazards",
+   "Historic_Survey",
+   "LIFOC_parcels",
+   "Municipal_Boundaries",
+   "ParcelLookup",
+   "ParkingDistrict_gdb",
+   "Parks",
+   "ParksFacilities",
+   "Planning_Department_Current_Projects",
+   "Premises_all_meters",
+   "Remaining_Property",
+   "SB9Layers",
+   "Shapefile_Consol_Water_Draft_20220810",
+   "survey123_15ffe3d109dc4b64aced48eccd58512d_form",
+   "survey123_278addfdfcf349689a58fce0c2955fba_form",
+   "survey123_798842cd6c884019a105250bc6060bc7_form",
+   "survey123_8182addf75044d27b159254af9db5e98_form",
+   "survey123_8182addf75044d27b159254af9db5e98_results",
+   "survey123_ae81054555a644a78347e945e3a77cf4_form",
+   "survey123_dc6f003d5c014d1ab26f2bba229445c6_form",
+   "survey123_e0f6852041224bc499fa2f3e06fb9720_form",
+   "TCAZoneMap",
+   "TillerDaysVendors"
+  ]
+ },
+ {
+  "city": "SealBeachOrg",
+  "url": "https://services5.arcgis.com/DgI3mEyvGBsZnibj/arcgis/rest/services",
+  "ok": true,
+  "v": 12,
+  "folders": [],
+  "services": [
+   "City_Boundary",
+   "Council_Districts",
+   "Flood_Zones",
+   "GPLU",
+   "SealBeach_Addresses_082025",
+   "SealBeach_School",
+   "SealBeach_Zipcode",
+   "Street_Centerlines",
+   "Residential_Boundaries",
+   "Coastal_Zone",
+   "Public_Parcel_Layer",
+   "Zoning_Public"
+  ]
+ },
+ {
+  "city": "CMSD",
+  "url": "https://services3.arcgis.com/tEixKKIaqUlqqgOF/arcgis/rest/services",
+  "ok": true,
+  "v": 12,
+  "folders": [],
+  "services": [
+   "aaaaa",
+   "APN_Map",
+   "Catalina_Sample_Point",
+   "CCTV_Layer_for_Cityworks",
+   "Cityworks_APN_MAP",
+   "cmsd_app_layer",
+   "CMSD_TrashProblems",
+   "EEC_Cities_USA",
+   "EEC_Offices",
+   "geocoding_result",
+   "IRWD_FSE",
+   "joinedagain",
+   "Merge_CMMS_Main___Gravity_Mains_CCTV_Footage_and_Reports",
+   "route_redo",
+   "survey123_24f5eb4994094ff891a81697ce38b26e_fieldworker",
+   "survey123_24f5eb4994094ff891a81697ce38b26e_stakeholder",
+   "TrashMap",
+   "Water_Usage_Tier_AGOL",
+   "Working_CCTV_Footage_Layer",
+   "CCTV_Working"
+  ]
+ }
+]

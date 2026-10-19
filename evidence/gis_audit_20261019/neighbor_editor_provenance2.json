@@ -1,0 +1,306 @@
+[
+ {
+  "city": "Tustin",
+  "service": "ParcelLookup/FeatureServer",
+  "layers": [
+   {
+    "id": 0,
+    "name": "Municipal Boundaries",
+    "editor_fields": [
+     "LASTEDITOR"
+    ],
+    "count": 1,
+    "group_LASTEDITOR": [
+     {
+      "v": null,
+      "n": 1
+     }
+    ]
+   },
+   {
+    "id": 1,
+    "name": "Parcels",
+    "editor_fields": [],
+    "count": 19865
+   },
+   {
+    "id": 2,
+    "name": "Zoning",
+    "editor_fields": [],
+    "count": 74
+   },
+   {
+    "id": 3,
+    "name": "Tustin Specific Plans",
+    "editor_fields": [
+     "created_user",
+     "created_date",
+     "last_edited_user",
+     "last_edited_date"
+    ],
+    "count": 9,
+    "group_created_user": [
+     {
+      "v": null,
+      "n": 9
+     }
+    ],
+    "group_created_date": [
+     {
+      "v": null,
+      "n": 9
+     }
+    ]
+   },
+   {
+    "id": 4,
+    "name": "General Plan",
+    "editor_fields": [],
+    "count": 14
+   },
+   {
+    "id": 5,
+    "name": "General Plan Landuse",
+    "editor_fields": [
+     "created_user",
+     "created_date",
+     "last_edited_user",
+     "last_edited_date"
+    ],
+    "count": 241,
+    "group_created_user": [
+     {
+      "v": null,
+      "n": 241
+     }
+    ],
+    "group_created_date": [
+     {
+      "v": null,
+      "n": 241
+     }
+    ]
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "Tustin",
+  "service": "Tustin_Base_Data/FeatureServer",
+  "layers": [
+   {
+    "id": 0,
+    "name": "Site Address Points",
+    "editor_fields": [
+     "LASTEDITOR"
+    ],
+    "count": 39271,
+    "group_LASTEDITOR": [
+     {
+      "v": " ",
+      "n": 39271
+     }
+    ]
+   },
+   {
+    "id": 1,
+    "name": "Road Centerlines",
+    "editor_fields": [
+     "LASTEDITOR"
+    ],
+    "count": 5719,
+    "group_LASTEDITOR": [
+     {
+      "v": null,
+      "n": 5719
+     }
+    ]
+   },
+   {
+    "id": 2,
+    "name": "Public Buildings",
+    "editor_fields": [],
+    "count": 19
+   },
+   {
+    "id": 3,
+    "name": "Points Of Interest",
+    "editor_fields": [],
+    "count": 48
+   },
+   {
+    "id": 4,
+    "name": "Flood Hazard Area",
+    "editor_fields": [],
+    "count": 42
+   },
+   {
+    "id": 5,
+    "name": "Parcels",
+    "editor_fields": [],
+    "count": 19620
+   },
+   {
+    "id": 6,
+    "name": "Parcels - APN",
+    "editor_fields": [],
+    "count": 19620
+   },
+   {
+    "id": 7,
+    "name": "Commercial Districts",
+    "editor_fields": [],
+    "count": 12
+   },
+   {
+    "id": 8,
+    "name": "Historical Resources",
+    "editor_fields": [
+     "created_user",
+     "created_date",
+     "last_edited_user",
+     "last_edited_date"
+    ],
+    "count": 308,
+    "group_created_user": [
+     {
+      "v": null,
+      "n": 308
+     }
+    ],
+    "group_created_date": [
+     {
+      "v": null,
+      "n": 308
+     }
+    ]
+   },
+   {
+    "id": 9,
+    "name": "Specific Plans",
+    "editor_fields": [
+     "created_user",
+     "created_date",
+     "last_edited_user",
+     "last_edited_date"
+    ],
+    "count": 9,
+    "group_created_user": [
+     {
+      "v": null,
+      "n": 9
+     }
+    ],
+    "group_created_date": [
+     {
+      "v": null,
+      "n": 9
+     }
+    ]
+   },
+   {
+    "id": 10,
+    "name": "General Plan",
+    "editor_fields": [],
+    "count": 14
+   },
+   {
+    "id": 11,
+    "name": "Zoning",
+    "editor_fields": [],
+    "count": 74
+   },
+   {
+    "id": 12,
+    "name": "Outside Of Jurisdiction",
+    "editor_fields": [
+     "LASTEDITOR",
+     "created_user",
+     "created_date",
+     "last_edited_user",
+     "last_edited_date"
+    ],
+    "count": 1,
+    "group_LASTEDITOR": [
+     {
+      "v": null,
+      "n": 1
+     }
+    ],
+    "group_created_user": [
+     {
+      "v": null,
+      "n": 1
+     }
+    ]
+   },
+   {
+    "id": 13,
+    "name": "Mills Act Address Points",
+    "editor_fields": [
+     "LASTEDITOR"
+    ],
+    "count": 27,
+    "group_LASTEDITOR": [
+     {
+      "v": " ",
+      "n": 27
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "name": "Municipal Boundaries",
+    "editor_fields": [
+     "LASTEDITOR"
+    ],
+    "count": 1,
+    "group_LASTEDITOR": [
+     {
+      "v": null,
+      "n": 1
+     }
+    ]
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "SealBeach",
+  "service": "Public_Parcel_Layer/FeatureServer",
+  "layers": [
+   {
+    "id": 4,
+    "name": "SealBeach_Parcels_Assessor",
+    "editor_fields": [],
+    "count": 6416
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "SealBeach",
+  "service": "SealBeach_Addresses_082025/FeatureServer",
+  "layers": [
+   {
+    "id": 0,
+    "name": "SealBeach_Addresses_New",
+    "editor_fields": [],
+    "count": 15407
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "CMSD",
+  "service": "APN_Map/FeatureServer",
+  "layers": [],
+  "errors": []
+ },
+ {
+  "city": "CMSD",
+  "service": "CMSD_TrashProblems/FeatureServer",
+  "layers": [],
+  "errors": []
+ }
+]

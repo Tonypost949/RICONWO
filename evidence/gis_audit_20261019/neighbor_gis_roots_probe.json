@@ -1,0 +1,704 @@
+[
+ {
+  "city": "Newport Beach",
+  "url": "https://gis.newportbeachca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Newport Beach",
+  "url": "https://maps.newportbeachca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Newport Beach",
+  "url": "https://gis.newportbeachca.gov/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Newport Beach",
+  "url": "https://newportbeachca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Costa Mesa",
+  "url": "https://gis.costamesaca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Costa Mesa",
+  "url": "https://maps.costamesaca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Costa Mesa",
+  "url": "https://gis.costamesaca.gov/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Costa Mesa",
+  "url": "https://gis.ci.costa-mesa.ca.us/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Irvine",
+  "url": "https://gis.cityofirvine.org/arcgis/rest/services",
+  "ok": true,
+  "version": 10.91,
+  "folders": [
+   "Aerial",
+   "KloudGin",
+   "Lucity",
+   "Print",
+   "Utilities"
+  ],
+  "services": [
+   "ADT",
+   "BARC4_Silverado",
+   "BasemapPW",
+   "BLDG_XY",
+   "Building_XY",
+   "Building_XYNew",
+   "Casey_ISHB",
+   "Centerline_Ties_NEW",
+   "Centerline",
+   "CIP",
+   "City_Landscape",
+   "CityBoundary",
+   "CityOwnedProp",
+   "Code_Enforcement_Cases",
+   "Code_Enforcement_Cases",
+   "COITrailsMetrics",
+   "Collector_Signals",
+   "Collector_Signals",
+   "Composite",
+   "DamInundation",
+   "Emergency_Management",
+   "FiberOptic",
+   "FiberOptic",
+   "FireTreatments_51220",
+   "GPConstruction",
+   "HOADataEditor",
+   "HOADataEditor",
+   "Landscape_Pro",
+   "Lucity_Editor_Storms",
+   "Lucity_Editor_Storms",
+   "NaturePreserve_Pro",
+   "OnlineParcel",
+   "OnlineParcelTest",
+   "Parcel_Pro",
+   "ParcelClariti_BldgXY",
+   "ParcelClariti_BldgXY",
+   "ParcelClariti_FGDB",
+   "ParcelClariti",
+   "ParcelClariti",
+   "ParkLighting"
+  ]
+ },
+ {
+  "city": "Irvine",
+  "url": "https://maps.cityofirvine.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -5] No address associated with hostname>"
+ },
+ {
+  "city": "Irvine",
+  "url": "https://gis.cityofirvine.org/server/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Irvine",
+  "url": "https://arcgis.cityofirvine.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -5] No address associated with hostname>"
+ },
+ {
+  "city": "Anaheim",
+  "url": "https://gis.anaheim.net/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Anaheim",
+  "url": "https://maps.anaheim.net/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Anaheim",
+  "url": "https://gis.anaheim.net/server/rest/services",
+  "ok": true,
+  "version": 11.5,
+  "folders": [
+   "AerialPhotos",
+   "BaseMaps",
+   "GIS",
+   "Hosted",
+   "SDE",
+   "Utilities"
+  ],
+  "services": [
+   "CADLayers",
+   "CityJurisdictionRecords",
+   "GovOutreach",
+   "GrayBasemap_Public",
+   "GrayBasemap_Public",
+   "OrangeCountyDEM_GCS",
+   "OrangeCountyDEM"
+  ]
+ },
+ {
+  "city": "Anaheim",
+  "url": "https://gis.anaheimca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -5] No address associated with hostname>"
+ },
+ {
+  "city": "Santa Ana",
+  "url": "https://gis.santa-ana.org/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Santa Ana",
+  "url": "https://maps.santa-ana.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Santa Ana",
+  "url": "https://gis.santa-ana.org/server/rest/services",
+  "ok": true,
+  "version": 10.91,
+  "folders": [
+   "Accela",
+   "Apps",
+   "Cityworks",
+   "Hosted",
+   "PD",
+   "Private",
+   "Public",
+   "TestServices",
+   "Utilities"
+  ],
+  "services": [
+   "PD_Geocoder_WGS",
+   "SantaAna_CompositeGeocoder"
+  ]
+ },
+ {
+  "city": "Santa Ana",
+  "url": "https://gis.santaana.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Tustin",
+  "url": "https://gis.tustinca.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Tustin",
+  "url": "https://maps.tustinca.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Tustin",
+  "url": "https://gis.tustinca.org/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Tustin",
+  "url": "https://gis.tustin.ca.us/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Westminster",
+  "url": "https://gis.westminster-ca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Westminster",
+  "url": "https://maps.westminster-ca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Westminster",
+  "url": "https://gis.westminster-ca.gov/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Westminster",
+  "url": "https://gis.cityofwestminster.us/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -5] No address associated with hostname>"
+ },
+ {
+  "city": "Fullerton",
+  "url": "https://gis.cityoffullerton.com/arcgis/rest/services",
+  "ok": true,
+  "version": 11.5,
+  "folders": [
+   "EnerGov",
+   "GIS",
+   "Hosted",
+   "Infrastructure",
+   "Locators",
+   "Orthophotos",
+   "Utilities"
+  ],
+  "services": [
+   "Address_Annotation",
+   "CIP_Current_Edit",
+   "CIP_Current_Edit",
+   "CIP_Current",
+   "CityofFullerton_SpatialJoin",
+   "CommDev2",
+   "CompositeLocator",
+   "CompositeSP_web",
+   "Contours",
+   "Fullerton_MIL1",
+   "Layers",
+   "MetroNet",
+   "Orthos",
+   "OvernightParkingExempt",
+   "Permit_2016_Locator_Pro",
+   "PermitParking"
+  ]
+ },
+ {
+  "city": "Fullerton",
+  "url": "https://maps.cityoffullerton.com/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Fullerton",
+  "url": "https://gis.cityoffullerton.com/server/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Fullerton",
+  "url": "https://gis.ci.fullerton.ca.us/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Orange",
+  "url": "https://gis.cityoforange.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Orange",
+  "url": "https://maps.cityoforange.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Orange",
+  "url": "https://gis.cityoforange.org/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Orange",
+  "url": "https://gis.orangeca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Garden Grove",
+  "url": "https://gis.ggcity.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Garden Grove",
+  "url": "https://maps.ggcity.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Garden Grove",
+  "url": "https://gis.ggcity.org/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Garden Grove",
+  "url": "https://gis.ci.garden-grove.ca.us/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error timed out>"
+ },
+ {
+  "city": "Fountain Valley",
+  "url": "https://gis.fountainvalley.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Fountain Valley",
+  "url": "https://maps.fountainvalley.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Fountain Valley",
+  "url": "https://gis.fountainvalley.org/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "city": "Fountain Valley",
+  "url": "https://gis.ci.fountain-valley.ca.us/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Seal Beach",
+  "url": "https://gis.sealbeachca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Seal Beach",
+  "url": "https://maps.sealbeachca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Seal Beach",
+  "url": "https://gis.sealbeachca.gov/server/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Seal Beach",
+  "url": "https://gis.ci.seal-beach.ca.us/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Long Beach",
+  "url": "https://gis.longbeach.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "Long Beach",
+  "url": "https://maps.longbeach.gov/arcgis/rest/services",
+  "ok": false,
+  "note": "non-JSON response",
+  "head": "<!DOCTYPE html><html lang=\"en-us\"><head>\n    <title>MapsLB</title><meta name=\"twitter:title\" content=\"MapsLB\"><meta prop"
+ },
+ {
+  "city": "Long Beach",
+  "url": "https://gis.longbeach.gov/server/rest/services",
+  "ok": true,
+  "version": 11.5,
+  "folders": [
+   "Hosted",
+   "PublicWorks",
+   "Utilities",
+   "VertiGIS_Utilities"
+  ],
+  "services": []
+ },
+ {
+  "city": "Long Beach",
+  "url": "https://gis.lbds.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "LA City",
+  "url": "https://maps.lacity.org/arcgis/rest/services",
+  "ok": true,
+  "version": 10.71,
+  "folders": [
+   "Annotation",
+   "Core",
+   "External",
+   "Internal",
+   "Internal_Testing",
+   "Locators",
+   "Mapping",
+   "Permits",
+   "Testing",
+   "Utilities"
+  ],
+  "services": []
+ },
+ {
+  "city": "LA City",
+  "url": "https://gis.lacity.org/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error timed out>"
+ },
+ {
+  "city": "LA City",
+  "url": "https://maps.lacity.org/server/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "LA City",
+  "url": "https://services.arcgis.com/6XcP9B1s0c1z6OJy/arcgis/rest/services",
+  "ok": false,
+  "note": "non-JSON response",
+  "head": "\r\n{\r\n  \"error\" : \r\n  {\r\n    \"code\" : 400, \r\n    \"message\" : \"Invalid URL\", \r\n    \"details\" : [\r\n      \"Invalid URL\"\r\n   "
+ },
+ {
+  "city": "LA County",
+  "url": "https://public.gis.lacounty.gov/public/rest/services",
+  "ok": true,
+  "version": 10.91,
+  "folders": [
+   "DRP",
+   "LACounty_Cache",
+   "LACounty_Dynamic",
+   "Utilities"
+  ],
+  "services": [
+   "CAMS_Locator"
+  ]
+ },
+ {
+  "city": "LA County",
+  "url": "https://gis.lacounty.gov/arcgis/rest/services",
+  "ok": false,
+  "note": "non-JSON response",
+  "head": "<!DOCTYPE html><html lang=\"en-us\"><head>\n    <title>County Of Los Angeles Enterprise GIS</title><meta name=\"twitter:titl"
+ },
+ {
+  "city": "LA County",
+  "url": "https://egis3.lacounty.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "HTTP Error 503: Service Unavailable"
+ },
+ {
+  "city": "LA County",
+  "url": "https://public.gis.lacounty.gov/arcgis/rest/services",
+  "ok": true,
+  "version": 10.91,
+  "folders": [
+   "Arcadia",
+   "CAMS",
+   "CDC",
+   "Census_2020",
+   "CEO",
+   "CIO",
+   "DBH",
+   "DCFS",
+   "DPH",
+   "DPSS",
+   "DPW",
+   "DRP",
+   "Emergency",
+   "Fire",
+   "ISD",
+   "LACOE",
+   "LACounty_Cache",
+   "LACounty_Dynamic",
+   "Library",
+   "Locators"
+  ],
+  "services": []
+ },
+ {
+  "city": "OCTA",
+  "url": "https://gis.octa.net/arcgis/rest/services",
+  "ok": true,
+  "version": 11.3,
+  "folders": [
+   "ACLASS",
+   "ActiveTransportation",
+   "Auxiliary",
+   "DEV",
+   "Enivronment",
+   "EnterpriseGDB_Auxiliary",
+   "EnterpriseGDB_Highway",
+   "Facilities",
+   "GeocodeServices",
+   "GeoprocessingServices",
+   "GISData",
+   "GISTest",
+   "GISViewer2",
+   "Hosted",
+   "Modelling",
+   "NewDatabaseProject",
+   "OCFlex",
+   "OCTA",
+   "OCTAPrintServices",
+   "Planning"
+  ],
+  "services": [
+   "Auxiliarytestdelete",
+   "Auxiliarytestdelete",
+   "LODES_DevMap_MIL1",
+   "Phase_II_Working_Map_MIL1"
+  ]
+ },
+ {
+  "city": "OCTA",
+  "url": "https://maps.octa.net/arcgis/rest/services",
+  "ok": true,
+  "version": 11.3,
+  "folders": [
+   "ACLASS",
+   "ActiveTransportation",
+   "Auxiliary",
+   "DEV",
+   "Enivronment",
+   "EnterpriseGDB_Auxiliary",
+   "EnterpriseGDB_Highway",
+   "Facilities",
+   "GeocodeServices",
+   "GeoprocessingServices",
+   "GISData",
+   "GISTest",
+   "GISViewer2",
+   "Hosted",
+   "Modelling",
+   "NewDatabaseProject",
+   "OCFlex",
+   "OCTA",
+   "OCTAPrintServices",
+   "Planning"
+  ],
+  "services": [
+   "Auxiliarytestdelete",
+   "Auxiliarytestdelete",
+   "LODES_DevMap_MIL1",
+   "Phase_II_Working_Map_MIL1"
+  ]
+ },
+ {
+  "city": "OCTA",
+  "url": "https://gis.octa.net/server/rest/services",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "city": "OCTA",
+  "url": "https://services.arcgis.com/6Z08FKbViTAKfGYM/arcgis/rest/services",
+  "ok": false,
+  "note": "non-JSON response",
+  "head": "\r\n{\r\n  \"error\" : \r\n  {\r\n    \"code\" : 400, \r\n    \"message\" : \"Invalid URL\", \r\n    \"details\" : [\r\n      \"Invalid URL\"\r\n   "
+ },
+ {
+  "city": "OC Public Works",
+  "url": "https://gis.ocpublicworks.com/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -5] No address associated with hostname>"
+ },
+ {
+  "city": "OC Public Works",
+  "url": "https://gis.ocpw.ocgov.com/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "OC Public Works",
+  "url": "https://maps.ocgov.com/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "OC Public Works",
+  "url": "https://gisservices.ocgov.com/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Caltrans D12",
+  "url": "https://gis.dot.ca.gov/arcgis/rest/services",
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "city": "Caltrans D12",
+  "url": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services",
+  "ok": true,
+  "version": 11.1,
+  "folders": [
+   "CaRS-Partnerships",
+   "CCVRA",
+   "CHaviation",
+   "CHboundary",
+   "CHhighway",
+   "CHhqcore",
+   "CHhqenvi",
+   "CHhqsafe",
+   "CHrailroad",
+   "D12",
+   "D4",
+   "HQMaint",
+   "HQohsip",
+   "HQstatewide",
+   "HydrogenFueling",
+   "RH",
+   "SB1",
+   "SB1_Test",
+   "Test",
+   "Utilities"
+  ],
+  "services": [
+   "CEPS_V2"
+  ]
+ },
+ {
+  "city": "Caltrans D12",
+  "url": "https://gisdata.dot.ca.gov/arcgis/rest/services",
+  "ok": true,
+  "version": 11.1,
+  "folders": [
+   "CaRS-Partnerships",
+   "CCVRA",
+   "CHaviation",
+   "CHboundary",
+   "CHhighway",
+   "CHhqcore",
+   "CHhqenvi",
+   "CHhqsafe",
+   "CHrailroad",
+   "D12",
+   "D4",
+   "HQMaint",
+   "HQohsip",
+   "HQstatewide",
+   "HydrogenFueling",
+   "RH",
+   "SB1",
+   "SB1_Test",
+   "Test",
+   "Utilities"
+  ],
+  "services": [
+   "CEPS_V2"
+  ]
+ },
+ {
+  "city": "Caltrans D12",
+  "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services",
+  "ok": false,
+  "err": "Unterminated string starting at: line 4522 column 15 (char 199907)"
+ }
+]

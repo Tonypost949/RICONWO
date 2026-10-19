@@ -1,0 +1,2515 @@
+[
+ {
+  "city": "Irvine",
+  "service": "OnlineParcel",
+  "type": "MapServer",
+  "layers": [
+   {
+    "id": 0,
+    "name": "City Boundary",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 52,
+    "name": "Council Districts",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 1,
+    "name": "Building",
+    "editor_fields": [
+     "EDITOR"
+    ],
+    "count": 71695,
+    "group_EDITOR": [
+     {
+      "v": null,
+      "n": 61313
+     },
+     {
+      "v": "dingagiola",
+      "n": 2352
+     },
+     {
+      "v": "jagomez",
+      "n": 2215
+     },
+     {
+      "v": "KBodrogi",
+      "n": 1643
+     },
+     {
+      "v": "MAllocco",
+      "n": 1316
+     },
+     {
+      "v": "awallace",
+      "n": 746
+     },
+     {
+      "v": "NBurke",
+      "n": 593
+     },
+     {
+      "v": "viennguyen",
+      "n": 586
+     },
+     {
+      "v": "bolson",
+      "n": 474
+     },
+     {
+      "v": "jchen",
+      "n": 204
+     },
+     {
+      "v": "lhale",
+      "n": 120
+     },
+     {
+      "v": "MMukhtar",
+      "n": 80
+     }
+    ]
+   },
+   {
+    "id": 2,
+    "name": "Schools",
+    "editor_fields": [],
+    "count": 138
+   },
+   {
+    "id": 3,
+    "name": "Parks",
+    "editor_fields": [],
+    "count": 621
+   },
+   {
+    "id": 4,
+    "name": "Parcel",
+    "editor_fields": [],
+    "count": 69769
+   },
+   {
+    "id": 5,
+    "name": "Primary Centerlines",
+    "editor_fields": [],
+    "count_err": "The read operation timed out"
+   },
+   {
+    "id": 6,
+    "name": "Secondary Centerlines",
+    "editor_fields": [],
+    "count": 10690
+   },
+   {
+    "id": 7,
+    "name": "Zoning",
+    "editor_fields": [],
+    "count": 1626
+   },
+   {
+    "id": 8,
+    "name": "General Plan",
+    "editor_fields": [],
+    "count": 458
+   },
+   {
+    "id": 9,
+    "name": "HOA",
+    "editor_fields": [
+     "Editor"
+    ],
+    "count": 374,
+    "group_Editor": [
+     {
+      "v": "jagomez_cityofirvine",
+      "n": 221
+     },
+     {
+      "v": "GISADMIN",
+      "n": 150
+     },
+     {
+      "v": "",
+      "n": 3
+     }
+    ]
+   },
+   {
+    "id": 10,
+    "name": "School Districts",
+    "editor_fields": [],
+    "count": 8
+   },
+   {
+    "id": 11,
+    "name": "Flood Zone",
+    "editor_fields": [],
+    "count": 175
+   },
+   {
+    "id": 12,
+    "name": "Flood Zone Info",
+    "editor_fields": [],
+    "count": 46
+   },
+   {
+    "id": 14,
+    "name": "TRIPS",
+    "editor_fields": [],
+    "count": 14
+   },
+   {
+    "id": 15,
+    "name": "Private Street",
+    "editor_fields": [],
+    "count": 2988
+   },
+   {
+    "id": 16,
+    "name": "Transportation Fee",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 32,
+    "name": "Street Sweeping",
+    "editor_fields": [],
+    "count": 8
+   },
+   {
+    "id": 18,
+    "name": "Special Handling Area",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 51,
+    "name": "General Plan/Zoning Focus Area",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 53,
+    "name": "Zoning Filter",
+    "editor_fields": [],
+    "count": null
+   },
+   {
+    "id": 55,
+    "name": "1.1",
+    "editor_fields": [],
+    "count": 12
+   },
+   {
+    "id": 54,
+    "name": "1.2",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 56,
+    "name": "1.3",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 57,
+    "name": "1.4",
+    "editor_fields": [],
+    "count": 40
+   },
+   {
+    "id": 58,
+    "name": "1.4A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 59,
+    "name": "1.5",
+    "editor_fields": [],
+    "count": 87
+   },
+   {
+    "id": 60,
+    "name": "1.5A",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 61,
+    "name": "1.6",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 62,
+    "name": "1.9",
+    "editor_fields": [],
+    "count": 7
+   },
+   {
+    "id": 63,
+    "name": "2.1A",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 64,
+    "name": "2.2",
+    "editor_fields": [],
+    "count": 271
+   },
+   {
+    "id": 65,
+    "name": "2.2A",
+    "editor_fields": [],
+    "count": 13
+   },
+   {
+    "id": 66,
+    "name": "2.2B",
+    "editor_fields": [],
+    "count": 50
+   },
+   {
+    "id": 67,
+    "name": "2.2C",
+    "editor_fields": [],
+    "count": 10
+   },
+   {
+    "id": 68,
+    "name": "2.2D",
+    "editor_fields": [],
+    "count": 4
+   },
+   {
+    "id": 69,
+    "name": "2.3",
+    "editor_fields": [],
+    "count": 140
+   },
+   {
+    "id": 70,
+    "name": "2.3A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 71,
+    "name": "2.3B",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 72,
+    "name": "2.3C",
+    "editor_fields": [],
+    "count": 29
+   },
+   {
+    "id": 73,
+    "name": "2.3D",
+    "editor_fields": [],
+    "count": 16
+   },
+   {
+    "id": 74,
+    "name": "2.3F",
+    "editor_fields": [],
+    "count": 51
+   },
+   {
+    "id": 75,
+    "name": "2.3G",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 76,
+    "name": "2.3H",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 77,
+    "name": "2.3I",
+    "editor_fields": [],
+    "count": 30
+   },
+   {
+    "id": 78,
+    "name": "2.3J",
+    "editor_fields": [],
+    "count": 90
+   },
+   {
+    "id": 79,
+    "name": "2.3K",
+    "editor_fields": [],
+    "count": 39
+   },
+   {
+    "id": 80,
+    "name": "2.3M",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 81,
+    "name": "2.3N",
+    "editor_fields": [],
+    "count": 11
+   },
+   {
+    "id": 82,
+    "name": "2.3O",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 83,
+    "name": "2.3P",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 84,
+    "name": "2.4",
+    "editor_fields": [],
+    "count": 92
+   },
+   {
+    "id": 85,
+    "name": "2.4A",
+    "editor_fields": [],
+    "count": 4
+   },
+   {
+    "id": 86,
+    "name": "2.4B",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 87,
+    "name": "2.4C",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 88,
+    "name": "2.4D",
+    "editor_fields": [],
+    "count": 13
+   },
+   {
+    "id": 89,
+    "name": "2.4E",
+    "editor_fields": [],
+    "count": 4
+   },
+   {
+    "id": 90,
+    "name": "2.4F",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 91,
+    "name": "2.4G",
+    "editor_fields": [],
+    "count": 13
+   },
+   {
+    "id": 92,
+    "name": "2.4H",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 93,
+    "name": "2.4I",
+    "editor_fields": [],
+    "count": 13
+   },
+   {
+    "id": 108,
+    "name": "2.4J",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 94,
+    "name": "2.5",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 95,
+    "name": "3.1",
+    "editor_fields": [],
+    "count": 14
+   },
+   {
+    "id": 96,
+    "name": "3.1A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 97,
+    "name": "3.1D",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 98,
+    "name": "3.1E",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 99,
+    "name": "3.1G",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 100,
+    "name": "3.1H",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 163,
+    "name": "3.1I",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 101,
+    "name": "4.1",
+    "editor_fields": [],
+    "count": 12
+   },
+   {
+    "id": 102,
+    "name": "4.1A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 103,
+    "name": "4.1B",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 104,
+    "name": "4.1D",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 105,
+    "name": "4.1E",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 106,
+    "name": "4.2",
+    "editor_fields": [],
+    "count": 14
+   },
+   {
+    "id": 107,
+    "name": "4.2A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 109,
+    "name": "4.2B",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 110,
+    "name": "4.2C",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 111,
+    "name": "4.2D",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 112,
+    "name": "4.2E",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 113,
+    "name": "4.2G",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 114,
+    "name": "4.2H",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 115,
+    "name": "4.2L",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 116,
+    "name": "4.2M",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 117,
+    "name": "4.2N",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 118,
+    "name": "4.2O",
+    "editor_fields": [],
+    "count": 0
+   },
+   {
+    "id": 119,
+    "name": "4.3",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 120,
+    "name": "4.4",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 121,
+    "name": "4.4A",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 122,
+    "name": "4.4B",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 123,
+    "name": "4.5",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 124,
+    "name": "4.6",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 125,
+    "name": "4.7",
+    "editor_fields": [],
+    "count": 8
+   },
+   {
+    "id": 126,
+    "name": "4.7C",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 127,
+    "name": "4.8",
+    "editor_fields": [],
+    "count": 9
+   },
+   {
+    "id": 128,
+    "name": "4.9",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 129,
+    "name": "5.0",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 130,
+    "name": "5.0A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 131,
+    "name": "5.1",
+    "editor_fields": [],
+    "count": 84
+   },
+   {
+    "id": 132,
+    "name": "5.1A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 133,
+    "name": "5.2",
+    "editor_fields": [],
+    "count": 7
+   },
+   {
+    "id": 134,
+    "name": "5.3",
+    "editor_fields": [],
+    "count": 7
+   },
+   {
+    "id": 135,
+    "name": "5.3A",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 136,
+    "name": "5.3B",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 137,
+    "name": "5.3C",
+    "editor_fields": [],
+    "count": 4
+   },
+   {
+    "id": 138,
+    "name": "5.3D",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 139,
+    "name": "5.4",
+    "editor_fields": [],
+    "count": 36
+   },
+   {
+    "id": 140,
+    "name": "5.4A",
+    "editor_fields": [],
+    "count": 12
+   },
+   {
+    "id": 141,
+    "name": "5.4B",
+    "editor_fields": [],
+    "count": 10
+   },
+   {
+    "id": 142,
+    "name": "5.5",
+    "editor_fields": [],
+    "count": 10
+   },
+   {
+    "id": 143,
+    "name": "5.5A",
+    "editor_fields": [],
+    "count": 10
+   },
+   {
+    "id": 144,
+    "name": "5.5B",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 145,
+    "name": "5.5C",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 146,
+    "name": "5.5D",
+    "editor_fields": [],
+    "count": 8
+   },
+   {
+    "id": 147,
+    "name": "5.5G",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 148,
+    "name": "5.5H",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 149,
+    "name": "5.5I",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 150,
+    "name": "5.6",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 151,
+    "name": "6.1",
+    "editor_fields": [],
+    "count": 79
+   },
+   {
+    "id": 152,
+    "name": "6.1A",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 153,
+    "name": "6.1B",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 154,
+    "name": "8.1",
+    "editor_fields": [],
+    "count": 116
+   },
+   {
+    "id": 155,
+    "name": "8.1A",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 156,
+    "name": "8.1B",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 162,
+    "name": "8.1C",
+    "editor_fields": [],
+    "count": 8
+   },
+   {
+    "id": 157,
+    "name": "9.1",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 160,
+    "name": "Fire Zones",
+    "editor_fields": [],
+    "count": null
+   },
+   {
+    "id": 161,
+    "name": "Fire Ordinance Zone (Pre - 7/30/2025)",
+    "editor_fields": [],
+    "count": 501
+   },
+   {
+    "id": 48,
+    "name": "Fire Hazard Severity Zone (FHSZ SRA - 7/30/2025)",
+    "editor_fields": [],
+    "count": 18423
+   },
+   {
+    "id": 158,
+    "name": "Fire Hazard Severity Zone (FHSZ LRA - 7/30/2025)",
+    "editor_fields": [],
+    "count": 595
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "Irvine",
+  "service": "ParcelClariti",
+  "type": "MapServer",
+  "layers": [
+   {
+    "id": 0,
+    "name": "City Boundary",
+    "editor_fields": [],
+    "count_err": "The read operation timed out"
+   },
+   {
+    "id": 58,
+    "name": "Council Districts",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 2,
+    "name": "Building",
+    "editor_fields": [],
+    "count": 71695
+   },
+   {
+    "id": 3,
+    "name": "Schools",
+    "editor_fields": [],
+    "count": 138
+   },
+   {
+    "id": 4,
+    "name": "Parks",
+    "editor_fields": [],
+    "count": 621
+   },
+   {
+    "id": 5,
+    "name": "Parcel",
+    "editor_fields": [],
+    "count": 69728
+   },
+   {
+    "id": 6,
+    "name": "Primary Centerlines",
+    "editor_fields": [],
+    "count": 704
+   },
+   {
+    "id": 7,
+    "name": "Secondary Centerlines",
+    "editor_fields": [],
+    "count": 10690
+   },
+   {
+    "id": 20,
+    "name": "Private Street",
+    "editor_fields": [],
+    "count": 2988
+   },
+   {
+    "id": 9,
+    "name": "Zoning",
+    "editor_fields": [],
+    "count": 1626
+   },
+   {
+    "id": 10,
+    "name": "General Plan",
+    "editor_fields": [],
+    "count": 458
+   },
+   {
+    "id": 11,
+    "name": "HOA",
+    "editor_fields": [
+     "Editor"
+    ],
+    "count": 374,
+    "group_Editor": [
+     {
+      "v": "jagomez_cityofirvine",
+      "n": 221
+     },
+     {
+      "v": "GISADMIN",
+      "n": 150
+     },
+     {
+      "v": "",
+      "n": 3
+     }
+    ]
+   },
+   {
+    "id": 12,
+    "name": "School Districts",
+    "editor_fields": [],
+    "count": 8
+   },
+   {
+    "id": 13,
+    "name": "IUSD CFD",
+    "editor_fields": [],
+    "count": 37
+   },
+   {
+    "id": 14,
+    "name": "Flood Zone",
+    "editor_fields": [],
+    "count": 175
+   },
+   {
+    "id": 15,
+    "name": "Flood Zone Info",
+    "editor_fields": [],
+    "count": 46
+   },
+   {
+    "id": 16,
+    "name": "Fire Ordinance Zone",
+    "editor_fields": [],
+    "count": 501
+   },
+   {
+    "id": 18,
+    "name": "Planning Area",
+    "editor_fields": [],
+    "count": 39
+   },
+   {
+    "id": 21,
+    "name": "Eden Grid",
+    "editor_fields": [],
+    "count": 3432
+   },
+   {
+    "id": 22,
+    "name": "Pre-1994 Building Tracts",
+    "editor_fields": [],
+    "count": 2557
+   },
+   {
+    "id": 23,
+    "name": "IBC Fee District",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 24,
+    "name": "Additional Fee District",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 25,
+    "name": "Transportation Fee",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 26,
+    "name": "Planning Fee",
+    "editor_fields": [],
+    "count": 48
+   },
+   {
+    "id": 33,
+    "name": "Centerline Type",
+    "editor_fields": [],
+    "count": 11012
+   },
+   {
+    "id": 37,
+    "name": "City Owned Properties",
+    "editor_fields": [],
+    "count": 2256
+   },
+   {
+    "id": 1,
+    "name": "County Grid",
+    "editor_fields": [],
+    "count": 2470
+   },
+   {
+    "id": 60,
+    "name": "ADU",
+    "editor_fields": [
+     "EDITOR"
+    ],
+    "count": 182,
+    "group_EDITOR": [
+     {
+      "v": "MAllocco",
+      "n": 88
+     },
+     {
+      "v": "jagomez",
+      "n": 39
+     },
+     {
+      "v": "jchen",
+      "n": 39
+     },
+     {
+      "v": "MMukhtar",
+      "n": 8
+     },
+     {
+      "v": "ADH",
+      "n": 4
+     },
+     {
+      "v": "awallace",
+      "n": 2
+     },
+     {
+      "v": "KBodrogi",
+      "n": 2
+     }
+    ]
+   },
+   {
+    "id": 47,
+    "name": "Grading",
+    "editor_fields": [],
+    "count": 2462
+   },
+   {
+    "id": 48,
+    "name": "Approved Development Agreement",
+    "editor_fields": [],
+    "count": 7
+   },
+   {
+    "id": 160,
+    "name": "Fire Hazard Severity Zone (FHSZ LRA)",
+    "editor_fields": [],
+    "count": 595
+   },
+   {
+    "id": 163,
+    "name": "Housing Element",
+    "editor_fields": [],
+    "count": null
+   },
+   {
+    "id": 52,
+    "name": "GP Sections",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 62,
+    "name": "General Plan/Zoning Focus Area",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 53,
+    "name": "Zoning Filter",
+    "editor_fields": [],
+    "count": null
+   },
+   {
+    "id": 55,
+    "name": "1.1",
+    "editor_fields": [],
+    "count": 12
+   },
+   {
+    "id": 54,
+    "name": "1.2",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 56,
+    "name": "1.3",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 57,
+    "name": "1.4",
+    "editor_fields": [],
+    "count": 40
+   },
+   {
+    "id": 158,
+    "name": "1.4A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 59,
+    "name": "1.5",
+    "editor_fields": [],
+    "count": 87
+   },
+   {
+    "id": 159,
+    "name": "1.5A",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 61,
+    "name": "1.6",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 161,
+    "name": "1.9",
+    "editor_fields": [],
+    "count": 7
+   },
+   {
+    "id": 63,
+    "name": "2.1A",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 64,
+    "name": "2.2",
+    "editor_fields": [],
+    "count": 271
+   },
+   {
+    "id": 65,
+    "name": "2.2A",
+    "editor_fields": [],
+    "count": 13
+   },
+   {
+    "id": 66,
+    "name": "2.2B",
+    "editor_fields": [],
+    "count": 50
+   },
+   {
+    "id": 67,
+    "name": "2.2C",
+    "editor_fields": [],
+    "count": 10
+   },
+   {
+    "id": 68,
+    "name": "2.2D",
+    "editor_fields": [],
+    "count": 4
+   },
+   {
+    "id": 69,
+    "name": "2.3",
+    "editor_fields": [],
+    "count": 140
+   },
+   {
+    "id": 70,
+    "name": "2.3A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 71,
+    "name": "2.3B",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 72,
+    "name": "2.3C",
+    "editor_fields": [],
+    "count": 29
+   },
+   {
+    "id": 73,
+    "name": "2.3D",
+    "editor_fields": [],
+    "count": 16
+   },
+   {
+    "id": 74,
+    "name": "2.3F",
+    "editor_fields": [],
+    "count": 51
+   },
+   {
+    "id": 75,
+    "name": "2.3G",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 76,
+    "name": "2.3H",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 77,
+    "name": "2.3I",
+    "editor_fields": [],
+    "count": 30
+   },
+   {
+    "id": 78,
+    "name": "2.3J",
+    "editor_fields": [],
+    "count": 90
+   },
+   {
+    "id": 79,
+    "name": "2.3K",
+    "editor_fields": [],
+    "count": 39
+   },
+   {
+    "id": 80,
+    "name": "2.3M",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 81,
+    "name": "2.3N",
+    "editor_fields": [],
+    "count": 11
+   },
+   {
+    "id": 82,
+    "name": "2.3O",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 83,
+    "name": "2.3P",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 84,
+    "name": "2.4",
+    "editor_fields": [],
+    "count": 92
+   },
+   {
+    "id": 85,
+    "name": "2.4A",
+    "editor_fields": [],
+    "count": 4
+   },
+   {
+    "id": 86,
+    "name": "2.4B",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 87,
+    "name": "2.4C",
+    "editor_fields": [],
+    "count": 6
+   },
+   {
+    "id": 88,
+    "name": "2.4D",
+    "editor_fields": [],
+    "count": 13
+   },
+   {
+    "id": 89,
+    "name": "2.4E",
+    "editor_fields": [],
+    "count": 4
+   },
+   {
+    "id": 90,
+    "name": "2.4F",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 91,
+    "name": "2.4G",
+    "editor_fields": [],
+    "count": 13
+   },
+   {
+    "id": 92,
+    "name": "2.4H",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 93,
+    "name": "2.4I",
+    "editor_fields": [],
+    "count": 13
+   },
+   {
+    "id": 94,
+    "name": "2.5",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 95,
+    "name": "3.1",
+    "editor_fields": [],
+    "count": 14
+   },
+   {
+    "id": 96,
+    "name": "3.1A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 97,
+    "name": "3.1D",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 98,
+    "name": "3.1E",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 99,
+    "name": "3.1G",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 100,
+    "name": "3.1H",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 101,
+    "name": "4.1",
+    "editor_fields": [],
+    "count": 12
+   },
+   {
+    "id": 102,
+    "name": "4.1A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 103,
+    "name": "4.1B",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 104,
+    "name": "4.1D",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 105,
+    "name": "4.1E",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 106,
+    "name": "4.2",
+    "editor_fields": [],
+    "count": 14
+   },
+   {
+    "id": 107,
+    "name": "4.2A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 109,
+    "name": "4.2B",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 110,
+    "name": "4.2C",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 111,
+    "name": "4.2D",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 112,
+    "name": "4.2E",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 113,
+    "name": "4.2G",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 114,
+    "name": "4.2H",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 115,
+    "name": "4.2L",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 116,
+    "name": "4.2M",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 117,
+    "name": "4.2N",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 118,
+    "name": "4.2O",
+    "editor_fields": [],
+    "count": 0
+   },
+   {
+    "id": 119,
+    "name": "4.3",
+    "editor_fields": [],
+    "count": 5
+   },
+   {
+    "id": 120,
+    "name": "4.4",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 121,
+    "name": "4.4A",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 122,
+    "name": "4.4B",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 123,
+    "name": "4.5",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 124,
+    "name": "4.6",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 125,
+    "name": "4.7",
+    "editor_fields": [],
+    "count": 8
+   },
+   {
+    "id": 126,
+    "name": "4.7C",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 127,
+    "name": "4.8",
+    "editor_fields": [],
+    "count": 9
+   },
+   {
+    "id": 128,
+    "name": "4.9",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 129,
+    "name": "5.0",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 130,
+    "name": "5.0A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 131,
+    "name": "5.1",
+    "editor_fields": [],
+    "count": 84
+   },
+   {
+    "id": 132,
+    "name": "5.1A",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 133,
+    "name": "5.2",
+    "editor_fields": [],
+    "count": 7
+   },
+   {
+    "id": 134,
+    "name": "5.3",
+    "editor_fields": [],
+    "count": 7
+   },
+   {
+    "id": 135,
+    "name": "5.3A",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 136,
+    "name": "5.3B",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 137,
+    "name": "5.3C",
+    "editor_fields": [],
+    "count": 4
+   },
+   {
+    "id": 138,
+    "name": "5.3D",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 139,
+    "name": "5.4",
+    "editor_fields": [],
+    "count": 36
+   },
+   {
+    "id": 140,
+    "name": "5.4A",
+    "editor_fields": [],
+    "count": 12
+   },
+   {
+    "id": 141,
+    "name": "5.4B",
+    "editor_fields": [],
+    "count": 10
+   },
+   {
+    "id": 142,
+    "name": "5.5",
+    "editor_fields": [],
+    "count": 10
+   },
+   {
+    "id": 143,
+    "name": "5.5A",
+    "editor_fields": [],
+    "count": 10
+   },
+   {
+    "id": 144,
+    "name": "5.5B",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 145,
+    "name": "5.5C",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 146,
+    "name": "5.5D",
+    "editor_fields": [],
+    "count": 8
+   },
+   {
+    "id": 147,
+    "name": "5.5G",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 148,
+    "name": "5.5H",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 149,
+    "name": "5.5I",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 150,
+    "name": "5.6",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 151,
+    "name": "6.1",
+    "editor_fields": [],
+    "count": 79
+   },
+   {
+    "id": 152,
+    "name": "6.1A",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 153,
+    "name": "6.1B",
+    "editor_fields": [],
+    "count": 1
+   },
+   {
+    "id": 154,
+    "name": "8.1",
+    "editor_fields": [],
+    "count": 116
+   },
+   {
+    "id": 155,
+    "name": "8.1A",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 156,
+    "name": "8.1B",
+    "editor_fields": [],
+    "count": 3
+   },
+   {
+    "id": 157,
+    "name": "9.1",
+    "editor_fields": [],
+    "count": 2
+   },
+   {
+    "id": 162,
+    "name": "Retail Shopping Centers",
+    "editor_fields": [],
+    "count": 54
+   },
+   {
+    "id": 164,
+    "name": "Address Points",
+    "editor_fields": [],
+    "count": 140223
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "Irvine",
+  "service": "Lucity/Lucity_Editor_Storms",
+  "type": "MapServer",
+  "layers": [
+   {
+    "id": 0,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 14609
+   },
+   {
+    "id": 1,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 14609
+   },
+   {
+    "id": 2,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 14609
+   },
+   {
+    "id": 3,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 14609
+   },
+   {
+    "id": 4,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 14609
+   },
+   {
+    "id": 5,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 14609
+   },
+   {
+    "id": 6,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 14609
+   },
+   {
+    "id": 7,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 14609
+   },
+   {
+    "id": 8,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 14609
+   },
+   {
+    "id": 9,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 14613
+   },
+   {
+    "id": 10,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 43
+   },
+   {
+    "id": 11,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 25
+   },
+   {
+    "id": 12,
+    "name": "Storm Structure",
+    "editor_fields": [],
+    "count": 4
+   },
+   {
+    "id": 13,
+    "name": "Storm Detention Basin",
+    "editor_fields": [],
+    "count": 9
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "Irvine",
+  "service": "KloudGin/Storm",
+  "type": "MapServer",
+  "layers": [
+   {
+    "id": 27,
+    "name": "Hydrant",
+    "editor_fields": [
+     "Editor"
+    ],
+    "count": 165,
+    "group_Editor": [
+     {
+      "v": "EBasinger",
+      "n": 159
+     },
+     {
+      "v": "SNewberry",
+      "n": 3
+     },
+     {
+      "v": null,
+      "n": 2
+     },
+     {
+      "v": "irvinepw",
+      "n": 1
+     }
+    ]
+   },
+   {
+    "id": 4,
+    "name": "Storm Structure",
+    "editor_fields": [
+     "EditedBy"
+    ],
+    "count": 21436,
+    "group_EditedBy": [
+     {
+      "v": null,
+      "n": 21433
+     },
+     {
+      "v": " ",
+      "n": 3
+     }
+    ]
+   },
+   {
+    "id": 5,
+    "name": "Storm Detention Basin",
+    "editor_fields": [],
+    "count": 9
+   },
+   {
+    "id": 6,
+    "name": "Storm Pump Station",
+    "editor_fields": [],
+    "count": 0
+   },
+   {
+    "id": 7,
+    "name": "Storm Conduit",
+    "editor_fields": [],
+    "count": 12919
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "Anaheim",
+  "service": "GIS/Parcels_Public",
+  "type": "MapServer",
+  "layers": [
+   {
+    "id": 0,
+    "name": "Parcels",
+    "editor_fields": [],
+    "count": 68441
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "Anaheim",
+  "service": "SDE/Address_Points",
+  "type": "MapServer",
+  "layers": [
+   {
+    "id": 3,
+    "name": "Address Points",
+    "editor_fields": [
+     "created_user",
+     "created_date",
+     "last_edited_user",
+     "last_edited_date"
+    ],
+    "count": 180124,
+    "group_created_user": [
+     {
+      "v": null,
+      "n": 120411
+     },
+     {
+      "v": "CCARTER",
+      "n": 24349
+     },
+     {
+      "v": "ALBGARCIA",
+      "n": 11237
+     },
+     {
+      "v": "ECAMACHO",
+      "n": 11066
+     },
+     {
+      "v": "HNOZAKI",
+      "n": 3945
+     },
+     {
+      "v": "MRODRIGUEZ1",
+      "n": 3755
+     },
+     {
+      "v": "GFRANCO",
+      "n": 1593
+     },
+     {
+      "v": "TBETKE",
+      "n": 1132
+     },
+     {
+      "v": "DRHEE",
+      "n": 886
+     },
+     {
+      "v": "MKIM",
+      "n": 748
+     },
+     {
+      "v": "Eolmedo@anaheim.net",
+      "n": 334
+     },
+     {
+      "v": "STABIN",
+      "n": 324
+     }
+    ],
+    "group_created_date": [
+     {
+      "v": null,
+      "n": 120411
+     },
+     {
+      "v": 1701898683000,
+      "n": 5256
+     },
+     {
+      "v": 1694541145000,
+      "n": 2080
+     },
+     {
+      "v": 1701966439000,
+      "n": 1589
+     },
+     {
+      "v": 1516992103000,
+      "n": 1000
+     },
+     {
+      "v": 1516995551000,
+      "n": 999
+     },
+     {
+      "v": 1516996357000,
+      "n": 998
+     },
+     {
+      "v": 1516996582000,
+      "n": 998
+     },
+     {
+      "v": 1516995191000,
+      "n": 997
+     },
+     {
+      "v": 1516995369000,
+      "n": 997
+     },
+     {
+      "v": 1516995028000,
+      "n": 996
+     },
+     {
+      "v": 1516996813000,
+      "n": 996
+     }
+    ],
+    "group_last_edited_user": [
+     {
+      "v": "agsuser",
+      "n": 156534
+     },
+     {
+      "v": "ECAMACHO",
+      "n": 21710
+     },
+     {
+      "v": "ALBGARCIA",
+      "n": 713
+     },
+     {
+      "v": "MDENG",
+      "n": 658
+     },
+     {
+      "v": "DRHEE",
+      "n": 205
+     },
+     {
+      "v": "MRODRIGUEZ1",
+      "n": 120
+     },
+     {
+      "v": "TBETKE",
+      "n": 98
+     },
+     {
+      "v": "GFRANCO",
+      "n": 81
+     },
+     {
+      "v": "Planctr1@anaheim.net",
+      "n": 3
+     },
+     {
+      "v": "Planctr2@anaheim.net",
+      "n": 1
+     },
+     {
+      "v": "Planctr3@anaheim.net",
+      "n": 1
+     }
+    ],
+    "group_last_edited_date": [
+     {
+      "v": 1772207257000,
+      "n": 18162
+     },
+     {
+      "v": 1790798433000,
+      "n": 541
+     },
+     {
+      "v": 1734737173000,
+      "n": 500
+     },
+     {
+      "v": 1734736812000,
+      "n": 500
+     },
+     {
+      "v": 1734739039000,
+      "n": 500
+     },
+     {
+      "v": 1757010496000,
+      "n": 500
+     },
+     {
+      "v": 1734738018000,
+      "n": 500
+     },
+     {
+      "v": 1757100498000,
+      "n": 499
+     },
+     {
+      "v": 1734741326000,
+      "n": 499
+     },
+     {
+      "v": 1734739340000,
+      "n": 499
+     },
+     {
+      "v": 1734739580000,
+      "n": 499
+     },
+     {
+      "v": 1734737474000,
+      "n": 499
+     }
+    ]
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "Santa Ana",
+  "service": "Public/GIS_AssessorParcels",
+  "type": "MapServer",
+  "layers": [
+   {
+    "id": 0,
+    "name": "Assessor Parcels",
+    "editor_fields": [],
+    "count": 57926
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "Santa Ana",
+  "service": "Cityworks/Cityworks/ServiceLayer_StormWater",
+  "type": null,
+  "layers": [],
+  "errors": [
+   "MapServer: Invalid URL",
+   "FeatureServer: Invalid URL"
+  ]
+ },
+ {
+  "city": "Fullerton",
+  "service": "GIS/Parcels",
+  "type": "MapServer",
+  "layers": [
+   {
+    "id": 1,
+    "name": "Parcel",
+    "editor_fields": [
+     "created_user",
+     "created_date",
+     "last_edited_user",
+     "last_edited_date"
+    ],
+    "count": 53678,
+    "group_created_user": [
+     {
+      "v": null,
+      "n": 51855
+     },
+     {
+      "v": "CITY",
+      "n": 1806
+     },
+     {
+      "v": "CHRISTOPHER.CARTER",
+      "n": 16
+     },
+     {
+      "v": "DIANA.SOTELO",
+      "n": 1
+     }
+    ],
+    "group_created_date": [
+     {
+      "v": null,
+      "n": 51855
+     },
+     {
+      "v": 1574383425000,
+      "n": 127
+     },
+     {
+      "v": 1574381604000,
+      "n": 90
+     },
+     {
+      "v": 1574438142000,
+      "n": 59
+     },
+     {
+      "v": 1574459793000,
+      "n": 57
+     },
+     {
+      "v": 1574445919000,
+      "n": 51
+     },
+     {
+      "v": 1574377859000,
+      "n": 45
+     },
+     {
+      "v": 1574379964000,
+      "n": 40
+     },
+     {
+      "v": 1574444423000,
+      "n": 32
+     },
+     {
+      "v": 1574809785000,
+      "n": 25
+     },
+     {
+      "v": 1574445634000,
+      "n": 24
+     },
+     {
+      "v": 1574464790000,
+      "n": 24
+     }
+    ],
+    "group_last_edited_user": [
+     {
+      "v": "CITY",
+      "n": 53362
+     },
+     {
+      "v": "CHRISTOPHER.CARTER",
+      "n": 302
+     },
+     {
+      "v": "BCHRISTENSEN",
+      "n": 8
+     },
+     {
+      "v": "JON.ORNDORFF",
+      "n": 5
+     },
+     {
+      "v": "DIANA.SOTELO",
+      "n": 1
+     }
+    ],
+    "group_last_edited_date": [
+     {
+      "v": 1566427369000,
+      "n": 284
+     },
+     {
+      "v": 1566427368000,
+      "n": 284
+     },
+     {
+      "v": 1566506409000,
+      "n": 281
+     },
+     {
+      "v": 1566505155000,
+      "n": 277
+     },
+     {
+      "v": 1566346174000,
+      "n": 271
+     },
+     {
+      "v": 1566506268000,
+      "n": 269
+     },
+     {
+      "v": 1566506273000,
+      "n": 268
+     },
+     {
+      "v": 1566430679000,
+      "n": 267
+     },
+     {
+      "v": 1566346985000,
+      "n": 266
+     },
+     {
+      "v": 1566425673000,
+      "n": 266
+     },
+     {
+      "v": 1566430681000,
+      "n": 265
+     },
+     {
+      "v": 1566430680000,
+      "n": 265
+     }
+    ]
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "Fullerton",
+  "service": "GIS/AddressPoints",
+  "type": "MapServer",
+  "layers": [
+   {
+    "id": 0,
+    "name": "Address Point",
+    "editor_fields": [
+     "CREATED_DATE",
+     "created_user",
+     "last_edited_user",
+     "last_edited_date"
+    ],
+    "count": 58877,
+    "group_CREATED_DATE": [
+     {
+      "v": null,
+      "n": 50987
+     },
+     {
+      "v": 1378339200000,
+      "n": 360
+     },
+     {
+      "v": 1172620800000,
+      "n": 298
+     },
+     {
+      "v": 1566950003000,
+      "n": 246
+     },
+     {
+      "v": 1567011486000,
+      "n": 240
+     },
+     {
+      "v": 1170633600000,
+      "n": 195
+     },
+     {
+      "v": 1566930415000,
+      "n": 163
+     },
+     {
+      "v": 1725315239000,
+      "n": 134
+     },
+     {
+      "v": 1264377600000,
+      "n": 131
+     },
+     {
+      "v": 1199923200000,
+      "n": 122
+     },
+     {
+      "v": 1394582400000,
+      "n": 115
+     },
+     {
+      "v": 1550100529000,
+      "n": 114
+     }
+    ],
+    "group_created_user": [
+     {
+      "v": null,
+      "n": 54403
+     },
+     {
+      "v": "CITY",
+      "n": 3140
+     },
+     {
+      "v": "CHRISTOPHER.CARTER",
+      "n": 328
+     },
+     {
+      "v": "DIANA.SOTELO",
+      "n": 300
+     },
+     {
+      "v": "ENG",
+      "n": 281
+     },
+     {
+      "v": "BCHRISTENSEN",
+      "n": 225
+     },
+     {
+      "v": "CARANDA.DRHEE",
+      "n": 129
+     },
+     {
+      "v": "MARCELO.RIVAS",
+      "n": 71
+     }
+    ],
+    "group_last_edited_user": [
+     {
+      "v": "CARANDA.DRHEE",
+      "n": 57354
+     },
+     {
+      "v": "CHRISTOPHER.CARTER",
+      "n": 1321
+     },
+     {
+      "v": "DIANA.SOTELO",
+      "n": 108
+     },
+     {
+      "v": "MARCELO.RIVAS",
+      "n": 94
+     }
+    ],
+    "group_last_edited_date": [
+     {
+      "v": 1765384645000,
+      "n": 25953
+     },
+     {
+      "v": 1764633696000,
+      "n": 4994
+     },
+     {
+      "v": 1764635449000,
+      "n": 3999
+     },
+     {
+      "v": 1764632466000,
+      "n": 3997
+     },
+     {
+      "v": 1762565954000,
+      "n": 2042
+     },
+     {
+      "v": 1764631836000,
+      "n": 2000
+     },
+     {
+      "v": 1764630722000,
+      "n": 2000
+     },
+     {
+      "v": 1764629997000,
+      "n": 1999
+     },
+     {
+      "v": 1764631402000,
+      "n": 1995
+     },
+     {
+      "v": 1764629581000,
+      "n": 1400
+     },
+     {
+      "v": 1764042346000,
+      "n": 1399
+     },
+     {
+      "v": 1742872637000,
+      "n": 1100
+     }
+    ]
+   }
+  ],
+  "errors": []
+ },
+ {
+  "city": "Fullerton",
+  "service": "Infrastructure/Flood",
+  "type": null,
+  "layers": [],
+  "errors": [
+   "MapServer: User couldn't access this resource 'infrastructure/flood.mapserver'.",
+   "FeatureServer: Error handling service request :Server object extension 'featureserver' not found."
+  ]
+ }
+]

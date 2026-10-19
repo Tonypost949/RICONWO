@@ -1,0 +1,2134 @@
+{
+ "hits": {
+  "Newport Beach": {
+   "tlattibeaudiere": [
+    {
+     "title": "MiamiGardens_Energov",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/MiamiGardens_Energov/FeatureServer",
+     "numViews": 14442807
+    },
+    {
+     "title": "Energov_TEST_3",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/Energov_TEST_3/FeatureServer",
+     "numViews": 1208
+    },
+    {
+     "title": "Energov_TEST",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/Energov_TEST/FeatureServer",
+     "numViews": 1190
+    },
+    {
+     "title": "MiamiGardens_Energov",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/MiamiGardens_Energov/FeatureServer",
+     "numViews": 14442807
+    },
+    {
+     "title": "Energov_TEST_3",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/Energov_TEST_3/FeatureServer",
+     "numViews": 1208
+    },
+    {
+     "title": "Energov_TEST",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/Energov_TEST/FeatureServer",
+     "numViews": 1190
+    }
+   ],
+   "CA_State_Lands_Commission": [
+    {
+     "title": "Granted Lands",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/5aaQCuq3e4GRvkFG/arcgis/rest/services/Granted_Lands/FeatureServer",
+     "numViews": 39953
+    }
+   ],
+   "hrpdcgis": [
+    {
+     "title": "Hampton Roads Elevation Certificates",
+     "type": "Map Service",
+     "url": "https://geo.hrsd.com/hrgeo/rest/services/regionalgis/ElevationCertificates/MapServer",
+     "numViews": 8103
+    },
+    {
+     "title": "Hampton Roads Elevation Certificates (NAVD 88)",
+     "type": "Map Service",
+     "url": "https://geo.hrsd.com/hrgeo/rest/services/regionalgis/ElevationCertificatesNAVD88/MapServer",
+     "numViews": 6355
+    },
+    {
+     "title": "Hampton Roads MS4 Service Areas",
+     "type": "Feature Service",
+     "url": "https://geo.hrsd.com/hrgeo/rest/services/regionalgis/MS4s/MapServer/0",
+     "numViews": 4927
+    }
+   ],
+   "dewberry_user": [
+    {
+     "title": "HRA - Asset Viewer Web Map",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 2999
+    }
+   ],
+   "jschubert": [
+    {
+     "title": "Land parcels with finished floor elevations (ft NAVD88)",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/zzN1kKcv4jyJtkCg/arcgis/rest/services/Newport_parcels/FeatureServer",
+     "numViews": 2528
+    },
+    {
+     "title": "NB_Land_Parcels",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/zzN1kKcv4jyJtkCg/arcgis/rest/services/NB_Land_Parcels/FeatureServer",
+     "numViews": 1551
+    }
+   ],
+   "rdpsupport_scag_rdp": [
+    {
+     "title": "Newport Beach Public View",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/vYSHcRQuTn4O8o35/arcgis/rest/services/3b68da3d4eb34055964ef7207618697e_public_view_1609980248787/FeatureServer",
+     "numViews": 2296
+    }
+   ],
+   "cmclaren3": [
+    {
+     "title": "Blackstone Watershed Collaborative Basemap V1_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/9cUrrtJo3LxdX7Vr/arcgis/rest/services/Blackstone_Watershed_Collaborative_Basemap_V1_WFL1/FeatureServer",
+     "numViews": 1815
+    },
+    {
+     "title": "Blackstone_Basemap_V2_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/9cUrrtJo3LxdX7Vr/arcgis/rest/services/Blackstone_Basemap_V2_WFL1/FeatureServer",
+     "numViews": 34874
+    },
+    {
+     "title": "Blackstone Watershed Collaborative Basemap V1_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/9cUrrtJo3LxdX7Vr/arcgis/rest/services/Blackstone_Watershed_Collaborative_Basemap_V1_WFL1/FeatureServer",
+     "numViews": 1815
+    },
+    {
+     "title": "Blackstone_Restoration_Access_Survey_Basemap_V3_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/9cUrrtJo3LxdX7Vr/arcgis/rest/services/Blackstone_Restoration_Access_Survey_Basemap_V3_WFL1/FeatureServer",
+     "numViews": 1121
+    }
+   ],
+   "CDR1_CSUF": [
+    {
+     "title": "Retailers_Water_Agency_Legal_20221130_20230110",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/Retailers_Water_Agency_Legal_20221130_20230110/FeatureServer",
+     "numViews": 1438
+    },
+    {
+     "title": "OCSD_2020",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSD_2020/FeatureServer",
+     "numViews": 1984
+    },
+    {
+     "title": "OCSan_Boundary_2023_03",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSan_Boundary_2023_03/FeatureServer",
+     "numViews": 1461
+    }
+   ],
+   "bmcnamara_OC_CERF": [
+    {
+     "title": "Stakeholder Mapping Survey Results",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services/Stakeholder_Mapping_Survey_Results/FeatureServer",
+     "numViews": 3401
+    }
+   ],
+   "BIOS_Admin": [
+    {
+     "title": "Vegetation - Orange County - 2012 [ds1336]",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/Uq9r85Potqm3MfRV/arcgis/rest/services/biosds1336_fpu/FeatureServer",
+     "numViews": 3295
+    }
+   ],
+   "dcbrand": [
+    {
+     "title": "Parks2024",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/3fjYPqJf7qalQMlb/arcgis/rest/services/Nathan_Hauck_Parks_Edits_2024/FeatureServer",
+     "numViews": 2619
+    }
+   ],
+   "Ferrar@FracTracker.org": [
+    {
+     "title": "Santa Barbara 2015 Oil Spill at Refugio Beach",
+     "type": "Web Mapping Application",
+     "url": "http://maps.fractracker.org/3.0/?appid=f925d0c70e494956858c53e9efee4ede",
+     "numViews": 2211
+    }
+   ],
+   "marhodes@ucdavis.edu": [
+    {
+     "title": "Bird Data Final 2_WFL1",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/5hc5BUkgzpKWJERM/arcgis/rest/services/Bird_Data_Final_2_WFL1/FeatureServer",
+     "numViews": 1473
+    }
+   ],
+   "hrpdcwtr": [
+    {
+     "title": "ElevationCertificate_Parcels_Missing_Footprint",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/IFfZzsUkSirJaEqg/arcgis/rest/services/ElevationCertificate_Parcels_Missing_Footprint/FeatureServer",
+     "numViews": 1056
+    }
+   ],
+   "adiba_IRWD": [
+    {
+     "title": "Storm Drain Mapplet",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/C7YHeGRObxzp5wWl/arcgis/rest/services/Storm_Drain_Mapplet/FeatureServer",
+     "numViews": 235693
+    }
+   ],
+   "JOrndorff_OCSan": [
+    {
+     "title": "OC San Service Area",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/XaaDWcg464CpB1DN/arcgis/rest/services/OC_San_Service_Area/FeatureServer",
+     "numViews": 41863
+    }
+   ],
+   "rajohnson@usgs.gov_USGS": [
+    {
+     "title": "Hampton Roads Study Area",
+     "type": "Feature Service",
+     "url": "https://geo.hrsd.com/hrgeo/rest/services/regionalgis/Boundaries_HRPDC/MapServer/1",
+     "numViews": 7670
+    },
+    {
+     "title": "Hampton-MonitoringStations",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 3700
+    },
+    {
+     "title": "AllPipesHampton",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 791
+    }
+   ],
+   "thowze": [
+    {
+     "title": "Balboa Sewer",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/EwkJaDLjGSzTj66q/arcgis/rest/services/Balboa_Sewer/FeatureServer",
+     "numViews": 710
+    }
+   ]
+  },
+  "Costa Mesa": {
+   "vmorones_ucirvine": [
+    {
+     "title": "Costa Mesa Public View",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/zzN1kKcv4jyJtkCg/arcgis/rest/services/3d77b53244384d8c81d3ed314fe6f9bc_public_view_1617399646504/FeatureServer",
+     "numViews": 1129
+    },
+    {
+     "title": "Costa Mesa Public View",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/zzN1kKcv4jyJtkCg/arcgis/rest/services/0d15ad9e92754af09132ce65394971ca_public_view_1621024410001/FeatureServer",
+     "numViews": 444
+    }
+   ],
+   "hallingt_ucirvine": [
+    {
+     "title": "Costa Mesa Public View",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/zzN1kKcv4jyJtkCg/arcgis/rest/services/682d0399fb5f4afd9c7cf1c3a0014c30_public_view_1619210074216/FeatureServer",
+     "numViews": 758
+    },
+    {
+     "title": "Costa Mesa Site Design Public View",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/zzN1kKcv4jyJtkCg/arcgis/rest/services/00c81a29f1a04656943937da7ead6249_public_view_1621897984207/FeatureServer",
+     "numViews": 142
+    }
+   ],
+   "cejame_ucirvine": [
+    {
+     "title": "Site 1 Costa Mesa Public View",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/zzN1kKcv4jyJtkCg/arcgis/rest/services/a0d4dbaff6ec4645bde63e34ccf0bab2_public_view_1619747425823/FeatureServer",
+     "numViews": 599
+    }
+   ],
+   "mikehomes1": [
+    {
+     "title": "Costa Mesa EV Charging Analysis V2_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/yiuFazTjHE8F5gzQ/arcgis/rest/services/Costa_Mesa_EV_Charging_Analysis_V2_WFL1/FeatureServer",
+     "numViews": 219
+    },
+    {
+     "title": "Costa Mesa EV Charging Analysis_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/yiuFazTjHE8F5gzQ/arcgis/rest/services/Costa_Mesa_EV_Charging_Analysis_WFL1/FeatureServer",
+     "numViews": 68
+    },
+    {
+     "title": "Costa Mesa EV Charging Analysis V2_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/yiuFazTjHE8F5gzQ/arcgis/rest/services/Costa_Mesa_EV_Charging_Analysis_V2_WFL1/FeatureServer",
+     "numViews": 219
+    }
+   ],
+   "gabrig10_ucirvine": [
+    {
+     "title": "Costa Mesa The Courtyards Public View",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/zzN1kKcv4jyJtkCg/arcgis/rest/services/4001e8ccc9674808b4f06ba68aa36476_public_view_1621902382081/FeatureServer",
+     "numViews": 216
+    }
+   ],
+   "CookiesRE": [
+    {
+     "title": "Buffer_of_Homeless_Shelters_parcels_Costa_Mesa",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/KnL71oLS7UXcSXc4/arcgis/rest/services/Buffer_of_Homeless_Shelters_parcels_Costa_Mesa/FeatureServer",
+     "numViews": 104
+    },
+    {
+     "title": "Buffer_of_Costa_Mesa_Day_Care_parcels",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/KnL71oLS7UXcSXc4/arcgis/rest/services/Buffer_of_Costa_Mesa_Day_Care_parcels/FeatureServer",
+     "numViews": 103
+    },
+    {
+     "title": "Homeless Shelters parcels Costa Mesa",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/KnL71oLS7UXcSXc4/arcgis/rest/services/Homeless_Shelters_parcels_Costa_Mesa/FeatureServer",
+     "numViews": 102
+    },
+    {
+     "title": "Costa Mesa Day Care parcels",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/KnL71oLS7UXcSXc4/arcgis/rest/services/Costa_Mesa_Day_Care_parcels/FeatureServer",
+     "numViews": 100
+    }
+   ],
+   "bmcnamara_OC_CERF": [
+    {
+     "title": "Stakeholder Mapping Survey Results",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services/Stakeholder_Mapping_Survey_Results/FeatureServer",
+     "numViews": 3401
+    }
+   ],
+   "estra059": [
+    {
+     "title": "Child Trafficking In Los Angeles",
+     "type": "Web Mapping Application",
+     "url": "https://csusm-gis-lab.maps.arcgis.com/apps/MapJournal/index.html?appid=40a3088a438645e886f082c8659ff62a&webmap=58260215c47444ae9b787eda2be71a3f",
+     "numViews": 1871
+    }
+   ],
+   "eecdata": [
+    {
+     "title": "Costa Mesa Trash Pick Up",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 828
+    },
+    {
+     "title": "Costa Mesa Trash Pick Up 3",
+     "type": "Web Mapping Application",
+     "url": "https://eecworld.maps.arcgis.com/apps/webappviewer/index.html?id=d30a4d0681f5409cbc9f8b9565557c69",
+     "numViews": 731
+    },
+    {
+     "title": "Costa Mesa Sanitary District Map",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 3945
+    },
+    {
+     "title": "Costa Mesa Sanitary District App",
+     "type": "Web Mapping Application",
+     "url": "https://eecworld.maps.arcgis.com/apps/MapTools/index.html?appid=915f4f8ca3c84b538fc5b3f5e7d52996",
+     "numViews": 3804
+    }
+   ],
+   "NJDOTGIS": [
+    {
+     "title": "Keeping the Garden State Fresh",
+     "type": "StoryMap",
+     "url": "https://storymaps.arcgis.com/stories/bc67c2bd02b24996809ebe91a5b2af42",
+     "numViews": 711
+    }
+   ],
+   "David.Weighart_NJDOT": [
+    {
+     "title": "NJDOT Sponsor-A-Highway",
+     "type": "StoryMap",
+     "url": "https://storymaps.arcgis.com/stories/7eea60263250457ea61d82e2ab07e56b",
+     "numViews": 603
+    }
+   ],
+   "CDR1_CSUF": [
+    {
+     "title": "2020 Census Blocks",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/2020_Census_Blocks/FeatureServer",
+     "numViews": 566
+    },
+    {
+     "title": "2020 Census Block Groups",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/2020_Census_Block_Groups/FeatureServer",
+     "numViews": 482
+    },
+    {
+     "title": "Census2020_PL_OC_block_2030_BBSP_prep_b",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/Census2020_PL_OC_block_2030_BBSP_prep_b/FeatureServer",
+     "numViews": 202
+    },
+    {
+     "title": "OCSD_2020",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSD_2020/FeatureServer",
+     "numViews": 1984
+    },
+    {
+     "title": "OCSan_Boundary_2023_03",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSan_Boundary_2023_03/FeatureServer",
+     "numViews": 1461
+    }
+   ],
+   "thairosemassca": [
+    {
+     "title": "The Thai Rose Massage Spa",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 340
+    }
+   ],
+   "desasalon": [
+    {
+     "title": "Desa Salon",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 338
+    }
+   ],
+   "hoon.jo@costamesaca.gov": [
+    {
+     "title": "CM Storm Drain MMPK",
+     "type": "Mobile Map Package",
+     "url": "",
+     "numViews": 30
+    }
+   ],
+   "OCROV_WEBADMIN": [
+    {
+     "title": "ActiveVotingDistricts",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/slX5MYawmKdsiRUf/arcgis/rest/services/ActiveVotingDistricts/FeatureServer",
+     "numViews": 70114
+    }
+   ],
+   "JOrndorff_OCSan": [
+    {
+     "title": "OC San Service Area",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/XaaDWcg464CpB1DN/arcgis/rest/services/OC_San_Service_Area/FeatureServer",
+     "numViews": 41863
+    }
+   ],
+   "andpineda": [
+    {
+     "title": "City of Costa Mesa - Urban Forestry Benefits",
+     "type": "Hub Site Application",
+     "url": "https://city-of-costa-mesa-urban-forestry-benefits-arboraccess.hub.arcgis.com",
+     "numViews": 5618
+    },
+    {
+     "title": "Orange County Parks - Urban Forestry Benefits",
+     "type": "Hub Site Application",
+     "url": "https://ocparks-urbanforest.wca.app",
+     "numViews": 4474
+    },
+    {
+     "title": "City of Riverside - Urban Forestry Benefits",
+     "type": "Hub Site Application",
+     "url": "https://riverside-urbanforest.wca.app",
+     "numViews": 3650
+    },
+    {
+     "title": "City of Brea - Urban Forestry Benefits",
+     "type": "Hub Site Application",
+     "url": "https://brea-urbanforest.wca.app",
+     "numViews": 2574
+    },
+    {
+     "title": "CSU San Bernardino - Urban Forestry Benefits",
+     "type": "Hub Site Application",
+     "url": "https://csusb-urban-forestry-benefits-arboraccess.hub.arcgis.com",
+     "numViews": 2364
+    },
+    {
+     "title": "WCA, Inc. Urban Forestry Benefits Portfolio - Tree Benefits Sites",
+     "type": "Hub Site Application",
+     "url": "https://wca-inc-urban-forestry-benefits-portfolio-sites-arboraccess.hub.arcgis.com",
+     "numViews": 2081
+    }
+   ]
+  },
+  "Tustin": {
+   "jromero_tustinca": [
+    {
+     "title": "Tustin Base Data",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/Tustin_Base_Data/FeatureServer",
+     "numViews": 1276021
+    },
+    {
+     "title": "TustinBaseDataClassic",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 85763
+    },
+    {
+     "title": "ParcelLookup",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/ParcelLookup/FeatureServer",
+     "numViews": 18249
+    },
+    {
+     "title": "SB9Layers",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/SB9Layers/FeatureServer",
+     "numViews": 4870
+    },
+    {
+     "title": "Zone Lookup",
+     "type": "Web Mapping Application",
+     "url": "https://tustinca.maps.arcgis.com/apps/instant/sidebar/index.html?appid=06c733cc77544bdb900ebcb2121e5350",
+     "numViews": 3940
+    },
+    {
+     "title": "Parcel Lookup map",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 3420
+    },
+    {
+     "title": "Draw Your Community Map_WFL1",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/Draw_Your_Community_Map_WFL1/FeatureServer",
+     "numViews": 417
+    },
+    {
+     "title": "AB 2097 February 2023",
+     "type": "Map Service",
+     "url": "https://tiles.arcgis.com/tiles/omhBSxytABi3T0US/arcgis/rest/services/AB_2097_February_2023/MapServer",
+     "numViews": 382
+    },
+    {
+     "title": "Tustin Base Data",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/Tustin_Base_Data/FeatureServer",
+     "numViews": 1276021
+    },
+    {
+     "title": "TustinBaseDataClassic",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 85763
+    },
+    {
+     "title": "ParcelLookup",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/ParcelLookup/FeatureServer",
+     "numViews": 18249
+    },
+    {
+     "title": "Tustin City Council District Lookup",
+     "type": "Web Mapping Application",
+     "url": "https://tustinca.maps.arcgis.com/apps/webappviewer/index.html?id=f50b871e43674198999c59907508caba",
+     "numViews": 6354
+    },
+    {
+     "title": "City Council Districts",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/City_Council_Districts/FeatureServer",
+     "numViews": 5975
+    },
+    {
+     "title": "Zone Lookup",
+     "type": "Web Mapping Application",
+     "url": "https://tustinca.maps.arcgis.com/apps/instant/sidebar/index.html?appid=06c733cc77544bdb900ebcb2121e5350",
+     "numViews": 3940
+    },
+    {
+     "title": "Parcel Lookup map",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 3420
+    },
+    {
+     "title": "Tustin Base Data",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/Tustin_Base_Data/FeatureServer",
+     "numViews": 1276021
+    }
+   ],
+   "CDR1_CSUF": [
+    {
+     "title": "City_2023_Clean_Coastline_NEW",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/City_2023_Clean_Coastline_NEW/FeatureServer",
+     "numViews": 1589
+    },
+    {
+     "title": "Orange County Water Provider Service Area ",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/Orange_County_Water_Provider_Service_Area_/FeatureServer",
+     "numViews": 1268
+    },
+    {
+     "title": "Retailers_Water_Agency_Legal_20230627",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/Retailers_Water_Agency_Legal_20230627/FeatureServer",
+     "numViews": 901
+    },
+    {
+     "title": "Retailers_Water_Service_Areas_20250512",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/Retailers_Water_Service_Areas_20250512/FeatureServer",
+     "numViews": 730
+    },
+    {
+     "title": "OCSD_2020",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSD_2020/FeatureServer",
+     "numViews": 1984
+    },
+    {
+     "title": "OCSan_Boundary_2023_03",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSan_Boundary_2023_03/FeatureServer",
+     "numViews": 1461
+    }
+   ],
+   "patrick.corley_mark_43": [
+    {
+     "title": "Tustin82124_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/uFAr0LUPy14bDaLg/arcgis/rest/services/Tustin82124_WFL1/FeatureServer",
+     "numViews": 3436911
+    },
+    {
+     "title": "Tustin_Foundation_021726_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/uFAr0LUPy14bDaLg/arcgis/rest/services/Tustin_Foundation_021726_WFL1/FeatureServer",
+     "numViews": 314171
+    },
+    {
+     "title": "TustinFoundationMap_012126_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/uFAr0LUPy14bDaLg/arcgis/rest/services/TustinFoundationMap_012126_WFL1/FeatureServer",
+     "numViews": 45085
+    }
+   ],
+   "elise.austin_mark43": [
+    {
+     "title": "Tustin CAD 5_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/uFAr0LUPy14bDaLg/arcgis/rest/services/Tustin_CAD_5_WFL1/FeatureServer",
+     "numViews": 1213796
+    }
+   ],
+   "CPOG_TD24": [
+    {
+     "title": "I-5 Managed Lanes Project ",
+     "type": "StoryMap",
+     "url": "https://storymaps.arcgis.com/stories/9178aef40e834432ae5241b5443c8fe2",
+     "numViews": 5056
+    }
+   ],
+   "00010043_7thgradeTLC": [
+    {
+     "title": "Storm_Drain_Trace_Camden_S_C__TUSTIN",
+     "type": "Feature Service",
+     "url": "https://services4.arcgis.com/GtJG8crLf0cm8pr6/arcgis/rest/services/Storm_Drain_Trace_Camden_S_C__TUSTIN/FeatureServer",
+     "numViews": 390
+    }
+   ],
+   "mrandich_rick": [
+    {
+     "title": "Tustin Storm Drain Mapping Application",
+     "type": "Web Mapping Application",
+     "url": "https://rick.maps.arcgis.com/apps/instant/sidebar/index.html?appid=2462adf4e73d427db606c9bd49af95f9",
+     "numViews": 183
+    }
+   ],
+   "mterrazas": [
+    {
+     "title": "Tustin Storm Drain Web App",
+     "type": "Web Mapping Application",
+     "url": "https://rick.maps.arcgis.com/apps/instant/basic/index.html?appid=b78a85a26a9b428394cb9a931dfe2711",
+     "numViews": 173
+    },
+    {
+     "title": "Tustin Storm Drain Inventory",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 151
+    }
+   ],
+   "00014579_7thgradeTLC": [
+    {
+     "title": "\u201cStorm_Drain_Trace_Anderson_SC_Tustin_",
+     "type": "Feature Service",
+     "url": "https://services4.arcgis.com/GtJG8crLf0cm8pr6/arcgis/rest/services/\u201cStorm_Drain_Trace_Anderson_SC_Tustin_/FeatureServer",
+     "numViews": 62
+    },
+    {
+     "title": "\u201cStorm_Drain_Trace_Camden_SC_Tustin_\u201d",
+     "type": "Feature Service",
+     "url": "https://services4.arcgis.com/GtJG8crLf0cm8pr6/arcgis/rest/services/\u201cStorm_Drain_Trace_Camden_SC_Tustin_\u201d/FeatureServer",
+     "numViews": 47
+    },
+    {
+     "title": "\u201cStorm_Drain_Trace_Greenwood_SC_Tustin_\u201d",
+     "type": "Feature Service",
+     "url": "https://services4.arcgis.com/GtJG8crLf0cm8pr6/arcgis/rest/services/\u201cStorm_Drain_Trace_Greenwood_SC_Tustin_\u201d/FeatureServer",
+     "numViews": 39
+    }
+   ],
+   "00016414_7thgradeTLC": [
+    {
+     "title": "Storm_Drain_Trace_Greenwood_SC_Tustin",
+     "type": "Feature Service",
+     "url": "https://services4.arcgis.com/GtJG8crLf0cm8pr6/arcgis/rest/services/Storm_Drain_Trace_Greenwood_SC_Tustin/FeatureServer",
+     "numViews": 53
+    }
+   ],
+   "00015658_7thgradeTLC": [
+    {
+     "title": "Storm_Drain_Trace_Florence_SC_Tustin",
+     "type": "Feature Service",
+     "url": "https://services4.arcgis.com/GtJG8crLf0cm8pr6/arcgis/rest/services/Storm_Drain_Trace_Florence_SC_Tustin/FeatureServer",
+     "numViews": 49
+    }
+   ],
+   "Fuscoe": [
+    {
+     "title": "Tustin Storm Drain Master Plan Update",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 46
+    }
+   ],
+   "rtustin": [
+    {
+     "title": "Storm_Drain_Trace_Camden_SC_Tustin",
+     "type": "Feature Service",
+     "url": "https://services4.arcgis.com/GtJG8crLf0cm8pr6/arcgis/rest/services/Storm_Drain_Trace_Camden_SC_Tustin/FeatureServer",
+     "numViews": 44
+    }
+   ],
+   "00020225_7thgradeTLC": [
+    {
+     "title": "Storm_Drains_Trace_Camden_SC_Tustin_Points",
+     "type": "Feature Service",
+     "url": "https://services4.arcgis.com/GtJG8crLf0cm8pr6/arcgis/rest/services/Storm_Drains_Trace_Camden_SC_Tustin_Points/FeatureServer",
+     "numViews": 42
+    }
+   ],
+   "JOrndorff_OCSan": [
+    {
+     "title": "OC San Service Area",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/XaaDWcg464CpB1DN/arcgis/rest/services/OC_San_Service_Area/FeatureServer",
+     "numViews": 41863
+    }
+   ]
+  },
+  "Westminster": {
+   "Bob.Spaulding@ci.stpaul.mn.us_stpaul": [
+    {
+     "title": "Small Area Plans",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/9meaaHE3uiba0zr8/arcgis/rest/services/Small_Area_Plans_Map/FeatureServer",
+     "numViews": 2400528
+    }
+   ],
+   "CarrollCo_MD": [
+    {
+     "title": "PermitsProAccela",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/Uf0DiYpD9NOFO5YH/arcgis/rest/services/PermitsProAccela/FeatureServer",
+     "numViews": 91246
+    },
+    {
+     "title": "PermitsProAccela",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/Uf0DiYpD9NOFO5YH/arcgis/rest/services/PermitsProAccela/FeatureServer",
+     "numViews": 91246
+    }
+   ],
+   "CMelliship_BGCINC": [
+    {
+     "title": "AkisqnukVectorData",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/yAunc8xKkyHrvhFi/arcgis/rest/services/AkisqnukVectorData/FeatureServer",
+     "numViews": 26988
+    },
+    {
+     "title": "AkisqnukVectorData",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/yAunc8xKkyHrvhFi/arcgis/rest/services/AkisqnukVectorData/FeatureServer",
+     "numViews": 26988
+    }
+   ],
+   "AFreudenberg": [
+    {
+     "title": "WestminsterPFAS_Public_View",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/3RiQsDoOeneF0Q0P/arcgis/rest/services/WestminsterPFAS_Public_View/FeatureServer",
+     "numViews": 21667
+    }
+   ],
+   "aspeconanalysis": [
+    {
+     "title": "Adco_Base_COMP_WFL1",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/S0bgWxbY97XvuH2I/arcgis/rest/services/Adco_Base_COMP_WFL1/FeatureServer",
+     "numViews": 21550
+    }
+   ],
+   "karem.karyoke73": [
+    {
+     "title": "City of Vancouver, British",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 14596
+    },
+    {
+     "title": "Schools and Parks within the City of Vancouver, British Columbia, Canada-best location",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 13079
+    },
+    {
+     "title": "Schools and Parks within the City of Vancouver, British Columbia, Canada-\u0646\u0633\u062e",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 13009
+    }
+   ],
+   "tessa_compagno": [
+    {
+     "title": "Schools and Parks within the City of Vancouver, British Columbia, Canada",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 13403
+    }
+   ],
+   "Fervin": [
+    {
+     "title": "Sky-Train Routes in The City of Vancouver",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 13191
+    }
+   ],
+   "colette.l_wwt": [
+    {
+     "title": "WWT indicative wetland potential summarised by Westminster constituency",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/pysAnxEryKmclrAB/arcgis/rest/services/WWTs_Overall_Potential_Per_Constituency/FeatureServer",
+     "numViews": 10191
+    }
+   ],
+   "krasmussen@olsson.com_olsson": [
+    {
+     "title": "MAP_LDCMDPSiteWork_20250428_WFL1",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/gyy0H6zBnh9CbWoj/arcgis/rest/services/MAP_LDCMDPSiteWork_20250428_WFL1/FeatureServer",
+     "numViews": 9619
+    }
+   ],
+   "EsriUKContent": [
+    {
+     "title": "OS Boundary Line GB",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/qHLhLQrcvEnxjtPr/arcgis/rest/services/OS_OpenBoundaryLine/FeatureServer",
+     "numViews": 5732365
+    }
+   ],
+   "emma_acfr": [
+    {
+     "title": "OLD Apartments And Mobile Homes - ACFR",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/jsEyjcq0p9iNYWiH/arcgis/rest/services/MultiFamilyComplex/FeatureServer",
+     "numViews": 345266
+    }
+   ],
+   "sreilly_wcc": [
+    {
+     "title": "Scoring Map_WFL1",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/GuFwwtqhGQWFkVMI/arcgis/rest/services/Scoring_Map_WFL1/FeatureServer",
+     "numViews": 126731
+    },
+    {
+     "title": "Licensed Premises 2022_2023_24_WFL1",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/GuFwwtqhGQWFkVMI/arcgis/rest/services/Licensed_Premises_2022_2023_24_WFL1/FeatureServer",
+     "numViews": 17454
+    }
+   ],
+   "JesHan1": [
+    {
+     "title": "Boundaries",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/P2LV4qXI9z8W2RdA/arcgis/rest/services/Boundaries/FeatureServer",
+     "numViews": 60818
+    },
+    {
+     "title": "What is in my Local Area__WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/P2LV4qXI9z8W2RdA/arcgis/rest/services/What_is_in_my_Local_Area__WFL1/FeatureServer",
+     "numViews": 18867
+    }
+   ],
+   "Clare.Esler@arup.com_arup_eu": [
+    {
+     "title": "303568_SESRO_NTS_GeneralLayers",
+     "type": "Feature Service",
+     "url": "https://services-eu1.arcgis.com/2SKFae1eIZzQkE0d/arcgis/rest/services/Boundary_Type_test_tina/FeatureServer",
+     "numViews": 26717
+    }
+   ],
+   "vasileios.vlastaras@manchester.ac.uk_UoManchester": [
+    {
+     "title": "ClimateJust ArcGIS Feature Service (version 3)",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/SfF67lOzKAmtSACX/arcgis/rest/services/ClimateJust_FS_WFL3/FeatureServer",
+     "numViews": 12724
+    }
+   ],
+   "CNWOpenData": [
+    {
+     "title": "Permits - Buildings and Plumbing",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/A7O8YnTNtzRPIn7T/arcgis/rest/services/Permits_Buildings/FeatureServer",
+     "numViews": 12467
+    }
+   ],
+   "Ammmarti": [
+    {
+     "title": "Address Search",
+     "type": "Web Mapping Application",
+     "url": "https://westminster.maps.arcgis.com/apps/webappviewer/index.html?id=a876c858408b407dae98abe86cc1a463",
+     "numViews": 10762
+    }
+   ],
+   "gis@mhfd": [
+    {
+     "title": "2018 Westminster Drainageway Study",
+     "type": "Web Mapping Application",
+     "url": "https://storymaps.arcgis.com/stories/691d8cb2078345a89aec2854e1b38622",
+     "numViews": 1500
+    }
+   ],
+   "RTanneka": [
+    {
+     "title": "Event Duration Monitoring - Storm Overflows - 2021 (England and Wales)",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/Storm_Overflow_EDM_Annual_Returns_2021/FeatureServer",
+     "numViews": 1544123
+    }
+   ],
+   "alfie.kelly@theriverstrust": [
+    {
+     "title": "Event Duration Monitoring - Storm Overflows - 2022 (England and Wales)",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/Event_Duration_Monitoring_Storm_Overflows_2022_England_and_Wales/FeatureServer",
+     "numViews": 829130
+    },
+    {
+     "title": "Event Duration Monitoring - Storm Overflows - 2025 (England and Wales)",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/Event_Duration_Monitoring_Storm_Overflows_2025/FeatureServer",
+     "numViews": 591439
+    }
+   ],
+   "RTharry": [
+    {
+     "title": "Event Duration Monitoring - Storm Overflows - 2024 (England and Wales)",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/Bb8lfThdhugyc4G3/arcgis/rest/services/Storm_Overflow_EDM_Annual_Returns_2024/FeatureServer",
+     "numViews": 677105
+    }
+   ],
+   "frankmiddleton": [
+    {
+     "title": "SewerServiceAreas",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/0qetHViTh8D6cAn5/arcgis/rest/services/SewerServiceAreas/FeatureServer",
+     "numViews": 38047
+    }
+   ],
+   "CityworksAdmin": [
+    {
+     "title": "SewerWaterNetwork_V2_FS-Classic",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/A7O8YnTNtzRPIn7T/arcgis/rest/services/20231206/FeatureServer",
+     "numViews": 37546
+    }
+   ],
+   "psf_salishsea": [
+    {
+     "title": "Sewer Mains (New Westminster)",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/yHbO69mL1QTGCPQG/arcgis/rest/services/Sewer Mains New Westminster/FeatureServer",
+     "numViews": 9179
+    }
+   ],
+   "TRamarao@westgov.com_Westminster_MD": [
+    {
+     "title": "Sanitary Sewer Map_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/0qetHViTh8D6cAn5/arcgis/rest/services/Sanitary_Sewer_Map_WFL1/FeatureServer",
+     "numViews": 509
+    },
+    {
+     "title": "Drawing Repository_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/0qetHViTh8D6cAn5/arcgis/rest/services/Drawing_Repository_WFL1/FeatureServer",
+     "numViews": 147
+    },
+    {
+     "title": "Drawings Repository_AddressLocator_1_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/0qetHViTh8D6cAn5/arcgis/rest/services/Drawings_Repository_AddressLocator_1_WFL1/FeatureServer",
+     "numViews": 117
+    },
+    {
+     "title": "Sanitary Sewer Map",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 107
+    }
+   ],
+   "eliza.fuess": [
+    {
+     "title": "Cholera in London 1854, (By Eliza Fuess)",
+     "type": "StoryMap",
+     "url": "https://storymaps.arcgis.com/stories/b4ec88e6101743cdb5865e7f9e2d575e",
+     "numViews": 243
+    }
+   ]
+  },
+  "Orange": {
+   "FloridaGIO": [
+    {
+     "title": "Florida Statewide Parcels",
+     "type": "Feature Service",
+     "url": "https://services9.arcgis.com/Gh9awoU677aKree0/arcgis/rest/services/Florida_Statewide_Cadastral/FeatureServer",
+     "numViews": 4745977
+    },
+    {
+     "title": "Florida Statewide Parcels",
+     "type": "Feature Service",
+     "url": "https://services9.arcgis.com/Gh9awoU677aKree0/arcgis/rest/services/Florida_Statewide_Cadastral/FeatureServer",
+     "numViews": 4745977
+    }
+   ],
+   "NYSGIS_GPO": [
+    {
+     "title": "NYS Tax Parcels Public",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/EbVsqZ18sv1kVJ3k/arcgis/rest/services/NYS_Tax_Parcels_Public/FeatureServer",
+     "numViews": 2072526
+    },
+    {
+     "title": "NYS Building Footprints",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/EbVsqZ18sv1kVJ3k/arcgis/rest/services/NYS_Building_Footprints/FeatureServer",
+     "numViews": 1947568
+    }
+   ],
+   "CityofSanDiego": [
+    {
+     "title": "DSD_PIC_Layers",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/oxInpRhVIBxlo4pO/arcgis/rest/services/DSD_PIC_Layers/FeatureServer",
+     "numViews": 1603391
+    }
+   ],
+   "jromero_tustinca": [
+    {
+     "title": "Tustin Base Data",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/Tustin_Base_Data/FeatureServer",
+     "numViews": 1276021
+    },
+    {
+     "title": "Tustin Base Data",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/Tustin_Base_Data/FeatureServer",
+     "numViews": 1276021
+    },
+    {
+     "title": "Tustin Base Data",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/omhBSxytABi3T0US/arcgis/rest/services/Tustin_Base_Data/FeatureServer",
+     "numViews": 1276021
+    }
+   ],
+   "cstarbird_dudek": [
+    {
+     "title": "Foothills CWPP Feature Layers",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/12ZpLdNBJek66bmF/arcgis/rest/services/Foothills_CWPP_Feature_Layers/FeatureServer",
+     "numViews": 493846
+    }
+   ],
+   "ocgisadm": [
+    {
+     "title": "Tax Parcel Viewer 2.0 Web Map",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 417563
+    }
+   ],
+   "OrangeOpenData": [
+    {
+     "title": "Orange Open Data",
+     "type": "Hub Site Application",
+     "url": "https://data-OrangeCountyGIS.hub.arcgis.com",
+     "numViews": 333606
+    },
+    {
+     "title": "Orange Open Data",
+     "type": "Hub Site Application",
+     "url": "https://data-OrangeCountyGIS.hub.arcgis.com",
+     "numViews": 333606
+    }
+   ],
+   "Jennifer_BAMBL": [
+    {
+     "title": "BAM PROPERTIES ORANGE COUNTY",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/f4diowh62ikfhgaw/arcgis/rest/services/BAM_PROPERTIES_ORANGE_COUNTY/FeatureServer",
+     "numViews": 319768
+    }
+   ],
+   "NRC_admin": [
+    {
+     "title": "Natural Hazards",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 288033
+    }
+   ],
+   "mdplanning": [
+    {
+     "title": "FINDER Online",
+     "type": "Web Experience",
+     "url": "https://experience.arcgis.com/experience/88b7210e32394eb6b9c605e7add9edd8",
+     "numViews": 280180
+    },
+    {
+     "title": "FINDER Online_MapViewer",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 254637
+    }
+   ],
+   "alta_organization": [
+    {
+     "title": "22_213 Pasco County FL Orange Belt Trail Study_WFL1",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/8uN5i97bMkq2Mzrt/arcgis/rest/services/22_213_Pasco_County_FL_Orange_Belt_Trail_Study_WFL1/FeatureServer",
+     "numViews": 279089
+    }
+   ],
+   "egis.CALFIRE": [
+    {
+     "title": "CAL FIRE Administrative Units",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/cdfadmin19_1/FeatureServer",
+     "numViews": 2077724
+    }
+   ],
+   "ParkingTranspo_UConn": [
+    {
+     "title": "ParkingMapCopy91724",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/6ItOFXGFmdtfeOZb/arcgis/rest/services/ParkingMapCopy91724/FeatureServer",
+     "numViews": 1839518
+    },
+    {
+     "title": "_Parking_Map_",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/6ItOFXGFmdtfeOZb/arcgis/rest/services/_Parking_Map_/FeatureServer",
+     "numViews": 436999
+    }
+   ],
+   "elise.austin_mark43": [
+    {
+     "title": "Tustin CAD 5_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/uFAr0LUPy14bDaLg/arcgis/rest/services/Tustin_CAD_5_WFL1/FeatureServer",
+     "numViews": 1213796
+    }
+   ],
+   "MQuackenbush@DelDOT": [
+    {
+     "title": "Equity Focus Areas 2022",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/bQ68YUVG6MKPIQ8f/arcgis/rest/services/Equity_Focus_Areas/FeatureServer",
+     "numViews": 696176
+    }
+   ],
+   "VolusiaGIS": [
+    {
+     "title": "Hydrants",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 383703
+    }
+   ],
+   "pfis01.CALFIRE": [
+    {
+     "title": "CAL FIRE Battalion Boundaries",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/CAL_FIRE_Battalion_Boundaries/FeatureServer",
+     "numViews": 332953
+    }
+   ],
+   "NEMA.NZ": [
+    {
+     "title": "Aotearoa Tsunami Evacuation Zones (public)",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/cJn6oR1QqErYBL5d/arcgis/rest/services/Aotearoa_Tsunami_Evac_Zones/FeatureServer",
+     "numViews": 286420
+    }
+   ],
+   "adiba_IRWD": [
+    {
+     "title": "Storm Drain Mapplet",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/C7YHeGRObxzp5wWl/arcgis/rest/services/Storm_Drain_Mapplet/FeatureServer",
+     "numViews": 235693
+    }
+   ],
+   "DWSP_jess.strzempko": [
+    {
+     "title": "Wachusett Reservoir Watershed Drainage and Stormwater Infrastructure",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/7iJyYTjCtKsZS1LR/arcgis/rest/services/Wachusett_Reservoir_Watershed_Drainage_and_Stormwater_Infrastructure/FeatureServer",
+     "numViews": 88246
+    }
+   ],
+   "jbystedt_Latitudegeo": [
+    {
+     "title": "LA_Extra",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/p3UBboyC0NH1uCie/arcgis/rest/services/LA_Extra/FeatureServer",
+     "numViews": 49549
+    }
+   ],
+   "young.tsuei@dc.gov_DCGIS": [
+    {
+     "title": "Identify Your Watershed and Sewer System Area Map",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 36054
+    },
+    {
+     "title": "Identify Your Watershed and Sewer System Area App - Retired",
+     "type": "Web Mapping Application",
+     "url": "https://dcgis.maps.arcgis.com/apps/InformationLookup/index.html?appid=a60a0086b47c4e35a638b7a8abe5954f",
+     "numViews": 33471
+    },
+    {
+     "title": "Identify Your Watershed and Sewer System Area Map",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 36054
+    }
+   ],
+   "jmz75_CCEgeomaps": [
+    {
+     "title": "2023 Stormwater Interactive Map UPDATED_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/0Lw2m57KEotYYFaA/arcgis/rest/services/2023_Stormwater_Interactive_Map_UPDATED_WFL1/FeatureServer",
+     "numViews": 23421
+    },
+    {
+     "title": "2023 Stormwater Consortium of Rockland County Interactive Map_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/0Lw2m57KEotYYFaA/arcgis/rest/services/2023_Stormwater_Consortium_of_Rockland_County_Interactive_Map_WFL1/FeatureServer",
+     "numViews": 19235
+    },
+    {
+     "title": "Stormwater Consortium of Rockland County Water Quality Interactive Map with HAB Photos",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/0Lw2m57KEotYYFaA/arcgis/rest/services/Stormwater_Consortium_of_Rockland_County_Water_Quality_Interactive_Map_with_HAB_Photos/FeatureServer",
+     "numViews": 12259
+    },
+    {
+     "title": "Stormwater Consortium of Rockland County Water Quality Map_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/0Lw2m57KEotYYFaA/arcgis/rest/services/Stormwater_Consortium_of_Rockland_County_Water_Quality_Map_WFL1/FeatureServer",
+     "numViews": 10744
+    }
+   ],
+   "sarahleung": [
+    {
+     "title": "Storm Drain System view",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/HsWup310bJE1lcGa/arcgis/rest/services/Storm_Drain_System_view/FeatureServer",
+     "numViews": 22124
+    }
+   ],
+   "re.anderson@tamu.edu_tamu": [
+    {
+     "title": "Arroyo Colorado Map",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/qr14biwnHA6Vis6l/arcgis/rest/services/Arroyo_Colorado_Map/FeatureServer",
+     "numViews": 5860
+    }
+   ],
+   "ocwatersheds": [
+    {
+     "title": "Orange County Storm Drain GIS Map",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 5036
+    }
+   ],
+   "ToCHadmin": [
+    {
+     "title": "Urban Service Area",
+     "type": "Feature Service",
+     "url": "https://gis-portal.townofchapelhill.org/server/rest/services/OpenData/UrbanServiceBoundary/MapServer/0",
+     "numViews": 143804
+    }
+   ],
+   "davidwhelan": [
+    {
+     "title": "Sewer, Storm, and Water Pipe Networks",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 112682
+    }
+   ],
+   "BCanada@owasa.org_owasa": [
+    {
+     "title": "OWASA Primary Service Area",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/D1vtvBwuf58yEyJj/arcgis/rest/services/OWASA_Primary_Service_Area/FeatureServer",
+     "numViews": 88037
+    }
+   ],
+   "OCROV_WEBADMIN": [
+    {
+     "title": "ActiveVotingDistricts",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/slX5MYawmKdsiRUf/arcgis/rest/services/ActiveVotingDistricts/FeatureServer",
+     "numViews": 70114
+    }
+   ],
+   "TownOfOrangeVA": [
+    {
+     "title": "TownOfOrange_WL_P",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/6D2MGME6sLXzFY0y/arcgis/rest/services/TownOfOrange_WL_P/FeatureServer",
+     "numViews": 62397
+    }
+   ],
+   "JOrndorff_OCSan": [
+    {
+     "title": "OC San Service Area",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/XaaDWcg464CpB1DN/arcgis/rest/services/OC_San_Service_Area/FeatureServer",
+     "numViews": 41863
+    }
+   ],
+   "rschmidt_pogis": [
+    {
+     "title": "Sewer Network",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/EHJIZRZ77WzgIElO/arcgis/rest/services/Sewer_Network/FeatureServer",
+     "numViews": 41004
+    },
+    {
+     "title": "Sewer_Network_view",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/EHJIZRZ77WzgIElO/arcgis/rest/services/Sewer_Network_view/FeatureServer",
+     "numViews": 38371
+    }
+   ],
+   "linyuliu89_UChicago": [
+    {
+     "title": "JULY 2021 Campus GIS Web Map_WFL1",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/ppFhFO7kjyIF441C/arcgis/rest/services/JULY_2021_Campus_GIS_Web_Map_WFL1/FeatureServer",
+     "numViews": 35934
+    }
+   ],
+   "grewalj": [
+    {
+     "title": "Outfall_Inspections",
+     "type": "Feature Service",
+     "url": "https://www.ocgis.com/arcpub/rest/services/Environmental_Resources/Outfall_Inspections/FeatureServer",
+     "numViews": 35659
+    }
+   ]
+  },
+  "Garden Grove": {
+   "tlattibeaudiere": [
+    {
+     "title": "MiamiGardens_Energov",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/MiamiGardens_Energov/FeatureServer",
+     "numViews": 14442807
+    },
+    {
+     "title": "Energov_TEST_3",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/Energov_TEST_3/FeatureServer",
+     "numViews": 1208
+    },
+    {
+     "title": "Energov_TEST",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/Energov_TEST/FeatureServer",
+     "numViews": 1190
+    },
+    {
+     "title": "MiamiGardens_Energov",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/MiamiGardens_Energov/FeatureServer",
+     "numViews": 14442807
+    },
+    {
+     "title": "Energov_TEST_3",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/Energov_TEST_3/FeatureServer",
+     "numViews": 1208
+    },
+    {
+     "title": "Energov_TEST",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/Energov_TEST/FeatureServer",
+     "numViews": 1190
+    },
+    {
+     "title": "Energov_ViewTEST",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/nvgO38kfurKbA7B9/arcgis/rest/services/Energov_ViewTEST/FeatureServer",
+     "numViews": 882
+    }
+   ],
+   "mtroutman_ClimateWest": [
+    {
+     "title": "National Park Service - Park Unit Boundaries - copy",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/NPS_Park_Boundaries/FeatureServer",
+     "numViews": 30767
+    }
+   ],
+   "diamonm@clemson.edu_Clemson": [
+    {
+     "title": "Stone Structures in York PA Average Density_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/x5wCko8UnSi4h0CB/arcgis/rest/services/Stone_Structures_in_York_PA_Average_Density_WFL1/FeatureServer",
+     "numViews": 11100
+    }
+   ],
+   "NGL_SocialStudies": [
+    {
+     "title": "National Park Service - Park Unit Boundaries - copy - copy",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/NPS_Park_Boundaries/FeatureServer",
+     "numViews": 6939
+    }
+   ],
+   "ocfaeditor": [
+    {
+     "title": "KnoxByCitiesMap20230927_WFL1",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/3DyTcAm7GjHPm0D0/arcgis/rest/services/KnoxByCitiesMap20230927_WFL1/FeatureServer",
+     "numViews": 5077
+    }
+   ],
+   "alertsense": [
+    {
+     "title": "Sugarland Shapefiles",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/cfmdyB05xBau1dNQ/arcgis/rest/services/Sugarland Shapefiles/FeatureServer",
+     "numViews": 3781
+    }
+   ],
+   "ccherava": [
+    {
+     "title": "Sequoia",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/NPS_Park_Boundaries/FeatureServer",
+     "numViews": 3584
+    },
+    {
+     "title": "Point Reyes National Seashore",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/NPS_Park_Boundaries/FeatureServer",
+     "numViews": 3102
+    },
+    {
+     "title": "YOSE",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/NPS_Park_Boundaries/FeatureServer",
+     "numViews": 2316
+    },
+    {
+     "title": "ANTI",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/NPS_Park_Boundaries/FeatureServer",
+     "numViews": 2119
+    }
+   ],
+   "joe_smalley": [
+    {
+     "title": "Park Locater - USE THIS ONE",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/BnY3izA2Kwu6jVHq/arcgis/rest/services/ParkLocatorTESTING/FeatureServer",
+     "numViews": 139138
+    }
+   ],
+   "dsohrabian_ClevelandGIS": [
+    {
+     "title": "City Cemetery Records",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/dty2kHktVXHrqO8i/arcgis/rest/services/Cemeteries_public_65acc8aeda5349ee82d4d534f6be584a/FeatureServer",
+     "numViews": 130889
+    }
+   ],
+   "shelfrich": [
+    {
+     "title": "Timepoints",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/xI2JERI5PvawmoWH/arcgis/rest/services/Timepoints/FeatureServer",
+     "numViews": 69695
+    }
+   ],
+   "SonomaMap": [
+    {
+     "title": "Life Expectancy (Years) - Portrait of Sonoma County",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 12923
+    }
+   ],
+   "bmcnamara_OC_CERF": [
+    {
+     "title": "Stakeholder Mapping Survey Results",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services/Stakeholder_Mapping_Survey_Results/FeatureServer",
+     "numViews": 3401
+    }
+   ],
+   "pforhan1@slu.edu_SLUSTL": [
+    {
+     "title": "Member_Agencies_WFL1",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/bB9Y1bGKerz1PTl5/arcgis/rest/services/Member_Agencies_WFL1/FeatureServer",
+     "numViews": 2841
+    },
+    {
+     "title": "Member_Agencies_Schools_WFL1",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/bB9Y1bGKerz1PTl5/arcgis/rest/services/Member_Agencies_Schools_WFL1/FeatureServer",
+     "numViews": 1780
+    }
+   ],
+   "Bamesh.Roy@shreveportla.gov": [
+    {
+     "title": "Repetitive Loss Property Areas",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/cEsSI6IR59h5UGE4/arcgis/rest/services/Repetitive_Loss_Property_Areas/FeatureServer",
+     "numViews": 995
+    }
+   ],
+   "GOLETAadmin": [
+    {
+     "title": "CWMP and CIP 5_23_2024_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/1sU4ryVt4fUb3UBC/arcgis/rest/services/CWMP_and_CIP_5_23_2024_WFL1/FeatureServer",
+     "numViews": 2095
+    },
+    {
+     "title": "CWMP and CIP UpdateV2 4_25_2024_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/1sU4ryVt4fUb3UBC/arcgis/rest/services/CWMP_and_CIP_UpdateV2_4_25_2024_WFL1/FeatureServer",
+     "numViews": 1143
+    },
+    {
+     "title": "CIP Web Map 4_24_2024_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/1sU4ryVt4fUb3UBC/arcgis/rest/services/CIP_Web_Map_4_24_2024_WFL1/FeatureServer",
+     "numViews": 978
+    },
+    {
+     "title": "CWMP and CIP Update 4_25_2024_WFL1",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/1sU4ryVt4fUb3UBC/arcgis/rest/services/CWMP_and_CIP_Update_4_25_2024_WFL1/FeatureServer",
+     "numViews": 924
+    }
+   ],
+   "JOrndorff_OCSan": [
+    {
+     "title": "OC San Service Area",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/XaaDWcg464CpB1DN/arcgis/rest/services/OC_San_Service_Area/FeatureServer",
+     "numViews": 41863
+    }
+   ],
+   "CDR1_CSUF": [
+    {
+     "title": "OCSD_2020",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSD_2020/FeatureServer",
+     "numViews": 1984
+    },
+    {
+     "title": "OCSan_Boundary_2023_03",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSan_Boundary_2023_03/FeatureServer",
+     "numViews": 1461
+    }
+   ],
+   "Erin.Stevens@kcmo.org_KCMO": [
+    {
+     "title": "F-1.2 Incentivize local food production and soil regeneration.",
+     "type": "Hub Project",
+     "url": null,
+     "numViews": 69
+    }
+   ]
+  },
+  "Fountain Valley": {
+   "cstarbird_dudek": [
+    {
+     "title": "Foothills CWPP Feature Layers",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/12ZpLdNBJek66bmF/arcgis/rest/services/Foothills_CWPP_Feature_Layers/FeatureServer",
+     "numViews": 493846
+    }
+   ],
+   "AQD_PopeR": [
+    {
+     "title": "Places_in_Maricopa_County",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Places_in_Maricopa_County/FeatureServer",
+     "numViews": 57288
+    },
+    {
+     "title": "Municipal_Parcels_by_Owner",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Municipal_Parcels_by_Owner/FeatureServer",
+     "numViews": 48574
+    },
+    {
+     "title": "EV_GIS_Visual_Toolkit",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/EV_GIS_Visual_Toolkit/FeatureServer",
+     "numViews": 12053
+    }
+   ],
+   "cwitter_PW": [
+    {
+     "title": "CFV_Proposed_GP_parcelized_210709_wgs",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/4usxdjWKL0Lq9x6D/arcgis/rest/services/CFV_Proposed_GP_parcelized_210709_wgs/FeatureServer",
+     "numViews": 8899
+    }
+   ],
+   "LafayettePublicWorks": [
+    {
+     "title": "Safety Element 2023",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/N3iR6DMX9yR8o1uS/arcgis/rest/services/Safety_Element_2023/FeatureServer",
+     "numViews": 7502
+    }
+   ],
+   "1908395_CAL": [
+    {
+     "title": "ParcelandFireMap",
+     "type": "Feature Service",
+     "url": "https://services2.arcgis.com/iq8zYa0SRsvIFFKz/arcgis/rest/services/ParcelandFireMap/FeatureServer",
+     "numViews": 6238
+    }
+   ],
+   "ascheer_bowmanconsulting": [
+    {
+     "title": "2025_4_15_209 Visual Analysis_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/4oMMDQGZOv7y40Xb/arcgis/rest/services/2025_4_15_209_Visual_Analysis_WFL1/FeatureServer",
+     "numViews": 5115
+    },
+    {
+     "title": "2025_4_15_209 Visual Analysis_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/4oMMDQGZOv7y40Xb/arcgis/rest/services/2025_4_15_209_Visual_Analysis_WFL1/FeatureServer",
+     "numViews": 5115
+    }
+   ],
+   "ericmcpherren": [
+    {
+     "title": "Redding Base Layers",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/K4teT0cFVydg0qtw/arcgis/rest/services/Redding_Base_Layers/FeatureServer",
+     "numViews": 2245
+    }
+   ],
+   "ggerlich_GUEST": [
+    {
+     "title": "Ventura County RCD RPP Web Map_Layers",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/ZBGUW0b8jGkklr0Z/arcgis/rest/services/Ventura_County_RCD_RPP_Web_Map_Layers/FeatureServer",
+     "numViews": 1828
+    }
+   ],
+   "nick.long.rinehart": [
+    {
+     "title": "Long-Rinehart_WebMap_FeatureLayers",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/qvhbYl7AOHUVqxij/arcgis/rest/services/Long_Rinehart_Framework_Geodatabase_Web_Map_WFL1/FeatureServer",
+     "numViews": 1466
+    }
+   ],
+   "yachinglin_uagis": [
+    {
+     "title": "Weedwacker Points2",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/Ezk9fcjSUkeadg6u/arcgis/rest/services/Weedwacker_Points2/FeatureServer",
+     "numViews": 1391
+    }
+   ],
+   "mcrockett_Murrieta": [
+    {
+     "title": "MurrietaCWPP_StoryMapLayers",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/EezLLt1gRjomqb1n/arcgis/rest/services/MurrietaCWPP_StoryMapLayers/FeatureServer",
+     "numViews": 27260
+    }
+   ],
+   "patilvgu": [
+    {
+     "title": "City of Spokane Valley Cooling Resources",
+     "type": "Feature Service",
+     "url": "https://services7.arcgis.com/YGmp70c76pih9ea2/arcgis/rest/services/City_of_Spokane_Valley_Cooling_Resources/FeatureServer",
+     "numViews": 18571
+    }
+   ],
+   "SonomaMap": [
+    {
+     "title": "Life Expectancy (Years) - Portrait of Sonoma County",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 12923
+    }
+   ],
+   "GISAdmin_NHApplications": [
+    {
+     "title": "Police Districts (View)",
+     "type": "Feature Service",
+     "url": "https://gis.newhavenct.gov/server/rest/services/Hosted/Police_Districts_(View)/FeatureServer",
+     "numViews": 9158
+    }
+   ],
+   "TempeData": [
+    {
+     "title": "2.08 Treatment Court Satisfaction (detail) ",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/lQySeXwbBg53XWDi/arcgis/rest/services/2_08_Treatment_Court_Satisfaction_(detail)___V2/FeatureServer",
+     "numViews": 5259
+    }
+   ],
+   "bmcnamara_OC_CERF": [
+    {
+     "title": "Stakeholder Mapping Survey Results",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services/Stakeholder_Mapping_Survey_Results/FeatureServer",
+     "numViews": 3401
+    }
+   ],
+   "jvilarin_CalPoly": [
+    {
+     "title": "Ant 312_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/0j6vZbECadDEXdAS/arcgis/rest/services/Ant_312_WFL1/FeatureServer",
+     "numViews": 1024
+    }
+   ],
+   "Bamesh.Roy@shreveportla.gov": [
+    {
+     "title": "Repetitive Loss Property Areas",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/cEsSI6IR59h5UGE4/arcgis/rest/services/Repetitive_Loss_Property_Areas/FeatureServer",
+     "numViews": 995
+    }
+   ],
+   "fa24_hh3350": [
+    {
+     "title": "EV points_WFL1",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/OO2s4OoyCZkYJ6oE/arcgis/rest/services/EV_points_WFL1/FeatureServer",
+     "numViews": 890
+    },
+    {
+     "title": "WHZ_FP_WFL1",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/OO2s4OoyCZkYJ6oE/arcgis/rest/services/WHZ_FP_WFL1/FeatureServer",
+     "numViews": 491
+    }
+   ],
+   "larrywilson": [
+    {
+     "title": "MailRidgeOnlineBaseMap_WFL1",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/VrHhujNgW2jZ00V9/arcgis/rest/services/MailRidgeOnlineBaseMap_WFL1/FeatureServer",
+     "numViews": 677
+    }
+   ],
+   "JOrndorff_OCSan": [
+    {
+     "title": "OC San Service Area",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/XaaDWcg464CpB1DN/arcgis/rest/services/OC_San_Service_Area/FeatureServer",
+     "numViews": 41863
+    }
+   ],
+   "CDR1_CSUF": [
+    {
+     "title": "OCSD_2020",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSD_2020/FeatureServer",
+     "numViews": 1984
+    },
+    {
+     "title": "OCSan_Boundary_2023_03",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSan_Boundary_2023_03/FeatureServer",
+     "numViews": 1461
+    }
+   ],
+   "RJCFacilitiesPlanning": [
+    {
+     "title": "Cajon Valley FIT Points",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/la1ZFYr3ZaUbZBsC/arcgis/rest/services/Cajon_Valley_FIT_Points/FeatureServer",
+     "numViews": 210
+    },
+    {
+     "title": "Cajon Valley Facilities Inventory",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/la1ZFYr3ZaUbZBsC/arcgis/rest/services/Cajon_Valley_Facilities_Inventory/FeatureServer",
+     "numViews": 28
+    }
+   ],
+   "zoe3_UW": [
+    {
+     "title": "The Plumbing is a Body:",
+     "type": "StoryMap",
+     "url": "https://storymaps.arcgis.com/stories/bdb4c1d4d11a4fd6b8bd5c149b69947a",
+     "numViews": 8
+    }
+   ]
+  },
+  "Seal Beach": {
+   "ksulliv4": [
+    {
+     "title": "Alamitos_Edit_to_publish",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/AXaYBvnJsB5Q7sDF/arcgis/rest/services/Alamitos_Edit_to_publish/FeatureServer",
+     "numViews": 39971
+    },
+    {
+     "title": "Alamitos_Edit_to_publish",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/AXaYBvnJsB5Q7sDF/arcgis/rest/services/Alamitos_Edit_to_publish/FeatureServer",
+     "numViews": 39971
+    }
+   ],
+   "LynwoodGIS1": [
+    {
+     "title": "Moratorium Streets 2026",
+     "type": "Feature Service",
+     "url": "https://services8.arcgis.com/TLogqQbe6TnrHFMm/arcgis/rest/services/Moratorium_Streets_2026/FeatureServer",
+     "numViews": 4025
+    }
+   ],
+   "RIglesias9": [
+    {
+     "title": "Alamitos_Bay",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/AXaYBvnJsB5Q7sDF/arcgis/rest/services/Alamitos_Bay/FeatureServer",
+     "numViews": 3282
+    },
+    {
+     "title": "Alamitos_Bay",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/AXaYBvnJsB5Q7sDF/arcgis/rest/services/Alamitos_Bay/FeatureServer",
+     "numViews": 3282
+    }
+   ],
+   "SealBeachGIS_SBPW": [
+    {
+     "title": "Coastal Zone",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/DgI3mEyvGBsZnibj/arcgis/rest/services/Coastal_Zone/FeatureServer",
+     "numViews": 950
+    },
+    {
+     "title": "Public Viewer",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 485
+    },
+    {
+     "title": "Public Parcel Layer",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/DgI3mEyvGBsZnibj/arcgis/rest/services/Public_Parcel_Layer/FeatureServer",
+     "numViews": 355
+    },
+    {
+     "title": "Public Viewer",
+     "type": "Web Experience",
+     "url": "https://experience.arcgis.com/experience/bb2a4cd857fd48b6800de46458c03482",
+     "numViews": 327
+    },
+    {
+     "title": "Public Viewer",
+     "type": "Web Experience",
+     "url": "https://experience.arcgis.com/experience/bb2a4cd857fd48b6800de46458c03482",
+     "numViews": 327
+    }
+   ],
+   "Stephanie.Conner@hdrinc.com_HDR": [
+    {
+     "title": "Monroe County, FL Municipalities Road: Criticality Viewer",
+     "type": "Web Experience",
+     "url": "https://experience.arcgis.com/experience/890aa3e1d0e44f81a43091926528fb6c",
+     "numViews": 645
+    },
+    {
+     "title": "Monroe County, FL Municipalities Road: Criticality Viewer",
+     "type": "Web Experience",
+     "url": "https://experience.arcgis.com/experience/890aa3e1d0e44f81a43091926528fb6c",
+     "numViews": 645
+    }
+   ],
+   "IE-CSO_Maps": [
+    {
+     "title": "Ecosystem Assets (2018-2024) 2024",
+     "type": "Feature Service",
+     "url": "https://services-eu1.arcgis.com/BuS9rtTsYEV5C0xh/arcgis/rest/services/IE_CSO_EE_Lvl2_2024_view/FeatureServer",
+     "numViews": 293
+    },
+    {
+     "title": "Ecosystem Assets 2024 - WM_legend",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 278
+    },
+    {
+     "title": "Ecosystem Assets (2018-2024) 2021",
+     "type": "Feature Service",
+     "url": "https://services-eu1.arcgis.com/BuS9rtTsYEV5C0xh/arcgis/rest/services/IE_CSO_EE_Lvl2_2021_view/FeatureServer",
+     "numViews": 247
+    }
+   ],
+   "CDR1_CSUF": [
+    {
+     "title": "Splitblock_2026_20251204_RSA21",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/Splitblock_2026_20251204_RSA21/FeatureServer",
+     "numViews": 246
+    },
+    {
+     "title": "OCSD_2020",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSD_2020/FeatureServer",
+     "numViews": 1984
+    },
+    {
+     "title": "OCSan_Boundary_2023_03",
+     "type": "Feature Service",
+     "url": "https://services3.arcgis.com/kBkwjVOhc0QonEjP/arcgis/rest/services/OCSan_Boundary_2023_03/FeatureServer",
+     "numViews": 1461
+    }
+   ],
+   "MPonce3@ph.lacounty.gov_lacounty": [
+    {
+     "title": "Oil & Gas Facilities and Industrial Sites",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 19718
+    },
+    {
+     "title": "Oil & Gas Facilities and Industrial Sites",
+     "type": "Web Experience",
+     "url": "https://experience.arcgis.com/experience/20c14d1188504b6e88292833f9aa4df7",
+     "numViews": 18334
+    },
+    {
+     "title": "Oil & Gas Facilities and Industrial Sites",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 19718
+    },
+    {
+     "title": "Oil & Gas Facilities and Industrial Sites",
+     "type": "Web Experience",
+     "url": "https://experience.arcgis.com/experience/20c14d1188504b6e88292833f9aa4df7",
+     "numViews": 18334
+    }
+   ],
+   "GIS_CityOfWodonga": [
+    {
+     "title": "Trails",
+     "type": "Feature Service",
+     "url": "https://services-ap1.arcgis.com/w6r4LlwgJu8O0neQ/arcgis/rest/services/Trails/FeatureServer",
+     "numViews": 8277
+    },
+    {
+     "title": "Road network",
+     "type": "Feature Service",
+     "url": "https://services-ap1.arcgis.com/w6r4LlwgJu8O0neQ/arcgis/rest/services/Road_network/FeatureServer",
+     "numViews": 4483
+    },
+    {
+     "title": "On road bicycle lane",
+     "type": "Feature Service",
+     "url": "https://services-ap1.arcgis.com/w6r4LlwgJu8O0neQ/arcgis/rest/services/On_road_bicycle_lane/FeatureServer",
+     "numViews": 4294
+    }
+   ],
+   "bmcnamara_OC_CERF": [
+    {
+     "title": "Stakeholder Mapping Survey Results",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services/Stakeholder_Mapping_Survey_Results/FeatureServer",
+     "numViews": 3401
+    },
+    {
+     "title": "Stakeholder Mapping Survey Results (public view)",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/fZo60Rv5G63mJQWz/arcgis/rest/services/Stakeholder_Mapping_Survey_Results_2_view/FeatureServer",
+     "numViews": 145
+    }
+   ],
+   "avandyke27@coagis": [
+    {
+     "title": "Recreational Boat Usage_WFL1",
+     "type": "Feature Service",
+     "url": "https://services1.arcgis.com/0EOqWPtpCmgQr2ay/arcgis/rest/services/Recreational_Boat_Usage_WFL1/FeatureServer",
+     "numViews": 3274
+    }
+   ],
+   "Ferrar@FracTracker.org": [
+    {
+     "title": "Santa Barbara 2015 Oil Spill at Refugio Beach",
+     "type": "Web Mapping Application",
+     "url": "http://maps.fractracker.org/3.0/?appid=f925d0c70e494956858c53e9efee4ede",
+     "numViews": 2211
+    }
+   ],
+   "asasakiF2017": [
+    {
+     "title": "Seal_Beach",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/hVnyNvwbpFFPDV5j/arcgis/rest/services/Seal_Beach/FeatureServer",
+     "numViews": 249
+    }
+   ],
+   "nicole.matthesen_noaa": [
+    {
+     "title": "Refugio Beach Oil Spill: ",
+     "type": "StoryMap",
+     "url": "https://storymaps.arcgis.com/stories/46c72802be104461b95ea8d8cb8e7cc6",
+     "numViews": 7408
+    }
+   ],
+   "JOrndorff_OCSan": [
+    {
+     "title": "OC San Service Area",
+     "type": "Feature Service",
+     "url": "https://services6.arcgis.com/XaaDWcg464CpB1DN/arcgis/rest/services/OC_San_Service_Area/FeatureServer",
+     "numViews": 41863
+    }
+   ],
+   "verobeach": [
+    {
+     "title": "STEP System",
+     "type": "Web Map",
+     "url": "",
+     "numViews": 24881
+    }
+   ],
+   "canderson_GSSI": [
+    {
+     "title": "Wellsite Evaluation_WFL2",
+     "type": "Feature Service",
+     "url": "https://services5.arcgis.com/2fDojZt3dxBoooqj/arcgis/rest/services/Wellsite_Evaluation_WFL2/FeatureServer",
+     "numViews": 688
+    }
+   ],
+   "smossman@byu.edu_byu": [
+    {
+     "title": "Hawaiian Monk Seal Beaching Sites + Sewer Lines",
+     "type": "Web Map",
+     "url": null,
+     "numViews": 67
+    }
+   ],
+   "shreepad_sfpuc": [
+    {
+     "title": "Shoreline Rec Use Survey",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/Zs2aNLFN00jrS4gG/arcgis/rest/services/service_4896a1eb43c94235a07b5fefe56bd260/FeatureServer",
+     "numViews": 39
+    },
+    {
+     "title": "DRAFT - RecUse SFBeaches Form",
+     "type": "Feature Service",
+     "url": "https://services.arcgis.com/Zs2aNLFN00jrS4gG/arcgis/rest/services/service_fab9fb5a738746a7aec8fe939a6c80e5/FeatureServer",
+     "numViews": 22
+    }
+   ]
+  }
+ },
+ "orgids": {},
+ "roots": []
+}

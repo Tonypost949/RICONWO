@@ -1,0 +1,2083 @@
+[
+ {
+  "svc": "CIP",
+  "type": "MapServer",
+  "id": 0,
+  "name": "CIP Project - Point",
+  "editor_fields": [],
+  "count": 30
+ },
+ {
+  "svc": "CIP",
+  "type": "MapServer",
+  "id": 1,
+  "name": "CIP Project - Line",
+  "editor_fields": [],
+  "count": 59
+ },
+ {
+  "svc": "CIP",
+  "type": "MapServer",
+  "id": 2,
+  "name": "CIP Project - Polygon",
+  "editor_fields": [],
+  "count": 38
+ },
+ {
+  "svc": "CIP",
+  "type": "MapServer",
+  "id": 0,
+  "name": "CIP Project - Point",
+  "editor_fields": [],
+  "count": 30
+ },
+ {
+  "svc": "CIP",
+  "type": "MapServer",
+  "id": 1,
+  "name": "CIP Project - Line",
+  "editor_fields": [],
+  "count": 59
+ },
+ {
+  "svc": "CIP",
+  "type": "MapServer",
+  "id": 2,
+  "name": "CIP Project - Polygon",
+  "editor_fields": [],
+  "count": 38
+ },
+ {
+  "svc": "PD_RapidDeployAddress",
+  "type": "MapServer",
+  "id": 1,
+  "name": "AddressText",
+  "editor_fields": [],
+  "count": 40809
+ },
+ {
+  "svc": "PD_RapidDeployAddress",
+  "type": "MapServer",
+  "id": 0,
+  "name": "Default",
+  "editor_fields": [],
+  "count": null
+ },
+ {
+  "svc": "UtilEditsWater",
+  "type": "MapServer",
+  "id": 0,
+  "name": "Water Valve",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 8072,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 4718
+   },
+   {
+    "v": "mosullivan",
+    "n": 2654
+   },
+   {
+    "v": "dhill",
+    "n": 308
+   },
+   {
+    "v": "gruzgerian",
+    "n": 157
+   },
+   {
+    "v": "ggomez",
+    "n": 135
+   },
+   {
+    "v": "mcurry",
+    "n": 42
+   },
+   {
+    "v": null,
+    "n": 41
+   },
+   {
+    "v": "rguadarrama",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "svc": "UtilEditsWater",
+  "type": "MapServer",
+  "id": 1,
+  "name": "Hydrant",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 2831,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 184
+   },
+   {
+    "v": "rmurphy",
+    "n": 0
+   }
+  ]
+ },
+ {
+  "svc": "UtilEditsWater",
+  "type": "MapServer",
+  "id": 2,
+  "name": "Water Main",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 10989,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 10989
+   }
+  ]
+ },
+ {
+  "svc": "UtilEditsWater",
+  "type": "MapServer",
+  "id": 3,
+  "name": "Air Vac",
+  "editor_fields": [],
+  "count": 236
+ },
+ {
+  "svc": "UtilEditsWater",
+  "type": "MapServer",
+  "id": 9,
+  "name": "Incident Location",
+  "editor_fields": [],
+  "count": 18
+ },
+ {
+  "svc": "UtilEditsWater",
+  "type": "MapServer",
+  "id": 0,
+  "name": "Water Valve",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 8072,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 4718
+   },
+   {
+    "v": "mosullivan",
+    "n": 2654
+   },
+   {
+    "v": "dhill",
+    "n": 308
+   },
+   {
+    "v": "gruzgerian",
+    "n": 157
+   },
+   {
+    "v": "ggomez",
+    "n": 135
+   },
+   {
+    "v": "mcurry",
+    "n": 42
+   },
+   {
+    "v": null,
+    "n": 41
+   },
+   {
+    "v": "rguadarrama",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "svc": "UtilEditsWater",
+  "type": "MapServer",
+  "id": 1,
+  "name": "Hydrant",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 2831,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 184
+   },
+   {
+    "v": "rmurphy",
+    "n": 0
+   }
+  ]
+ },
+ {
+  "svc": "UtilEditsWater",
+  "type": "MapServer",
+  "id": 2,
+  "name": "Water Main",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 10989,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 10989
+   }
+  ]
+ },
+ {
+  "svc": "UtilEditsWater",
+  "type": "MapServer",
+  "id": 3,
+  "name": "Air Vac",
+  "editor_fields": [],
+  "count": 236
+ },
+ {
+  "svc": "UtilEditsWater",
+  "type": "MapServer",
+  "id": 9,
+  "name": "Incident Location",
+  "editor_fields": [],
+  "count": 18
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 0,
+  "name": "Address Information Search",
+  "editor_fields": [],
+  "count": 55320
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 1,
+  "name": "Street Search",
+  "editor_fields": [],
+  "count": 1609
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 2,
+  "name": "Intersection Search",
+  "editor_fields": [],
+  "count": 6156
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 3,
+  "name": "Fire Hydrant Search",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 2831,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 184
+   },
+   {
+    "v": "rmurphy",
+    "n": 0
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 4,
+  "name": "Water Valve Search",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 8993,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 4722
+   },
+   {
+    "v": "mosullivan",
+    "n": 2657
+   },
+   {
+    "v": null,
+    "n": 935
+   },
+   {
+    "v": "dhill",
+    "n": 308
+   },
+   {
+    "v": "gruzgerian",
+    "n": 157
+   },
+   {
+    "v": "ggomez",
+    "n": 152
+   },
+   {
+    "v": "mcurry",
+    "n": 42
+   },
+   {
+    "v": "rguadarrama",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 5,
+  "name": "Address Information",
+  "editor_fields": [],
+  "count": 55320
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 6,
+  "name": "Airport Label",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 7,
+  "name": "School Label",
+  "editor_fields": [],
+  "count": 12
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 8,
+  "name": "Street",
+  "editor_fields": [],
+  "count": 1609
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 9,
+  "name": "Intersection",
+  "editor_fields": [],
+  "count": 6156
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 10,
+  "name": "Address Text Small",
+  "editor_fields": [],
+  "count": 40660
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 299,
+  "name": "Default",
+  "editor_fields": [],
+  "count": null
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 300,
+  "name": "Address Text Large",
+  "editor_fields": [],
+  "count": 40809
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 297,
+  "name": "Default",
+  "editor_fields": [],
+  "count": null
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 301,
+  "name": "Street Text",
+  "editor_fields": [],
+  "count": null
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 302,
+  "name": "Primary Streets Text",
+  "editor_fields": [],
+  "count": 5534
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 303,
+  "name": "Street Names Text",
+  "editor_fields": [],
+  "count": 5122
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 304,
+  "name": "Freeway Text",
+  "editor_fields": [],
+  "count": 3
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 305,
+  "name": "City Boundary",
+  "editor_fields": [],
+  "count": 43
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 306,
+  "name": "Park Names",
+  "editor_fields": [],
+  "count": 68
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 11,
+  "name": "Water Main Breaks Archive",
+  "editor_fields": [],
+  "count": 18
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 307,
+  "name": "Valves Needing Maintenance",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 284,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 194
+   },
+   {
+    "v": "mosullivan",
+    "n": 56
+   },
+   {
+    "v": "dhill",
+    "n": 17
+   },
+   {
+    "v": "gruzgerian",
+    "n": 10
+   },
+   {
+    "v": "ggomez",
+    "n": 4
+   },
+   {
+    "v": "gpichardo",
+    "n": 1
+   },
+   {
+    "v": "mcurry",
+    "n": 1
+   },
+   {
+    "v": "asanchez",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 308,
+  "name": "Hydrants Out of Service",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 3,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 1
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 309,
+  "name": "Hyd Valves Area 1 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 310,
+  "name": "Hydrants Area 1 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 311,
+  "name": "Hydrants Area 1 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 154,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 312,
+  "name": "Hyd Valve Maintenance Area 1",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 313,
+  "name": "Hyd Valves Area 2 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 2,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 2
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 314,
+  "name": "Hydrants Area 2 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 315,
+  "name": "Hydrants Area 2 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 191,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 316,
+  "name": "Hyd Valve Maintenance Area 2",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 317,
+  "name": "Hyd Valves Area 3 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 318,
+  "name": "Hydrants Area 3 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 319,
+  "name": "Hydrants Area 3 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 361,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 320,
+  "name": "Hyd Valve Maintenance Area 3",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 321,
+  "name": "Hyd Valves Area 4 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 322,
+  "name": "Hydrants Area 4 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 323,
+  "name": "Hydrants Area 4 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 260,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 324,
+  "name": "Hyd Valve Maintenance Area 4",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 325,
+  "name": "Hyd Valves Area 5 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 326,
+  "name": "Hydrants Area 5 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 327,
+  "name": "Hydrants Area 5 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 117,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 328,
+  "name": "Hyd Valve Maintenance Area 5",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 329,
+  "name": "Hyd Valves Area 6 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 330,
+  "name": "Hydrants Area 6 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 331,
+  "name": "Hydrants Area 6 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 345,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 332,
+  "name": "Hyd Valve Maintenance Area 6",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 333,
+  "name": "Hyd Valves Area 7 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 334,
+  "name": "Hydrants Area 7 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 335,
+  "name": "Hydrants Area 7 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 375,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 336,
+  "name": "Hyd Valve Maintenance Area 7",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 337,
+  "name": "Hyd Valves Area 8 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 1,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mosullivan",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 338,
+  "name": "Hydrants Area 8 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 339,
+  "name": "Hydrants Area 8 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 269,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 340,
+  "name": "Hyd Valve Maintenance Area 8",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 341,
+  "name": "Hyd Valves Area 9 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 15,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mosullivan",
+    "n": 15
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 342,
+  "name": "Hydrants Area 9 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 343,
+  "name": "Hydrants Area 9 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 91,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 344,
+  "name": "Hyd Valve Maintenance Area 9",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 345,
+  "name": "Hyd Valves Area 10 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 42,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mosullivan",
+    "n": 42
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 346,
+  "name": "Hydrants Area 10 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 347,
+  "name": "Hydrants Area 10 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 172,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 348,
+  "name": "Hyd Valve Maintenance Area 10",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 349,
+  "name": "Hyd Valves Area 11 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 139,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mosullivan",
+    "n": 139
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 350,
+  "name": "Hydrants Area 11 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 351,
+  "name": "Hydrants Area 11 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 138,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 352,
+  "name": "Hyd Valve Maintenance Area 11",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 353,
+  "name": "Hyd Valves Area 12 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 182,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mosullivan",
+    "n": 182
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 354,
+  "name": "Hydrants Area 12 - Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_GISDATA.WaterHydrantMaintField.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 355,
+  "name": "Hydrants Area 12 - Not Inspected",
+  "editor_fields": [
+   "GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY"
+  ],
+  "count": 182,
+  "group_GISDATA.WaterHydrantFieldInspect.CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 356,
+  "name": "Hyd Valve Maintenance Area 12",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 357,
+  "name": "Valves Area 1 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 270,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 240
+   },
+   {
+    "v": "gruzgerian",
+    "n": 11
+   },
+   {
+    "v": "ggomez",
+    "n": 9
+   },
+   {
+    "v": "mcurry",
+    "n": 4
+   },
+   {
+    "v": null,
+    "n": 4
+   },
+   {
+    "v": "dhill",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 358,
+  "name": "Valve Maintenance Area 1",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 359,
+  "name": "Valves Area 2 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 360,
+  "name": "Valve Maintenance Area 2",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 361,
+  "name": "Valves Area 3 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 447,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 341
+   },
+   {
+    "v": "gruzgerian",
+    "n": 59
+   },
+   {
+    "v": "ggomez",
+    "n": 30
+   },
+   {
+    "v": "dhill",
+    "n": 9
+   },
+   {
+    "v": null,
+    "n": 7
+   },
+   {
+    "v": "gpichardo",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 362,
+  "name": "Valve Maintenance Area 3",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 363,
+  "name": "Valves Area 4 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 209,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 178
+   },
+   {
+    "v": "ggomez",
+    "n": 22
+   },
+   {
+    "v": "dhill",
+    "n": 4
+   },
+   {
+    "v": "gruzgerian",
+    "n": 3
+   },
+   {
+    "v": null,
+    "n": 2
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 364,
+  "name": "Valve Maintenance Area 4",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 365,
+  "name": "Valves Area 5 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 156,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 119
+   },
+   {
+    "v": "ggomez",
+    "n": 27
+   },
+   {
+    "v": "gruzgerian",
+    "n": 8
+   },
+   {
+    "v": null,
+    "n": 2
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 366,
+  "name": "Valve Maintenance Area 5",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 367,
+  "name": "Valves Area 6 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 191,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 149
+   },
+   {
+    "v": "mcurry",
+    "n": 27
+   },
+   {
+    "v": "dhill",
+    "n": 9
+   },
+   {
+    "v": "asanchez",
+    "n": 3
+   },
+   {
+    "v": "gruzgerian",
+    "n": 2
+   },
+   {
+    "v": null,
+    "n": 1
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 368,
+  "name": "Valve Maintenance Area 6",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 369,
+  "name": "Valves Area 7 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 317,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 314
+   },
+   {
+    "v": null,
+    "n": 1
+   },
+   {
+    "v": "gruzgerian",
+    "n": 1
+   },
+   {
+    "v": "mcurry",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 370,
+  "name": "Valve Maintenance Area 7",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 371,
+  "name": "Valves Area 8 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 381,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 258
+   },
+   {
+    "v": "dhill",
+    "n": 61
+   },
+   {
+    "v": "gruzgerian",
+    "n": 24
+   },
+   {
+    "v": null,
+    "n": 15
+   },
+   {
+    "v": "ggomez",
+    "n": 11
+   },
+   {
+    "v": "rguadarrama",
+    "n": 6
+   },
+   {
+    "v": "mcurry",
+    "n": 4
+   },
+   {
+    "v": "gpichardo",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 372,
+  "name": "Valve Maintenance Area 8",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 373,
+  "name": "Valves Area 9 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 38,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 38
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 374,
+  "name": "Valve Maintenance Area 9",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 375,
+  "name": "Valves Area 10 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 218,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 196
+   },
+   {
+    "v": "ggomez",
+    "n": 16
+   },
+   {
+    "v": "gruzgerian",
+    "n": 4
+   },
+   {
+    "v": null,
+    "n": 1
+   },
+   {
+    "v": "dhill",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 376,
+  "name": "Valve Maintenance Area 10",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 377,
+  "name": "Valves Area 11 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 364,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 155
+   },
+   {
+    "v": "dhill",
+    "n": 154
+   },
+   {
+    "v": "gruzgerian",
+    "n": 45
+   },
+   {
+    "v": "ggomez",
+    "n": 8
+   },
+   {
+    "v": "mcurry",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 378,
+  "name": "Valve Maintenance Area 11",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 379,
+  "name": "Valves Area 12 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 120,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 108
+   },
+   {
+    "v": "dhill",
+    "n": 8
+   },
+   {
+    "v": "ggomez",
+    "n": 2
+   },
+   {
+    "v": "mcurry",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 380,
+  "name": "Valve Maintenance Area 12",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 381,
+  "name": "Valves Area 13 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 2,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 382,
+  "name": "Valve Maintenance Area 13",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 383,
+  "name": "Valves Area 14 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 3,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 3
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 384,
+  "name": "Valve Maintenance Area 14",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 385,
+  "name": "Valves Area 15 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 386,
+  "name": "Valve Maintenance Area 15",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 387,
+  "name": "Valves Area 16 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 388,
+  "name": "Valve Maintenance Area 16",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 389,
+  "name": "Valves Area 17 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 390,
+  "name": "Valve Maintenance Area 17",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 391,
+  "name": "Valves Area 18 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 9,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 5
+   },
+   {
+    "v": "ggomez",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 392,
+  "name": "Valve Maintenance Area 18",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 393,
+  "name": "Valves Area 19 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 394,
+  "name": "Valve Maintenance Area 19",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 395,
+  "name": "Valves Area 20 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 396,
+  "name": "Valve Maintenance Area 20",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 397,
+  "name": "Valves Area 21 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 398,
+  "name": "Valve Maintenance Area 21",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 399,
+  "name": "Valves Area 22 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 400,
+  "name": "Valve Maintenance Area 22",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 401,
+  "name": "Valves Area 23 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 12,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "ggomez",
+    "n": 6
+   },
+   {
+    "v": "mmeadow",
+    "n": 4
+   },
+   {
+    "v": null,
+    "n": 2
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 402,
+  "name": "Valve Maintenance Area 23",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 403,
+  "name": "Valves Area 24 - Not Exercised",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 0,
+  "group_CREW_UPDATE_BY": []
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 404,
+  "name": "Valve Maintenance Area 24",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 405,
+  "name": "Water Meter - Irrigation",
+  "editor_fields": [],
+  "count": 976
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 406,
+  "name": "Air Vac Area 1 - Not Inspected",
+  "editor_fields": [],
+  "count": 7
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 407,
+  "name": "Air Vac Maintenance Area 1",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 408,
+  "name": "Air Vac Area 2 - Not Inspected",
+  "editor_fields": [],
+  "count": 3
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 409,
+  "name": "Air Vac Maintenance Area 2",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 410,
+  "name": "Air Vac Area 3 - Not Inspected",
+  "editor_fields": [],
+  "count": 3
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 411,
+  "name": "Air Vac Maintenance Area 3",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 412,
+  "name": "Air Vac Area 4 - Not Inspected",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 413,
+  "name": "Air Vac Maintenance Area 4",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 414,
+  "name": "Air Vac Area 5 - Not Inspected",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 415,
+  "name": "Air Vac Maintenance Area 5",
+  "editor_fields": [],
+  "count": 1
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 416,
+  "name": "Water Quest Cases - Active",
+  "editor_fields": [],
+  "count": 704
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 417,
+  "name": "Water Quest Cases - Complete",
+  "editor_fields": [],
+  "count": 11836
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 418,
+  "name": "Smart Fire Hydrant",
+  "editor_fields": [],
+  "count": 14
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 419,
+  "name": "Water System Labels",
+  "editor_fields": [],
+  "count": null
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 420,
+  "name": "Fire Hydrant Labels",
+  "editor_fields": [],
+  "count": 2714
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 421,
+  "name": "Newport Beach Water Main Labels",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 10989,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 10989
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 422,
+  "name": "Other Agency Water Labels",
+  "editor_fields": [],
+  "count": 865
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 423,
+  "name": "Other Agency Reclaimed Labels",
+  "editor_fields": [],
+  "count": 865
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 424,
+  "name": "Water System",
+  "editor_fields": [],
+  "count": null
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 425,
+  "name": "Fire Hydrant",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 2831,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 184
+   },
+   {
+    "v": "rmurphy",
+    "n": 0
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 426,
+  "name": "Water Valve",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 8993,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": "mmeadow",
+    "n": 4722
+   },
+   {
+    "v": "mosullivan",
+    "n": 2657
+   },
+   {
+    "v": null,
+    "n": 935
+   },
+   {
+    "v": "dhill",
+    "n": 308
+   },
+   {
+    "v": "gruzgerian",
+    "n": 157
+   },
+   {
+    "v": "ggomez",
+    "n": 152
+   },
+   {
+    "v": "mcurry",
+    "n": 42
+   },
+   {
+    "v": "rguadarrama",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 427,
+  "name": "Air Vac",
+  "editor_fields": [],
+  "count": 236
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 428,
+  "name": "Water Points",
+  "editor_fields": [],
+  "count": 3757
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 429,
+  "name": "Test Station Line",
+  "editor_fields": [],
+  "count": 171
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 430,
+  "name": "Newport Beach Water Mains",
+  "editor_fields": [
+   "CREW_UPDATE_BY"
+  ],
+  "count": 10989,
+  "group_CREW_UPDATE_BY": [
+   {
+    "v": null,
+    "n": 10989
+   }
+  ]
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 431,
+  "name": "Other Agency Water",
+  "editor_fields": [],
+  "count": 865
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 432,
+  "name": "Other Agency Reclaimed",
+  "editor_fields": [],
+  "count": 94
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 433,
+  "name": "Lot Lines and Rights of Way",
+  "editor_fields": [],
+  "count": null
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 434,
+  "name": "Lot Lines",
+  "editor_fields": [],
+  "count": 29355
+ },
+ {
+  "svc": "UtilFieldWater",
+  "type": "MapServer",
+  "id": 435,
+  "name": "Rights of Way",
+  "editor_fields": [],
+  "count": 42444
+ }
+]
