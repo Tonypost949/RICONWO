@@ -1,0 +1,2 @@
+# Nmap 7.80 scan initiated Mon Oct 19 20:33:36 2026 as: nmap -sT -Pn -T4 --open --host-timeout 100s -p 27000-27030,6080,6443,7443,2443,1098,4000-4004 -oN nmap_license_ports_lacity.txt 40.83.143.104
+# Nmap done at Mon Oct 19 20:33:42 2026 -- 1 IP address (1 host up) scanned in 6.13 seconds

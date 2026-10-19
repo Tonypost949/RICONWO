@@ -1,0 +1,488 @@
+{
+ "generated_utc": "2026-10-19T20:35:56Z",
+ "scope": "Read-only fingerprint of live RICO GIS REST endpoints against the cracked Esri installer set documented in the HB project binder.",
+ "method": "GET /rest/info?f=json, /rest/services?f=pjson, /admin?f=json, /admin/license?f=json. No authentication attempted; no writes; TCP connect scan of license-manager and ArcGIS service ports on three key hosts.",
+ "inventory": {
+  "roots_total": 310,
+  "agol_hosted_excluded": 224,
+  "self_hosted_roots": 86,
+  "live_self_hosted_with_version": 28,
+  "unreachable_or_no_info": 58
+ },
+ "version_distribution": {
+  "12.1.0": [
+   "gis.huntingtonbeachca.gov"
+  ],
+  "11.5.0": [
+   "gis-portal.townofchapelhill.org",
+   "gis.anaheim.net",
+   "gis.cityoffullerton.com",
+   "gis.columbus.gov",
+   "gis.longbeach.gov",
+   "gis.newhavenct.gov",
+   "gis.santamonica.gov",
+   "gis.torranceca.gov",
+   "maps.cityofventura.ca.gov",
+   "nbgis.newportbeachca.gov",
+   "ocgis.com"
+  ],
+  "11.4.0": [
+   "maps.oxnard.org"
+  ],
+  "11.3.0": [
+   "gis.lagunabeachcity.net",
+   "gis.miami.gov",
+   "gis.octa.net",
+   "maps.octa.net"
+  ],
+  "11.1.0": [
+   "caltrans-gis.dot.ca.gov",
+   "gisdata.dot.ca.gov"
+  ],
+  "10.9.1": [
+   "gis.cityofirvine.org",
+   "gis.dallascityhall.com",
+   "gis.palmspringsca.gov",
+   "gis.santa-ana.org",
+   "gis.temeculaca.gov",
+   "public.gis.lacounty.gov"
+  ],
+  "10.7.1": [
+   "maps.lacity.org"
+  ],
+  "10.6.0": [
+   "maps.scottsdaleaz.gov"
+  ],
+  "10.2.2": [
+   "apps.costamesaca.gov"
+  ]
+ },
+ "servers": [
+  {
+   "host": "gis.huntingtonbeachca.gov",
+   "root": "https://gis.huntingtonbeachca.gov/arcgis/rest/services",
+   "fullVersion": "12.1.0",
+   "currentVersion": 12.1,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 302 (login redirect; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": "Primary case node. Server 12.1.0 cannot be licensed by the cracked 10.2 License Manager. No admin/license disclosure; no FlexLM ports open."
+  },
+  {
+   "host": "gis-portal.townofchapelhill.org",
+   "root": "https://gis-portal.townofchapelhill.org/server/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": "cloudflare",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.anaheim.net",
+   "root": "https://gis.anaheim.net/server/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.cityoffullerton.com",
+   "root": "https://gis.cityoffullerton.com/arcgis/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.columbus.gov",
+   "root": "https://gis.columbus.gov/arcgis/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": "cloudflare",
+   "admin": "HTTP 404",
+   "admin_license": "absent (404)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.longbeach.gov",
+   "root": "https://gis.longbeach.gov/server/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.newhavenct.gov",
+   "root": "https://gis.newhavenct.gov/server/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.santamonica.gov",
+   "root": "https://gis.santamonica.gov/server/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": null,
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.torranceca.gov",
+   "root": "https://gis.torranceca.gov/server/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": null,
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "maps.cityofventura.ca.gov",
+   "root": "https://maps.cityofventura.ca.gov/server/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "nbgis.newportbeachca.gov",
+   "root": "https://nbgis.newportbeachca.gov/arcgis/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": "cloudflare",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "ocgis.com",
+   "root": "https://ocgis.com/arcpub/rest/services",
+   "fullVersion": "11.5.0",
+   "currentVersion": 11.5,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "maps.oxnard.org",
+   "root": "https://maps.oxnard.org/arcgis/rest/services",
+   "fullVersion": "11.4.0",
+   "currentVersion": 11.4,
+   "server_header": "nginx",
+   "admin": "HTTP 403",
+   "admin_license": "denied (403)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.lagunabeachcity.net",
+   "root": "https://gis.lagunabeachcity.net/arcgis/rest/services",
+   "fullVersion": "11.3.0",
+   "currentVersion": 11.3,
+   "server_header": "cloudflare",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.miami.gov",
+   "root": "https://gis.miami.gov/server/rest/services",
+   "fullVersion": "11.3.0",
+   "currentVersion": 11.3,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.octa.net",
+   "root": "https://gis.octa.net/arcgis/rest/services",
+   "fullVersion": "11.3.0",
+   "currentVersion": 11.3,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "maps.octa.net",
+   "root": "https://maps.octa.net/arcgis/rest/services",
+   "fullVersion": "11.3.0",
+   "currentVersion": 11.3,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "caltrans-gis.dot.ca.gov",
+   "root": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services",
+   "fullVersion": "11.1.0",
+   "currentVersion": 11.1,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gisdata.dot.ca.gov",
+   "root": "https://gisdata.dot.ca.gov/arcgis/rest/services",
+   "fullVersion": "11.1.0",
+   "currentVersion": 11.1,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.cityofirvine.org",
+   "root": "https://gis.cityofirvine.org/arcgis/rest/services",
+   "fullVersion": "10.9.1",
+   "currentVersion": 10.91,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.dallascityhall.com",
+   "root": "https://gis.dallascityhall.com/arcgis/rest/services",
+   "fullVersion": "10.9.1",
+   "currentVersion": 10.91,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.palmspringsca.gov",
+   "root": "https://gis.palmspringsca.gov/server/rest/services",
+   "fullVersion": "10.9.1",
+   "currentVersion": 10.91,
+   "server_header": "cloudflare",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.santa-ana.org",
+   "root": "https://gis.santa-ana.org/server/rest/services",
+   "fullVersion": "10.9.1",
+   "currentVersion": 10.91,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "gis.temeculaca.gov",
+   "root": "https://gis.temeculaca.gov/arcgis/rest/services",
+   "fullVersion": "10.9.1",
+   "currentVersion": 10.91,
+   "server_header": "cloudflare",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "public.gis.lacounty.gov",
+   "root": "https://public.gis.lacounty.gov/arcgis/rest/services",
+   "fullVersion": "10.9.1",
+   "currentVersion": 10.91,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 403",
+   "admin_license": "denied (403)",
+   "manifest_version_match": "none",
+   "note": ""
+  },
+  {
+   "host": "maps.lacity.org",
+   "root": "https://maps.lacity.org/arcgis/rest/services",
+   "fullVersion": "10.7.1",
+   "currentVersion": 10.71,
+   "server_header": "",
+   "admin": "HTTP 404",
+   "admin_license": "absent (404)",
+   "manifest_version_match": "exact version string match (10.7.1)",
+   "note": "EXACT version match to the cracked \"Esri ArcGIS 10.7.1\" desktop artifact. Server admin/license endpoints absent (404). Version alone is not proof of unlicensed use."
+  },
+  {
+   "host": "maps.scottsdaleaz.gov",
+   "root": "https://maps.scottsdaleaz.gov/arcgis/rest/services",
+   "fullVersion": "10.6.0",
+   "currentVersion": 10.6,
+   "server_header": "cloudflare",
+   "admin": "HTTP 200 (login page; no anonymous access)",
+   "admin_license": "token-gated (499/498)",
+   "manifest_version_match": "none",
+   "note": "Old 10.6.0 stack; no manifest version match. Behind Cloudflare; origin license ports not scannable."
+  },
+  {
+   "host": "apps.costamesaca.gov",
+   "root": "https://apps.costamesaca.gov/arcgis/rest/services",
+   "fullVersion": "10.2.2",
+   "currentVersion": 10.22,
+   "server_header": "Microsoft-IIS/10.0",
+   "admin": "HTTP 403",
+   "admin_license": "denied (403)",
+   "manifest_version_match": "same major.minor family (10.2.x)",
+   "note": "SAME 10.2 FAMILY as the cracked \"ArcGIS 10.2 License Manager + Crack\" artifact. Admin/license denied (403). System/PublishingTools metadata is publicly reachable (no exploitation attempted)."
+  }
+ ],
+ "version_matches": {
+  "manifest_cracked_versions": [
+   "10.2 (License Manager + Crack)",
+   "10.7.1 (Desktop)",
+   "10.8.2 (Desktop)",
+   "Pro 3.1.5"
+  ],
+  "server_exact_or_family_matches": [
+   {
+    "host": "maps.lacity.org",
+    "version": "10.7.1",
+    "artifact": "Esri ArcGIS 10.7.1",
+    "strength": "exact version string; server vs desktop, not proof"
+   },
+   {
+    "host": "apps.costamesaca.gov",
+    "version": "10.2.2",
+    "artifact": "ArcGIS 10.2 License Manager + Crack",
+    "strength": "same 10.2 family; server vs desktop, not proof"
+   }
+  ],
+  "no_match": "All other reachable servers are 10.6.0, 10.9.1, 11.x, or 12.1.0. No 10.8.x server found."
+ },
+ "admin_license_exposure": {
+  "summary": "No host returned license data. All /admin/license endpoints were token-gated (499), denied (403), absent (404), or a login page. No anonymous license disclosure.",
+  "hosts_with_public_admin": []
+ },
+ "license_manager_port_scan": {
+  "ports": "27000-27030, 6080, 6443, 7443, 2443, 1098, 4000-4004",
+  "targets": {
+   "gis.huntingtonbeachca.gov": {
+    "ip": "192.5.222.142",
+    "open": []
+   },
+   "maps.lacity.org": {
+    "ip": "40.83.143.104",
+    "open": []
+   },
+   "apps.costamesaca.gov": {
+    "ip": "24.43.32.142",
+    "open": []
+   },
+   "maps.scottsdaleaz.gov": {
+    "ip": "Cloudflare edge (104.18.31.69)",
+    "open": "not scannable to origin"
+   }
+  },
+  "note": "No FlexLM/lmgrd or ArcGIS internal service ports were reachable on the three key hosts."
+ },
+ "cracked_artifact_evidence": {
+  "ArcGIS 10.2 License Manager + Crack": {
+   "archive_sha256": "dba3aea57ba753ae6b507527932b8eb10837b5ef76bee4f89f8391bdb33dcc38",
+   "components": {
+    "patched vendor daemon": {
+     "path": "ArcGIS.10.2.Crcak/ARCGIS.exe",
+     "sha256": "d336a0b1a4a71f31730877b98c8ca6bf1f32543bcd910bed7c0f3e7f26a25f47",
+     "size": 1662840,
+     "strings": [
+      "SOFTWARE\\ESRI\\ArcGIS 10.2 License Manager",
+      "VENDOR ARCGIS",
+      "FNP\\FLEXlm"
+     ]
+    },
+    "keygen": {
+     "path": "ArcGIS.10.2.Crcak/ArcGIS_KeyGen_modified.exe",
+     "sha256": "a5f62793c63343befab29f63535180937412c9e6ae83a8512de3ce98f967e9c9",
+     "size": 1352704
+    },
+    "installer": {
+     "path": "lm102_windows/Setup.exe",
+     "sha256": "85fe6d9b4581db6340ecd29d632ccd43d824e199db344e0d4b0fc80b4d1b1e9f",
+     "size": 939960
+    }
+   },
+   "config_iocs": [
+    "C:\\Program Files (x86)\\ArcGIS\\Licensing10.2\\bin\\services.txt",
+    "27027@localhost",
+    "27000@localhost",
+    "LSAdmin start/re-read",
+    "ArcGIS Administrator -> Desktop -> Advanced (ArcInfo) Concurrent Use"
+   ],
+   "readme_sha256": "f224069556d66a045626f9641c0c1839f2abd73e9ef0f85af596ba8e4ff712b1"
+  },
+  "Esri ArcGIS 10.7.1": {
+   "readme_sha256": "0e1de8ac2c986e494ceab4293ede1108bafdfe649d6e590fb495306509db3fb0",
+   "config_iocs": [
+    "copy 3 files from Cracked folder to C:\\Program Files (x86)\\ArcGIS\\Desktop10.7\\bin"
+   ]
+  },
+  "ArcGIS Desktop 10.8.2": {
+   "nfo_sha256": "8051df4c5af1842bc6a1063355189e7b6889f425917dc2cdb018dc03b01e5bdf",
+   "release": "LAVteam / ESRI ArcGIS Desktop FULL v10.8.2",
+   "build_date": "2022-03-03",
+   "archive_password": "123"
+  },
+  "ArcGIS Pro 3.1.5": {
+   "nfo_sha256": "a43b55e1de61cfcd887317226dd5d4d27e650b8e112cb48cfbded4ea8d7eb45f",
+   "release": "LAVteam / ESRI ArcGIS Pro v3.1.5 Multilingual",
+   "build_date": "2024-05-23"
+  },
+  "edrlibrary correction": "edrlibrary.js / edrlibraryV2.js are Esri REST API developer-sample utilities (EDR namespace), not crack components. They should not be counted as cracked software."
+ },
+ "verdict": {
+  "server_side": "No server-side cracked-software indicator was observed on any reachable RICO GIS host. No license data exposed; no FlexLM ports open on the three key hosts; no 10.8.x server; HB is 12.1.0 and incompatible with the 10.2 LM crack.",
+  "version_era_indicators": "LA City (10.7.1) and Costa Mesa (10.2.2) run stacks from the same release era as the cracked desktop/LM artifacts. This is an indicator requiring procurement and endpoint records, not proof.",
+  "desktop_gap": "The cracked artifacts are desktop/License Manager installs. Published REST services do not record the authoring client version or its license source. Proving use requires endpoint artifacts (hashes above, services.txt, Prefetch/Amcache, .mxd/.aprx metadata) and city license records."
+ },
+ "evidence_files": {
+  "raw_probe": "cracked_software_fingerprint_probe.json",
+  "raw_info_responses": "cracked_version_info_raw.json",
+  "nmap": [
+   "nmap_license_ports_hb.txt",
+   "nmap_license_ports_lacity.txt",
+   "nmap_license_ports_costamesa.txt"
+  ],
+  "script": "probe_cracked_fingerprints.py",
+  "log": "probe.log"
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "generated_utc": "2026-10-19T20:33:24Z",
+ "hosts": {
+  "gis.huntingtonbeachca.gov": {
+   "info": {
+    "status": 200,
+    "headers": {
+     "Cache-Control": "must-revalidate,max-age=0,public",
+     "Content-Length": "248",
+     "Content-Type": "application/json; charset=UTF-8",
+     "Vary": "Origin",
+     "Server": "Microsoft-IIS/10.0",
+     "X-Content-Type-Options": "nosniff",
+     "Date": "Mon, 19 Oct 2026 20:33:22 GMT",
+     "Connection": "close"
+    },
+    "body_head": "{\"fullVersion\":\"12.1.0\",\"soapUrl\":\"https://gis.huntingtonbeachca.gov/arcgis/services\",\"currentVersion\":12.1,\"authInfo\":{\"shortLivedTokenValidity\":60,\"tokenServicesUrl\":\"https://gis.huntingtonbeachca.gov/arcgis/tokens/\",\"isTokenBasedSecurity\":true}}"
+   },
+   "root": {
+    "status": 200,
+    "headers": {
+     "Cache-Control": "must-revalidate,max-age=0,public",
+     "Content-Length": "2503",
+     "Content-Type": "text/plain; charset=UTF-8",
+     "Vary": "Origin",
+     "Server": "Microsoft-IIS/10.0",
+     "Content-Security-Policy": "script-src 'self';",
+     "X-Content-Type-Options": "nosniff",
+     "Date": "Mon, 19 Oct 2026 20:33:22 GMT",
+     "Connection": "close"
+    },
+    "body_head": "{\n \"folders\": [\n  \"Fire\",\n  \"Police\",\n  \"Test\",\n  \"Utilities\"\n ],\n \"services\": [\n  {\n   \"name\": \"1960sAerials\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"1970sAerials\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"1980sAerials\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"1990sAerials\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"1994OrthosHybrid\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"2001OrthosHybrid\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"2006OrthosHybrid\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"2010OrthosHybrid\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"2012OrthosHybrid\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"2014OrthosHybrid\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"2015OrthosHybrid\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"2021Orthos\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"AddressEdits\",\n   \"type\": \"FeatureServer\"\n  },\n  {\n   \"name\": \"AddressEdits\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"AddressLocator\",\n   \"type\": \"GeocodeServer\"\n  },\n  {\n   \"name\": \"Basemap\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"BusinessAnalysis\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Business\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"CityFacili"
+   },
+   "admin": {
+    "status": 200,
+    "headers": {
+     "Cache-Control": "private",
+     "Content-Length": "144",
+     "Content-Type": "application/json; charset=UTF-8",
+     "Vary": "Origin",
+     "Server": "Microsoft-IIS/10.0",
+     "X-Content-Type-Options": "nosniff",
+     "Date": "Mon, 19 Oct 2026 20:33:22 GMT",
+     "Connection": "close"
+    },
+    "body_head": "{\"status\":\"error\",\"messages\":[\"Unauthorized access. Token not found. You can generate a token using the 'generateToken' operation.\"],\"code\":499}"
+   },
+   "admin_license": {
+    "status": 200,
+    "headers": {
+     "Cache-Control": "private",
+     "Content-Length": "144",
+     "Content-Type": "application/json; charset=UTF-8",
+     "Vary": "Origin",
+     "Server": "Microsoft-IIS/10.0",
+     "X-Content-Type-Options": "nosniff",
+     "Date": "Mon, 19 Oct 2026 20:33:23 GMT",
+     "Connection": "close"
+    },
+    "body_head": "{\"status\":\"error\",\"messages\":[\"Unauthorized access. Token not found. You can generate a token using the 'generateToken' operation.\"],\"code\":499}"
+   }
+  },
+  "maps.lacity.org": {
+   "info": {
+    "status": 200,
+    "headers": {
+     "Cache-Control": "private, must-revalidate, max-age=0",
+     "Content-Type": "application/json;charset=UTF-8",
+     "Vary": "Origin",
+     "Server": "",
+     "X-Content-Type-Options": "nosniff",
+     "X-XSS-Protection": "1; mode=block",
+     "X-AspNet-Version": "4.0.30319",
+     "X-Powered-By": "ASP.NET",
+     "X-FRAME-OPTIONS": "SAMEORIGIN",
+     "Date": "Mon, 19 Oct 2026 20:33:26 GMT",
+     "Connection": "close",
+     "Content-Length": "286"
+    },
+    "body_head": "{\"currentVersion\":10.71,\"fullVersion\":\"10.7.1\",\"soapUrl\":\"http://maps.lacity.org/arcgis/services\",\"secureSoapUrl\":\"https://maps.lacity.org/arcgis/services\",\"authInfo\":{\"isTokenBasedSecurity\":true,\"tokenServicesUrl\":\"https://maps.lacity.org/arcgis/tokens/\",\"shortLivedTokenValidity\":60}}"
+   },
+   "root": {
+    "status": 200,
+    "headers": {
+     "Cache-Control": "private, must-revalidate, max-age=0",
+     "Content-Type": "text/plain;charset=UTF-8",
+     "Vary": "Origin",
+     "Server": "",
+     "X-Content-Type-Options": "nosniff",
+     "X-XSS-Protection": "1; mode=block",
+     "X-AspNet-Version": "4.0.30319",
+     "X-Powered-By": "ASP.NET",
+     "X-FRAME-OPTIONS": "SAMEORIGIN",
+     "Date": "Mon, 19 Oct 2026 20:33:27 GMT",
+     "Connection": "close",
+     "Content-Length": "206"
+    },
+    "body_head": "{\n \"currentVersion\": 10.71,\n \"folders\": [\n  \"Annotation\",\n  \"Core\",\n  \"External\",\n  \"Internal\",\n  \"Internal_Testing\",\n  \"Locators\",\n  \"Mapping\",\n  \"Permits\",\n  \"Testing\",\n  \"Utilities\"\n ],\n \"services\": []\n}"
+   },
+   "admin": {
+    "error": "HTTPError: HTTP Error 404: File or directory not found."
+   },
+   "admin_license": {
+    "error": "HTTPError: HTTP Error 404: File or directory not found."
+   }
+  },
+  "apps.costamesaca.gov": {
+   "info": {
+    "status": 200,
+    "headers": {
+     "Cache-Control": "private, must-revalidate, max-age=0",
+     "Content-Type": "text/plain;charset=utf-8",
+     "Server": "Microsoft-IIS/10.0",
+     "X-AspNet-Version": "4.0.30319",
+     "X-Powered-By": "ASP.NET",
+     "Date": "Mon, 19 Oct 2026 20:33:25 GMT",
+     "Connection": "close",
+     "Content-Length": "260"
+    },
+    "body_head": "{\"currentVersion\":10.22,\"fullVersion\":\"10.2.2\",\"soapUrl\":\"https://apps.costamesaca.gov/arcgis/services\",\"secureSoapUrl\":null,\"authInfo\":{\"isTokenBasedSecurity\":true,\"tokenServicesUrl\":\"https://apps.costamesaca.gov/arcgis/tokens/\",\"shortLivedTokenValidity\":60}}"
+   },
+   "root": {
+    "status": 200,
+    "headers": {
+     "Cache-Control": "private, must-revalidate, max-age=0",
+     "Content-Type": "text/plain;charset=utf-8",
+     "Server": "Microsoft-IIS/10.0",
+     "X-AspNet-Version": "4.0.30319",
+     "X-Powered-By": "ASP.NET",
+     "Date": "Mon, 19 Oct 2026 20:33:26 GMT",
+     "Connection": "close",
+     "Content-Length": "395"
+    },
+    "body_head": "{\n \"currentVersion\": 10.22,\n \"folders\": [\n  \"GeoCortex\",\n  \"Pictomerty_Dynamic\",\n  \"Pictometry2001\",\n  \"Pictometry2006\",\n  \"Pictometry2008\",\n  \"Pictometry2011\",\n  \"Pictometry2013\",\n  \"Pictometry2015\",\n  \"Pictometry2017\",\n  \"scan_pdf\",\n  \"System\",\n  \"Utilities\"\n ],\n \"services\": [\n  {\n   \"name\": \"CostaMesa\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"SitePlans\",\n   \"type\": \"MapServer\"\n  }\n ]\n}"
+   },
+   "admin": {
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+   },
+   "admin_license": {
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+   }
+  },
+  "maps.scottsdaleaz.gov": {
+   "info": {
+    "status": 200,
+    "headers": {
+     "Date": "Mon, 19 Oct 2026 20:33:27 GMT",
+     "Content-Type": "application/json;charset=UTF-8",
+     "Content-Length": "261",
+     "Connection": "close",
+     "Cache-Control": "private, must-revalidate, max-age=0",
+     "vary": "Origin",
+     "Server": "cloudflare",
+     "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+     "x-xss-protection": "1; mode=block",
+     "x-content-type-options": "nosniff",
+     "x-frame-options": "sameorigin",
+     "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+     "cf-cache-status": "DYNAMIC",
+     "Referrer-Policy": "strict-origin-when-cross-origin",
+     "set-cookie": "__cf_bm=9re4bI_RefFYY1yAqsb1Y8b3L22rAC5AncnZo36Psfw-1792442007.5375395-1.0.1.1-9QyWA_4kPcQkEQ1uSyZrJO.gUOdwCF22HQrs5_UBfY.KkHqhQS87la6.QpYL6tRr.DG8mXUNlYr_VJ856ds9Ha57G79IA421p_jxOl8HgvZbW3LkaiW7NYfrJsmfAnNt; HttpOnly; SameSite=None; Secure; Path=/; Domain=scottsdaleaz.gov; Expires=Mon, 19 Oct 2026 21:03:27 GMT",
+     "CF-RAY": "a4d28ed31fd6c9bd-IAD"
+    },
+    "body_head": "{\"currentVersion\":10.6,\"fullVersion\":\"10.6.0\",\"soapUrl\":\"https://maps.scottsdaleaz.gov/arcgis/services\",\"secureSoapUrl\":null,\"authInfo\":{\"isTokenBasedSecurity\":true,\"tokenServicesUrl\":\"https://maps.scottsdaleaz.gov/arcgis/tokens/\",\"shortLivedTokenValidity\":60}}"
+   },
+   "root": {
+    "status": 200,
+    "headers": {
+     "Date": "Mon, 19 Oct 2026 20:33:27 GMT",
+     "Content-Type": "text/plain;charset=UTF-8",
+     "Transfer-Encoding": "chunked",
+     "Connection": "close",
+     "Cache-Control": "private, must-revalidate, max-age=0",
+     "set-cookie": "__cf_bm=S53yBLyRa3216.4SXUdA5drTZ1vZJGLBdizSlT2VMaM-1792442007.6496701-1.0.1.1-ELctZbZTShACza2hDZkbBCZgDs3M_NC_NuJA64eTYV0KHrIV2aLPXjeHCpGc_X3e5kpGiWGaNzzDL58lH3LGq15L.sRkB3Eb6JgpPyWENQxeH_mAjHPHgKzw6YfQWy1X; HttpOnly; SameSite=None; Secure; Path=/; Domain=scottsdaleaz.gov; Expires=Mon, 19 Oct 2026 21:03:27 GMT",
+     "vary": "Origin",
+     "Server": "cloudflare",
+     "x-content-type-options": "nosniff",
+     "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+     "x-xss-protection": "1; mode=block",
+     "x-frame-options": "sameorigin",
+     "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+     "cf-cache-status": "DYNAMIC",
+     "Referrer-Policy": "strict-origin-when-cross-origin",
+     "CF-RAY": "a4d28ed3cc70d47f-IAD"
+    },
+    "body_head": "{\n \"currentVersion\": 10.6,\n \"folders\": [\n  \"Aerials\",\n  \"AGOL\",\n  \"Drainage\",\n  \"GeoCode\",\n  \"LIS\",\n  \"StreetOps\",\n  \"Utilities\",\n  \"WaterWO\"\n ],\n \"services\": [\n  {\n   \"name\": \"Accela\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Active_CDS_Cases\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Address_Search_Test\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"AGOL_Layers\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Airport_Base_Layers\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Airport_Permit_Boundary\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"AZ511\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Barrett_Jackson_Test\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Base_Map\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Biking_Hiking_Equestrian_Trails\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Bond_CIP_Projects\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Case_History\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Economic_Development\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Home_Owner_Associations\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Map_Labels\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"Miscellaneous\",\n   \"type\": \"MapServer\"\n  },\n  {\n   \"name\": \"My_Neighborhood\",\n"
+   },
+   "admin": {
+    "status": 200,
+    "headers": {
+     "Date": "Mon, 19 Oct 2026 20:33:28 GMT",
+     "Content-Type": "application/json;charset=UTF-8",
+     "Content-Length": "144",
+     "Connection": "close",
+     "Cache-Control": "private",
+     "Server": "cloudflare",
+     "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+     "x-xss-protection": "1; mode=block",
+     "x-content-type-options": "nosniff",
+     "x-frame-options": "sameorigin",
+     "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+     "cf-cache-status": "DYNAMIC",
+     "Referrer-Policy": "strict-origin-when-cross-origin",
+     "set-cookie": "__cf_bm=ABtoUtCqnWsS0VngsteGe3mKcYgVMwH5U.imsPFgr7g-1792442008.2016938-1.0.1.1-QGSc26ILTt4bKymCn6ZcRigkBC7cTpuQPSzA7P_ZagZQzo6Y0Hn4pe5WBIYaGNJ3Z88U9Gx9fXoj1G6raS14sPyqYYzjf4B6Pf63kdaJqrBv_T1ADiYmpt.Qmp7drq6R; HttpOnly; SameSite=None; Secure; Path=/; Domain=scottsdaleaz.gov; Expires=Mon, 19 Oct 2026 21:03:28 GMT",
+     "CF-RAY": "a4d28ed73adbb4a7-IAD"
+    },
+    "body_head": "{\"status\":\"error\",\"messages\":[\"Unauthorized access. Token not found. You can generate a token using the 'generateToken' operation.\"],\"code\":499}"
+   },
+   "admin_license": {
+    "status": 200,
+    "headers": {
+     "Date": "Mon, 19 Oct 2026 20:33:28 GMT",
+     "Content-Type": "application/json;charset=UTF-8",
+     "Content-Length": "144",
+     "Connection": "close",
+     "Cache-Control": "private",
+     "Server": "cloudflare",
+     "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+     "x-xss-protection": "1; mode=block",
+     "x-content-type-options": "nosniff",
+     "x-frame-options": "sameorigin",
+     "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+     "cf-cache-status": "DYNAMIC",
+     "Referrer-Policy": "strict-origin-when-cross-origin",
+     "set-cookie": "__cf_bm=RpX.bDjdIVTwYrft.Vnj9mSVA8QYj_v4mBzgTCZ4Q0w-1792442008.28932-1.0.1.1-NPHsQHeQB127SIAve48HQK4Q2p5DBKMltasaJoMWQ7L4k07216I6FLX6QoT62ou_wanFS9a00oDknKWcotOKVWLDZ9nQYTBe4TK2Y0FEBr6OQDnHl8WvekmvNP0xppXa; HttpOnly; SameSite=None; Secure; Path=/; Domain=scottsdaleaz.gov; Expires=Mon, 19 Oct 2026 21:03:28 GMT",
+     "CF-RAY": "a4d28ed7c84787a6-IAD"
+    },
+    "body_head": "{\"status\":\"error\",\"messages\":[\"Unauthorized access. Token not found. You can generate a token using the 'generateToken' operation.\"],\"code\":499}"
+   }
+  }
+ }
+}

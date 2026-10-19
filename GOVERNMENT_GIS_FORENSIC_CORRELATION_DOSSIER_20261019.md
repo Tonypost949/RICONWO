@@ -32,8 +32,9 @@
 9. **[VERIFIED] The County of Orange's independent stormwater fabric carries no human editor attribution.** In the HBNC corridor, **124/124 inlets** and **174/174 gravity mains** are stamped `ARCGISADMIN` (2018-09-28 and 2020-05-15 respectively); all 174 main invert fields are null. The county cannot demonstrate per-asset human review from this service.
 10. **[VERIFIED] Both custodians' storm/sewer fabrics therefore lack usable per-asset audit provenance** — HB because of the 2026 NUWEYT bulk load, OC because of 2018/2020 system migration stamps. This is an accountability vacuum, not by itself proof of intent.
 11. **[VERIFIED] Possession of cracked Esri installers is documented; execution/use is not.** The audit manifest lists ArcGIS 10.2 License Manager + Crack, ArcGIS Desktop 10.8.2, Esri ArcGIS 10.7.1, and ArcGIS Pro 3.1.5 in a Downloads archive. No `.mxd`, `.aprx`, `.shp`, `.gdb`, license-manager log, Prefetch, Amcache, or registry artifact is present in this workspace. Claims that pirated ArcGIS "built" a specific municipal product remain **[UNVERIFIED]** pending those artifacts.
-12. **[OSINT ARTIFACT / VERIFIED ABSENCE] The “2,247 cu ft StormTech” figure is not a municipal record, and the system is missing from the city's asset inventory.** The figure appears only in the locally authored `hbnc_rico_gis.html`. The permit-derived plan figures are 10 × MC-3500 chambers = **1,099 ft³ nominal / 1,789 ft³ minimum installed** (109.9 / 178.9 ft³ each). The HTML also plots the chamber field along a ~1 km line west of the site. A search of all 19 BMP layers and the storm storage inventory found **no HBNC chamber asset at all**.
-13. **[VERIFIED] The environmental closure was expressly conditioned on temporary tent use.** GeoTracker case `20IC002` (global ID `T10000018579`) closed on 2020-08-21 with the site history: *“CASE CLOSED AS PAVED LOT FOR TEMPORARY HOUSING TENTS. SITE MUST BE REEVLUATED FOR ANY LAND USE CHANGES.”* The site became a permanent navigation center, which triggers the stated condition. A second record (`T10000020555`) carries the same local case number with a same-day open-and-close date.
+12. **[VERIFIED] A server-side fingerprint of 310 self-hosted RICO GIS roots finds no cracked-software deployment and exonerates the primary case node.** 28 live self-hosted servers disclosed their version; **no `/admin/license` endpoint disclosed license data** and **no FlexLM or ArcGIS internal service port was open** on `gis.huntingtonbeachca.gov`, `maps.lacity.org`, or `apps.costamesaca.gov`. **Huntington Beach runs 12.1.0, which the cracked 10.2 License Manager cannot license.** Two version-era coincidences exist — LA City at **10.7.1** (exact match to the cracked 10.7.1 desktop artifact) and Costa Mesa at **10.2.2** (same family as the cracked 10.2 License Manager) — which are **records demands, not findings of violation**. **[VERIFIED CORRECTION]** `edrlibrary.js` / `edrlibraryV2.js` in the same tree are Esri REST API developer utilities, **not** crack components. See §5.5.
+13. **[OSINT ARTIFACT / VERIFIED ABSENCE] The “2,247 cu ft StormTech” figure is not a municipal record, and the system is missing from the city's asset inventory.** The figure appears only in the locally authored `hbnc_rico_gis.html`. The permit-derived plan figures are 10 × MC-3500 chambers = **1,099 ft³ nominal / 1,789 ft³ minimum installed** (109.9 / 178.9 ft³ each). The HTML also plots the chamber field along a ~1 km line west of the site. A search of all 19 BMP layers and the storm storage inventory found **no HBNC chamber asset at all**.
+14. **[VERIFIED] The environmental closure was expressly conditioned on temporary tent use.** GeoTracker case `20IC002` (global ID `T10000018579`) closed on 2020-08-21 with the site history: *“CASE CLOSED AS PAVED LOT FOR TEMPORARY HOUSING TENTS. SITE MUST BE REEVLUATED FOR ANY LAND USE CHANGES.”* The site became a permanent navigation center, which triggers the stated condition. A second record (`T10000020555`) carries the same local case number with a same-day open-and-close date.
 
 ---
 
@@ -457,6 +458,47 @@ These are the GIS products that exist and are dated, regardless of which softwar
 
 Until items 1–7 are recovered, the correct formulation is: **cracked Esri software was present and the municipal GIS output exists; the link between them is not yet documented.**
 
+### 5.5 Server-side version fingerprint of the cracked installer set (third pass, 2026-10-19)
+
+A read-only fingerprint was run against **310 unique self-hosted ArcGIS REST roots** discovered across the RICO entity set (224 ArcGIS Online–hosted roots excluded as not self-hosted). Method: `GET /arcgis/rest/info?f=json`, `/rest/services?f=pjson`, `/admin?f=json`, `/admin/license?f=json`, plus a TCP connect scan of license-manager and ArcGIS internal service ports on three key hosts. **No authentication was attempted, no write was performed, and no exploitation was attempted.**
+
+**Server software version distribution (28 live self-hosted servers that disclosed a version):**
+
+| Server version | Hosts | Match to cracked artifact set |
+|---|---|---|
+| **12.1.0** | `gis.huntingtonbeachca.gov` | **None** — and materially: 12.1.0 cannot be licensed by the cracked 10.2 License Manager |
+| 11.5.0 | `gis-portal.townofchapelhill.org`, `gis.anaheim.net`, `gis.cityoffullerton.com`, `gis.columbus.gov`, `gis.longbeach.gov`, `gis.newhavenct.gov`, `gis.santamonica.gov`, `gis.torranceca.gov`, `maps.cityofventura.ca.gov`, `nbgis.newportbeachca.gov`, `ocgis.com` | None |
+| 11.4.0 | `maps.oxnard.org` | None |
+| 11.3.0 | `gis.lagunabeachcity.net`, `gis.miami.gov`, `gis.octa.net`, `maps.octa.net` | None |
+| 11.1.0 | `caltrans-gis.dot.ca.gov`, `gisdata.dot.ca.gov` | None |
+| 10.9.1 | `gis.cityofirvine.org`, `gis.dallascityhall.com`, `gis.palmspringsca.gov`, `gis.santa-ana.org`, `gis.temeculaca.gov`, `public.gis.lacounty.gov` | None |
+| **10.7.1** | **`maps.lacity.org`** | **Exact version-string match** to the cracked `Esri ArcGIS 10.7.1` desktop artifact |
+| 10.6.0 | `maps.scottsdaleaz.gov` | None |
+| **10.2.2** | **`apps.costamesaca.gov`** | **Same 10.2 family** as the cracked `ArcGIS 10.2 License Manager + Crack` artifact |
+
+**[VERIFIED] No server-side cracked-software indicator was observed on any reachable host.** Every `/admin/license` endpoint returned token-gated (499/498), denied (403), absent (404), or an HTML login page — no anonymous license disclosure on any of the 28 hosts. A TCP connect scan of ports **27000–27030** (FlexLM/lmgrd range), 6080, 6443, 7443, 2443, 1098, and 4000–4004 against `gis.huntingtonbeachca.gov` (192.5.222.142), `maps.lacity.org` (40.83.143.104), and `apps.costamesaca.gov` (24.43.32.142) found **no open license-manager or ArcGIS internal service ports**. `maps.scottsdaleaz.gov` sits behind Cloudflare, so its origin is not scannable.
+
+**[INFERRED — indicator only, not proof]** The LA City (10.7.1) and Costa Mesa (10.2.2) stacks were provisioned in the same release era as the cracked desktop/License Manager artifacts. A server running the same build as a cracked desktop distribution is an indicator that the municipality may hold a license that cannot be audited from the public endpoint. Version equality is **not** evidence of unlicensed use: both cities are large, professionally administered ArcGIS Enterprise deployments with published procurement histories. This is a **records demand**, not a finding of violation.
+
+**[VERIFIED — correction to the companion manifest]** `edrlibrary.js` and `edrlibraryV2.js` in the same Downloads tree are Esri REST API developer-sample utilities (EDR namespace), **not crack components**. They should not be counted as cracked software. This corrects the inventory in `GIS_SOFTWARE_AND_MUNICIPAL_INFRASTRUCTURE_AUDIT_MANIFEST.md`.
+
+**[VERIFIED] Cracked-artifact indicators for endpoint forensics** (SHA-256, for law-enforcement imaging of any workstation in the chain):
+
+| Artifact | SHA-256 |
+|---|---|
+| `ArcGIS.10.2.License.Manager+Crack.7z` | `dba3aea57ba753ae6b507527932b8eb10837b5ef76bee4f89f8391bdb33dcc38` |
+| `ArcGIS.10.2.Crcak/ARCGIS.exe` (patched vendor daemon) | `d336a0b1a4a71f31730877b98c8ca6bf1f32543bcd910bed7c0f3e7f26a25f47` |
+| `ArcGIS.10.2.Crcak/ArcGIS_KeyGen_modified.exe` | `a5f62793c63343befab29f63535180937412c9e6ae83a8512de3ce98f967e9c9` |
+| `lm102_windows/Setup.exe` | `85fe6d9b4581db6340ecd29d632ccd43d824e199db344e0d4b0fc80b4d1b1e9f` |
+| `ArcGIS.10.2.License.Manager+Crack/Readme.txt` | `f224069556d66a045626f9641c0c1839f2abd73e9ef0f85af596ba8e4ff712b1` |
+| `Esri ArcGIS 10.7.1/Read Me.txt` | `0e1de8ac2c986e494ceab4293ede1108bafdfe649d6e590fb495306509db3fb0` |
+| `ArcGISDesktop1082/.../LAVteam.nfo` (build 2022-03-03) | `8051df4c5af1842bc6a1063355189e7b6889f425917dc2cdb018dc03b01e5bdf` |
+| `ESRI.ArcGIS.Pro.v3.1.5/LAVteam.nfo` (build 2024-05-23) | `a43b55e1de61cfcd887317226dd5d4d27e650b8e112cb48cfbded4ea8d7eb45f` |
+
+Configuration IOCs for the same imaging: `C:\Program Files (x86)\ArcGIS\Licensing10.2\bin\services.txt` containing `27027@localhost` / `27000@localhost`; `LSAdmin` start/re-read events; `ArcGIS Administrator → Desktop → Advanced (ArcInfo) Concurrent Use`; and the 10.7.1 instruction to copy three files from the `Cracked` folder into `C:\Program Files (x86)\ArcGIS\Desktop10.7\bin`.
+
+**Net effect on the hypothesis.** This pass **strengthens** the integrity case (§2, §6) and **weakens** the piracy-attribution case (§5). It establishes that no reachable government server is running a cracked or cracked-compatible license service, and that the primary case node (Huntington Beach, 12.1.0) **cannot** have been licensed by the cracked 10.2 License Manager. The cracked software in the binder remains a **possession finding on a non-city workstation or archive**, and the two version-era coincidences are the precise targets of a procurement-and-endpoint records demand — not of an accusation.
+
 ---
 
 ## 6. LAYER-BY-LAYER RICO CORRELATION MATRIX
@@ -497,7 +539,7 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 | H-03 | The 2024 OCTA trash-capture assets are “paper assets” not installed. | **Not supported at the data level.** 66/66 2024 assets and 506/508 across all cycles match hydraulic model nodes (sole mismatch: `147CBN010`, a 2013 BioClean basket on Commerce St). | Field-verify a sample of `STRMINDEX` against `DrawInfo`; obtain grant reimbursement claims. |
 | H-04 | The StormTech system is smaller than represented. | **Supported** (10 × MC-3500 = 1,099 ft³ nominal; 1,789 ft³ min installed vs. 2,247 ft³ claim). | Obtain stamped as-built and inspector's volume calculation. |
 | H-05 | The sewer/storm network was edited to remove or downgrade assets near the shelter. | **Open.** Wholesale NUWEYT load destroyed baseline. | Obtain pre-2026 version/backup; diff asset counts and capacities in the corridor. |
-| H-06 | Pirated ArcGIS was used to produce a filed municipal exhibit. | **Unverified.** | Recover `.mxd`/`.aprx` metadata and execution artifacts (§5.4). |
+| H-06 | Pirated ArcGIS was used to produce a filed municipal exhibit. | **Unverified, and now partially contradicted server-side.** No cracked-server indicator on any of 28 live hosts; HB (12.1.0) cannot be licensed by the cracked 10.2 LM. LA City (10.7.1) and Costa Mesa (10.2.2) are version-era indicators only (§5.5). | Recover `.mxd`/`.aprx` metadata and endpoint execution artifacts (§5.4); demand LA City and Costa Mesa ArcGIS license/procurement records; image the workstation holding the binder. |
 | H-07 | The city's public address layer was anonymously altered. | **Capability verified; no alteration event proven.** | Obtain web-server access logs for `applyEdits` on AddressEdits. |
 | H-08 | The site's levee-reduced Zone X was represented as locally flood-safe. | **Open.** Zone X verified; representations not yet collected. | Collect staff reports, CEQA findings, and grant applications describing flood risk. |
 | H-09 | The County's stormwater layer masks missing invert/as-built data. | **Supported as a data gap** (174/174 null inverts, ARCGISADMIN only). | Request OC Public Works as-built index for the corridor. |
@@ -533,6 +575,8 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 - OC Public Works as-built index and inspection records for the corridor's storm mains and outfalls.
 - CalGEM abandonment record for API `0405900882` (Hoff 1).
 - HUD/CDBG drawdowns tied to block group 992.12 and the HBHA acquisition.
+- **ArcGIS license and procurement records for the two version-era coincidences** (§5.5): City of Los Angeles (`maps.lacity.org`, server 10.7.1) and City of Costa Mesa (`apps.costamesaca.gov`, server 10.2.2) — Esri license serials, number of seats, concurrent-use designations, contract vehicles and renewal dates, and the identity of any third-party reseller or contractor supplying the license. Also the internal ArcGIS `services.txt` and `LMUCCESS`/license-server configuration for each deployment.
+- **Endpoint forensic image of any workstation holding the `hb_project_binder_16eX_20260906` Downloads tree**, imaged against the SHA-256 indicators in §5.5 (`ARCGIS.exe`, `ArcGIS_KeyGen_modified.exe`, `lm102_windows/Setup.exe`, the two `LAVteam.nfo` files) and the configuration IOCs (`Licensing10.2\bin\services.txt`, `27027@localhost`, `Desktop10.7\bin` modified binaries).
 
 ---
 
@@ -566,6 +610,11 @@ Until items 1–7 are recovered, the correct formulation is: **cracked Esri soft
 | Cracked software manifest | `/home/osintneoai/public_repo/OsintNeoAi-Public/GIS_SOFTWARE_AND_MUNICIPAL_INFRASTRUCTURE_AUDIT_MANIFEST.md` | Installer inventory |
 | Prior StormTech report | `/home/osintneoai/repos/OsintNeoAi/STORMTECH_HBNC_PERMIT_FORENSIC_REPORT.md` | Plan-derived chamber specs |
 | Prior address analysis | `/home/osintneoai/repos/OsintNeoAi/NUWEYT_HBNC_ADDRESS_MANIPULATION_ANALYSIS.md` | Earlier fact/unproven table |
+| **Cracked-software fingerprint analysis (§5.5)** | `evidence/gis_audit_20261019/cracked_software_fingerprint_analysis.json` | 310 roots probed; 28 live servers; version distribution; version matches; admin-license exposure; port-scan results; cracked-artifact SHA-256 IOCs; verdict |
+| **Raw fingerprint probe** | `evidence/gis_audit_20261019/cracked_software_fingerprint_probe.json` | Per-root raw responses (`info`, `admin`, `admin_license`) for all 310 roots |
+| **Raw version responses** | `evidence/gis_audit_20261019/cracked_version_info_raw.json` | Unabridged `/rest/info` payloads with server version and headers |
+| **License-port scans** | `evidence/gis_audit_20261019/nmap_license_ports_hb.txt`, `nmap_license_ports_lacity.txt`, `nmap_license_ports_costamesa.txt` | nmap connect scans, 27000-27030 + 6080/6443/7443/2443/1098/4000-4004 — zero open ports on all three hosts |
+| **Fingerprint probe script + log** | `evidence/gis_audit_20261019/probe_cracked_fingerprints.py`, `probe_cracked_fingerprints.log`, `probe.log` | Reproducible probe implementation and full run log |
 
 ### Reproducible queries
 
@@ -607,7 +656,7 @@ The GIS record does **not** show a single forged HBNC map. It shows something mo
 
 That is the “ghost maintenance” pattern at enterprise scale: the assets and the maintenance records can both exist, but the **provenance that would let anyone prove when, by whom, and whether the work was real has been erased** — in HB by 2026 bulk loads, in OC by 2018/2020 migrations.
 
-The pirated Esri software question remains a **possession-without-execution** finding until document metadata or Windows artifacts are recovered. The municipal outputs it could have been used to produce are enumerated in §5.2; the outputs it is *proven* to have produced: none yet.
+The pirated Esri software question remains a **possession-without-execution** finding, and the third pass (§5.5) narrows it further in the city's favor rather than against it: no reachable government server shows any cracked-software indicator, and Huntington Beach's own 12.1.0 platform **cannot** have been licensed by the cracked 10.2 License Manager. The municipal outputs it could have been used to produce are enumerated in §5.2; the outputs it is *proven* to have produced: none. The two version-era coincidences (LA City 10.7.1, Costa Mesa 10.2.2) are converted from suspicions into **targeted records demands** (§8).
 
 ---
 
